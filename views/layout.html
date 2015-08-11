@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+    <title>Dennis Meter</title>
+    <link href='/static/styles.css'
+          rel='stylesheet' />
+    <script src='/bower_components/jquery/dist/jquery.min.js'>
+    </script>
+    {% endblock %}
+  </head>
+  <body>
+    <div id='container'>
+      {% block body %}
+      {% endblock %}
+    </div>
+    {% block scripts %}
+    {% endblock %}
+  </body>
+</html>
