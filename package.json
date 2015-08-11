@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/justinhe16/ALJHRiotGamesAPIChallenge2015",
   "dependencies": {
+    "async": "^1.4.2",
     "body-parser": "^1.13.3",
     "express": "^4.13.3"
   }
