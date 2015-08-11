@@ -1,0 +1,23 @@
+{
+  "name": "riot-games-api-challenge",
+  "version": "1.0.0",
+  "description": "Riot Games API Challenge 2.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinhe16/ALJHRiotGamesAPIChallenge2015.git"
+  },
+  "author": "Justin He, Alvin Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinhe16/ALJHRiotGamesAPIChallenge2015/issues"
+  },
+  "homepage": "https://github.com/justinhe16/ALJHRiotGamesAPIChallenge2015",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3"
+  }
+}
