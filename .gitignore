@@ -1,3 +1,5 @@
 /node_modules
 /bower_components
 API_KEY.js
+*.json
+.api_key
