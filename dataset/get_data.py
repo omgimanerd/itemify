@@ -16,8 +16,8 @@ def main():
   # Before all requests to Riot can be made, we must get the API Key.
   API_KEY = getApiKey()
   if not API_KEY:
-    raise Error('You fucked up. No API Key found')
-  
+    raise Error('Put your API Key in a .api_key file!')
+
   items_request_path = '/api/lol/static-data/na/v1.2/item'
   items_request_params = {
     'locale': 'en_US',
