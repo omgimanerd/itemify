@@ -43,7 +43,7 @@ def main():
   champions_request = requests.get("%s%s" % (BASE_URL, champions_request_path),
                                    params = champions_request_params)
   champions_raw = json.loads(items_request.text)['data']
-  champions_json = json.dumps(champions_raw, sort_keys=True, encoding='utf-8'
+  champions_json = json.dumps(champions_raw, sort_keys=True, encoding='utf-8',
                               indent=2, separators=(',', ': '))
   champions_output = open('champions.json', 'w')
   champions_output.write(champions_json)
