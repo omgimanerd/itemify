@@ -8,7 +8,7 @@
   ],
   "description": "Riot Games API Challenge 2.0",
   "main": "server.js",
-  "license": "MIT",
+  "license": "ISC",
   "ignore": [
     "**/.*",
     "node_modules",
