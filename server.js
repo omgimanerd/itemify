@@ -2,8 +2,10 @@ var PORT_NUMBER = process.env.PORT || 5000;
 
 // RIOT API key(?) and URL setup
 //var secret = require('secret.js');
-var API_KEY = process.env.API_KEY;
+var API_KEY = process.env.API_KEY || require('./API_KEY').API_KEY;
 var API_URL = 'https://na.api.pvp.net';
+
+console.log();
 
 // Dependencies
 var async = require('async');
