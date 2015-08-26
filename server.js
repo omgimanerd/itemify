@@ -24,7 +24,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // ROUTING =====================================================================
 app.get('/', function(request, response) {
-  var data = null;
+  response.render('index.html');
+});
+
+app.get('/:champ', function(request, response) {
+
 });
 
 
