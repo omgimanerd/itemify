@@ -4,6 +4,7 @@ var PORT_NUMBER = process.env.PORT || 5000;
 var async = require('async');
 var bodyParser = require('body-parser');
 var express = require('express');
+var fs = require('fs');
 var swig = require('swig');
 var https = require('https');
 
@@ -28,7 +29,14 @@ app.get('/', function(request, response) {
 });
 
 app.get('/:champ', function(request, response) {
-
+  fs.readFile('dataset/stats.json', function(err, data) {
+    if (err) {
+      console.log(err);
+      return;
+    }
+    fields = data.toString().split('\n')
+    console.log(fields);
+  });
 });
 
 
