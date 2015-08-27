@@ -5,9 +5,13 @@ import json
 from riot_api import RiotApi
 
 class DataAggregator():
-  def __init__(self):
-    self.api = RiotApi()
-    self.api_key = self.api.get_api_key()
+  def __init__(self, api_key):
+    self.api_key = api_key
+
+  @staticmethod
+  def create():
+    api_key = RiotApi.get_default_api_key()
+    return DataAggregator(api_key)
 
   def parse_json(self, obj):
     return json.dumps(obj, sort_keys=True, encoding='utf-8',
@@ -20,8 +24,8 @@ class DataAggregator():
       'itemListData': 'inStore',
       'api_key': self.api_key
     }
-    return self.api_get(items_request_path,
-                        items_request_params).get('data', None)
+    return RiotApi.get(items_request_path,
+                       items_request_params).get('data', None)
 
   def get_champions(self):
     champions_request_path = '/api/lol/static-data/na/v1.2/champion'
@@ -30,8 +34,8 @@ class DataAggregator():
       'champData': 'tags',
       'api_key': self.api_key
     }
-    return self.api.get(champions_request_path,
-                        champions_request_params).get('data', None)
+    return RiotApi.get(champions_request_path,
+                       champions_request_params).get('data', None)
 
   def get_summoner_ids(self, summoner_names):
     summoners_request_path = '/api/lol/na/v1.4/summoner/by-name/%s' % (
@@ -39,7 +43,7 @@ class DataAggregator():
     summoners_request_params = {
       'api_key': self.api_key
     }
-    summoners = self.api.get(summoners_request_path, summoners_request_params)    
+    summoners = RiotApi.get(summoners_request_path, summoners_request_params)    
     ids = []
     for summoner in summoners:
       ids.append(summoners[summoner].get('id', None))
@@ -56,7 +60,8 @@ class DataAggregator():
 
     for id in ids:
       print 'Querying summoner id: %s' % id
-      games = self.api.get(games_request_path % id, games_request_params)['games']
+      games = RiotApi.get(games_request_path % id,
+                          games_request_params)['games']
       for game in games:
         output = {}
         output['champion'] = game.get('championId', None)

@@ -7,7 +7,7 @@ from data_aggregator import DataAggregator
 SEEDING_SUMMONERS = ['WildTurtle', 'Bjergsen']
 
 def main():
-  data = DataAggregator()
+  data = DataAggregator.create()
 
   seed_ids = data.get_summoner_ids(SEEDING_SUMMONERS)
   stats, result_ids = data.get_build_data(seed_ids)

@@ -6,7 +6,7 @@ import time
 from data_aggregator import DataAggregator
 
 def main():
-  data = DataAggregator()
+  data = DataAggregator.create()
 
   with open('../queried_summoners', 'r') as queried_summoners_input:
     queried_summoners = queried_summoners_input.read().split('\n')[:-1]

@@ -13,7 +13,8 @@ RATE_LIMIT_EXCEEDED_RESPONSE = 429
 
 class RiotApi():
 
-  def get_api_key(self):
+  @staticmethod
+  def get_default_api_key():
     with open('.api_key') as f:
       api_key = f.read()
     if api_key:
@@ -21,7 +22,8 @@ class RiotApi():
     else:
       raise Error('No API key found!')
 
-  def get(self, path, params):
+  @staticmethod
+  def get(path, params):
     response = requests.get("%s%s" % (BASE_URL, path), params=params)
     while response.status_code == RATE_LIMIT_EXCEEDED_RESPONSE:
       time.sleep(10)

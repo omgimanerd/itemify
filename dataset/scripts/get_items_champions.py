@@ -2,10 +2,10 @@
 
 import json
 
-from riot_api import RiotApi
+from data_aggregator import DataAggregator
 
 def main():
-  data = DataAggregator()
+  data = DataAggregator.create()
 
   with open('../items.json', 'w') as items_output:
     items_output.write(data.parse_json(data.get_items()))
