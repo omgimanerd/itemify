@@ -37,7 +37,6 @@ app.get('/:champ', function(request, response) {
       return;
     }
     fields = data.toString().split('\n')
-    console.log(fields);
   });
 });
 
