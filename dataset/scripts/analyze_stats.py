@@ -32,7 +32,7 @@ def main():
   # win and KDA, and increases linearly with number of times built.
   build_stats = {}
   for champion in by_champion:
-    championName = str(analyzer.getChampionNameById(champion))
+    championName = analyzer.get_champion_name_by_id(champion)
     build_stats[championName] = {}
     for game in by_champion[champion]:
       kda = 0
@@ -47,7 +47,7 @@ def main():
       if game.get('win', False):
         effectivenessScore += 2
       for i in range(1, 7):
-        item = str(analyzer.getItemNameById(game.get('item%s' % i, None)))
+        item = str(analyzer.get_item_name_by_id(game.get('item%s' % i, None)))
         if not item == 'None':
           if build_stats[championName].get(item, None):
             build_stats[championName][item] += effectivenessScore

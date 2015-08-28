@@ -25,7 +25,7 @@ class DataAggregator():
     items_request_path = '/api/lol/static-data/na/v1.2/item'
     items_request_params = {
       'locale': 'en_US',
-      'itemListData': 'inStore',
+      'itemListData': 'all',
       'api_key': self.api_key
     }
     return RiotApi.get(items_request_path,

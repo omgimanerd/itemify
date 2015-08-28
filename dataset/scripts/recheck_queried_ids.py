@@ -7,10 +7,10 @@
 def main():
   with open('../queried_summoners', 'r') as queried_summoners_input:
     queried_summoners = list(set(
-        queried_summoners_input.read().split('\n')[:-1]))
+        queried_summoners_input.readlines()))
   with open('../unqueried_summoners', 'r') as unqueried_summoners_input:
     unqueried_summoners = list(set(
-        unqueried_summoners_input.read().split('\n')[:-1]))
+        unqueried_summoners_input.readlines()))
 
   print 'Queried: %s' % ', '.join(queried_summoners)
   print 'Unqueried: %s' % ', '.join(unqueried_summoners)

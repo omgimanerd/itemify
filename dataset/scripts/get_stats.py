@@ -11,14 +11,16 @@ import time
 
 from data_aggregator import DataAggregator
 
+QUERY_DELAY = 2;
+
 def main():
   data = DataAggregator.create()
 
   with open('../queried_summoners', 'r') as queried_summoners_input:
-    queried_summoners = queried_summoners_input.read().split('\n')[:-1]
+    queried_summoners = queried_summoners_input.readlines()
 
   with open('../unqueried_summoners', 'r') as unqueried_summoners_input:
-    unqueried_summoners = unqueried_summoners_input.read().split('\n')[:-1]
+    unqueried_summoners = unqueried_summoners_input.readlines()
 
   print 'Queried: %s' % ', '.join(queried_summoners)
   print 'Unqueried: %s' % ', '.join(unqueried_summoners)
@@ -42,7 +44,7 @@ def main():
 
     new_aggregated_summoners += aggregated_summoners
 
-    time.sleep(2)
+    time.sleep(QUERY_DELAY)
 
   new_unqueried_summoners = []
   for summoner in new_aggregated_summoners:
