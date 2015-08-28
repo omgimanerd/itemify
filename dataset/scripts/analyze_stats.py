@@ -35,10 +35,10 @@ def main():
           build_stats[championName][item] += 1
         else:
           build_stats[championName][item] = 1
-  
+
   for champion in build_stats:
     print '%s: %s' % (champion, build_stats[champion])
 
 if __name__ == '__main__':
   main()
-      
+
