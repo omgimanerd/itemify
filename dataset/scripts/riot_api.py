@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# This script takes care of querying the Riot API and merely factors out the
+# process of sending the GET request to it.
+# Author: Alvin Lin (alvin.lin@stuypulse.com)
 
 import json
 import requests

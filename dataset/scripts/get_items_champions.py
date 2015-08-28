@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# This script uses the DataAggregator class to pull static data from Riot's API,
+# namely the list of all the items and champions.
+# Author: Alvin Lin (alvin.lin@stuypulse.com)
 
 import json
 

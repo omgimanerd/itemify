@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# This class helps with the statistical analysis of the aggregated data and
+# allows the data to be matched to champions and items.
+# Author: Alvin Lin (alvin.lin@stuypulse.com)
 
 import json
 

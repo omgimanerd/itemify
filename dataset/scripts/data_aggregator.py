@@ -1,4 +1,8 @@
 #!/usr/bin/python
+# This class takes care of aggregating data from the Riot API and has methods
+# that convert the aggregated data into a form that we can parse, store, and
+# display.
+# Author: Alvin Lin (alvin.lin@stuypulse.com)
 
 import json
 
@@ -43,7 +47,7 @@ class DataAggregator():
     summoners_request_params = {
       'api_key': self.api_key
     }
-    summoners = RiotApi.get(summoners_request_path, summoners_request_params)    
+    summoners = RiotApi.get(summoners_request_path, summoners_request_params)
     ids = []
     for summoner in summoners:
       ids.append(summoners[summoner].get('id', None))

@@ -1,4 +1,8 @@
 #!/usr/bin/python
+# This is the main script that takes care of generating the champion build file.
+# It uses the StatAnalyzer class to parse through the main dataset of about
+# ~150000 games and generates an optimal build for every champion.
+# Author: Alvin Lin (alvin.lin@stuypulse.com)
 
 import json
 
