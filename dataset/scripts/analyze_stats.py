@@ -23,21 +23,39 @@ def main():
 
   # build_stats is an object with 126 keys, one for each champion id.
   # The value assigned to each key is a dict of the format:
-  # { itemId: frequency, itemId: frequency ...... }
+  # { itemId: effectivenessScore, itemId: effectivenessScore ...... }
+  # effectivenessScore is a score of the item's effectiveness based on
+  # win and KDA, and increases linearly with number of times built.
   build_stats = {}
   for champion in by_champion:
     championName = str(analyzer.getChampionNameById(champion))
     build_stats[championName] = {}
     for game in by_champion[champion]:
+      kda = 0
+      if game['kills']:
+        kda += game['kills']
+      if game['assists']:
+        kda += game['assists'] / 2
+      if game['deaths']:
+        kda /= float(game['deaths'])
+      kda -= 1
+      effectivenessScore = kda
+      if game.get('win', False):
+        effectivenessScore += 2
       for i in range(1, 7):
         item = str(analyzer.getItemNameById(game.get('item%s' % i, None)))
-        if build_stats[championName].get(item, None):
-          build_stats[championName][item] += 1
-        else:
-          build_stats[championName][item] = 1
+        if not item == 'None':
+          if build_stats[championName].get(item, None):
+            build_stats[championName][item] += effectivenessScore
+          else:
+            build_stats[championName][item] = effectivenessScore
 
   for champion in build_stats:
-    print '%s: %s' % (champion, build_stats[champion])
+    with open('../stats-by-champion/%s.json' % champion, 'w') as champion_output:
+      champion_output.write(json.dumps(
+        sorted(build_stats[champion], key=build_stats[champion].get)[::-1]))
+    print '%s: %s' % (champion, sorted(build_stats[champion],
+                                       key=build_stats[champion].get)[::-1])
 
 if __name__ == '__main__':
   main()
