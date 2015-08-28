@@ -53,6 +53,18 @@ class StatAnalyzer():
   def get_item_data_by_name(self, item):
     return self.get_item_data_by_id(self.get_item_id_by_name(item))
 
+  def get_items_built_from(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('into', None)
+    return None
+
+  def get_item_components(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('from', None)
+    return None
+
 """
 This main() method is for testing purposes only.
 """
@@ -65,6 +77,14 @@ def main():
   print analyzer.get_item_id_by_name('Boots of Speed')
   print analyzer.get_item_data_by_id(1001)
   print analyzer.get_item_data_by_name('Pickaxe')
+  print analyzer.get_items_built_from(
+      analyzer.get_item_id_by_name('Infinity Edge'))
+  print map(analyzer.get_item_name_by_id,
+            analyzer.get_item_components(
+      analyzer.get_item_id_by_name('Infinity Edge')))
+  print map(analyzer.get_item_name_by_id,
+            analyzer.get_items_built_from(
+      analyzer.get_item_id_by_name('Pickaxe')))
 
 if __name__ == '__main__':
   main()
