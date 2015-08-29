@@ -4,8 +4,6 @@
 # display.
 # Author: Alvin Lin (alvin.lin@stuypulse.com)
 
-import json
-
 from riot_api import RiotApi
 
 class DataAggregator():
@@ -16,10 +14,6 @@ class DataAggregator():
   def create():
     api_key = RiotApi.get_default_api_key()
     return DataAggregator(api_key)
-
-  def json_dump(self, obj):
-    return json.dumps(obj, sort_keys=True, encoding='utf-8',
-                      indent=2, separators=(',', ': '))
 
   def get_items(self):
     items_request_path = '/api/lol/static-data/na/v1.2/item'

@@ -6,11 +6,10 @@
 
 import json
 
-from data_aggregator import DataAggregator
+from util import Util
 from stat_analyzer import StatAnalyzer
 
 def main():
-  aggregator = DataAggregator.create()
   analyzer = StatAnalyzer.create()
 
   with open('../stats.json') as stats_input:
@@ -86,7 +85,7 @@ def main():
 
     with open('../stats-by-champion/%s.json' % champion,
               'w') as champion_output:
-      champion_output.write(aggregator.json_dump(build_output))
+      champion_output.write(Util.json_dump(build_output))
     print 'Sucessfully wrote %s.json' % champion
 
 if __name__ == '__main__':
