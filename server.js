@@ -1,16 +1,10 @@
 var PORT_NUMBER = process.env.PORT || 5000;
 
-// RIOT API key(?) and URL setup
-//var secret = require('secret.js');
-var API_KEY = process.env.API_KEY || require('./API_KEY').API_KEY;
-var API_URL = 'https://na.api.pvp.net';
-
-console.log();
-
 // Dependencies
 var async = require('async');
 var bodyParser = require('body-parser');
 var express = require('express');
+var fs = require('fs');
 var swig = require('swig');
 var https = require('https');
 
@@ -24,6 +18,8 @@ app.set('view engine', 'html');
 
 app.use('/bower_components',
         express.static(__dirname + '/bower_components'));
+app.use('/images',
+        express.static(__dirname + '/images'));
 app.use('/static',
         express.static(__dirname + '/static'));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -31,24 +27,16 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // ROUTING =====================================================================
 app.get('/', function(request, response) {
-  var data = null;
+  response.render('index.html');
+});
 
-  async.parallel([
-    function(callback) {
-      https.get(API_URL + '/api/lol/na/v1.2/champion?api_key=' + API_KEY,
-                function(res) {
-        res.on('data', function(chunk) {
-          data += chunk;
-        });
-        res.on('end',function() {
-          callback();
-        });
-      });
+app.get('/:champ', function(request, response) {
+  fs.readFile('dataset/stats.json', function(err, data) {
+    if (err) {
+      console.log(err);
+      return;
     }
-  ], function(error) {
-    response.render('index.html', {
-      championIDs: data
-    });
+    fields = data.toString().split('\n')
   });
 });
 
