@@ -8,11 +8,13 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Wrath",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Trinity Force",
@@ -20,6 +22,8 @@
     "Dead Man's Plate"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Soul Anchor (Trinket)"
   ]
 }

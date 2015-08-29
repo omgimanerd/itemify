@@ -4,13 +4,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
-    "Elixir of Wrath",
     "Vision Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery",
+    "Elixir of Wrath"
   ],
   "endgame": [
     "The Bloodthirster",
@@ -26,6 +27,7 @@
     "Muramana"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Scrying Orb (Trinket)"
   ]
 }

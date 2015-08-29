@@ -4,14 +4,16 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Ruin",
-    "Elixir of Iron",
-    "Elixir of Wrath",
+    "Crystalline Flask",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Ruin",
+    "Elixir of Iron",
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Banshee's Veil",
@@ -22,12 +24,14 @@
     "Righteous Glory",
     "Face of the Mountain",
     "Dead Man's Plate",
+    "Total Biscuit of Rejuvenation",
     "Zeke's Harbinger",
     "Ruby Sightstone",
     "Sunfire Cape",
     "Talisman of Ascension"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
     "Oracle's Lens (Trinket)"
   ]

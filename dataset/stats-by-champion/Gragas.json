@@ -6,12 +6,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Thornmail",
@@ -36,6 +38,7 @@
   "trinkets": [
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
     "Oracle's Lens (Trinket)"
   ]
 }

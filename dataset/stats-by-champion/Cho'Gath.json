@@ -5,12 +5,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
     "Health Potion",
     "Stealth Ward",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
-    "Vision Ward"
+    "Vision Ward",
+    "Crystalline Flask"
+  ],
+  "elixirs": [
+    "Elixir of Iron"
   ],
   "endgame": [
     "Rabadon's Deathcap",
@@ -24,6 +26,7 @@
     "Spirit Visage"
   ],
   "trinkets": [
+    "Greater Stealth Totem (Trinket)",
     "Warding Totem (Trinket)"
   ]
 }

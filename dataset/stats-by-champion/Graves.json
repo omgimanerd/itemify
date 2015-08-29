@@ -4,11 +4,13 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Wrath",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
-    "Vision Ward"
+    "Vision Ward",
+    "Crystalline Flask"
+  ],
+  "elixirs": [
+    "Elixir of Wrath"
   ],
   "endgame": [
     "The Bloodthirster",
@@ -18,6 +20,7 @@
     "Phantom Dancer"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Scrying Orb (Trinket)"
   ]
 }

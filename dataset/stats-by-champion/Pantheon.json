@@ -7,13 +7,15 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
-    "Elixir of Wrath",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron",
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
@@ -22,7 +24,6 @@
     "Maw of Malmortius",
     "Infinity Edge",
     "Last Whisper",
-    "Crystalline Flask",
     "The Black Cleaver"
   ],
   "trinkets": [

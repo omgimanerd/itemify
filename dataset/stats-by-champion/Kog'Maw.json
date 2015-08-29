@@ -5,12 +5,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Mana Potion",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Trinity Force",
@@ -26,7 +28,9 @@
     "Phantom Dancer"
   ],
   "trinkets": [
+    "Greater Stealth Totem (Trinket)",
     "Warding Totem (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Scrying Orb (Trinket)",
+    "Farsight Orb (Trinket)"
   ]
 }

@@ -6,11 +6,12 @@
   "buildObj": {},
   "consumables": [
     "Mana Potion",
+    "Crystalline Flask",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Rabadon's Deathcap",
     "Frost Queen's Claim",
@@ -24,6 +25,7 @@
     "Luden's Echo",
     "Ardent Censer",
     "Twin Shadows",
+    "Total Biscuit of Rejuvenation",
     "Mejai's Soulstealer",
     "Zeke's Harbinger",
     "Ruby Sightstone",
@@ -31,6 +33,7 @@
     "Talisman of Ascension"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
     "Oracle's Lens (Trinket)"
   ]

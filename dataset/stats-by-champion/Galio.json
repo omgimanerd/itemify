@@ -6,10 +6,11 @@
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Thornmail",
     "Rabadon's Deathcap",

@@ -8,6 +8,7 @@
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "The Bloodthirster",
     "Statikk Shiv",
@@ -18,6 +19,7 @@
     "Phantom Dancer"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

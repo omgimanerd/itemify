@@ -6,10 +6,11 @@
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Rabadon's Deathcap",
     "Void Staff",
@@ -20,6 +21,7 @@
     "Seraph's Embrace"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

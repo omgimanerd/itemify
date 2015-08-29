@@ -5,11 +5,13 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Ruin",
+    "Crystalline Flask",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Ruin"
   ],
   "endgame": [
     "Thornmail",
@@ -23,6 +25,7 @@
     "Spirit Visage"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

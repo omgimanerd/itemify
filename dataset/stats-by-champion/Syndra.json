@@ -5,11 +5,11 @@
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Rabadon's Deathcap",
     "Void Staff",
@@ -20,6 +20,7 @@
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
     "Greater Stealth Totem (Trinket)"
   ]
 }

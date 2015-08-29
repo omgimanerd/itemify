@@ -4,11 +4,12 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron"
   ],
   "endgame": [
     "Warmog's Armor",
@@ -19,10 +20,12 @@
     "Righteous Glory",
     "Face of the Mountain",
     "Sunfire Cape",
+    "Total Biscuit of Rejuvenation",
     "Zeke's Harbinger",
     "Ruby Sightstone"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
     "Oracle's Lens (Trinket)"
   ]

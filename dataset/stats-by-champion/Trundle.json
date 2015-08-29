@@ -8,9 +8,10 @@
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
     "Thornmail",
@@ -26,6 +27,8 @@
     "Sunfire Cape"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

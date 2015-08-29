@@ -88,7 +88,7 @@ class StatAnalyzer():
   def is_consumable(self, id):
     item = self.get_item_data_by_id(id)
     if item:
-      return item.get('consumed', False)
+      return item.get('tags', []).count('Consumable') != 0
     return False
 
   # This check should happen before is_consumable!

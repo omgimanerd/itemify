@@ -4,12 +4,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Ruin",
-    "Elixir of Wrath",
     "Health Potion",
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Ruin",
+    "Elixir of Wrath"
   ],
   "endgame": [
     "The Bloodthirster",
@@ -22,6 +24,7 @@
     "Phantom Dancer"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Scrying Orb (Trinket)"
   ]
 }

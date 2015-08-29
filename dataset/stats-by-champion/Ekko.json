@@ -5,13 +5,15 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
+    "Crystalline Flask",
     "Oracle's Extract"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Warmog's Armor",
@@ -33,6 +35,9 @@
     "Spirit Visage"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

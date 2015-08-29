@@ -11,9 +11,10 @@
     "Mana Potion",
     "Stealth Ward",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Wit's End",
     "Frozen Heart",
@@ -24,6 +25,7 @@
     "Sunfire Cape"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)"
   ]
 }

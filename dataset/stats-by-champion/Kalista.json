@@ -4,11 +4,13 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Wrath",
     "Health Potion",
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Wrath"
   ],
   "endgame": [
     "The Bloodthirster",

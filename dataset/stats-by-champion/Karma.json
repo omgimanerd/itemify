@@ -6,10 +6,11 @@
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Rabadon's Deathcap",
     "Frost Queen's Claim",
@@ -22,10 +23,13 @@
     "Luden's Echo",
     "Ardent Censer",
     "Abyssal Scepter",
+    "Total Biscuit of Rejuvenation",
     "Zeke's Harbinger"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)"
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

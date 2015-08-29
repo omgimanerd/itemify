@@ -7,12 +7,13 @@
   ],
   "buildObj": {},
   "consumables": [
+    "Crystalline Flask",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
     "Thornmail",
@@ -24,13 +25,14 @@
     "Dead Man's Plate",
     "Titanic Hydra (Melee Only)",
     "Banshee's Veil",
-    "Crystalline Flask",
     "Last Whisper",
     "Sterak's Gage",
     "Spirit Visage",
     "The Black Cleaver"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)"
   ]
 }

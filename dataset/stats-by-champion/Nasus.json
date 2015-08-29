@@ -4,13 +4,15 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
-    "Elixir of Sorcery",
     "Mana Potion",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron",
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Trinity Force",
@@ -21,6 +23,7 @@
     "Sterak's Gage"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

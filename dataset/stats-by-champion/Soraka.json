@@ -7,11 +7,12 @@
   "buildObj": {},
   "consumables": [
     "Health Potion",
+    "Crystalline Flask",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Warmog's Armor",
     "Rabadon's Deathcap",
@@ -24,6 +25,7 @@
     "Luden's Echo",
     "Ardent Censer",
     "Abyssal Scepter",
+    "Total Biscuit of Rejuvenation",
     "Mejai's Soulstealer",
     "Zeke's Harbinger",
     "Talisman of Ascension",

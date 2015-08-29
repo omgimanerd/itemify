@@ -7,8 +7,9 @@
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation"
+    "Crystalline Flask"
   ],
+  "elixirs": [],
   "endgame": [
     "Trinity Force",
     "Frozen Heart",

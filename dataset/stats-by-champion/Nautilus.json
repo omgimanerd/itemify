@@ -5,12 +5,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
     "Mana Potion",
     "Stealth Ward",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron"
   ],
   "endgame": [
     "Warmog's Armor",
@@ -24,6 +26,7 @@
     "Rod of Ages",
     "Face of the Mountain",
     "Abyssal Scepter",
+    "Total Biscuit of Rejuvenation",
     "Zeke's Harbinger",
     "Ruby Sightstone",
     "Spirit Visage",
@@ -32,6 +35,7 @@
   "trinkets": [
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
     "Oracle's Lens (Trinket)"
   ]
 }

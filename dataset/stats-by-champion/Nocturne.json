@@ -5,11 +5,13 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Wrath",
     "Health Potion",
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
@@ -25,6 +27,8 @@
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
     "Oracle's Lens (Trinket)"
   ]
 }

@@ -5,14 +5,16 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Ruin",
-    "Elixir of Iron",
-    "Elixir of Sorcery",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Ruin",
+    "Elixir of Iron",
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Thornmail",
@@ -28,7 +30,6 @@
     "Frozen Mallet",
     "Spirit Visage",
     "Sterak's Gage",
-    "Crystalline Flask",
     "The Black Cleaver"
   ],
   "trinkets": [

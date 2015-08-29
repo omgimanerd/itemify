@@ -5,11 +5,12 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron"
   ],
   "endgame": [
     "Thornmail",

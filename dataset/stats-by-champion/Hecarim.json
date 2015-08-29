@@ -9,9 +9,11 @@
   "consumables": [
     "Health Potion",
     "Mana Potion",
+    "Crystalline Flask",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Trinity Force",
     "Frozen Heart",

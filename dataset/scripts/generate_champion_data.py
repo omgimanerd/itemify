@@ -16,7 +16,7 @@ from stat_analyzer import StatAnalyzer
 # the list times EFFECTIVENESS_THRESHOLD. We have a different effectiveness
 # threshold for each category of item.
 EFFECTIVENESS_THRESHOLD = {
-  'trinkets': 0.4,
+  'trinkets': 0.2,
   'boots': 0.3,
   'endgame': 0.125,
   'elixirs': 0,
@@ -94,7 +94,7 @@ def main():
       elif analyzer.is_boot(item):
         build_output['boots'].append(item)
       elif analyzer.is_elixir(item):
-        build_output['elixir'].append(item)
+        build_output['elixirs'].append(item)
       elif analyzer.is_consumable(item):
         build_output['consumables'].append(item)
       elif not analyzer.get_items_built_from(item):
@@ -105,6 +105,9 @@ def main():
     for category in build_output:
       effectiveness_values = [build_stats[champion][item] for item in (
           build_output[category])]
+      # We append 0 to prevent effectiveness_values from being an empty
+      # sequence, for which the max() function will fail.
+      effectiveness_values.append(0)
       effectiveness_cutoff = max(effectiveness_values) * (
           EFFECTIVENESS_THRESHOLD[category])
       build_output[category] = filter(

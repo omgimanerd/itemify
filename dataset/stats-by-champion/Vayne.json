@@ -4,11 +4,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Wrath",
+    "Crystalline Flask",
     "Health Potion",
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Wrath"
   ],
   "endgame": [
     "The Bloodthirster",
@@ -20,6 +23,7 @@
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Scrying Orb (Trinket)",
+    "Farsight Orb (Trinket)"
   ]
 }

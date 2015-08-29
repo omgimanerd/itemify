@@ -8,6 +8,7 @@
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Rabadon's Deathcap",
     "Rylai's Crystal Scepter",
@@ -19,6 +20,7 @@
     "Abyssal Scepter"
   ],
   "trinkets": [
+    "Greater Stealth Totem (Trinket)",
     "Warding Totem (Trinket)"
   ]
 }

@@ -5,22 +5,25 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
-    "Elixir of Wrath",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
+    "Crystalline Flask",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron",
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Trinity Force",
     "Frozen Heart",
     "Randuin's Omen",
     "Blade of the Ruined King",
-    "Spirit Visage",
-    "Crystalline Flask"
+    "Spirit Visage"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

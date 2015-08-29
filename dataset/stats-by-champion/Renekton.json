@@ -7,10 +7,10 @@
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
     "Thornmail",
@@ -24,6 +24,7 @@
     "The Black Cleaver"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

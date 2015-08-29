@@ -7,9 +7,10 @@
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Rabadon's Deathcap",
     "Void Staff",
@@ -23,6 +24,7 @@
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
     "Oracle's Lens (Trinket)"
   ]
 }

@@ -6,12 +6,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Mana Potion",
     "Stealth Ward",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Thornmail",

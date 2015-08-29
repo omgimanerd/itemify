@@ -4,12 +4,13 @@
   ],
   "buildObj": {},
   "consumables": [
+    "Crystalline Flask",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "The Bloodthirster",
     "Trinity Force",
@@ -20,6 +21,7 @@
     "The Black Cleaver"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

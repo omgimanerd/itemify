@@ -7,12 +7,13 @@
   ],
   "buildObj": {},
   "consumables": [
+    "Crystalline Flask",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
     "Trinity Force",
@@ -30,6 +31,9 @@
     "Last Whisper"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

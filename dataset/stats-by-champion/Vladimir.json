@@ -5,10 +5,12 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Stealth Ward",
     "Health Potion",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Rabadon's Deathcap",

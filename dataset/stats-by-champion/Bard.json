@@ -4,12 +4,13 @@
   ],
   "buildObj": {},
   "consumables": [
+    "Crystalline Flask",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Warmog's Armor",
     "Rabadon's Deathcap",
@@ -29,6 +30,7 @@
     "Talisman of Ascension"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
     "Oracle's Lens (Trinket)"
   ]

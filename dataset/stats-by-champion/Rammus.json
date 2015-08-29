@@ -9,8 +9,10 @@
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Vision Ward"
+    "Vision Ward",
+    "Crystalline Flask"
   ],
+  "elixirs": [],
   "endgame": [
     "Thornmail",
     "Warmog's Armor",
@@ -22,6 +24,9 @@
     "Sunfire Cape"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

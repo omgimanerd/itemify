@@ -7,9 +7,10 @@
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Thornmail",
     "Warmog's Armor",
@@ -27,6 +28,7 @@
     "Sunfire Cape"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

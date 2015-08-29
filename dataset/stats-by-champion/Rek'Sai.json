@@ -5,11 +5,12 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron"
   ],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
@@ -27,6 +28,7 @@
   "trinkets": [
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
     "Oracle's Lens (Trinket)"
   ]
 }

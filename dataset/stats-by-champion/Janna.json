@@ -5,12 +5,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Mana Potion",
+    "Crystalline Flask",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Rabadon's Deathcap",
@@ -21,6 +23,7 @@
     "Mikael's Crucible",
     "Luden's Echo",
     "Ardent Censer",
+    "Total Biscuit of Rejuvenation",
     "Mejai's Soulstealer",
     "Zeke's Harbinger",
     "Talisman of Ascension",

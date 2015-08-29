@@ -7,12 +7,13 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
-    "Elixir of Wrath",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron",
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Warmog's Armor",
@@ -26,6 +27,7 @@
     "The Black Cleaver"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

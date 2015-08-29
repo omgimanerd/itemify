@@ -5,10 +5,12 @@
   "buildObj": {},
   "consumables": [
     "Stealth Ward",
+    "Crystalline Flask",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
-    "Elixir of Sorcery",
     "Health Potion"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Rabadon's Deathcap",

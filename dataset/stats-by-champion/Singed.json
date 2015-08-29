@@ -8,8 +8,10 @@
     "Health Potion",
     "Stealth Ward",
     "Mana Potion",
+    "Crystalline Flask",
     "Vision Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "Thornmail",
     "Warmog's Armor",

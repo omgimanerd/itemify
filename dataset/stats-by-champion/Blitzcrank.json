@@ -4,15 +4,17 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
-    "Elixir of Sorcery",
-    "Elixir of Wrath",
     "Oracle's Extract",
+    "Crystalline Flask",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron",
+    "Elixir of Sorcery",
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Rabadon's Deathcap",
@@ -27,6 +29,7 @@
     "Face of the Mountain",
     "Dead Man's Plate",
     "Iceborn Gauntlet",
+    "Total Biscuit of Rejuvenation",
     "Zeke's Harbinger",
     "Talisman of Ascension",
     "Ruby Sightstone"

@@ -7,12 +7,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Health Potion",
     "Stealth Ward",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
-    "Vision Ward"
+    "Vision Ward",
+    "Crystalline Flask"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Rabadon's Deathcap",
@@ -26,6 +28,7 @@
     "Mikael's Crucible",
     "Lich Bane",
     "Luden's Echo",
+    "Total Biscuit of Rejuvenation",
     "Zeke's Harbinger",
     "Ruby Sightstone",
     "Talisman of Ascension"

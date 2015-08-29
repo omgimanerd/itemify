@@ -5,12 +5,13 @@
   ],
   "buildObj": {},
   "consumables": [
+    "Crystalline Flask",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "The Bloodthirster",
     "Runaan's Hurricane (Ranged Only)",
@@ -24,6 +25,7 @@
     "Phantom Dancer"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Farsight Orb (Trinket)"
   ]
 }

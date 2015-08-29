@@ -5,11 +5,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Wrath",
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
+    "Crystalline Flask",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Thornmail",
@@ -24,7 +27,9 @@
     "The Black Cleaver"
   ],
   "trinkets": [
+    "Oracle's Lens (Trinket)",
     "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)"
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

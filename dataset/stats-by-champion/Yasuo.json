@@ -5,11 +5,13 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Wrath",
+    "Crystalline Flask",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Stealth Ward",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Wrath"
   ],
   "endgame": [
     "The Bloodthirster",
@@ -20,6 +22,7 @@
     "Last Whisper"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

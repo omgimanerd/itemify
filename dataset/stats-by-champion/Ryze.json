@@ -4,11 +4,13 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Rabadon's Deathcap",
@@ -19,6 +21,7 @@
     "Seraph's Embrace"
   ],
   "trinkets": [
+    "Greater Stealth Totem (Trinket)",
     "Warding Totem (Trinket)"
   ]
 }

@@ -8,8 +8,10 @@
     "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Vision Ward"
+    "Vision Ward",
+    "Crystalline Flask"
   ],
+  "elixirs": [],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
     "Trinity Force",

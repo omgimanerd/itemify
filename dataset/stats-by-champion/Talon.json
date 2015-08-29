@@ -4,18 +4,19 @@
   ],
   "buildObj": {},
   "consumables": [
+    "Crystalline Flask",
     "Health Potion",
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward"
   ],
+  "elixirs": [],
   "endgame": [
     "The Bloodthirster",
     "Ravenous Hydra (Melee Only)",
     "Trinity Force",
     "Sword of the Occult",
     "Youmuu's Ghostblade",
-    "Crystalline Flask",
     "Infinity Edge",
     "Last Whisper",
     "The Black Cleaver"

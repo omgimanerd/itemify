@@ -7,14 +7,16 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Iron",
-    "Elixir of Sorcery",
-    "Elixir of Wrath",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward",
     "Stealth Ward"
+  ],
+  "elixirs": [
+    "Elixir of Iron",
+    "Elixir of Sorcery",
+    "Elixir of Wrath"
   ],
   "endgame": [
     "Trinity Force",
@@ -26,10 +28,10 @@
     "Morellonomicon",
     "Lich Bane",
     "Luden's Echo",
-    "Abyssal Scepter",
-    "Crystalline Flask"
+    "Abyssal Scepter"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

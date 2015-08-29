@@ -7,12 +7,14 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Elixir of Sorcery",
     "Mana Potion",
     "Stealth Ward",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
+    "Crystalline Flask",
     "Vision Ward"
+  ],
+  "elixirs": [
+    "Elixir of Sorcery"
   ],
   "endgame": [
     "Thornmail",
@@ -28,11 +30,11 @@
     "Rod of Ages",
     "Abyssal Scepter",
     "Iceborn Gauntlet",
-    "Crystalline Flask",
     "Spirit Visage",
     "Sunfire Cape"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }
