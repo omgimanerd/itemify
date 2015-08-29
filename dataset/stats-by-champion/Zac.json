@@ -1,63 +1,31 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi",
     "Boots of Mobility",
-    "Boots of Speed",
-    "Sorcerer's Shoes",
-    "Ionian Boots of Lucidity",
-    "Boots of Swiftness"
+    "Ninja Tabi",
+    "Boots of Speed"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
     "Health Potion",
-    "Stealth Ward",
-    "Vision Ward"
+    "Vision Ward",
+    "Stealth Ward"
   ],
   "endgame": [
-    "Spirit Visage",
-    "Randuin's Omen",
-    "Warmog's Armor",
-    "Liandry's Torment",
     "Thornmail",
+    "Warmog's Armor",
     "Rylai's Crystal Scepter",
-    "Sunfire Cape",
-    "Abyssal Scepter",
+    "Randuin's Omen",
+    "Liandry's Torment",
     "Dead Man's Plate",
-    "Locket of the Iron Solari",
-    "Rabadon's Deathcap",
-    "Luden's Echo",
-    "Titanic Hydra (Melee Only)",
-    "Banshee's Veil",
-    "Guardian's Horn",
-    "Zhonya's Hourglass",
-    "Guardian Angel",
-    "Righteous Glory",
-    "Void Staff",
-    "Moonflair Spellblade",
-    "Frozen Heart",
-    "Ruby Sightstone",
-    "Will of the Ancients",
-    "Rod of Ages",
-    "Morellonomicon",
-    "Doran's Shield",
-    "Overlord's Bloodmail",
-    "Zeke's Harbinger",
-    "Ohmwrecker",
-    "Banner of Command",
-    "Lich Bane",
-    "Twin Shadows",
-    "The Black Cleaver",
-    "Face of the Mountain",
-    "Talisman of Ascension"
+    "Abyssal Scepter",
+    "Sunfire Cape",
+    "Spirit Visage"
   ],
   "trinkets": [
+    "Oracle's Lens (Trinket)",
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Hextech Sweeper",
-    "Soul Anchor (Trinket)"
+    "Greater Stealth Totem (Trinket)"
   ]
 }

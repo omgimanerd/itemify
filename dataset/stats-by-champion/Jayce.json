@@ -1,72 +1,25 @@
 {
   "boots": [
-    "Ionian Boots of Lucidity",
-    "Mercury's Treads",
-    "Boots of Speed",
-    "Berserker's Greaves",
-    "Ninja Tabi",
-    "Boots of Swiftness",
-    "Boots of Mobility"
+    "Ionian Boots of Lucidity"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
+    "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Vision Ward",
     "Total Biscuit of Rejuvenation",
-    "Stealth Ward"
+    "Vision Ward"
   ],
   "endgame": [
-    "Last Whisper",
-    "Muramana",
-    "The Black Cleaver",
     "The Bloodthirster",
-    "Infinity Edge",
     "Trinity Force",
     "Youmuu's Ghostblade",
-    "Doran's Blade",
-    "Essence Reaver",
-    "Maw of Malmortius",
-    "Guardian Angel",
-    "Randuin's Omen",
-    "Ravenous Hydra (Melee Only)",
-    "Sanguine Blade",
-    "Mercurial Scimitar",
-    "Blade of the Ruined King",
-    "Banshee's Veil",
-    "Crystalline Flask",
-    "Titanic Hydra (Melee Only)",
-    "Dead Man's Plate",
-    "Spirit Visage",
-    "Prospector's Blade",
-    "Phantom Dancer",
-    "Thornmail",
-    "Hextech Sweeper",
-    "Sunfire Cape",
-    "Frozen Mallet",
-    "Abyssal Scepter",
-    "Sterak's Gage",
-    "Face of the Mountain",
-    "Zephyr",
-    null,
-    "Iceborn Gauntlet",
-    "Frozen Heart",
-    "Sword of the Occult",
-    "Zhonya's Hourglass",
-    "Warmog's Armor",
-    "Guinsoo's Rageblade",
-    "Statikk Shiv",
-    "Muramana"
+    "Infinity Edge",
+    "Last Whisper",
+    "Muramana",
+    "The Black Cleaver"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Hextech Sweeper",
-    "Sweeping Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Farsight Orb (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

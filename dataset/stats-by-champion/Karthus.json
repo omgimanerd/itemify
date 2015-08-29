@@ -1,54 +1,29 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Ionian Boots of Lucidity",
-    "Boots of Mobility"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
-    "Health Potion",
     "Mana Potion",
-    "Stealth Ward",
     "Total Biscuit of Rejuvenation",
+    "Elixir of Sorcery",
+    "Health Potion",
     "Vision Ward",
-    "Elixir of Sorcery"
+    "Stealth Ward"
   ],
   "endgame": [
     "Rabadon's Deathcap",
-    "Seraph's Embrace",
-    "Rod of Ages",
-    "Zhonya's Hourglass",
     "Rylai's Crystal Scepter",
     "Void Staff",
     "Liandry's Torment",
-    "Luden's Echo",
-    "Doran's Ring",
+    "Rod of Ages",
+    "Zhonya's Hourglass",
     "Morellonomicon",
-    "Abyssal Scepter",
-    "Mejai's Soulstealer",
-    "Will of the Ancients",
-    "Athene's Unholy Grail",
-    "Frozen Heart",
-    "Crystalline Flask",
-    "Randuin's Omen",
-    "Twin Shadows",
-    "Thornmail",
-    "Dead Man's Plate",
-    "Guardian Angel",
-    "Orb of Winter",
-    "Hextech Sweeper",
-    "Zeke's Harbinger",
-    "Frost Queen's Claim"
+    "Seraph's Embrace",
+    "Luden's Echo"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Farsight Orb (Trinket)",
-    "Hextech Sweeper"
+    "Greater Stealth Totem (Trinket)"
   ]
 }

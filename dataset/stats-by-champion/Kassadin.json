@@ -1,71 +1,28 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Ionian Boots of Lucidity",
-    "Boots of Speed",
-    "Berserker's Greaves",
-    "Mercury's Treads",
-    "Boots of Mobility",
-    "Ninja Tabi",
-    "Boots of Swiftness"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
+    "Elixir of Sorcery",
     "Health Potion",
-    "Vision Ward",
-    "Total Biscuit of Rejuvenation",
     "Mana Potion",
-    "Stealth Ward",
-    "Elixir of Sorcery"
+    "Total Biscuit of Rejuvenation",
+    "Vision Ward",
+    "Stealth Ward"
   ],
   "endgame": [
-    "Rod of Ages",
-    "Zhonya's Hourglass",
-    "Luden's Echo",
     "Rabadon's Deathcap",
     "Void Staff",
-    "Seraph's Embrace",
+    "Zhonya's Hourglass",
     "Lich Bane",
+    "Luden's Echo",
     "Abyssal Scepter",
-    "Doran's Ring",
-    "Crystalline Flask",
-    "Athene's Unholy Grail",
-    "Morellonomicon",
-    "Iceborn Gauntlet",
-    "Mejai's Soulstealer",
-    "Rylai's Crystal Scepter",
-    "Banshee's Veil",
-    "Doran's Blade",
-    "Odyn's Veil",
-    "Nashor's Tooth",
-    "Frozen Heart",
-    "Liandry's Torment",
-    "Locket of the Iron Solari",
-    "Thornmail",
-    "Overlord's Bloodmail",
-    "Trinity Force",
-    "Dead Man's Plate",
-    "Orb of Winter",
-    "Randuin's Omen",
-    "Hextech Sweeper",
-    "Talisman of Ascension",
-    "Dervish Blade",
-    "Zephyr",
-    null,
-    "Will of the Ancients",
-    "Sterak's Gage",
-    "Guardian Angel",
-    "Righteous Glory"
+    "Rod of Ages",
+    "Seraph's Embrace",
+    "Crystalline Flask"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Hextech Sweeper",
-    "Farsight Orb (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

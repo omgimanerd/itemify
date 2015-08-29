@@ -1,55 +1,29 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Ninja Tabi",
-    "Ionian Boots of Lucidity",
-    "Boots of Mobility"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
-    "Health Potion",
+    "Stealth Ward",
+    "Mana Potion",
     "Total Biscuit of Rejuvenation",
     "Elixir of Sorcery",
-    "Mana Potion",
-    "Stealth Ward",
-    "Vision Ward"
+    "Health Potion"
   ],
   "endgame": [
-    "Seraph's Embrace",
     "Rabadon's Deathcap",
     "Rylai's Crystal Scepter",
-    "Luden's Echo",
-    "Zhonya's Hourglass",
-    "Doran's Ring",
+    "Abyssal Scepter",
     "Void Staff",
     "Liandry's Torment",
-    "Rod of Ages",
     "Will of the Ancients",
-    "Abyssal Scepter",
-    "Mejai's Soulstealer",
-    "Morellonomicon",
-    "Wooglet's Witchcap",
-    "Athene's Unholy Grail",
-    "Zeke's Harbinger",
-    "Spirit Visage",
-    "Twin Shadows",
-    "Crystalline Flask",
-    "Banner of Command",
-    "Hextech Gunblade",
-    "Wit's End",
-    "Ruby Sightstone",
-    "Thornmail",
-    null
+    "Rod of Ages",
+    "Luden's Echo",
+    "Seraph's Embrace",
+    "Zhonya's Hourglass"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Hextech Sweeper",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Greater Stealth Totem (Trinket)"
   ]
 }

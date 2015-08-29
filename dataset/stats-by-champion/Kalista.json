@@ -1,64 +1,23 @@
 {
   "boots": [
-    "Berserker's Greaves",
-    "Boots of Speed",
-    "Mercury's Treads",
-    "Boots of Mobility"
+    "Berserker's Greaves"
   ],
+  "buildObj": {},
   "consumables": [
+    "Elixir of Wrath",
     "Health Potion",
-    "Poro-Snax",
     "Mana Potion",
     "Vision Ward",
-    "Stealth Ward",
-    "Elixir of Wrath",
-    "Total Biscuit of Rejuvenation"
+    "Stealth Ward"
   ],
   "endgame": [
-    "Runaan's Hurricane (Ranged Only)",
     "The Bloodthirster",
+    "Runaan's Hurricane (Ranged Only)",
     "Blade of the Ruined King",
-    "Last Whisper",
-    "Doran's Blade",
-    "Infinity Edge",
-    "Statikk Shiv",
-    "Sword of the Occult",
-    "Phantom Dancer",
-    "Mercurial Scimitar",
-    "Guardian Angel",
-    "Banshee's Veil",
-    "Youmuu's Ghostblade",
-    "Frozen Mallet",
-    "The Black Spear",
-    "The Black Cleaver",
-    "Essence Reaver",
-    "Sterak's Gage",
-    "Zephyr",
-    "Randuin's Omen",
-    "Sanguine Blade",
-    "Spirit Visage",
-    "Lord Van Damm's Pillager",
-    "Thornmail",
-    "Trinity Force",
-    "Maw of Malmortius",
-    "Dead Man's Plate",
-    "Warmog's Armor",
-    "The Lightbringer",
-    "Locket of the Iron Solari",
-    "Dervish Blade",
-    "Zz'Rot Portal",
-    "Wit's End",
-    "Talisman of Ascension"
+    "Last Whisper"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Farsight Orb (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Hextech Sweeper",
-    "Oracle's Lens (Trinket)",
-    "Soul Anchor (Trinket)"
+    "Scrying Orb (Trinket)"
   ]
 }

@@ -6,6 +6,8 @@
 
 import json
 
+IRRELEVANT_IDS = [2052, 3187, 1054, 1055, 1056]
+
 class StatAnalyzer():
   def __init__(self, champions, items, stats):
     self.champions = champions
@@ -68,7 +70,7 @@ class StatAnalyzer():
   def is_irrelevant(self, id):
     item = self.get_item_data_by_id(id)
     if item:
-      return item.get('hideFromAll', False)
+      return item.get('hideFromAll', False) or item['id'] in IRRELEVANT_IDS
     return False
 
   def is_trinket(self, id):
@@ -87,6 +89,13 @@ class StatAnalyzer():
     item = self.get_item_data_by_id(id)
     if item:
       return item.get('consumed', False)
+    return False
+
+  # This check should happen before is_consumable!
+  def is_elixir(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('group', None) == 'Flasks'
     return False
 
 """

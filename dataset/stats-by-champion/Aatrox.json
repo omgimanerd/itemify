@@ -1,61 +1,28 @@
 {
   "boots": [
-    "Ninja Tabi",
     "Mercury's Treads",
-    "Berserker's Greaves",
     "Boots of Speed",
-    "Boots of Mobility",
-    "Sorcerer's Shoes",
-    "Boots of Swiftness"
+    "Berserker's Greaves",
+    "Ninja Tabi"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
     "Health Potion",
     "Vision Ward",
     "Stealth Ward"
   ],
   "endgame": [
-    "Blade of the Ruined King",
-    "Spirit Visage",
-    "Ravenous Hydra (Melee Only)",
-    "Randuin's Omen",
-    "Sterak's Gage",
     "The Bloodthirster",
-    "Last Whisper",
+    "Ravenous Hydra (Melee Only)",
     "Trinity Force",
+    "Randuin's Omen",
+    "Blade of the Ruined King",
     "Zephyr",
-    "Maw of Malmortius",
-    "Infinity Edge",
-    "Sword of the Occult",
-    "The Black Cleaver",
-    "Doran's Blade",
-    "Warmog's Armor",
-    "Thornmail",
-    "Statikk Shiv",
-    "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
-    "Guardian Angel",
-    "Sunfire Cape",
-    "Wit's End",
-    "Rabadon's Deathcap",
-    "Youmuu's Ghostblade",
-    "Banshee's Veil",
-    "Doran's Shield",
-    "Guinsoo's Rageblade",
-    "Locket of the Iron Solari",
-    "Luden's Echo",
-    "Frozen Mallet",
-    "Rylai's Crystal Scepter",
-    "Phantom Dancer",
-    "Sanguine Blade"
+    "Last Whisper",
+    "Sterak's Gage",
+    "Spirit Visage"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Hextech Sweeper",
-    "Soul Anchor (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

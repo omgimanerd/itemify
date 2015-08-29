@@ -1,74 +1,27 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Ionian Boots of Lucidity",
-    "Ninja Tabi",
-    "Mercury's Treads",
-    "Boots of Mobility",
-    "Berserker's Greaves",
-    "Boots of Swiftness"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
-    "Total Biscuit of Rejuvenation",
+    "Elixir of Sorcery",
     "Health Potion",
     "Mana Potion",
-    "Stealth Ward",
+    "Total Biscuit of Rejuvenation",
     "Vision Ward",
-    "Elixir of Sorcery"
+    "Stealth Ward"
   ],
   "endgame": [
-    "Nashor's Tooth",
     "Rabadon's Deathcap",
+    "Nashor's Tooth",
     "Rylai's Crystal Scepter",
-    "Doran's Ring",
     "Void Staff",
-    "Morellonomicon",
     "Zhonya's Hourglass",
-    "Luden's Echo",
-    "Athene's Unholy Grail",
-    "Liandry's Torment",
-    "Abyssal Scepter",
-    "Wit's End",
-    "Rod of Ages",
-    "Wooglet's Witchcap",
-    "Mejai's Soulstealer",
-    "Seraph's Embrace",
-    "Banshee's Veil",
-    "Hextech Gunblade",
-    "Banner of Command",
-    "Ohmwrecker",
-    "Trinity Force",
-    null,
-    "Zephyr",
-    "Infinity Edge",
-    "Crystalline Flask",
-    null,
-    "Guinsoo's Rageblade",
-    "Dervish Blade",
-    "Ruby Sightstone",
-    "Will of the Ancients",
-    "Statikk Shiv",
-    "Talisman of Ascension",
-    "Spirit Visage",
-    "Guardian Angel",
-    "Orb of Winter",
-    "Thornmail",
-    "Warmog's Armor",
-    "Zz'Rot Portal",
-    "Prospector's Ring",
-    "Frost Queen's Claim"
+    "Morellonomicon",
+    "Luden's Echo"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Hextech Sweeper",
-    "Farsight Orb (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Soul Anchor (Trinket)"
+    "Greater Stealth Totem (Trinket)"
   ]
 }

@@ -1,67 +1,23 @@
 {
   "boots": [
-    "Mercury's Treads",
-    "Ionian Boots of Lucidity",
-    "Boots of Speed",
-    "Ninja Tabi",
-    "Boots of Swiftness",
-    "Sorcerer's Shoes",
-    "Berserker's Greaves",
-    "Boots of Mobility"
+    "Mercury's Treads"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
     "Health Potion",
     "Mana Potion",
-    "Stealth Ward",
-    "Vision Ward"
+    "Stealth Ward"
   ],
   "endgame": [
-    "Spirit Visage",
-    "Frozen Heart",
-    "Muramana",
     "Trinity Force",
-    "Iceborn Gauntlet",
-    "The Black Cleaver",
     "Thornmail",
-    "Warmog's Armor",
-    "Crystalline Flask",
-    "Sterak's Gage",
-    "Locket of the Iron Solari",
-    "Dead Man's Plate",
-    "Maw of Malmortius",
-    "Blade of the Ruined King",
-    "Essence Reaver",
-    "Randuin's Omen",
-    "Doran's Shield",
-    "Last Whisper",
-    "Frozen Mallet",
-    "Rod of Ages",
-    "Sunfire Cape",
-    "Zephyr",
-    "The Bloodthirster",
-    "Titanic Hydra (Melee Only)",
-    "Ravenous Hydra (Melee Only)",
-    "Luden's Echo",
-    "Zeke's Harbinger",
-    "Rylai's Crystal Scepter",
-    "Hextech Sweeper",
-    "Orb of Winter",
-    "Infinity Edge",
-    "Zz'Rot Portal",
-    "Banshee's Veil",
-    "Doran's Blade",
-    "Morellonomicon",
-    "Flesheater (Melee Only)",
-    "Doran's Ring"
+    "Frozen Heart",
+    "Iceborn Gauntlet",
+    "Muramana",
+    "Spirit Visage",
+    "The Black Cleaver"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Hextech Sweeper",
-    "Oracle's Lens (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Soul Anchor (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

@@ -1,70 +1,24 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Mercury's Treads",
-    "Ninja Tabi",
-    "Ionian Boots of Lucidity",
-    "Berserker's Greaves",
-    "Boots of Swiftness",
-    "Boots of Mobility"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
+    "Elixir of Sorcery",
+    "Health Potion",
     "Mana Potion",
     "Total Biscuit of Rejuvenation",
-    "Health Potion",
-    "Vision Ward",
-    "Elixir of Sorcery"
+    "Vision Ward"
   ],
   "endgame": [
-    "Rod of Ages",
-    "Frozen Heart",
-    "Seraph's Embrace",
-    "Void Staff",
     "Rabadon's Deathcap",
+    "Frozen Heart",
+    "Void Staff",
     "Abyssal Scepter",
-    "Luden's Echo",
-    "Will of the Ancients",
-    "Banshee's Veil",
-    "Doran's Ring",
-    "Zhonya's Hourglass",
-    "Spirit Visage",
-    "Rylai's Crystal Scepter",
-    "Mejai's Soulstealer",
-    "Iceborn Gauntlet",
-    "Randuin's Omen",
-    "Lich Bane",
-    "Crystalline Flask",
-    "Rod of Ages (Crystal Scar)",
-    "Zeke's Harbinger",
-    "Thornmail",
-    "Hextech Sweeper",
-    "Hextech Gunblade",
-    "Phantom Dancer",
-    "Infinity Edge",
-    "Essence Reaver",
-    "Liandry's Torment",
-    "Warmog's Armor",
-    "Athene's Unholy Grail",
-    "Guardian Angel",
-    "Righteous Glory",
-    "Morellonomicon",
-    "Odyn's Veil",
-    "Sterak's Gage",
-    "Maw of Malmortius",
-    "Trinity Force",
-    "Youmuu's Ghostblade",
-    null
+    "Rod of Ages",
+    "Seraph's Embrace"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Hextech Sweeper",
-    "Farsight Orb (Trinket)",
-    "Greater Vision Totem (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

@@ -1,66 +1,27 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Boots of Mobility",
-    "Ionian Boots of Lucidity",
-    "Berserker's Greaves",
-    "Boots of Swiftness",
-    "Mercury's Treads"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
-    "Health Potion",
     "Mana Potion",
-    "Vision Ward",
+    "Health Potion",
     "Total Biscuit of Rejuvenation",
+    "Vision Ward",
     "Stealth Ward"
   ],
   "endgame": [
-    "Liandry's Torment",
-    "Rylai's Crystal Scepter",
     "Rabadon's Deathcap",
-    "Luden's Echo",
-    "Zhonya's Hourglass",
-    "Doran's Ring",
+    "Frost Queen's Claim",
+    "Rylai's Crystal Scepter",
     "Void Staff",
+    "Liandry's Torment",
+    "Zhonya's Hourglass",
     "Morellonomicon",
     "Athene's Unholy Grail",
-    "Frost Queen's Claim",
-    "Rod of Ages",
-    "Mejai's Soulstealer",
-    "Abyssal Scepter",
-    "Ruby Sightstone",
-    "Zeke's Harbinger",
-    "Will of the Ancients",
-    "Locket of the Iron Solari",
-    "Frozen Heart",
-    "Infinity Edge",
-    "Seraph's Embrace",
-    "Banner of Command",
-    "Twin Shadows",
-    "The Bloodthirster",
-    "Mikael's Crucible",
-    "Phantom Dancer",
-    "Frozen Mallet",
-    "Runaan's Hurricane (Ranged Only)",
-    "Wooglet's Witchcap",
-    "Zephyr",
-    "Doran's Shield",
-    "Dead Man's Plate",
-    "Last Whisper",
-    "Guardian Angel",
-    "Talisman of Ascension",
-    "Prospector's Ring",
-    "Netherstride Grimoire"
+    "Luden's Echo"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Hextech Sweeper",
-    "Soul Anchor (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

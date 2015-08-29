@@ -1,63 +1,25 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Mercury's Treads",
-    "Boots of Mobility",
-    "Ionian Boots of Lucidity",
-    "Ninja Tabi"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
-    "Health Potion",
-    "Stealth Ward",
-    "Vision Ward",
     "Elixir of Sorcery",
-    "Total Biscuit of Rejuvenation"
+    "Health Potion",
+    "Total Biscuit of Rejuvenation",
+    "Vision Ward",
+    "Stealth Ward"
   ],
   "endgame": [
-    "Hextech Gunblade",
-    "Zhonya's Hourglass",
     "Rabadon's Deathcap",
-    "Lich Bane",
     "Rylai's Crystal Scepter",
     "Void Staff",
-    "Abyssal Scepter",
-    "Mejai's Soulstealer",
-    "Luden's Echo",
-    "Guardian Angel",
-    "Liandry's Torment",
-    "Wooglet's Witchcap",
-    "Doran's Shield",
-    "Trinity Force",
-    "Doran's Blade",
-    "Banshee's Veil",
-    "Mercurial Scimitar",
-    null,
-    "Trickster's Glass",
-    "Iceborn Gauntlet",
-    "Youmuu's Ghostblade",
-    "Zeke's Harbinger",
-    "Randuin's Omen",
-    "Doran's Ring",
-    "Will of the Ancients",
-    "Thornmail",
-    null,
-    "Spirit Visage",
-    "Guinsoo's Rageblade",
-    "Locket of the Iron Solari",
-    "Warmog's Armor",
-    "Nashor's Tooth",
-    "Ravenous Hydra (Melee Only)"
+    "Hextech Gunblade",
+    "Zhonya's Hourglass",
+    "Lich Bane",
+    "Abyssal Scepter"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Hextech Sweeper",
-    "Oracle's Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

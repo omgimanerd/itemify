@@ -1,69 +1,28 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Boots of Mobility",
-    "Ionian Boots of Lucidity",
-    "Mercury's Treads",
-    "Berserker's Greaves",
-    "Ninja Tabi"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
+    "Elixir of Sorcery",
     "Health Potion",
-    "Vision Ward",
     "Mana Potion",
-    "Stealth Ward",
     "Total Biscuit of Rejuvenation",
-    "Elixir of Sorcery"
+    "Vision Ward",
+    "Stealth Ward"
   ],
   "endgame": [
-    "Zhonya's Hourglass",
     "Rabadon's Deathcap",
-    "Abyssal Scepter",
-    "Doran's Ring",
+    "Rylai's Crystal Scepter",
     "Void Staff",
     "Liandry's Torment",
-    "Rylai's Crystal Scepter",
+    "Zhonya's Hourglass",
     "Morellonomicon",
     "Luden's Echo",
-    "Will of the Ancients",
-    "Banshee's Veil",
-    "Mejai's Soulstealer",
-    "Athene's Unholy Grail",
-    "Rod of Ages",
-    "Spirit Visage",
-    "Wooglet's Witchcap",
-    "Infinity Edge",
-    "Blade of the Ruined King",
-    "Thornmail",
-    "Randuin's Omen",
-    "Frost Queen's Claim",
-    "Phantom Dancer",
-    "Last Whisper",
-    "Statikk Shiv",
-    null,
-    "Talisman of Ascension",
-    "Twin Shadows",
-    "Zeke's Harbinger",
-    "Banner of Command",
-    "Frozen Heart",
-    "Orb of Winter",
-    "Locket of the Iron Solari",
-    "Iceborn Gauntlet",
-    "Crystalline Flask",
-    "Guardian's Horn",
-    "Ruby Sightstone"
+    "Abyssal Scepter"
   ],
   "trinkets": [
-    "Sweeping Lens (Trinket)",
     "Warding Totem (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Hextech Sweeper",
-    "Greater Vision Totem (Trinket)",
-    "Farsight Orb (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Soul Anchor (Trinket)"
+    "Sweeping Lens (Trinket)"
   ]
 }

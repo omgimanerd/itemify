@@ -1,63 +1,29 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Ionian Boots of Lucidity",
-    "Boots of Mobility",
-    "Mercury's Treads",
-    "Ninja Tabi"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
+    "Elixir of Sorcery",
     "Health Potion",
-    "Total Biscuit of Rejuvenation",
     "Mana Potion",
+    "Total Biscuit of Rejuvenation",
     "Vision Ward",
-    "Stealth Ward",
-    "Elixir of Sorcery"
+    "Stealth Ward"
   ],
   "endgame": [
     "Rabadon's Deathcap",
-    "Luden's Echo",
-    "Morellonomicon",
-    "Liandry's Torment",
-    "Athene's Unholy Grail",
-    "Void Staff",
-    "Rylai's Crystal Scepter",
-    "Doran's Ring",
-    "Zhonya's Hourglass",
     "Frost Queen's Claim",
-    "Mejai's Soulstealer",
-    "Ruby Sightstone",
-    "Zeke's Harbinger",
-    "Rod of Ages",
-    "Abyssal Scepter",
-    "Seraph's Embrace",
-    "Locket of the Iron Solari",
-    "Frozen Heart",
-    "Wooglet's Witchcap",
-    "Banshee's Veil",
-    "Will of the Ancients",
-    "Statikk Shiv",
-    "Banner of Command",
-    "Twin Shadows",
-    "Nashor's Tooth",
-    "Talisman of Ascension",
-    "Guinsoo's Rageblade",
-    "Iceborn Gauntlet",
-    "Infinity Edge",
-    "Mikael's Crucible",
-    "Crystalline Flask"
+    "Rylai's Crystal Scepter",
+    "Void Staff",
+    "Liandry's Torment",
+    "Morellonomicon",
+    "Athene's Unholy Grail",
+    "Luden's Echo",
+    "Zhonya's Hourglass"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Hextech Sweeper",
-    "Farsight Orb (Trinket)",
-    "Soul Anchor (Trinket)"
+    "Greater Stealth Totem (Trinket)"
   ]
 }

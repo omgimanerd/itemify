@@ -1,72 +1,32 @@
 {
   "boots": [
     "Berserker's Greaves",
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Ionian Boots of Lucidity",
-    "Boots of Mobility"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
-    "Health Potion",
+    "Elixir of Sorcery",
     "Mana Potion",
+    "Health Potion",
     "Total Biscuit of Rejuvenation",
-    "Stealth Ward",
     "Vision Ward",
-    "Elixir of Sorcery"
+    "Stealth Ward"
   ],
   "endgame": [
     "Trinity Force",
+    "Rabadon's Deathcap",
+    "Rylai's Crystal Scepter",
+    "Void Staff",
+    "Liandry's Torment",
     "Blade of the Ruined King",
     "Luden's Echo",
-    "Doran's Blade",
-    "Seraph's Embrace",
     "Infinity Edge",
-    "Rylai's Crystal Scepter",
     "Last Whisper",
-    "Phantom Dancer",
-    "Void Staff",
-    "Rabadon's Deathcap",
-    "Liandry's Torment",
-    "Doran's Ring",
-    "Athene's Unholy Grail",
-    "The Bloodthirster",
-    "Zhonya's Hourglass",
-    "Morellonomicon",
-    "Runaan's Hurricane (Ranged Only)",
-    "Lich Bane",
-    "Statikk Shiv",
-    "Mercurial Scimitar",
-    "Rod of Ages",
-    "Wit's End",
-    null,
-    "Crystalline Flask",
-    "Banshee's Veil",
-    "Zephyr",
-    "Youmuu's Ghostblade",
-    "Nashor's Tooth",
-    "Hextech Gunblade",
-    "Guardian Angel",
-    "Muramana",
-    "Abyssal Scepter",
-    "Frozen Mallet",
-    "Essence Reaver",
-    "The Lightbringer",
-    "Zeke's Harbinger",
-    "Guinsoo's Rageblade",
-    "Twin Shadows",
     "Seraph's Embrace",
-    "Banner of Command"
+    "Phantom Dancer"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Farsight Orb (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Hextech Sweeper",
-    "Soul Anchor (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Scrying Orb (Trinket)"
   ]
 }

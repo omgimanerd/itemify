@@ -1,76 +1,24 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Berserker's Greaves",
-    "Ionian Boots of Lucidity",
-    "Mercury's Treads",
-    "Boots of Mobility",
-    "Ninja Tabi"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
     "Health Potion",
     "Vision Ward",
-    "Stealth Ward",
-    "Total Biscuit of Rejuvenation"
+    "Stealth Ward"
   ],
   "endgame": [
-    "Zhonya's Hourglass",
     "Rabadon's Deathcap",
     "Rylai's Crystal Scepter",
-    "Abyssal Scepter",
-    "Liandry's Torment",
-    "Doran's Blade",
     "Void Staff",
+    "Liandry's Torment",
     "Will of the Ancients",
+    "Zhonya's Hourglass",
     "Luden's Echo",
-    "Statikk Shiv",
-    "Runaan's Hurricane (Ranged Only)",
-    "Nashor's Tooth",
-    "Sword of the Occult",
-    "The Bloodthirster",
-    null,
-    "Mejai's Soulstealer",
-    "Infinity Edge",
-    "Doran's Shield",
-    "Wooglet's Witchcap",
-    "Banshee's Veil",
-    "Hextech Gunblade",
-    "Moonflair Spellblade",
-    "Last Whisper",
-    "Ruby Sightstone",
-    "Guardian Angel",
-    "Frost Queen's Claim",
-    "Wit's End",
-    "Righteous Glory",
-    "Thornmail",
-    "Talisman of Ascension",
-    "The Black Cleaver",
-    "Blade of the Ruined King",
-    "Randuin's Omen",
-    "Doran's Ring",
-    "Frozen Mallet",
-    "Rod of Ages",
-    "Maw of Malmortius",
-    "Phantom Dancer",
-    "The Lightbringer",
-    "Sterak's Gage",
-    "Sunfire Cape",
-    null,
-    "Face of the Mountain",
-    "Zeke's Harbinger",
-    null,
-    "Locket of the Iron Solari"
+    "Abyssal Scepter"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Hextech Sweeper",
-    "Oracle's Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

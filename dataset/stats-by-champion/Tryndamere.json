@@ -1,76 +1,23 @@
 {
   "boots": [
-    "Berserker's Greaves",
-    "Mercury's Treads",
-    "Boots of Speed",
-    "Boots of Swiftness",
-    "Ionian Boots of Lucidity",
-    "Ninja Tabi",
-    "Boots of Mobility"
+    "Berserker's Greaves"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
     "Health Potion",
-    "Stealth Ward",
     "Vision Ward",
-    "Elixir of Sorcery"
+    "Stealth Ward"
   ],
   "endgame": [
+    "The Bloodthirster",
     "Statikk Shiv",
+    "Youmuu's Ghostblade",
     "Blade of the Ruined King",
     "Infinity Edge",
     "Last Whisper",
-    "Phantom Dancer",
-    "Youmuu's Ghostblade",
-    "Doran's Blade",
-    "The Bloodthirster",
-    "Ravenous Hydra (Melee Only)",
-    "Mercurial Scimitar",
-    "Guardian Angel",
-    "Zephyr",
-    "Maw of Malmortius",
-    "Thornmail",
-    "Warmog's Armor",
-    "Banshee's Veil",
-    "Trinity Force",
-    "Lord Van Damm's Pillager",
-    "Dead Man's Plate",
-    null,
-    "Nashor's Tooth",
-    "Spirit Visage",
-    "Sterak's Gage",
-    "Luden's Echo",
-    "Randuin's Omen",
-    null,
-    "The Black Cleaver",
-    "Frozen Mallet",
-    "Rabadon's Deathcap",
-    "Doran's Shield",
-    null,
-    "Lich Bane",
-    "Orb of Winter",
-    "Titanic Hydra (Melee Only)",
-    "Banner of Command",
-    "Zeke's Harbinger",
-    "Frozen Heart",
-    "Mejai's Soulstealer",
-    "Zz'Rot Portal",
-    "Entropy",
-    "Sanguine Blade",
-    "Wit's End",
-    "Wooglet's Witchcap",
-    "Guinsoo's Rageblade",
-    "The Lightbringer",
-    "Zhonya's Hourglass"
+    "Phantom Dancer"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Hextech Sweeper",
-    "Soul Anchor (Trinket)",
-    "Farsight Orb (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

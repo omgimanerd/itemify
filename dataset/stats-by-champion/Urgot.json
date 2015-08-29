@@ -1,59 +1,25 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi",
-    "Boots of Speed",
-    "Ionian Boots of Lucidity",
-    "Berserker's Greaves",
-    "Boots of Swiftness",
-    "Boots of Mobility"
+    "Ninja Tabi"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
     "Health Potion",
     "Mana Potion",
-    "Total Biscuit of Rejuvenation",
-    "Stealth Ward"
+    "Total Biscuit of Rejuvenation"
   ],
   "endgame": [
-    "The Black Cleaver",
-    "Muramana",
-    "Frozen Heart",
-    "Last Whisper",
-    "Iceborn Gauntlet",
-    "Maw of Malmortius",
-    "Youmuu's Ghostblade",
     "Trinity Force",
-    "Doran's Blade",
-    "Banshee's Veil",
-    "The Bloodthirster",
-    "Spirit Visage",
-    "Thornmail",
-    "Infinity Edge",
-    "Mercurial Scimitar",
-    "Crystalline Flask",
-    "Essence Reaver",
-    "Runaan's Hurricane (Ranged Only)",
-    "Void Staff",
-    "Rabadon's Deathcap",
-    "Warmog's Armor",
-    "Dead Man's Plate",
-    "Randuin's Omen",
-    "Phantom Dancer",
-    "Sterak's Gage",
-    "Blade of the Ruined King",
-    "Guardian Angel",
+    "Frozen Heart",
+    "Youmuu's Ghostblade",
+    "Maw of Malmortius",
+    "Iceborn Gauntlet",
+    "Last Whisper",
     "Muramana",
-    "Odyn's Veil"
+    "The Black Cleaver"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Farsight Orb (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Hextech Sweeper"
+    "Warding Totem (Trinket)"
   ]
 }

@@ -1,58 +1,26 @@
 {
   "boots": [
-    "Sorcerer's Shoes",
-    "Boots of Speed",
-    "Mercury's Treads",
-    "Ninja Tabi",
-    "Ionian Boots of Lucidity"
+    "Sorcerer's Shoes"
   ],
+  "buildObj": {},
   "consumables": [
-    "Poro-Snax",
+    "Elixir of Sorcery",
     "Health Potion",
-    "Mana Potion",
     "Stealth Ward",
-    "Vision Ward",
+    "Mana Potion",
     "Total Biscuit of Rejuvenation",
-    "Elixir of Sorcery"
+    "Vision Ward"
   ],
   "endgame": [
-    "Rod of Ages",
-    "Zhonya's Hourglass",
-    "Doran's Ring",
-    "Liandry's Torment",
     "Rabadon's Deathcap",
-    "Spirit Visage",
     "Rylai's Crystal Scepter",
+    "Liandry's Torment",
+    "Zhonya's Hourglass",
     "Athene's Unholy Grail",
-    "Abyssal Scepter",
-    "Void Staff",
-    "Will of the Ancients",
-    "Luden's Echo",
-    "Morellonomicon",
-    "Frozen Heart",
-    "Seraph's Embrace",
-    "Wooglet's Witchcap",
-    "Thornmail",
-    "Warmog's Armor",
-    "Dead Man's Plate",
-    "Crystalline Flask",
-    "Ruby Sightstone",
-    "Zeke's Harbinger",
-    "Locket of the Iron Solari",
-    "Banshee's Veil",
-    "Rod of Ages (Crystal Scar)",
-    "Sterak's Gage",
-    "Sunfire Cape",
-    "Prospector's Ring"
+    "Rod of Ages",
+    "Spirit Visage"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Hextech Sweeper",
-    "Oracle's Lens (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Warding Totem (Trinket)"
   ]
 }

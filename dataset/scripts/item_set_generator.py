@@ -56,6 +56,9 @@ def main():
   items.addItem(3139, 1)
   items.addItem(3141, 1)
   generator.addBlock('test', True, items.getItems())
+  print '---------'
+  print 'This is a valid item set!!!'
+  print '_________'
   print Util.json_dump(generator.getItemSet())
 
 if __name__ == '__main__':
