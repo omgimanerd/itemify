@@ -6,9 +6,11 @@
 
 import json
 
+from data_aggregator import DataAggregator
 from stat_analyzer import StatAnalyzer
 
 def main():
+  aggregator = DataAggregator.create()
   analyzer = StatAnalyzer.create()
 
   with open('../stats.json') as stats_input:
@@ -47,19 +49,49 @@ def main():
       if game.get('win', False):
         effectivenessScore += 2
       for i in range(1, 7):
-        item = str(analyzer.get_item_name_by_id(game.get('item%s' % i, None)))
-        if not item == 'None':
+        item = game.get('item%s' % i, None)
+        if item:
           if build_stats[championName].get(item, None):
             build_stats[championName][item] += effectivenessScore
           else:
             build_stats[championName][item] = effectivenessScore
 
+  # The build stats will be written into the /stats-by-champion directory
+  # with one JSON file per champion. We split this build data into viable
+  # end game builds and intermediate builds by sorting the build data by
+  # effectiveness score and parsing it then.
   for champion in build_stats:
-    with open('../stats-by-champion/%s.json' % champion, 'w') as champion_output:
-      champion_output.write(json.dumps(
-        sorted(build_stats[champion], key=build_stats[champion].get)[::-1]))
-    print '%s: %s' % (champion, sorted(build_stats[champion],
-                                       key=build_stats[champion].get)[::-1])
+    build = sorted(build_stats[champion], key=build_stats[champion].get)[::-1]
+    build_output = {
+      'trinkets': [],
+      'boots': [],
+      'endgame': [],
+      'consumables': []
+    }
+    for item in build:
+      if analyzer.is_trinket(item):
+        build_output['trinkets'].append(item)
+        build.remove(item)
+      elif analyzer.is_boot(item):
+        build_output['boots'].append(item)
+        build.remove(item)
+      elif analyzer.is_consumable(item):
+        build_output['consumables'].append(item)
+        build.remove(item)
+      elif not analyzer.get_item_name_by_id(item):
+        build.remove(item)
+      else:
+        build_output['endgame'].append(item)
+
+    for category in build_output:
+      build_output[category] = map(analyzer.get_item_name_by_id,
+                                   build_output[category])
+
+    with open('../stats-by-champion/%s.json' % champion,
+              'w') as champion_output:
+      champion_output.write(aggregator.json_dump(build_output))
+
+#    print '%s: %s' % (champion, aggregator.json_dump(build_output))
 
 if __name__ == '__main__':
   main()

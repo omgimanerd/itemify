@@ -26,7 +26,7 @@ class StatAnalyzer():
   def get_champion_name_by_id(self, id):
     for champion in self.champions:
       if self.champions[champion]['id'] == id:
-        return champion
+        return self.champions[champion]['name']
     return None
 
   def get_champion_data_by_name(self, champion):
@@ -65,6 +65,30 @@ class StatAnalyzer():
       return item.get('from', None)
     return None
 
+  def is_irrelevant(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('inStore', False)
+    return False
+
+  def is_trinket(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('tags', []).count('Trinket') != 0
+    return False
+
+  def is_boot(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('tags', []).count('Boots') != 0
+    return False
+
+  def is_consumable(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('consumed', False)
+    return False
+
 """
 This main() method is for testing purposes only.
 """
@@ -85,6 +109,7 @@ def main():
   print map(analyzer.get_item_name_by_id,
             analyzer.get_items_built_from(
       analyzer.get_item_id_by_name('Pickaxe')))
+  print analyzer.get_item_name_by_id(3361)
 
 if __name__ == '__main__':
   main()

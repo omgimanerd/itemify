@@ -17,7 +17,7 @@ class DataAggregator():
     api_key = RiotApi.get_default_api_key()
     return DataAggregator(api_key)
 
-  def parse_json(self, obj):
+  def json_dump(self, obj):
     return json.dumps(obj, sort_keys=True, encoding='utf-8',
                       indent=2, separators=(',', ': '))
 

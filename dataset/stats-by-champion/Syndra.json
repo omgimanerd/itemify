@@ -1,1 +1,66 @@
-["Rabadon's Deathcap", "Athene's Unholy Grail", "Sorcerer's Shoes", "Luden's Echo", "Warding Totem (Trinket)", "Morellonomicon", "Void Staff", "Enchantment: Homeguard", "Needlessly Large Rod", "Greater Stealth Totem (Trinket)", "Doran's Ring", "Zhonya's Hourglass", "Poro-Snax", "Amplifying Tome", "Blasting Wand", "Sweeping Lens (Trinket)", "Rylai's Crystal Scepter", "Enchantment: Alacrity", "Boots of Speed", "Abyssal Scepter", "Liandry's Torment", "Aether Wisp", "Mejai's Soulstealer", "Rod of Ages", "Total Biscuit of Rejuvenation", "Ionian Boots of Lucidity", "Will of the Ancients", "Seeker's Armguard", "Mana Potion", "Oracle's Lens (Trinket)", "Fiendish Codex", "Health Potion", "Seraph's Embrace", "Chalice of Harmony", "Cloth Armor", "Hextech Sweeper", "Greater Vision Totem (Trinket)", "Giant's Belt", "Negatron Cloak", "Tear of the Goddess", "Sightstone", "Null-Magic Mantle", "Forbidden Idol", "Haunting Guise", "Hextech Revolver", "Stealth Ward", "Enchantment: Distortion", "Frost Queen's Claim", "Soul Anchor (Trinket)", "Lich Bane", "Archangel's Staff", "Spirit Visage", "Enchantment: Captain", "Aegis of the Legion", "Enchantment: Runeglaive", "Wooglet's Witchcap", "Farsight Orb (Trinket)", "Scrying Orb (Trinket)", "Faerie Charm", "Ruby Crystal", "Vision Ward", "Spellthief's Edge", "Guardian Angel", "Crystalline Bracer", "Phage", "Berserker's Greaves", "Zeal", "Sapphire Crystal", "Chain Vest", "Ruby Sightstone"]
+{
+  "boots": [
+    "Sorcerer's Shoes",
+    "Boots of Speed",
+    "Berserker's Greaves"
+  ],
+  "consumables": [
+    "Poro-Snax",
+    "Total Biscuit of Rejuvenation",
+    "Mana Potion",
+    "Health Potion",
+    "Stealth Ward",
+    "Vision Ward"
+  ],
+  "endgame": [
+    "Rabadon's Deathcap",
+    "Athene's Unholy Grail",
+    "Void Staff",
+    "Enchantment: Homeguard",
+    "Needlessly Large Rod",
+    "Zhonya's Hourglass",
+    "Blasting Wand",
+    "Abyssal Scepter",
+    "Liandry's Torment",
+    "Aether Wisp",
+    "Mejai's Soulstealer",
+    "Rod of Ages",
+    "Will of the Ancients",
+    "Seeker's Armguard",
+    "Fiendish Codex",
+    "Chalice of Harmony",
+    "Cloth Armor",
+    "Giant's Belt",
+    "Negatron Cloak",
+    "Tear of the Goddess",
+    "Sightstone",
+    "Forbidden Idol",
+    "Haunting Guise",
+    "Hextech Revolver",
+    "Frost Queen's Claim",
+    "Enchantment: Homeguard",
+    "Archangel's Staff",
+    "Spirit Visage",
+    "Enchantment: Captain",
+    "Aegis of the Legion",
+    "Enchantment: Runeglaive",
+    "Wooglet's Witchcap",
+    "Enchantment: Alacrity",
+    "Ruby Crystal",
+    "Guardian Angel",
+    "Enchantment: Homeguard",
+    "Crystalline Bracer",
+    "Phage",
+    "Sapphire Crystal",
+    "Ruby Sightstone"
+  ],
+  "trinkets": [
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Hextech Sweeper",
+    "Soul Anchor (Trinket)",
+    "Farsight Orb (Trinket)",
+    "Scrying Orb (Trinket)"
+  ]
+}
