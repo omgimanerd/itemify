@@ -4,7 +4,121 @@
     "Boots of Speed",
     "Ionian Boots of Lucidity"
   ],
-  "buildObj": {},
+  "buildObj": {
+    "blocks": [
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Warding Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Scrying Orb (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Farsight Orb (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Greater Stealth Totem (Trinket)"
+          }
+        ],
+        "recMath": false,
+        "type": "TRINKETS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Infinity Edge"
+          },
+          {
+            "count": 1,
+            "id": "Phantom Dancer"
+          },
+          {
+            "count": 1,
+            "id": "The Bloodthirster"
+          },
+          {
+            "count": 1,
+            "id": "Last Whisper"
+          },
+          {
+            "count": 1,
+            "id": "Statikk Shiv"
+          },
+          {
+            "count": 1,
+            "id": "Blade of the Ruined King"
+          },
+          {
+            "count": 1,
+            "id": "Runaan's Hurricane (Ranged Only)"
+          }
+        ],
+        "recMath": false,
+        "type": "ENDGAME"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Health Potion"
+          },
+          {
+            "count": 1,
+            "id": "Mana Potion"
+          },
+          {
+            "count": 1,
+            "id": "Vision Ward"
+          },
+          {
+            "count": 1,
+            "id": "Stealth Ward"
+          }
+        ],
+        "recMath": false,
+        "type": "CONSUMABLES"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Berserker's Greaves"
+          },
+          {
+            "count": 1,
+            "id": "Boots of Speed"
+          },
+          {
+            "count": 1,
+            "id": "Ionian Boots of Lucidity"
+          }
+        ],
+        "recMath": false,
+        "type": "BOOTS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Elixir of Wrath"
+          }
+        ],
+        "recMath": false,
+        "type": "ELIXIRS"
+      }
+    ],
+    "map": "any",
+    "mode": "any",
+    "priority": true,
+    "title": "Ashe",
+    "type": "custom"
+  },
   "consumables": [
     "Health Potion",
     "Mana Potion",

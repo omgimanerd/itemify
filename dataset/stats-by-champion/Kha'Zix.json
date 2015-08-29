@@ -4,7 +4,125 @@
     "Mercury's Treads",
     "Ionian Boots of Lucidity"
   ],
-  "buildObj": {},
+  "buildObj": {
+    "blocks": [
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Warding Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Sweeping Lens (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Oracle's Lens (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Greater Stealth Totem (Trinket)"
+          }
+        ],
+        "recMath": false,
+        "type": "TRINKETS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Last Whisper"
+          },
+          {
+            "count": 1,
+            "id": "Ravenous Hydra (Melee Only)"
+          },
+          {
+            "count": 1,
+            "id": "The Black Cleaver"
+          },
+          {
+            "count": 1,
+            "id": "Maw of Malmortius"
+          },
+          {
+            "count": 1,
+            "id": "Randuin's Omen"
+          },
+          {
+            "count": 1,
+            "id": "Guardian Angel"
+          },
+          {
+            "count": 1,
+            "id": "Mejai's Soulstealer"
+          }
+        ],
+        "recMath": false,
+        "type": "ENDGAME"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Health Potion"
+          },
+          {
+            "count": 1,
+            "id": "Mana Potion"
+          },
+          {
+            "count": 1,
+            "id": "Stealth Ward"
+          },
+          {
+            "count": 1,
+            "id": "Crystalline Flask"
+          },
+          {
+            "count": 1,
+            "id": "Vision Ward"
+          }
+        ],
+        "recMath": false,
+        "type": "CONSUMABLES"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Boots of Mobility"
+          },
+          {
+            "count": 1,
+            "id": "Mercury's Treads"
+          },
+          {
+            "count": 1,
+            "id": "Ionian Boots of Lucidity"
+          }
+        ],
+        "recMath": false,
+        "type": "BOOTS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Elixir of Wrath"
+          }
+        ],
+        "recMath": false,
+        "type": "ELIXIRS"
+      }
+    ],
+    "map": "any",
+    "mode": "any",
+    "priority": true,
+    "title": "Kha'Zix",
+    "type": "custom"
+  },
   "consumables": [
     "Health Potion",
     "Mana Potion",

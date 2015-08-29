@@ -4,7 +4,125 @@
     "Boots of Mobility",
     "Ninja Tabi"
   ],
-  "buildObj": {},
+  "buildObj": {
+    "blocks": [
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Warding Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Sweeping Lens (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Oracle's Lens (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Greater Stealth Totem (Trinket)"
+          }
+        ],
+        "recMath": false,
+        "type": "TRINKETS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "The Black Cleaver"
+          },
+          {
+            "count": 1,
+            "id": "Ravenous Hydra (Melee Only)"
+          },
+          {
+            "count": 1,
+            "id": "Randuin's Omen"
+          },
+          {
+            "count": 1,
+            "id": "Last Whisper"
+          },
+          {
+            "count": 1,
+            "id": "Banshee's Veil"
+          },
+          {
+            "count": 1,
+            "id": "Titanic Hydra (Melee Only)"
+          },
+          {
+            "count": 1,
+            "id": "Frozen Heart"
+          }
+        ],
+        "recMath": false,
+        "type": "ENDGAME"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Health Potion"
+          },
+          {
+            "count": 1,
+            "id": "Crystalline Flask"
+          },
+          {
+            "count": 1,
+            "id": "Vision Ward"
+          },
+          {
+            "count": 1,
+            "id": "Stealth Ward"
+          },
+          {
+            "count": 1,
+            "id": "Mana Potion"
+          }
+        ],
+        "recMath": false,
+        "type": "CONSUMABLES"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Mercury's Treads"
+          },
+          {
+            "count": 1,
+            "id": "Boots of Mobility"
+          },
+          {
+            "count": 1,
+            "id": "Ninja Tabi"
+          }
+        ],
+        "recMath": false,
+        "type": "BOOTS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Elixir of Wrath"
+          }
+        ],
+        "recMath": false,
+        "type": "ELIXIRS"
+      }
+    ],
+    "map": "any",
+    "mode": "any",
+    "priority": true,
+    "title": "Jarvan IV",
+    "type": "custom"
+  },
   "consumables": [
     "Health Potion",
     "Crystalline Flask",

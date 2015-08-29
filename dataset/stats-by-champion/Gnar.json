@@ -4,7 +4,121 @@
     "Ninja Tabi",
     "Boots of Speed"
   ],
-  "buildObj": {},
+  "buildObj": {
+    "blocks": [
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Warding Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Greater Stealth Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Hextech Sweeper"
+          },
+          {
+            "count": 1,
+            "id": "Greater Vision Totem (Trinket)"
+          }
+        ],
+        "recMath": false,
+        "type": "TRINKETS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "The Black Cleaver"
+          },
+          {
+            "count": 1,
+            "id": "Randuin's Omen"
+          },
+          {
+            "count": 1,
+            "id": "Spirit Visage"
+          },
+          {
+            "count": 1,
+            "id": "Sunfire Cape"
+          },
+          {
+            "count": 1,
+            "id": "Blade of the Ruined King"
+          },
+          {
+            "count": 1,
+            "id": "Thornmail"
+          },
+          {
+            "count": 1,
+            "id": "Banshee's Veil"
+          }
+        ],
+        "recMath": false,
+        "type": "ENDGAME"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Health Potion"
+          },
+          {
+            "count": 1,
+            "id": "Vision Ward"
+          },
+          {
+            "count": 1,
+            "id": "Stealth Ward"
+          },
+          {
+            "count": 1,
+            "id": "Crystalline Flask"
+          }
+        ],
+        "recMath": false,
+        "type": "CONSUMABLES"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Mercury's Treads"
+          },
+          {
+            "count": 1,
+            "id": "Ninja Tabi"
+          },
+          {
+            "count": 1,
+            "id": "Boots of Speed"
+          }
+        ],
+        "recMath": false,
+        "type": "BOOTS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Elixir of Iron"
+          }
+        ],
+        "recMath": false,
+        "type": "ELIXIRS"
+      }
+    ],
+    "map": "any",
+    "mode": "any",
+    "priority": true,
+    "title": "Gnar",
+    "type": "custom"
+  },
   "consumables": [
     "Health Potion",
     "Vision Ward",

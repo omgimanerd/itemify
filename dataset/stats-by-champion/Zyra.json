@@ -4,7 +4,116 @@
     "Boots of Speed",
     "Boots of Mobility"
   ],
-  "buildObj": {},
+  "buildObj": {
+    "blocks": [
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Warding Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Sweeping Lens (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Oracle's Lens (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Greater Stealth Totem (Trinket)"
+          }
+        ],
+        "recMath": false,
+        "type": "TRINKETS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Liandry's Torment"
+          },
+          {
+            "count": 1,
+            "id": "Rylai's Crystal Scepter"
+          },
+          {
+            "count": 1,
+            "id": "Rabadon's Deathcap"
+          },
+          {
+            "count": 1,
+            "id": "Luden's Echo"
+          },
+          {
+            "count": 1,
+            "id": "Zhonya's Hourglass"
+          },
+          {
+            "count": 1,
+            "id": "Void Staff"
+          },
+          {
+            "count": 1,
+            "id": "Morellonomicon"
+          }
+        ],
+        "recMath": false,
+        "type": "ENDGAME"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Health Potion"
+          },
+          {
+            "count": 1,
+            "id": "Mana Potion"
+          },
+          {
+            "count": 1,
+            "id": "Vision Ward"
+          },
+          {
+            "count": 1,
+            "id": "Stealth Ward"
+          }
+        ],
+        "recMath": false,
+        "type": "CONSUMABLES"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Sorcerer's Shoes"
+          },
+          {
+            "count": 1,
+            "id": "Boots of Speed"
+          },
+          {
+            "count": 1,
+            "id": "Boots of Mobility"
+          }
+        ],
+        "recMath": false,
+        "type": "BOOTS"
+      },
+      {
+        "items": [],
+        "recMath": false,
+        "type": "ELIXIRS"
+      }
+    ],
+    "map": "any",
+    "mode": "any",
+    "priority": true,
+    "title": "Zyra",
+    "type": "custom"
+  },
   "consumables": [
     "Health Potion",
     "Mana Potion",

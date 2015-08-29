@@ -4,7 +4,120 @@
     "Boots of Swiftness",
     "Ninja Tabi"
   ],
-  "buildObj": {},
+  "buildObj": {
+    "blocks": [
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Warding Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Greater Stealth Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Greater Vision Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Scrying Orb (Trinket)"
+          }
+        ],
+        "recMath": false,
+        "type": "TRINKETS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Rylai's Crystal Scepter"
+          },
+          {
+            "count": 1,
+            "id": "Rod of Ages"
+          },
+          {
+            "count": 1,
+            "id": "Liandry's Torment"
+          },
+          {
+            "count": 1,
+            "id": "Seraph's Embrace"
+          },
+          {
+            "count": 1,
+            "id": "Dead Man's Plate"
+          },
+          {
+            "count": 1,
+            "id": "Thornmail"
+          },
+          {
+            "count": 1,
+            "id": "Frozen Heart"
+          }
+        ],
+        "recMath": false,
+        "type": "ENDGAME"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Crystalline Flask"
+          },
+          {
+            "count": 1,
+            "id": "Health Potion"
+          },
+          {
+            "count": 1,
+            "id": "Mana Potion"
+          },
+          {
+            "count": 1,
+            "id": "Stealth Ward"
+          },
+          {
+            "count": 1,
+            "id": "Vision Ward"
+          }
+        ],
+        "recMath": false,
+        "type": "CONSUMABLES"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Mercury's Treads"
+          },
+          {
+            "count": 1,
+            "id": "Boots of Swiftness"
+          },
+          {
+            "count": 1,
+            "id": "Ninja Tabi"
+          }
+        ],
+        "recMath": false,
+        "type": "BOOTS"
+      },
+      {
+        "items": [],
+        "recMath": false,
+        "type": "ELIXIRS"
+      }
+    ],
+    "map": "any",
+    "mode": "any",
+    "priority": true,
+    "title": "Singed",
+    "type": "custom"
+  },
   "consumables": [
     "Crystalline Flask",
     "Health Potion",

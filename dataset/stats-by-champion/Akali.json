@@ -4,7 +4,117 @@
     "Boots of Speed",
     "Mercury's Treads"
   ],
-  "buildObj": {},
+  "buildObj": {
+    "blocks": [
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Warding Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Greater Stealth Totem (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Sweeping Lens (Trinket)"
+          },
+          {
+            "count": 1,
+            "id": "Hextech Sweeper"
+          }
+        ],
+        "recMath": false,
+        "type": "TRINKETS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Hextech Gunblade"
+          },
+          {
+            "count": 1,
+            "id": "Zhonya's Hourglass"
+          },
+          {
+            "count": 1,
+            "id": "Rabadon's Deathcap"
+          },
+          {
+            "count": 1,
+            "id": "Lich Bane"
+          },
+          {
+            "count": 1,
+            "id": "Rylai's Crystal Scepter"
+          },
+          {
+            "count": 1,
+            "id": "Void Staff"
+          },
+          {
+            "count": 1,
+            "id": "Abyssal Scepter"
+          }
+        ],
+        "recMath": false,
+        "type": "ENDGAME"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Health Potion"
+          },
+          {
+            "count": 1,
+            "id": "Stealth Ward"
+          },
+          {
+            "count": 1,
+            "id": "Vision Ward"
+          }
+        ],
+        "recMath": false,
+        "type": "CONSUMABLES"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Sorcerer's Shoes"
+          },
+          {
+            "count": 1,
+            "id": "Boots of Speed"
+          },
+          {
+            "count": 1,
+            "id": "Mercury's Treads"
+          }
+        ],
+        "recMath": false,
+        "type": "BOOTS"
+      },
+      {
+        "items": [
+          {
+            "count": 1,
+            "id": "Elixir of Sorcery"
+          }
+        ],
+        "recMath": false,
+        "type": "ELIXIRS"
+      }
+    ],
+    "map": "any",
+    "mode": "any",
+    "priority": true,
+    "title": "Akali",
+    "type": "custom"
+  },
   "consumables": [
     "Health Potion",
     "Stealth Ward",

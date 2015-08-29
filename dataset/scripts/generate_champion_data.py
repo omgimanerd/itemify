@@ -100,15 +100,19 @@ def main():
       elif not analyzer.get_items_built_from(item):
         build_output['endgame'].append(item)
 
-    # For each category of item, we will only show a certain number of them.
+    # For each category of item, we will only show a certain number of items and
+    # will will generate the item set for each category.
+    generator = ItemSetGenerator.create(champion)
     for category in build_output:
       build_output[category] = map(
           analyzer.get_item_name_by_id,
           build_output[category])[:ITEM_LIMIT[category]]
+      items = ItemSetBlockItems()
+      for item in build_output[category]:
+        items.addItem(item, 1)
+      generator.addBlock(category.upper(), False, items.getItems())
 
-    generator = ItemSetGenerator.create(champion)
-
-    build_output['buildObj'] = {}
+    build_output['buildObj'] = generator.getItemSet()
 
     with open('../stats-by-champion/%s.json' % champion,
               'w') as champion_output:
