@@ -69,18 +69,15 @@ def main():
       'consumables': []
     }
     for item in build:
-      if analyzer.is_trinket(item):
+      if analyzer.is_irrelevant(item):
+        continue
+      elif analyzer.is_trinket(item):
         build_output['trinkets'].append(item)
-        build.remove(item)
       elif analyzer.is_boot(item):
         build_output['boots'].append(item)
-        build.remove(item)
       elif analyzer.is_consumable(item):
         build_output['consumables'].append(item)
-        build.remove(item)
-      elif not analyzer.get_item_name_by_id(item):
-        build.remove(item)
-      else:
+      elif not analyzer.get_items_built_from(item):
         build_output['endgame'].append(item)
 
     for category in build_output:
@@ -90,8 +87,7 @@ def main():
     with open('../stats-by-champion/%s.json' % champion,
               'w') as champion_output:
       champion_output.write(aggregator.json_dump(build_output))
-
-#    print '%s: %s' % (champion, aggregator.json_dump(build_output))
+    print 'Sucessfully wrote %s.json' % champion
 
 if __name__ == '__main__':
   main()

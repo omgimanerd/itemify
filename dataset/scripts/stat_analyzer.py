@@ -68,7 +68,7 @@ class StatAnalyzer():
   def is_irrelevant(self, id):
     item = self.get_item_data_by_id(id)
     if item:
-      return item.get('inStore', False)
+      return item.get('hideFromAll', False)
     return False
 
   def is_trinket(self, id):
