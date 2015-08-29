@@ -1,12 +1,14 @@
 {
   "boots": [
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Boots of Speed",
+    "Mercury's Treads"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Stealth Ward",
     "Mana Potion",
+    "Stealth Ward",
     "Vision Ward",
     "Crystalline Flask"
   ],
@@ -14,16 +16,18 @@
     "Elixir of Sorcery"
   ],
   "endgame": [
-    "Rabadon's Deathcap",
-    "Rylai's Crystal Scepter",
-    "Liandry's Torment",
-    "Zhonya's Hourglass",
-    "Athene's Unholy Grail",
     "Rod of Ages",
-    "Spirit Visage"
+    "Zhonya's Hourglass",
+    "Liandry's Torment",
+    "Rabadon's Deathcap",
+    "Spirit Visage",
+    "Rylai's Crystal Scepter",
+    "Athene's Unholy Grail"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Greater Stealth Totem (Trinket)",
-    "Warding Totem (Trinket)"
+    "Hextech Sweeper",
+    "Oracle's Lens (Trinket)"
   ]
 }

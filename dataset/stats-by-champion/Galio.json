@@ -1,29 +1,31 @@
 {
   "boots": [
-    "Mercury's Treads"
+    "Mercury's Treads",
+    "Boots of Speed",
+    "Sorcerer's Shoes"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Mana Potion",
     "Crystalline Flask",
-    "Vision Ward",
-    "Stealth Ward"
+    "Mana Potion",
+    "Stealth Ward",
+    "Vision Ward"
   ],
   "elixirs": [],
   "endgame": [
-    "Thornmail",
-    "Rabadon's Deathcap",
-    "Banshee's Veil",
-    "Zhonya's Hourglass",
-    "Athene's Unholy Grail",
-    "Luden's Echo",
     "Abyssal Scepter",
+    "Athene's Unholy Grail",
     "Spirit Visage",
+    "Rabadon's Deathcap",
+    "Zhonya's Hourglass",
+    "Luden's Echo",
     "Sunfire Cape"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Greater Stealth Totem (Trinket)",
-    "Warding Totem (Trinket)"
+    "Scrying Orb (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

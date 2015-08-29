@@ -1,28 +1,34 @@
 {
   "boots": [
+    "Berserker's Greaves",
     "Mercury's Treads",
-    "Berserker's Greaves"
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
-    "Crystalline Flask",
     "Health Potion",
+    "Vision Ward",
     "Stealth Ward",
-    "Vision Ward"
+    "Crystalline Flask",
+    "Mana Potion"
   ],
   "elixirs": [
-    "Elixir of Wrath"
+    "Elixir of Wrath",
+    "Elixir of Iron"
   ],
   "endgame": [
-    "The Bloodthirster",
-    "Trinity Force",
     "Statikk Shiv",
-    "Blade of the Ruined King",
     "Infinity Edge",
-    "Last Whisper"
+    "Trinity Force",
+    "Blade of the Ruined King",
+    "The Bloodthirster",
+    "Last Whisper",
+    "Banshee's Veil"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Vision Totem (Trinket)"
   ]
 }

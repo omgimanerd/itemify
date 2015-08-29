@@ -7,28 +7,27 @@
   "buildObj": {},
   "consumables": [
     "Health Potion",
+    "Stealth Ward",
     "Mana Potion",
     "Vision Ward",
-    "Stealth Ward"
+    "Crystalline Flask"
   ],
   "elixirs": [
     "Elixir of Iron"
   ],
   "endgame": [
-    "Thornmail",
-    "Trinity Force",
-    "Warmog's Armor",
-    "Frozen Heart",
-    "Randuin's Omen",
-    "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
-    "Righteous Glory",
-    "Sunfire Cape",
     "Spirit Visage",
-    "Sterak's Gage"
+    "Warmog's Armor",
+    "Dead Man's Plate",
+    "Randuin's Omen",
+    "Titanic Hydra (Melee Only)",
+    "Thornmail",
+    "Righteous Glory"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)"
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

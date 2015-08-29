@@ -1,33 +1,33 @@
 {
   "boots": [
-    "Mercury's Treads",
     "Boots of Swiftness",
-    "Ninja Tabi",
-    "Boots of Speed"
+    "Mercury's Treads",
+    "Ninja Tabi"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
+    "Stealth Ward",
     "Vision Ward",
-    "Stealth Ward"
+    "Mana Potion"
   ],
   "elixirs": [
     "Elixir of Iron",
     "Elixir of Wrath"
   ],
   "endgame": [
-    "Warmog's Armor",
-    "Thornmail",
-    "Randuin's Omen",
+    "The Black Cleaver",
     "Dead Man's Plate",
-    "Sunfire Cape",
-    "Infinity Edge",
-    "Sterak's Gage",
     "Spirit Visage",
-    "The Black Cleaver"
+    "Sterak's Gage",
+    "Warmog's Armor",
+    "Sunfire Cape",
+    "Randuin's Omen"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)",
+    "Hextech Sweeper"
   ]
 }

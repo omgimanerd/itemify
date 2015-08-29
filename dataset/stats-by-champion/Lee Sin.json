@@ -1,36 +1,32 @@
 {
   "boots": [
-    "Mercury's Treads",
     "Boots of Mobility",
+    "Mercury's Treads",
     "Ninja Tabi"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
+    "Vision Ward",
     "Stealth Ward",
-    "Vision Ward"
+    "Mana Potion"
   ],
   "elixirs": [
     "Elixir of Wrath"
   ],
   "endgame": [
-    "The Bloodthirster",
+    "The Black Cleaver",
     "Ravenous Hydra (Melee Only)",
-    "Thornmail",
-    "Banshee's Veil",
-    "Sword of the Occult",
     "Randuin's Omen",
-    "Maw of Malmortius",
-    "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
     "Last Whisper",
     "Ruby Sightstone",
-    "The Black Cleaver"
+    "Banshee's Veil",
+    "Maw of Malmortius"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

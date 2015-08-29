@@ -1,31 +1,33 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Boots of Mobility",
-    "Ninja Tabi"
+    "Ninja Tabi",
+    "Boots of Mobility"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Mana Potion",
     "Crystalline Flask",
-    "Vision Ward",
-    "Stealth Ward"
+    "Mana Potion",
+    "Stealth Ward",
+    "Vision Ward"
   ],
   "elixirs": [
     "Elixir of Ruin"
   ],
   "endgame": [
+    "The Black Cleaver",
     "Ravenous Hydra (Melee Only)",
-    "Trinity Force",
-    "Youmuu's Ghostblade",
-    "Randuin's Omen",
-    "Banshee's Veil",
-    "Sunfire Cape",
     "Last Whisper",
-    "The Black Cleaver"
+    "Trinity Force",
+    "Randuin's Omen",
+    "Sunfire Cape",
+    "Youmuu's Ghostblade"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

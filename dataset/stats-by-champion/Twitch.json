@@ -1,6 +1,8 @@
 {
   "boots": [
-    "Berserker's Greaves"
+    "Berserker's Greaves",
+    "Boots of Speed",
+    "Boots of Mobility"
   ],
   "buildObj": {},
   "consumables": [
@@ -10,21 +12,22 @@
     "Stealth Ward"
   ],
   "elixirs": [
-    "Elixir of Ruin",
-    "Elixir of Wrath"
+    "Elixir of Wrath",
+    "Elixir of Ruin"
   ],
   "endgame": [
-    "The Bloodthirster",
-    "Statikk Shiv",
-    "Youmuu's Ghostblade",
-    "Runaan's Hurricane (Ranged Only)",
     "Blade of the Ruined King",
+    "Youmuu's Ghostblade",
     "Infinity Edge",
     "Last Whisper",
-    "Phantom Dancer"
+    "Phantom Dancer",
+    "The Bloodthirster",
+    "Statikk Shiv"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Scrying Orb (Trinket)",
+    "Farsight Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

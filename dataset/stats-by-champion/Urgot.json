@@ -1,26 +1,30 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi"
+    "Ninja Tabi",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Crystalline Flask"
+    "Crystalline Flask",
+    "Stealth Ward"
   ],
   "elixirs": [],
   "endgame": [
-    "Trinity Force",
-    "Frozen Heart",
-    "Youmuu's Ghostblade",
-    "Maw of Malmortius",
-    "Iceborn Gauntlet",
-    "Last Whisper",
+    "The Black Cleaver",
     "Muramana",
-    "The Black Cleaver"
+    "Frozen Heart",
+    "Last Whisper",
+    "Iceborn Gauntlet",
+    "Maw of Malmortius",
+    "Youmuu's Ghostblade"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)",
+    "Farsight Orb (Trinket)"
   ]
 }

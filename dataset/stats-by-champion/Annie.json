@@ -1,6 +1,8 @@
 {
   "boots": [
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Boots of Mobility",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
@@ -15,18 +17,17 @@
   ],
   "endgame": [
     "Rabadon's Deathcap",
-    "Rylai's Crystal Scepter",
-    "Void Staff",
+    "Luden's Echo",
+    "Rod of Ages",
     "Zhonya's Hourglass",
     "Morellonomicon",
-    "Luden's Echo",
-    "Abyssal Scepter",
-    "Rod of Ages"
+    "Void Staff",
+    "Rylai's Crystal Scepter"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
     "Greater Stealth Totem (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Sweeping Lens (Trinket)"
   ]
 }

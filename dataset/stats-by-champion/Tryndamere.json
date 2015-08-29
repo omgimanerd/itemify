@@ -1,25 +1,31 @@
 {
   "boots": [
-    "Berserker's Greaves"
+    "Berserker's Greaves",
+    "Mercury's Treads",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Vision Ward",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Vision Ward"
   ],
-  "elixirs": [],
+  "elixirs": [
+    "Elixir of Sorcery"
+  ],
   "endgame": [
-    "The Bloodthirster",
     "Statikk Shiv",
-    "Youmuu's Ghostblade",
     "Blade of the Ruined King",
     "Infinity Edge",
     "Last Whisper",
-    "Phantom Dancer"
+    "Phantom Dancer",
+    "Youmuu's Ghostblade",
+    "The Bloodthirster"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

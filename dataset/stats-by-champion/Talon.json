@@ -1,27 +1,31 @@
 {
   "boots": [
-    "Boots of Mobility"
+    "Boots of Mobility",
+    "Ionian Boots of Lucidity",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Crystalline Flask",
     "Health Potion",
-    "Mana Potion",
+    "Stealth Ward",
     "Vision Ward",
-    "Stealth Ward"
+    "Mana Potion"
   ],
   "elixirs": [],
   "endgame": [
-    "The Bloodthirster",
-    "Ravenous Hydra (Melee Only)",
-    "Trinity Force",
-    "Sword of the Occult",
-    "Youmuu's Ghostblade",
-    "Infinity Edge",
     "Last Whisper",
-    "The Black Cleaver"
+    "Youmuu's Ghostblade",
+    "Ravenous Hydra (Melee Only)",
+    "The Black Cleaver",
+    "Infinity Edge",
+    "The Bloodthirster",
+    "Sword of the Occult"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

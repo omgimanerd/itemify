@@ -1,29 +1,33 @@
 {
   "boots": [
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Berserker's Greaves",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Crystalline Flask",
     "Vision Ward",
+    "Crystalline Flask",
     "Stealth Ward"
   ],
   "elixirs": [
     "Elixir of Wrath"
   ],
   "endgame": [
-    "The Bloodthirster",
     "Trinity Force",
     "Blade of the Ruined King",
+    "Last Whisper",
     "Infinity Edge",
-    "Last Whisper"
+    "The Bloodthirster",
+    "Luden's Echo",
+    "Banshee's Veil"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
     "Scrying Orb (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Farsight Orb (Trinket)"
+    "Farsight Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

@@ -1,9 +1,8 @@
 {
   "boots": [
+    "Ninja Tabi",
     "Mercury's Treads",
-    "Boots of Speed",
-    "Berserker's Greaves",
-    "Ninja Tabi"
+    "Berserker's Greaves"
   ],
   "buildObj": {},
   "consumables": [
@@ -13,17 +12,18 @@
   ],
   "elixirs": [],
   "endgame": [
-    "The Bloodthirster",
-    "Ravenous Hydra (Melee Only)",
-    "Trinity Force",
-    "Randuin's Omen",
     "Blade of the Ruined King",
-    "Zephyr",
-    "Last Whisper",
+    "Spirit Visage",
+    "Ravenous Hydra (Melee Only)",
+    "Randuin's Omen",
     "Sterak's Gage",
-    "Spirit Visage"
+    "The Bloodthirster",
+    "Last Whisper"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Vision Totem (Trinket)"
   ]
 }

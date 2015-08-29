@@ -6,39 +6,28 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Stealth Ward",
     "Health Potion",
+    "Vision Ward",
+    "Stealth Ward",
     "Mana Potion",
-    "Crystalline Flask",
-    "Vision Ward"
+    "Crystalline Flask"
   ],
   "elixirs": [
     "Elixir of Sorcery"
   ],
   "endgame": [
-    "Thornmail",
-    "Warmog's Armor",
-    "Rabadon's Deathcap",
-    "Lich Bane",
-    "Banshee's Veil",
     "Frozen Heart",
-    "Void Staff",
+    "Spirit Visage",
     "Randuin's Omen",
-    "Zhonya's Hourglass",
     "Locket of the Iron Solari",
-    "Dead Man's Plate",
-    "Luden's Echo",
     "Righteous Glory",
     "Rod of Ages",
-    "Abyssal Scepter",
-    "Iceborn Gauntlet",
-    "Mejai's Soulstealer",
-    "Spirit Visage"
+    "Lich Bane"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

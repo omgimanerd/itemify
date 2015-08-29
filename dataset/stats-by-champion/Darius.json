@@ -1,34 +1,34 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi"
+    "Ninja Tabi",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
-    "Health Potion",
-    "Mana Potion",
     "Crystalline Flask",
+    "Health Potion",
     "Vision Ward",
+    "Mana Potion",
     "Stealth Ward"
   ],
   "elixirs": [
-    "Elixir of Iron",
-    "Elixir of Wrath"
+    "Elixir of Wrath",
+    "Elixir of Iron"
   ],
   "endgame": [
-    "The Bloodthirster",
-    "Ravenous Hydra (Melee Only)",
-    "Warmog's Armor",
-    "Randuin's Omen",
+    "The Black Cleaver",
     "Dead Man's Plate",
     "Titanic Hydra (Melee Only)",
-    "Spirit Visage",
-    "Last Whisper",
     "Sterak's Gage",
-    "The Black Cleaver"
+    "Spirit Visage",
+    "Warmog's Armor",
+    "Randuin's Omen"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)",
+    "Hextech Sweeper"
   ]
 }

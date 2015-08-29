@@ -1,37 +1,31 @@
 {
   "boots": [
-    "Boots of Mobility"
+    "Boots of Mobility",
+    "Ionian Boots of Lucidity",
+    "Sorcerer's Shoes"
   ],
   "buildObj": {},
   "consumables": [
-    "Crystalline Flask",
-    "Stealth Ward",
-    "Health Potion",
+    "Vision Ward",
     "Mana Potion",
-    "Vision Ward"
+    "Health Potion",
+    "Crystalline Flask",
+    "Stealth Ward"
   ],
   "elixirs": [],
   "endgame": [
-    "Warmog's Armor",
-    "Rabadon's Deathcap",
-    "Frost Queen's Claim",
-    "Banshee's Veil",
-    "Frozen Heart",
-    "Randuin's Omen",
-    "Locket of the Iron Solari",
-    "Mikael's Crucible",
-    "Luden's Echo",
-    "Righteous Glory",
-    "Twin Shadows",
-    "Iceborn Gauntlet",
     "Zeke's Harbinger",
+    "Locket of the Iron Solari",
+    "Frozen Heart",
+    "Talisman of Ascension",
     "Ruby Sightstone",
-    "Banner of Command",
-    "Talisman of Ascension"
+    "Randuin's Omen",
+    "Banner of Command"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
+    "Oracle's Lens (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Warding Totem (Trinket)",
+    "Soul Anchor (Trinket)"
   ]
 }

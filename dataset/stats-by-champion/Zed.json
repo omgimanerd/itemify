@@ -1,7 +1,6 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Boots of Mobility",
     "Ionian Boots of Lucidity",
     "Boots of Speed"
   ],
@@ -15,16 +14,18 @@
     "Elixir of Wrath"
   ],
   "endgame": [
+    "Blade of the Ruined King",
+    "Last Whisper",
+    "Youmuu's Ghostblade",
+    "The Black Cleaver",
     "The Bloodthirster",
     "Ravenous Hydra (Melee Only)",
-    "Youmuu's Ghostblade",
-    "Blade of the Ruined King",
-    "Maw of Malmortius",
-    "Last Whisper",
-    "The Black Cleaver"
+    "Maw of Malmortius"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

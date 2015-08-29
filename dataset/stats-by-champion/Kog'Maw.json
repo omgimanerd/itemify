@@ -1,36 +1,33 @@
 {
   "boots": [
     "Berserker's Greaves",
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
-    "Mana Potion",
     "Health Potion",
+    "Mana Potion",
+    "Stealth Ward",
     "Crystalline Flask",
-    "Vision Ward",
-    "Stealth Ward"
+    "Vision Ward"
   ],
   "elixirs": [
     "Elixir of Sorcery"
   ],
   "endgame": [
     "Trinity Force",
-    "Rabadon's Deathcap",
-    "Rylai's Crystal Scepter",
-    "Void Staff",
-    "Liandry's Torment",
     "Blade of the Ruined King",
     "Luden's Echo",
-    "Infinity Edge",
-    "Last Whisper",
     "Seraph's Embrace",
-    "Phantom Dancer"
+    "Infinity Edge",
+    "Rylai's Crystal Scepter",
+    "Last Whisper"
   ],
   "trinkets": [
-    "Greater Stealth Totem (Trinket)",
     "Warding Totem (Trinket)",
     "Scrying Orb (Trinket)",
-    "Farsight Orb (Trinket)"
+    "Farsight Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

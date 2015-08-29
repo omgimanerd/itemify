@@ -1,34 +1,31 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi"
+    "Ninja Tabi",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
-    "Stealth Ward",
     "Health Potion",
+    "Vision Ward",
     "Mana Potion",
-    "Crystalline Flask",
-    "Vision Ward"
+    "Stealth Ward",
+    "Crystalline Flask"
   ],
   "elixirs": [],
   "endgame": [
-    "Ravenous Hydra (Melee Only)",
-    "Thornmail",
-    "Trinity Force",
-    "Frozen Heart",
-    "Randuin's Omen",
     "Blade of the Ruined King",
-    "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
-    "Face of the Mountain",
     "Spirit Visage",
+    "Titanic Hydra (Melee Only)",
+    "Randuin's Omen",
+    "Dead Man's Plate",
     "Sterak's Gage",
     "Sunfire Cape"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Vision Totem (Trinket)"
   ]
 }

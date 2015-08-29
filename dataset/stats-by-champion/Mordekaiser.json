@@ -1,27 +1,31 @@
 {
   "boots": [
-    "Mercury's Treads",
-    "Sorcerer's Shoes",
     "Ninja Tabi",
+    "Mercury's Treads",
     "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
-    "Stealth Ward",
     "Health Potion",
-    "Vision Ward"
+    "Vision Ward",
+    "Stealth Ward"
   ],
   "elixirs": [
     "Elixir of Wrath"
   ],
   "endgame": [
     "Trinity Force",
-    "Rabadon's Deathcap",
     "Rylai's Crystal Scepter",
+    "Sterak's Gage",
     "Hextech Gunblade",
-    "Sterak's Gage"
+    "Rabadon's Deathcap",
+    "Randuin's Omen",
+    "Dead Man's Plate"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Scrying Orb (Trinket)"
   ]
 }

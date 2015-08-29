@@ -1,6 +1,8 @@
 {
   "boots": [
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Boots of Speed",
+    "Berserker's Greaves"
   ],
   "buildObj": {},
   "consumables": [
@@ -10,17 +12,18 @@
   ],
   "elixirs": [],
   "endgame": [
+    "Zhonya's Hourglass",
     "Rabadon's Deathcap",
     "Rylai's Crystal Scepter",
-    "Void Staff",
+    "Abyssal Scepter",
     "Liandry's Torment",
-    "Will of the Ancients",
-    "Zhonya's Hourglass",
-    "Luden's Echo",
-    "Abyssal Scepter"
+    "Void Staff",
+    "Will of the Ancients"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Greater Stealth Totem (Trinket)",
-    "Warding Totem (Trinket)"
+    "Hextech Sweeper",
+    "Oracle's Lens (Trinket)"
   ]
 }

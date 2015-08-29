@@ -1,31 +1,31 @@
 {
   "boots": [
+    "Berserker's Greaves",
     "Ionian Boots of Lucidity",
-    "Berserker's Greaves"
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
-    "Crystalline Flask",
     "Health Potion",
+    "Crystalline Flask",
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward"
   ],
   "elixirs": [],
   "endgame": [
-    "The Bloodthirster",
-    "Runaan's Hurricane (Ranged Only)",
-    "Statikk Shiv",
-    "Youmuu's Ghostblade",
-    "Blade of the Ruined King",
-    "Essence Reaver",
-    "Infinity Edge",
     "Last Whisper",
+    "Infinity Edge",
+    "The Bloodthirster",
+    "Youmuu's Ghostblade",
     "Muramana",
+    "Statikk Shiv",
     "Phantom Dancer"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Farsight Orb (Trinket)"
+    "Farsight Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Scrying Orb (Trinket)"
   ]
 }

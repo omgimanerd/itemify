@@ -1,26 +1,31 @@
 {
   "boots": [
-    "Mercury's Treads"
+    "Mercury's Treads",
+    "Ionian Boots of Lucidity",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Crystalline Flask",
     "Mana Potion",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Vision Ward"
   ],
   "elixirs": [],
   "endgame": [
-    "Trinity Force",
-    "Thornmail",
-    "Frozen Heart",
-    "Iceborn Gauntlet",
-    "Muramana",
     "Spirit Visage",
-    "The Black Cleaver"
+    "Frozen Heart",
+    "Muramana",
+    "Trinity Force",
+    "Iceborn Gauntlet",
+    "The Black Cleaver",
+    "Thornmail"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Hextech Sweeper",
+    "Oracle's Lens (Trinket)"
   ]
 }

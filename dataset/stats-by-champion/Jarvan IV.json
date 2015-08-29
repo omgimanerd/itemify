@@ -2,37 +2,32 @@
   "boots": [
     "Mercury's Treads",
     "Boots of Mobility",
-    "Ninja Tabi",
-    "Boots of Speed"
+    "Ninja Tabi"
   ],
   "buildObj": {},
   "consumables": [
-    "Crystalline Flask",
-    "Stealth Ward",
     "Health Potion",
-    "Mana Potion",
-    "Vision Ward"
+    "Crystalline Flask",
+    "Vision Ward",
+    "Stealth Ward",
+    "Mana Potion"
   ],
-  "elixirs": [],
+  "elixirs": [
+    "Elixir of Wrath"
+  ],
   "endgame": [
+    "The Black Cleaver",
     "Ravenous Hydra (Melee Only)",
-    "Thornmail",
-    "Frozen Heart",
-    "Youmuu's Ghostblade",
     "Randuin's Omen",
-    "Maw of Malmortius",
-    "Locket of the Iron Solari",
-    "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
-    "Banshee's Veil",
     "Last Whisper",
-    "Sterak's Gage",
-    "Spirit Visage",
-    "The Black Cleaver"
+    "Banshee's Veil",
+    "Titanic Hydra (Melee Only)",
+    "Frozen Heart"
   ],
   "trinkets": [
-    "Oracle's Lens (Trinket)",
     "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)"
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

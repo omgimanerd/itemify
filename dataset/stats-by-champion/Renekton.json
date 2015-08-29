@@ -7,24 +7,23 @@
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Vision Ward",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Vision Ward"
   ],
   "elixirs": [],
   "endgame": [
+    "The Black Cleaver",
     "Ravenous Hydra (Melee Only)",
-    "Thornmail",
-    "Randuin's Omen",
-    "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
-    "Banshee's Veil",
-    "Sunfire Cape",
-    "Sterak's Gage",
     "Spirit Visage",
-    "The Black Cleaver"
+    "Randuin's Omen",
+    "Titanic Hydra (Melee Only)",
+    "Sunfire Cape",
+    "Thornmail"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)",
+    "Hextech Sweeper"
   ]
 }

@@ -1,32 +1,29 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Boots of Mobility",
     "Ninja Tabi",
-    "Boots of Speed"
+    "Boots of Mobility"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Vision Ward",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Vision Ward"
   ],
   "elixirs": [],
   "endgame": [
-    "Thornmail",
-    "Warmog's Armor",
-    "Rylai's Crystal Scepter",
+    "Spirit Visage",
     "Randuin's Omen",
+    "Warmog's Armor",
     "Liandry's Torment",
-    "Dead Man's Plate",
-    "Abyssal Scepter",
-    "Sunfire Cape",
-    "Spirit Visage"
+    "Thornmail",
+    "Rylai's Crystal Scepter",
+    "Sunfire Cape"
   ],
   "trinkets": [
-    "Oracle's Lens (Trinket)",
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

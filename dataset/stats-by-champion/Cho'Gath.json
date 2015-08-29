@@ -1,32 +1,34 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Ionian Boots of Lucidity"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Stealth Ward",
     "Mana Potion",
-    "Vision Ward",
-    "Crystalline Flask"
+    "Crystalline Flask",
+    "Stealth Ward",
+    "Vision Ward"
   ],
   "elixirs": [
-    "Elixir of Iron"
+    "Elixir of Iron",
+    "Elixir of Ruin"
   ],
   "endgame": [
-    "Rabadon's Deathcap",
-    "Frozen Heart",
-    "Rylai's Crystal Scepter",
-    "Randuin's Omen",
-    "Zhonya's Hourglass",
-    "Luden's Echo",
-    "Abyssal Scepter",
     "Rod of Ages",
+    "Frozen Heart",
+    "Rabadon's Deathcap",
+    "Abyssal Scepter",
+    "Rylai's Crystal Scepter",
+    "Luden's Echo",
     "Spirit Visage"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Greater Stealth Totem (Trinket)",
-    "Warding Totem (Trinket)"
+    "Sweeping Lens (Trinket)",
+    "Hextech Sweeper"
   ]
 }

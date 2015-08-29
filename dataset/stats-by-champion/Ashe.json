@@ -1,6 +1,8 @@
 {
   "boots": [
-    "Berserker's Greaves"
+    "Berserker's Greaves",
+    "Boots of Speed",
+    "Ionian Boots of Lucidity"
   ],
   "buildObj": {},
   "consumables": [
@@ -13,14 +15,18 @@
     "Elixir of Wrath"
   ],
   "endgame": [
-    "The Bloodthirster",
-    "Statikk Shiv",
     "Infinity Edge",
+    "Phantom Dancer",
+    "The Bloodthirster",
     "Last Whisper",
-    "Phantom Dancer"
+    "Statikk Shiv",
+    "Blade of the Ruined King",
+    "Runaan's Hurricane (Ranged Only)"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Scrying Orb (Trinket)",
+    "Farsight Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

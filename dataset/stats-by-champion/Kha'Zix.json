@@ -1,15 +1,14 @@
 {
   "boots": [
-    "Mercury's Treads",
     "Boots of Mobility",
-    "Ionian Boots of Lucidity",
-    "Boots of Speed"
+    "Mercury's Treads",
+    "Ionian Boots of Lucidity"
   ],
   "buildObj": {},
   "consumables": [
-    "Stealth Ward",
     "Health Potion",
     "Mana Potion",
+    "Stealth Ward",
     "Crystalline Flask",
     "Vision Ward"
   ],
@@ -17,23 +16,18 @@
     "Elixir of Wrath"
   ],
   "endgame": [
-    "Ravenous Hydra (Melee Only)",
-    "Lich Bane",
-    "Nashor's Tooth",
-    "Randuin's Omen",
-    "Maw of Malmortius",
-    "Zhonya's Hourglass",
-    "Luden's Echo",
-    "Guardian Angel",
     "Last Whisper",
-    "Mejai's Soulstealer",
-    "The Black Cleaver"
+    "Ravenous Hydra (Melee Only)",
+    "The Black Cleaver",
+    "Maw of Malmortius",
+    "Randuin's Omen",
+    "Guardian Angel",
+    "Mejai's Soulstealer"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Farsight Orb (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

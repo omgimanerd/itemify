@@ -1,16 +1,14 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Boots of Mobility",
-    "Boots of Swiftness",
-    "Ninja Tabi",
-    "Boots of Speed"
+    "Boots of Speed",
+    "Ninja Tabi"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Mana Potion",
     "Crystalline Flask",
+    "Mana Potion",
     "Stealth Ward"
   ],
   "elixirs": [
@@ -19,11 +17,16 @@
   "endgame": [
     "Trinity Force",
     "Blade of the Ruined King",
-    "Dead Man's Plate"
+    "Dead Man's Plate",
+    "Hextech Gunblade",
+    "Ravenous Hydra (Melee Only)",
+    "Zephyr",
+    "Frozen Mallet"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Soul Anchor (Trinket)"
+    "Soul Anchor (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

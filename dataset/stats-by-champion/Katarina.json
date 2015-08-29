@@ -1,29 +1,32 @@
 {
   "boots": [
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Boots of Speed",
+    "Boots of Mobility"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Crystalline Flask",
+    "Stealth Ward",
     "Vision Ward",
-    "Stealth Ward"
+    "Crystalline Flask"
   ],
   "elixirs": [
     "Elixir of Sorcery"
   ],
   "endgame": [
-    "Rabadon's Deathcap",
-    "Rylai's Crystal Scepter",
-    "Void Staff",
-    "Liandry's Torment",
-    "Zhonya's Hourglass",
     "Luden's Echo",
+    "Rabadon's Deathcap",
+    "Zhonya's Hourglass",
     "Abyssal Scepter",
+    "Void Staff",
+    "Rylai's Crystal Scepter",
     "Mejai's Soulstealer"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Greater Stealth Totem (Trinket)",
-    "Warding Totem (Trinket)"
+    "Greater Vision Totem (Trinket)",
+    "Hextech Sweeper"
   ]
 }

@@ -1,36 +1,33 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Boots of Mobility"
+    "Boots of Mobility",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
-    "Mana Potion",
-    "Health Potion",
     "Vision Ward",
-    "Stealth Ward"
+    "Health Potion",
+    "Mana Potion",
+    "Stealth Ward",
+    "Crystalline Flask"
   ],
   "elixirs": [
     "Elixir of Iron"
   ],
   "endgame": [
-    "Thornmail",
-    "Banshee's Veil",
-    "Frozen Heart",
-    "Randuin's Omen",
-    "Locket of the Iron Solari",
-    "Dead Man's Plate",
-    "Righteous Glory",
     "Face of the Mountain",
+    "Locket of the Iron Solari",
     "Sunfire Cape",
-    "Total Biscuit of Rejuvenation",
-    "Zeke's Harbinger",
-    "Ruby Sightstone",
-    "Spirit Visage"
+    "Randuin's Omen",
+    "Frozen Heart",
+    "Righteous Glory",
+    "Ruby Sightstone"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Warding Totem (Trinket)",
+    "Greater Vision Totem (Trinket)"
   ]
 }

@@ -1,40 +1,33 @@
 {
   "boots": [
-    "Mercury's Treads",
-    "Sorcerer's Shoes",
     "Ninja Tabi",
-    "Boots of Speed"
+    "Mercury's Treads",
+    "Sorcerer's Shoes"
   ],
   "buildObj": {},
   "consumables": [
-    "Mana Potion",
-    "Stealth Ward",
     "Health Potion",
     "Crystalline Flask",
-    "Vision Ward"
+    "Mana Potion",
+    "Vision Ward",
+    "Stealth Ward"
   ],
   "elixirs": [
     "Elixir of Sorcery"
   ],
   "endgame": [
-    "Thornmail",
-    "Warmog's Armor",
-    "Rabadon's Deathcap",
     "Frozen Heart",
-    "Randuin's Omen",
-    "Liandry's Torment",
-    "Zhonya's Hourglass",
-    "Dead Man's Plate",
-    "Banshee's Veil",
-    "Luden's Echo",
-    "Rod of Ages",
+    "Sunfire Cape",
     "Abyssal Scepter",
+    "Thornmail",
+    "Randuin's Omen",
     "Iceborn Gauntlet",
-    "Spirit Visage",
-    "Sunfire Cape"
+    "Luden's Echo"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

@@ -1,15 +1,16 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi"
+    "Ninja Tabi",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
-    "Stealth Ward",
-    "Health Potion",
-    "Mana Potion",
     "Crystalline Flask",
-    "Vision Ward"
+    "Health Potion",
+    "Vision Ward",
+    "Mana Potion",
+    "Stealth Ward"
   ],
   "elixirs": [
     "Elixir of Iron",
@@ -17,13 +18,17 @@
   ],
   "endgame": [
     "Trinity Force",
-    "Frozen Heart",
-    "Randuin's Omen",
     "Blade of the Ruined King",
-    "Spirit Visage"
+    "Frozen Heart",
+    "Spirit Visage",
+    "Randuin's Omen",
+    "Sterak's Gage",
+    "Dead Man's Plate"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)",
+    "Sweeping Lens (Trinket)"
   ]
 }

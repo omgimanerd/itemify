@@ -1,6 +1,8 @@
 {
   "boots": [
-    "Berserker's Greaves"
+    "Berserker's Greaves",
+    "Boots of Speed",
+    "Mercury's Treads"
   ],
   "buildObj": {},
   "consumables": [
@@ -8,20 +10,25 @@
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward",
-    "Oracle's Extract"
+    "Oracle's Extract",
+    "Crystalline Flask"
   ],
   "elixirs": [
     "Elixir of Wrath"
   ],
   "endgame": [
-    "The Bloodthirster",
-    "Statikk Shiv",
     "Infinity Edge",
+    "Phantom Dancer",
+    "Statikk Shiv",
     "Last Whisper",
-    "Phantom Dancer"
+    "The Bloodthirster",
+    "Blade of the Ruined King",
+    "Guardian Angel"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Scrying Orb (Trinket)"
+    "Scrying Orb (Trinket)",
+    "Farsight Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

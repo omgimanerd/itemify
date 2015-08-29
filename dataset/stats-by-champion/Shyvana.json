@@ -1,7 +1,8 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi"
+    "Ninja Tabi",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
@@ -10,25 +11,22 @@
     "Stealth Ward"
   ],
   "elixirs": [
-    "Elixir of Ruin",
-    "Elixir of Iron",
-    "Elixir of Wrath"
+    "Elixir of Wrath",
+    "Elixir of Ruin"
   ],
   "endgame": [
-    "Ravenous Hydra (Melee Only)",
-    "Thornmail",
-    "Trinity Force",
-    "Randuin's Omen",
     "Blade of the Ruined King",
+    "Randuin's Omen",
+    "Spirit Visage",
     "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
     "Sunfire Cape",
-    "Spirit Visage"
+    "Titanic Hydra (Melee Only)",
+    "Thornmail"
   ],
   "trinkets": [
-    "Oracle's Lens (Trinket)",
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)",
     "Greater Stealth Totem (Trinket)"
   ]
 }

@@ -1,28 +1,33 @@
 {
   "boots": [
-    "Ionian Boots of Lucidity"
+    "Ionian Boots of Lucidity",
+    "Boots of Speed",
+    "Mercury's Treads"
   ],
   "buildObj": {},
   "consumables": [
     "Crystalline Flask",
-    "Stealth Ward",
     "Health Potion",
     "Mana Potion",
-    "Vision Ward"
+    "Vision Ward",
+    "Stealth Ward"
   ],
   "elixirs": [
     "Elixir of Wrath"
   ],
   "endgame": [
-    "The Bloodthirster",
     "Trinity Force",
-    "Statikk Shiv",
     "Infinity Edge",
+    "Statikk Shiv",
+    "The Bloodthirster",
+    "Spirit Visage",
     "Last Whisper",
-    "Spirit Visage"
+    "Youmuu's Ghostblade"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Hextech Sweeper",
+    "Greater Vision Totem (Trinket)"
   ]
 }

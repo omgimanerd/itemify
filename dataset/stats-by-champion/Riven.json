@@ -1,27 +1,33 @@
 {
   "boots": [
-    "Ionian Boots of Lucidity"
+    "Ionian Boots of Lucidity",
+    "Mercury's Treads",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Vision Ward",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Mana Potion"
   ],
   "elixirs": [
-    "Elixir of Iron",
-    "Elixir of Wrath"
+    "Elixir of Wrath",
+    "Elixir of Iron"
   ],
   "endgame": [
-    "The Bloodthirster",
     "Ravenous Hydra (Melee Only)",
-    "Sword of the Occult",
-    "Youmuu's Ghostblade",
     "Last Whisper",
-    "The Black Cleaver"
+    "The Black Cleaver",
+    "The Bloodthirster",
+    "Youmuu's Ghostblade",
+    "Sword of the Occult",
+    "Maw of Malmortius"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)",
+    "Sweeping Lens (Trinket)"
   ]
 }

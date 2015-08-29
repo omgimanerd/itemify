@@ -6,22 +6,25 @@
   ],
   "buildObj": {},
   "consumables": [
-    "Mana Potion",
     "Health Potion",
-    "Vision Ward"
+    "Vision Ward",
+    "Mana Potion",
+    "Stealth Ward"
   ],
   "elixirs": [],
   "endgame": [
-    "Thornmail",
+    "Spirit Visage",
     "Warmog's Armor",
-    "Randuin's Omen",
-    "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
     "Sunfire Cape",
-    "Spirit Visage"
+    "Randuin's Omen",
+    "Thornmail",
+    "Dead Man's Plate",
+    "Titanic Hydra (Melee Only)"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Soul Anchor (Trinket)"
   ]
 }

@@ -1,11 +1,13 @@
 {
   "boots": [
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Boots of Speed",
+    "Mercury's Treads"
   ],
   "buildObj": {},
   "consumables": [
-    "Health Potion",
     "Mana Potion",
+    "Health Potion",
     "Crystalline Flask",
     "Vision Ward"
   ],
@@ -13,15 +15,18 @@
     "Elixir of Sorcery"
   ],
   "endgame": [
-    "Rabadon's Deathcap",
-    "Frozen Heart",
-    "Void Staff",
-    "Abyssal Scepter",
     "Rod of Ages",
-    "Seraph's Embrace"
+    "Frozen Heart",
+    "Seraph's Embrace",
+    "Void Staff",
+    "Rabadon's Deathcap",
+    "Abyssal Scepter",
+    "Luden's Echo"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Greater Stealth Totem (Trinket)",
-    "Warding Totem (Trinket)"
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

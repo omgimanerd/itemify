@@ -1,14 +1,16 @@
 {
   "boots": [
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Boots of Speed",
+    "Ionian Boots of Lucidity"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Mana Potion",
     "Crystalline Flask",
-    "Vision Ward",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Vision Ward"
   ],
   "elixirs": [
     "Elixir of Sorcery"
@@ -16,15 +18,16 @@
   "endgame": [
     "Rabadon's Deathcap",
     "Void Staff",
-    "Liandry's Torment",
-    "Zhonya's Hourglass",
-    "Morellonomicon",
     "Athene's Unholy Grail",
     "Luden's Echo",
+    "Morellonomicon",
+    "Zhonya's Hourglass",
     "Seraph's Embrace"
   ],
   "trinkets": [
+    "Warding Totem (Trinket)",
     "Greater Stealth Totem (Trinket)",
-    "Warding Totem (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Hextech Sweeper"
   ]
 }

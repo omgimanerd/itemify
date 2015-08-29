@@ -1,31 +1,32 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi"
+    "Ninja Tabi",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Vision Ward",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Crystalline Flask"
   ],
   "elixirs": [
     "Elixir of Iron"
   ],
   "endgame": [
-    "Thornmail",
-    "Trinity Force",
+    "The Black Cleaver",
     "Randuin's Omen",
-    "Blade of the Ruined King",
-    "Dead Man's Plate",
-    "Banshee's Veil",
-    "Sunfire Cape",
-    "Frozen Mallet",
     "Spirit Visage",
-    "The Black Cleaver"
+    "Sunfire Cape",
+    "Blade of the Ruined King",
+    "Thornmail",
+    "Banshee's Veil"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Hextech Sweeper",
+    "Greater Vision Totem (Trinket)"
   ]
 }

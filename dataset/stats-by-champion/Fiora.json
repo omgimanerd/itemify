@@ -1,14 +1,13 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ionian Boots of Lucidity",
-    "Ninja Tabi",
-    "Boots of Speed"
+    "Boots of Speed",
+    "Ninja Tabi"
   ],
   "buildObj": {},
   "consumables": [
-    "Crystalline Flask",
     "Health Potion",
+    "Crystalline Flask",
     "Mana Potion",
     "Vision Ward",
     "Stealth Ward"
@@ -17,16 +16,18 @@
     "Elixir of Wrath"
   ],
   "endgame": [
-    "The Bloodthirster",
     "Ravenous Hydra (Melee Only)",
     "Trinity Force",
-    "Blade of the Ruined King",
-    "Infinity Edge",
+    "The Black Cleaver",
+    "The Bloodthirster",
     "Last Whisper",
-    "The Black Cleaver"
+    "Infinity Edge",
+    "Blade of the Ruined King"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)",
+    "Hextech Sweeper"
   ]
 }

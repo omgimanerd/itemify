@@ -1,38 +1,34 @@
 {
   "boots": [
-    "Boots of Mobility"
+    "Boots of Mobility",
+    "Mercury's Treads",
+    "Ionian Boots of Lucidity"
   ],
   "buildObj": {},
   "consumables": [
-    "Crystalline Flask",
-    "Stealth Ward",
-    "Health Potion",
+    "Vision Ward",
     "Mana Potion",
-    "Vision Ward"
+    "Health Potion",
+    "Stealth Ward",
+    "Crystalline Flask"
   ],
   "elixirs": [
-    "Elixir of Ruin",
     "Elixir of Iron",
-    "Elixir of Wrath"
+    "Elixir of Ruin"
   ],
   "endgame": [
-    "Banshee's Veil",
+    "Locket of the Iron Solari",
+    "Face of the Mountain",
+    "Talisman of Ascension",
     "Frozen Heart",
     "Randuin's Omen",
-    "Locket of the Iron Solari",
-    "Mikael's Crucible",
-    "Righteous Glory",
-    "Face of the Mountain",
-    "Dead Man's Plate",
-    "Total Biscuit of Rejuvenation",
     "Zeke's Harbinger",
-    "Ruby Sightstone",
-    "Sunfire Cape",
-    "Talisman of Ascension"
+    "Righteous Glory"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)",
+    "Oracle's Lens (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Warding Totem (Trinket)",
+    "Greater Vision Totem (Trinket)"
   ]
 }

@@ -1,25 +1,32 @@
 {
   "boots": [
-    "Berserker's Greaves"
+    "Berserker's Greaves",
+    "Boots of Speed",
+    "Ionian Boots of Lucidity"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Vision Ward",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Vision Ward"
   ],
   "elixirs": [
     "Elixir of Wrath"
   ],
   "endgame": [
-    "The Bloodthirster",
-    "Statikk Shiv",
     "Infinity Edge",
+    "Statikk Shiv",
+    "The Bloodthirster",
+    "Phantom Dancer",
     "Last Whisper",
-    "Phantom Dancer"
+    "The Black Cleaver",
+    "Blade of the Ruined King"
   ],
   "trinkets": [
-    "Warding Totem (Trinket)"
+    "Warding Totem (Trinket)",
+    "Scrying Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Farsight Orb (Trinket)"
   ]
 }

@@ -1,6 +1,8 @@
 {
   "boots": [
-    "Sorcerer's Shoes"
+    "Sorcerer's Shoes",
+    "Ionian Boots of Lucidity",
+    "Mercury's Treads"
   ],
   "buildObj": {},
   "consumables": [
@@ -13,15 +15,18 @@
     "Elixir of Sorcery"
   ],
   "endgame": [
-    "Rabadon's Deathcap",
-    "Rylai's Crystal Scepter",
-    "Void Staff",
     "Liandry's Torment",
     "Zhonya's Hourglass",
-    "Abyssal Scepter"
+    "Rylai's Crystal Scepter",
+    "Void Staff",
+    "Abyssal Scepter",
+    "Rabadon's Deathcap",
+    "Will of the Ancients"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Vision Totem (Trinket)"
   ]
 }

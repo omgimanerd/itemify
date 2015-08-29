@@ -7,25 +7,19 @@
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Stealth Ward",
     "Mana Potion",
+    "Stealth Ward",
     "Vision Ward"
   ],
   "elixirs": [],
   "endgame": [
-    "Thornmail",
-    "Warmog's Armor",
-    "Banshee's Veil",
     "Frozen Heart",
-    "Rylai's Crystal Scepter",
     "Randuin's Omen",
     "Liandry's Torment",
-    "Locket of the Iron Solari",
-    "Dead Man's Plate",
-    "Righteous Glory",
+    "Warmog's Armor",
+    "Banshee's Veil",
     "Abyssal Scepter",
-    "Spirit Visage",
-    "Sunfire Cape"
+    "Righteous Glory"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",

@@ -2,28 +2,30 @@
   "boots": [
     "Mercury's Treads",
     "Boots of Mobility",
-    "Boots of Swiftness",
     "Ninja Tabi"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
-    "Mana Potion",
     "Crystalline Flask",
     "Vision Ward",
+    "Mana Potion",
     "Stealth Ward"
   ],
   "elixirs": [],
   "endgame": [
     "Trinity Force",
-    "Frozen Heart",
-    "Dead Man's Plate",
     "Spirit Visage",
+    "Dead Man's Plate",
+    "Frozen Heart",
+    "The Black Cleaver",
     "Sterak's Gage",
-    "The Black Cleaver"
+    "Youmuu's Ghostblade"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

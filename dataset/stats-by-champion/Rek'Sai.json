@@ -1,34 +1,32 @@
 {
   "boots": [
     "Mercury's Treads",
-    "Ninja Tabi"
+    "Ninja Tabi",
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Vision Ward",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Mana Potion"
   ],
   "elixirs": [
     "Elixir of Iron"
   ],
   "endgame": [
-    "Ravenous Hydra (Melee Only)",
-    "Thornmail",
-    "Trinity Force",
+    "The Black Cleaver",
     "Randuin's Omen",
-    "Locket of the Iron Solari",
-    "Dead Man's Plate",
-    "Titanic Hydra (Melee Only)",
-    "Frozen Mallet",
-    "Sterak's Gage",
     "Spirit Visage",
-    "The Black Cleaver"
+    "Titanic Hydra (Melee Only)",
+    "Dead Man's Plate",
+    "Thornmail",
+    "Ravenous Hydra (Melee Only)"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
     "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Oracle's Lens (Trinket)"
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
   ]
 }

@@ -1,32 +1,34 @@
 {
   "boots": [
+    "Sorcerer's Shoes",
     "Ionian Boots of Lucidity",
-    "Sorcerer's Shoes"
+    "Boots of Speed"
   ],
   "buildObj": {},
   "consumables": [
     "Health Potion",
     "Mana Potion",
-    "Vision Ward",
     "Crystalline Flask",
-    "Stealth Ward"
+    "Stealth Ward",
+    "Vision Ward",
+    "Oracle's Extract"
   ],
   "elixirs": [
     "Elixir of Sorcery"
   ],
   "endgame": [
     "Rabadon's Deathcap",
-    "Rylai's Crystal Scepter",
+    "Luden's Echo",
     "Void Staff",
+    "Perfect Hex Core",
     "Zhonya's Hourglass",
     "Morellonomicon",
-    "Athene's Unholy Grail",
-    "Perfect Hex Core",
-    "Lich Bane",
-    "Luden's Echo"
+    "Lich Bane"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+    "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)"
   ]
 }

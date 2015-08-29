@@ -11,16 +11,14 @@ from item_set_generator import ItemSetGenerator
 from util import Util
 from stat_analyzer import StatAnalyzer
 
-# For any given list of items sorted by effectiveness, we will only take the
-# items with an effectiveness value higher than the maximum effectiveness in
-# the list times EFFECTIVENESS_THRESHOLD. We have a different effectiveness
-# threshold for each category of item.
-EFFECTIVENESS_THRESHOLD = {
-  'trinkets': 0.2,
-  'boots': 0.3,
-  'endgame': 0.125,
-  'elixirs': 0,
-  'consumables': 0
+# For each category of items, we will impose a limit on the max number of
+# items we show.
+ITEM_LIMIT = {
+  'trinkets': 4,
+  'boots': 3,
+  'endgame': 7,
+  'elixirs': 2,
+  'consumables': 10
 }
 
 def main():
@@ -86,7 +84,9 @@ def main():
       'elixirs': [],
       'consumables': []
     }
-    for item in build_stats[champion]:
+    effectiveness_sorted_items = sorted(build_stats[champion],
+                                        key=build_stats[champion].get)[::-1]
+    for item in effectiveness_sorted_items:
       if analyzer.is_irrelevant(item) or not analyzer.get_item_name_by_id(item):
         continue
       elif analyzer.is_trinket(item):
@@ -100,22 +100,11 @@ def main():
       elif not analyzer.get_items_built_from(item):
         build_output['endgame'].append(item)
 
-    # For boots and endgame items, we will cut off the items that are below a
-    # certain effectiveness threshold.
+    # For each category of item, we will only show a certain number of them.
     for category in build_output:
-      effectiveness_values = [build_stats[champion][item] for item in (
-          build_output[category])]
-      # We append 0 to prevent effectiveness_values from being an empty
-      # sequence, for which the max() function will fail.
-      effectiveness_values.append(0)
-      effectiveness_cutoff = max(effectiveness_values) * (
-          EFFECTIVENESS_THRESHOLD[category])
-      build_output[category] = filter(
-          lambda item: build_stats[champion][item] >= effectiveness_cutoff,
-        build_output[category])
-
-      build_output[category] = map(analyzer.get_item_name_by_id,
-                                   build_output[category])
+      build_output[category] = map(
+          analyzer.get_item_name_by_id,
+          build_output[category])[:ITEM_LIMIT[category]]
 
     generator = ItemSetGenerator.create(champion)
 
@@ -124,7 +113,7 @@ def main():
     with open('../stats-by-champion/%s.json' % champion,
               'w') as champion_output:
       champion_output.write(Util.json_dump(build_output))
-#    print 'Sucessfully wrote %s.json' % champion
+  print 'Sucessfully wrote champion data'
 
 if __name__ == '__main__':
   main()

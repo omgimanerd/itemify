@@ -1,39 +1,34 @@
 {
   "boots": [
     "Boots of Mobility",
-    "Ionian Boots of Lucidity",
     "Berserker's Greaves",
     "Sorcerer's Shoes"
   ],
   "buildObj": {},
   "consumables": [
-    "Crystalline Flask",
     "Health Potion",
-    "Mana Potion",
     "Vision Ward",
-    "Stealth Ward"
+    "Mana Potion",
+    "Stealth Ward",
+    "Crystalline Flask"
   ],
-  "elixirs": [],
+  "elixirs": [
+    "Elixir of Ruin",
+    "Elixir of Iron"
+  ],
   "endgame": [
     "Ravenous Hydra (Melee Only)",
-    "Trinity Force",
     "Statikk Shiv",
-    "Rabadon's Deathcap",
-    "Lich Bane",
-    "Void Staff",
-    "The Black Cleaver",
-    "Liandry's Torment",
-    "Blade of the Ruined King",
-    "Morellonomicon",
-    "Dead Man's Plate",
-    "Luden's Echo",
     "Infinity Edge",
-    "Last Whisper"
+    "Luden's Echo",
+    "Rabadon's Deathcap",
+    "Trinity Force",
+    "Morellonomicon"
   ],
   "trinkets": [
     "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
     "Greater Stealth Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
     "Oracle's Lens (Trinket)"
   ]
 }
