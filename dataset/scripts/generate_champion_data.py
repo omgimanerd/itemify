@@ -15,6 +15,9 @@ from stat_analyzer import StatAnalyzer
 # For each category of items, we will impose a limit on the max number of
 # items we show, we will also specify here whether or not we will sort the
 # category by item tier.
+CATEGORIES = [
+  'Trinkets', 'Consumables', 'Boots', 'Jungle', 'Endgame', 'Elixirs'
+]
 ITEM_LIMIT = {
   'Trinkets': 4,
   'Boots': 3,
@@ -88,14 +91,10 @@ def main():
     # buildObj is a dict that when dumped to a JSON object, becomes a valid
     # build file that someone can put in the League of Legends directory and
     # use.
-    build_output = {
-      'Trinkets': [],
-      'Boots': [],
-      'Jungle': [],
-      'Elixirs': [],
-      'Consumables': [],
-      'Endgame': []
-    }
+    build_output = {}
+    for category in CATEGORIES:
+      build_output[category] = []
+
     effectiveness_sorted_items = sorted(build_stats[champion],
                                         key=build_stats[champion].get)[::-1]
     for item in effectiveness_sorted_items:
@@ -118,7 +117,7 @@ def main():
     # will will generate the item set for each category. We will also sort
     # the items on build tree, where lower tier items will come first.
     generator = ItemSetGenerator.create(champion)
-    for category in build_output:
+    for category in CATEGORIES:
       build_output[category] = build_output[category][:ITEM_LIMIT[category]]
       if SORT_TIER[category]:
         build_output[category] = sorted(
@@ -128,7 +127,7 @@ def main():
       items = ItemSetBlockItems()
       for item in build_output[category]:
         items.add_item(item, 1)
-      generator.add_block(category, True, items.get_items())
+      generator.add_block(category, False, items.get_items())
 
       build_output[category] = map(
           analyzer.get_item_name_by_id, build_output[category])

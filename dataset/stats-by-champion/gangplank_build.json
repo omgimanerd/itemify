@@ -19,18 +19,8 @@
           "id": "3362"
         }
       ],
-      "recMath": true,
+      "recMath": false,
       "type": "Trinkets"
-    },
-    {
-      "items": [
-        {
-          "count": 1,
-          "id": "2140"
-        }
-      ],
-      "recMath": true,
-      "type": "Elixirs"
     },
     {
       "items": [
@@ -55,7 +45,7 @@
           "id": "2044"
         }
       ],
-      "recMath": true,
+      "recMath": false,
       "type": "Consumables"
     },
     {
@@ -73,12 +63,12 @@
           "id": "3111"
         }
       ],
-      "recMath": true,
+      "recMath": false,
       "type": "Boots"
     },
     {
       "items": [],
-      "recMath": true,
+      "recMath": false,
       "type": "Jungle"
     },
     {
@@ -112,8 +102,18 @@
           "id": "3142"
         }
       ],
-      "recMath": true,
+      "recMath": false,
       "type": "Endgame"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2140"
+        }
+      ],
+      "recMath": false,
+      "type": "Elixirs"
     }
   ],
   "map": "any",
