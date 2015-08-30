@@ -1,0 +1,124 @@
+{
+  "blocks": [
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3340"
+        },
+        {
+          "count": 1,
+          "id": "3342"
+        },
+        {
+          "count": 1,
+          "id": "3363"
+        },
+        {
+          "count": 1,
+          "id": "3361"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Trinkets"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2003"
+        },
+        {
+          "count": 1,
+          "id": "2004"
+        },
+        {
+          "count": 1,
+          "id": "2044"
+        },
+        {
+          "count": 1,
+          "id": "2041"
+        },
+        {
+          "count": 1,
+          "id": "2043"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Consumables"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "1001"
+        },
+        {
+          "count": 1,
+          "id": "3006"
+        },
+        {
+          "count": 1,
+          "id": "3020"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Boots"
+    },
+    {
+      "items": [],
+      "recMath": false,
+      "type": "Recommended Jungle"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3078"
+        },
+        {
+          "count": 1,
+          "id": "3153"
+        },
+        {
+          "count": 1,
+          "id": "3285"
+        },
+        {
+          "count": 1,
+          "id": "3040"
+        },
+        {
+          "count": 1,
+          "id": "3031"
+        },
+        {
+          "count": 1,
+          "id": "3116"
+        },
+        {
+          "count": 1,
+          "id": "3035"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Endgame"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2139"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Elixirs"
+    }
+  ],
+  "map": "any",
+  "mode": "any",
+  "priority": true,
+  "title": "Kog'Maw",
+  "type": "custom"
+}

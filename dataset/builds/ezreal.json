@@ -1,0 +1,34 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Ionian Boots of Lucidity",
+    "Sorcerer's Shoes"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Mana Potion",
+    "Vision Ward",
+    "Stealth Ward",
+    "Crystalline Flask"
+  ],
+  "Elixirs": [
+    "Elixir of Sorcery",
+    "Elixir of Wrath"
+  ],
+  "Endgame": [
+    "Trinity Force",
+    "Last Whisper",
+    "Muramana",
+    "Blade of the Ruined King",
+    "Iceborn Gauntlet",
+    "Luden's Echo",
+    "The Bloodthirster"
+  ],
+  "Jungle": [],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Scrying Orb (Trinket)",
+    "Farsight Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}

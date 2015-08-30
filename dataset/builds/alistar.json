@@ -1,0 +1,35 @@
+{
+  "Boots": [
+    "Boots of Mobility",
+    "Mercury's Treads",
+    "Sorcerer's Shoes"
+  ],
+  "Consumables": [
+    "Vision Ward",
+    "Mana Potion",
+    "Health Potion",
+    "Crystalline Flask",
+    "Stealth Ward"
+  ],
+  "Elixirs": [
+    "Elixir of Iron"
+  ],
+  "Endgame": [
+    "Frozen Heart",
+    "Righteous Glory",
+    "Face of the Mountain",
+    "Locket of the Iron Solari",
+    "Zeke's Harbinger",
+    "Randuin's Omen",
+    "Spirit Visage"
+  ],
+  "Jungle": [
+    "Stalker's Blade"
+  ],
+  "Trinkets": [
+    "Sweeping Lens (Trinket)",
+    "Warding Totem (Trinket)",
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}

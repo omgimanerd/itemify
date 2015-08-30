@@ -1,0 +1,36 @@
+{
+  "Boots": [
+    "Boots of Mobility",
+    "Mercury's Treads",
+    "Ninja Tabi"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Vision Ward",
+    "Stealth Ward",
+    "Mana Potion"
+  ],
+  "Elixirs": [
+    "Elixir of Wrath"
+  ],
+  "Endgame": [
+    "The Black Cleaver",
+    "Ravenous Hydra (Melee Only)",
+    "Randuin's Omen",
+    "Last Whisper",
+    "Ruby Sightstone",
+    "Banshee's Veil",
+    "Maw of Malmortius"
+  ],
+  "Jungle": [
+    "Hunter's Machete",
+    "Stalker's Blade",
+    "Ranger's Trailblazer"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}

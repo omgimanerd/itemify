@@ -1,0 +1,132 @@
+{
+  "blocks": [
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3340"
+        },
+        {
+          "count": 1,
+          "id": "3341"
+        },
+        {
+          "count": 1,
+          "id": "3361"
+        },
+        {
+          "count": 1,
+          "id": "3364"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Trinkets"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2003"
+        },
+        {
+          "count": 1,
+          "id": "2044"
+        },
+        {
+          "count": 1,
+          "id": "2043"
+        },
+        {
+          "count": 1,
+          "id": "2004"
+        },
+        {
+          "count": 1,
+          "id": "2041"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Consumables"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3047"
+        },
+        {
+          "count": 1,
+          "id": "3111"
+        },
+        {
+          "count": 1,
+          "id": "3117"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Boots"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "1039"
+        },
+        {
+          "count": 1,
+          "id": "3713"
+        },
+        {
+          "count": 1,
+          "id": "3706"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Jungle"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3075"
+        },
+        {
+          "count": 1,
+          "id": "3143"
+        },
+        {
+          "count": 1,
+          "id": "3742"
+        },
+        {
+          "count": 1,
+          "id": "3110"
+        },
+        {
+          "count": 1,
+          "id": "3068"
+        },
+        {
+          "count": 1,
+          "id": "3800"
+        },
+        {
+          "count": 1,
+          "id": "3083"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Endgame"
+    },
+    {
+      "items": [],
+      "recMath": false,
+      "type": "Recommended Elixirs"
+    }
+  ],
+  "map": "any",
+  "mode": "any",
+  "priority": true,
+  "title": "Rammus",
+  "type": "custom"
+}

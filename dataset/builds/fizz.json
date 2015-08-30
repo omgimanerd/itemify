@@ -1,0 +1,34 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Sorcerer's Shoes",
+    "Ionian Boots of Lucidity"
+  ],
+  "Consumables": [
+    "Crystalline Flask",
+    "Health Potion",
+    "Vision Ward",
+    "Mana Potion",
+    "Stealth Ward"
+  ],
+  "Elixirs": [
+    "Elixir of Wrath",
+    "Elixir of Sorcery"
+  ],
+  "Endgame": [
+    "Lich Bane",
+    "Zhonya's Hourglass",
+    "Morellonomicon",
+    "Rabadon's Deathcap",
+    "Trinity Force",
+    "Blade of the Ruined King",
+    "Void Staff"
+  ],
+  "Jungle": [],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
+  ]
+}

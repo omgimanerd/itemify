@@ -1,0 +1,33 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Sorcerer's Shoes",
+    "Mercury's Treads"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Vision Ward",
+    "Mana Potion",
+    "Stealth Ward",
+    "Crystalline Flask"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "Liandry's Torment",
+    "Rylai's Crystal Scepter",
+    "Abyssal Scepter",
+    "Frozen Heart",
+    "Rabadon's Deathcap",
+    "Void Staff",
+    "Randuin's Omen"
+  ],
+  "Jungle": [
+    "Ranger's Trailblazer"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}

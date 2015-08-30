@@ -1,0 +1,31 @@
+{
+  "Boots": [
+    "Mercury's Treads",
+    "Ninja Tabi",
+    "Boots of Mobility"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Stealth Ward",
+    "Vision Ward"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "Spirit Visage",
+    "Randuin's Omen",
+    "Warmog's Armor",
+    "Liandry's Torment",
+    "Thornmail",
+    "Rylai's Crystal Scepter",
+    "Sunfire Cape"
+  ],
+  "Jungle": [
+    "Ranger's Trailblazer"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
+  ]
+}

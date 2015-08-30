@@ -1,0 +1,35 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Boots of Mobility",
+    "Mercury's Treads"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Mana Potion",
+    "Stealth Ward",
+    "Crystalline Flask",
+    "Vision Ward",
+    "Oracle's Extract"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "Blade of the Ruined King",
+    "Wit's End",
+    "Spirit Visage",
+    "Frozen Heart",
+    "Randuin's Omen",
+    "Frozen Mallet",
+    "Sunfire Cape"
+  ],
+  "Jungle": [
+    "Hunter's Machete",
+    "Stalker's Blade"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}

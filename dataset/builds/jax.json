@@ -1,0 +1,33 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Mercury's Treads",
+    "Ninja Tabi"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Crystalline Flask",
+    "Vision Ward",
+    "Mana Potion",
+    "Stealth Ward"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "Trinity Force",
+    "Blade of the Ruined King",
+    "Randuin's Omen",
+    "Banshee's Veil",
+    "Ravenous Hydra (Melee Only)",
+    "Hextech Gunblade",
+    "Spirit Visage"
+  ],
+  "Jungle": [
+    "Stalker's Blade"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
+  ]
+}

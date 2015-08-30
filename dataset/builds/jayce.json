@@ -1,0 +1,31 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Ionian Boots of Lucidity",
+    "Mercury's Treads"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Mana Potion",
+    "Vision Ward",
+    "Crystalline Flask",
+    "Stealth Ward"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "Last Whisper",
+    "Muramana",
+    "The Black Cleaver",
+    "The Bloodthirster",
+    "Infinity Edge",
+    "Trinity Force",
+    "Youmuu's Ghostblade"
+  ],
+  "Jungle": [],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Hextech Sweeper",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}

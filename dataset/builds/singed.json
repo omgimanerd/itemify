@@ -1,0 +1,31 @@
+{
+  "Boots": [
+    "Mercury's Treads",
+    "Boots of Swiftness",
+    "Ninja Tabi"
+  ],
+  "Consumables": [
+    "Crystalline Flask",
+    "Health Potion",
+    "Mana Potion",
+    "Stealth Ward",
+    "Vision Ward"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "Rylai's Crystal Scepter",
+    "Rod of Ages",
+    "Liandry's Torment",
+    "Seraph's Embrace",
+    "Dead Man's Plate",
+    "Thornmail",
+    "Frozen Heart"
+  ],
+  "Jungle": [],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Scrying Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)"
+  ]
+}

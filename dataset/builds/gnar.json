@@ -1,0 +1,32 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Mercury's Treads",
+    "Ninja Tabi"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Vision Ward",
+    "Stealth Ward",
+    "Crystalline Flask"
+  ],
+  "Elixirs": [
+    "Elixir of Iron"
+  ],
+  "Endgame": [
+    "The Black Cleaver",
+    "Randuin's Omen",
+    "Spirit Visage",
+    "Sunfire Cape",
+    "Blade of the Ruined King",
+    "Thornmail",
+    "Banshee's Veil"
+  ],
+  "Jungle": [],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Hextech Sweeper",
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)"
+  ]
+}

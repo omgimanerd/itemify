@@ -137,13 +137,13 @@ def main():
     # We will write the build JSON file to one file and the parsed data to
     # another.
     data_file = Util.normalize_champion_name(champion)
-    with open('../stats-by-champion/%s.json' % data_file,
+    with open('../builds/%s.json' % data_file,
               'w') as champion_output:
       champion_output.write(Util.json_dump(build_output))
       print 'Wrote %s.json' % data_file
 
     build_file = '%s_build' % Util.normalize_champion_name(champion)
-    with open('../stats-by-champion/%s.json' % build_file,
+    with open('../builds/%s.json' % build_file,
               'w') as build_file_output:
       build_file_output.write(Util.json_dump(item_set))
       print 'Wrote %s.json' % build_file
