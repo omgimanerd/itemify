@@ -20,7 +20,7 @@
         }
       ],
       "recMath": false,
-      "type": "Trinkets"
+      "type": "Recommended Trinkets"
     },
     {
       "items": [
@@ -46,7 +46,7 @@
         }
       ],
       "recMath": false,
-      "type": "Consumables"
+      "type": "Recommended Consumables"
     },
     {
       "items": [
@@ -64,7 +64,7 @@
         }
       ],
       "recMath": false,
-      "type": "Boots"
+      "type": "Recommended Boots"
     },
     {
       "items": [
@@ -74,7 +74,7 @@
         }
       ],
       "recMath": false,
-      "type": "Jungle"
+      "type": "Recommended Jungle"
     },
     {
       "items": [
@@ -108,12 +108,12 @@
         }
       ],
       "recMath": false,
-      "type": "Endgame"
+      "type": "Recommended Endgame"
     },
     {
       "items": [],
       "recMath": false,
-      "type": "Elixirs"
+      "type": "Recommended Elixirs"
     }
   ],
   "map": "any",

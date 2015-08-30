@@ -127,7 +127,7 @@ def main():
       items = ItemSetBlockItems()
       for item in build_output[category]:
         items.add_item(item, 1)
-      generator.add_block(category, False, items.get_items())
+      generator.add_block('Recommended %s' % category, False, items.get_items())
 
       build_output[category] = map(
           analyzer.get_item_name_by_id, build_output[category])
