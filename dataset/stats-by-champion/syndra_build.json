@@ -1,0 +1,115 @@
+{
+  "blocks": [
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3340"
+        },
+        {
+          "count": 1,
+          "id": "3341"
+        },
+        {
+          "count": 1,
+          "id": "3361"
+        },
+        {
+          "count": 1,
+          "id": "3364"
+        }
+      ],
+      "recMath": true,
+      "type": "Trinkets"
+    },
+    {
+      "items": [],
+      "recMath": true,
+      "type": "Elixirs"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2004"
+        },
+        {
+          "count": 1,
+          "id": "2003"
+        },
+        {
+          "count": 1,
+          "id": "2044"
+        },
+        {
+          "count": 1,
+          "id": "2043"
+        }
+      ],
+      "recMath": true,
+      "type": "Consumables"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "1001"
+        },
+        {
+          "count": 1,
+          "id": "3020"
+        },
+        {
+          "count": 1,
+          "id": "3158"
+        }
+      ],
+      "recMath": true,
+      "type": "Boots"
+    },
+    {
+      "items": [],
+      "recMath": true,
+      "type": "Jungle"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3089"
+        },
+        {
+          "count": 1,
+          "id": "3174"
+        },
+        {
+          "count": 1,
+          "id": "3285"
+        },
+        {
+          "count": 1,
+          "id": "3165"
+        },
+        {
+          "count": 1,
+          "id": "3135"
+        },
+        {
+          "count": 1,
+          "id": "3157"
+        },
+        {
+          "count": 1,
+          "id": "3116"
+        }
+      ],
+      "recMath": true,
+      "type": "Endgame"
+    }
+  ],
+  "map": "any",
+  "mode": "any",
+  "priority": true,
+  "title": "Syndra",
+  "type": "custom"
+}

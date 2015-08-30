@@ -1,0 +1,35 @@
+{
+  "Boots": [
+    "Ninja Tabi",
+    "Mercury's Treads",
+    "Boots of Mobility"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Stealth Ward",
+    "Vision Ward",
+    "Mana Potion",
+    "Crystalline Flask"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "Thornmail",
+    "Randuin's Omen",
+    "Dead Man's Plate",
+    "Frozen Heart",
+    "Sunfire Cape",
+    "Righteous Glory",
+    "Warmog's Armor"
+  ],
+  "Jungle": [
+    "Hunter's Machete",
+    "Ranger's Trailblazer",
+    "Stalker's Blade"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
+  ]
+}

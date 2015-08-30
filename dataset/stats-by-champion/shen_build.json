@@ -1,0 +1,120 @@
+{
+  "blocks": [
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3340"
+        },
+        {
+          "count": 1,
+          "id": "3341"
+        },
+        {
+          "count": 1,
+          "id": "3361"
+        },
+        {
+          "count": 1,
+          "id": "3364"
+        }
+      ],
+      "recMath": true,
+      "type": "Trinkets"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2137"
+        }
+      ],
+      "recMath": true,
+      "type": "Elixirs"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2003"
+        },
+        {
+          "count": 1,
+          "id": "2043"
+        },
+        {
+          "count": 1,
+          "id": "2044"
+        },
+        {
+          "count": 1,
+          "id": "2041"
+        }
+      ],
+      "recMath": true,
+      "type": "Consumables"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "1001"
+        },
+        {
+          "count": 1,
+          "id": "3047"
+        },
+        {
+          "count": 1,
+          "id": "3111"
+        }
+      ],
+      "recMath": true,
+      "type": "Boots"
+    },
+    {
+      "items": [],
+      "recMath": true,
+      "type": "Jungle"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3068"
+        },
+        {
+          "count": 1,
+          "id": "3065"
+        },
+        {
+          "count": 1,
+          "id": "3075"
+        },
+        {
+          "count": 1,
+          "id": "3143"
+        },
+        {
+          "count": 1,
+          "id": "3742"
+        },
+        {
+          "count": 1,
+          "id": "3078"
+        },
+        {
+          "count": 1,
+          "id": "3083"
+        }
+      ],
+      "recMath": true,
+      "type": "Endgame"
+    }
+  ],
+  "map": "any",
+  "mode": "any",
+  "priority": true,
+  "title": "Shen",
+  "type": "custom"
+}

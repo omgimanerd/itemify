@@ -4,6 +4,7 @@
 # ~150000 games and generates an optimal build for every champion.
 # Author: Alvin Lin (alvin.lin@stuypulse.com)
 
+from operator import itemgetter
 import json
 
 from item_set_generator import ItemSetBlockItems
@@ -12,20 +13,30 @@ from util import Util
 from stat_analyzer import StatAnalyzer
 
 # For each category of items, we will impose a limit on the max number of
-# items we show.
+# items we show, we will also specify here whether or not we will sort the
+# category by item tier.
 ITEM_LIMIT = {
-  'trinkets': 4,
-  'boots': 3,
-  'endgame': 7,
-  'elixirs': 2,
-  'consumables': 10
+  'Trinkets': 4,
+  'Boots': 3,
+  'Jungle': 3,
+  'Elixirs': 2,
+  'Consumables': 10,
+  'Endgame': 7
+}
+SORT_TIER = {
+  'Trinkets': True,
+  'Boots': True,
+  'Jungle': True,
+  'Elixirs': False,
+  'Consumables': False,
+  'Endgame': False
 }
 
 def main():
   analyzer = StatAnalyzer.create()
 
   with open('../stats.json') as stats_input:
-    stats = map(json.loads, stats_input.read().split("\n")[:-1])
+    stats = map(json.loads, stats_input.readlines())
 
   # by_champion is a object with 126 keys, one for each champion id.
   # The value assigned to each key is a list of their game data generated
@@ -78,11 +89,12 @@ def main():
     # build file that someone can put in the League of Legends directory and
     # use.
     build_output = {
-      'trinkets': [],
-      'boots': [],
-      'endgame': [],
-      'elixirs': [],
-      'consumables': []
+      'Trinkets': [],
+      'Boots': [],
+      'Jungle': [],
+      'Elixirs': [],
+      'Consumables': [],
+      'Endgame': []
     }
     effectiveness_sorted_items = sorted(build_stats[champion],
                                         key=build_stats[champion].get)[::-1]
@@ -90,35 +102,54 @@ def main():
       if analyzer.is_irrelevant(item) or not analyzer.get_item_name_by_id(item):
         continue
       elif analyzer.is_trinket(item):
-        build_output['trinkets'].append(item)
+        build_output['Trinkets'].append(item)
       elif analyzer.is_boot(item):
-        build_output['boots'].append(item)
+        build_output['Boots'].append(item)
+      elif analyzer.is_jungle(item):
+        build_output['Jungle'].append(item)
       elif analyzer.is_elixir(item):
-        build_output['elixirs'].append(item)
+        build_output['Elixirs'].append(item)
       elif analyzer.is_consumable(item):
-        build_output['consumables'].append(item)
+        build_output['Consumables'].append(item)
       elif not analyzer.get_items_built_from(item):
-        build_output['endgame'].append(item)
+        build_output['Endgame'].append(item)
 
     # For each category of item, we will only show a certain number of items and
-    # will will generate the item set for each category.
+    # will will generate the item set for each category. We will also sort
+    # the items on build tree, where lower tier items will come first.
     generator = ItemSetGenerator.create(champion)
     for category in build_output:
-      build_output[category] = map(
-          analyzer.get_item_name_by_id,
-          build_output[category])[:ITEM_LIMIT[category]]
+      build_output[category] = build_output[category][:ITEM_LIMIT[category]]
+      if SORT_TIER[category]:
+        build_output[category] = sorted(
+            build_output[category],
+            key=lambda item: analyzer.get_item_data_by_id(item).get('depth', 0))
+
       items = ItemSetBlockItems()
       for item in build_output[category]:
-        items.addItem(item, 1)
-      generator.addBlock(category.upper(), False, items.getItems())
+        items.add_item(item, 1)
+      generator.add_block(category, True, items.get_items())
 
-    build_output['buildObj'] = generator.getItemSet()
+      build_output[category] = map(
+          analyzer.get_item_name_by_id, build_output[category])
 
-    with open('../stats-by-champion/%s.json' % champion,
+    item_set = generator.get_item_set()
+
+    # We will write the build JSON file to one file and the parsed data to
+    # another.
+    data_file = Util.normalize_champion_name(champion)
+    with open('../stats-by-champion/%s.json' % data_file,
               'w') as champion_output:
       champion_output.write(Util.json_dump(build_output))
-  print 'Sucessfully wrote champion data'
+      print 'Wrote %s.json' % data_file
+
+    build_file = '%s_build' % Util.normalize_champion_name(champion)
+    with open('../stats-by-champion/%s.json' % build_file,
+              'w') as build_file_output:
+      build_file_output.write(Util.json_dump(item_set))
+      print 'Wrote %s.json' % build_file
+
+  print 'Successfully wrote champion data.'
 
 if __name__ == '__main__':
   main()
-

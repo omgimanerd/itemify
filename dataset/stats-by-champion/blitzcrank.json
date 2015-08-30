@@ -1,0 +1,37 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Boots of Mobility",
+    "Ionian Boots of Lucidity"
+  ],
+  "Consumables": [
+    "Vision Ward",
+    "Mana Potion",
+    "Health Potion",
+    "Crystalline Flask",
+    "Stealth Ward",
+    "Oracle's Extract"
+  ],
+  "Elixirs": [
+    "Elixir of Iron",
+    "Elixir of Wrath"
+  ],
+  "Endgame": [
+    "Talisman of Ascension",
+    "Frozen Heart",
+    "Righteous Glory",
+    "Iceborn Gauntlet",
+    "Locket of the Iron Solari",
+    "Randuin's Omen",
+    "Ruby Sightstone"
+  ],
+  "Jungle": [
+    "Ranger's Trailblazer"
+  ],
+  "Trinkets": [
+    "Sweeping Lens (Trinket)",
+    "Warding Totem (Trinket)",
+    "Oracle's Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}

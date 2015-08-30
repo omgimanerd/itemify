@@ -1,0 +1,133 @@
+{
+  "blocks": [
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3340"
+        },
+        {
+          "count": 1,
+          "id": "3341"
+        },
+        {
+          "count": 1,
+          "id": "3361"
+        },
+        {
+          "count": 1,
+          "id": "3362"
+        }
+      ],
+      "recMath": true,
+      "type": "Trinkets"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2138"
+        },
+        {
+          "count": 1,
+          "id": "2139"
+        }
+      ],
+      "recMath": true,
+      "type": "Elixirs"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2003"
+        },
+        {
+          "count": 1,
+          "id": "2041"
+        },
+        {
+          "count": 1,
+          "id": "2004"
+        },
+        {
+          "count": 1,
+          "id": "2043"
+        },
+        {
+          "count": 1,
+          "id": "2044"
+        }
+      ],
+      "recMath": true,
+      "type": "Consumables"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "1001"
+        },
+        {
+          "count": 1,
+          "id": "3111"
+        },
+        {
+          "count": 1,
+          "id": "3047"
+        }
+      ],
+      "recMath": true,
+      "type": "Boots"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3706"
+        }
+      ],
+      "recMath": true,
+      "type": "Jungle"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3065"
+        },
+        {
+          "count": 1,
+          "id": "3078"
+        },
+        {
+          "count": 1,
+          "id": "3110"
+        },
+        {
+          "count": 1,
+          "id": "3025"
+        },
+        {
+          "count": 1,
+          "id": "3742"
+        },
+        {
+          "count": 1,
+          "id": "3053"
+        },
+        {
+          "count": 1,
+          "id": "3075"
+        }
+      ],
+      "recMath": true,
+      "type": "Endgame"
+    }
+  ],
+  "map": "any",
+  "mode": "any",
+  "priority": true,
+  "title": "Nasus",
+  "type": "custom"
+}

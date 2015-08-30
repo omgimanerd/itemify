@@ -1,0 +1,36 @@
+{
+  "Boots": [
+    "Mercury's Treads",
+    "Sorcerer's Shoes",
+    "Ionian Boots of Lucidity"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Mana Potion",
+    "Crystalline Flask",
+    "Stealth Ward",
+    "Vision Ward"
+  ],
+  "Elixirs": [
+    "Elixir of Iron",
+    "Elixir of Ruin"
+  ],
+  "Endgame": [
+    "Rod of Ages",
+    "Frozen Heart",
+    "Rabadon's Deathcap",
+    "Abyssal Scepter",
+    "Rylai's Crystal Scepter",
+    "Luden's Echo",
+    "Spirit Visage"
+  ],
+  "Jungle": [
+    "Stalker's Blade"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Hextech Sweeper",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}

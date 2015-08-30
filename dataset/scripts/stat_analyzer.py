@@ -85,6 +85,13 @@ class StatAnalyzer():
       return item.get('tags', []).count('Boots') != 0
     return False
 
+  def is_jungle(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('tags', []).count('Jungle') != 0 and (
+          item.get('tags', []).count('Consumable') == 0)
+    return False
+
   def is_consumable(self, id):
     item = self.get_item_data_by_id(id)
     if item:

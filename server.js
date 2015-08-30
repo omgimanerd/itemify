@@ -31,12 +31,21 @@ app.get('/', function(request, response) {
 });
 
 app.get('/:champ', function(request, response) {
-  fs.readFile('dataset/stats.json', function(err, data) {
-    if (err) {
-      console.log(err);
-      return;
+  champJSON = null;
+
+  async.parallel([
+    function(callback) {
+      fs.readFile('dataset/stats-by-champion/' + request.path + '.json',
+                  function(err, data) {
+        if (err) {
+          console.log(err);
+          return;
+        }
+        champJSON = data;
+        response.send(champJSON);
+      });
     }
-    fields = data.toString().split('\n')
+  ], function(error) {
   });
 });
 

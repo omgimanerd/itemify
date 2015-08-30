@@ -1,0 +1,30 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Mercury's Treads",
+    "Ninja Tabi"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Mana Potion",
+    "Crystalline Flask",
+    "Stealth Ward"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "The Black Cleaver",
+    "Muramana",
+    "Frozen Heart",
+    "Last Whisper",
+    "Iceborn Gauntlet",
+    "Maw of Malmortius",
+    "Youmuu's Ghostblade"
+  ],
+  "Jungle": [],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)",
+    "Farsight Orb (Trinket)"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Mercury's Treads",
+    "Ninja Tabi"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Stealth Ward",
+    "Vision Ward"
+  ],
+  "Elixirs": [],
+  "Endgame": [
+    "The Black Cleaver",
+    "Ravenous Hydra (Melee Only)",
+    "Spirit Visage",
+    "Randuin's Omen",
+    "Titanic Hydra (Melee Only)",
+    "Sunfire Cape",
+    "Thornmail"
+  ],
+  "Jungle": [],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Hextech Sweeper",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
+  ]
+}

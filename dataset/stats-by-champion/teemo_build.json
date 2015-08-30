@@ -1,0 +1,124 @@
+{
+  "blocks": [
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3340"
+        },
+        {
+          "count": 1,
+          "id": "3341"
+        },
+        {
+          "count": 1,
+          "id": "3361"
+        },
+        {
+          "count": 1,
+          "id": "3364"
+        }
+      ],
+      "recMath": true,
+      "type": "Trinkets"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2139"
+        }
+      ],
+      "recMath": true,
+      "type": "Elixirs"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2003"
+        },
+        {
+          "count": 1,
+          "id": "2004"
+        },
+        {
+          "count": 1,
+          "id": "2044"
+        },
+        {
+          "count": 1,
+          "id": "2043"
+        },
+        {
+          "count": 1,
+          "id": "2041"
+        }
+      ],
+      "recMath": true,
+      "type": "Consumables"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "1001"
+        },
+        {
+          "count": 1,
+          "id": "3020"
+        },
+        {
+          "count": 1,
+          "id": "3006"
+        }
+      ],
+      "recMath": true,
+      "type": "Boots"
+    },
+    {
+      "items": [],
+      "recMath": true,
+      "type": "Jungle"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3151"
+        },
+        {
+          "count": 1,
+          "id": "3115"
+        },
+        {
+          "count": 1,
+          "id": "3089"
+        },
+        {
+          "count": 1,
+          "id": "3165"
+        },
+        {
+          "count": 1,
+          "id": "3085"
+        },
+        {
+          "count": 1,
+          "id": "3135"
+        },
+        {
+          "count": 1,
+          "id": "3285"
+        }
+      ],
+      "recMath": true,
+      "type": "Endgame"
+    }
+  ],
+  "map": "any",
+  "mode": "any",
+  "priority": true,
+  "title": "Teemo",
+  "type": "custom"
+}

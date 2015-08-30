@@ -1,0 +1,35 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Mercury's Treads",
+    "Ninja Tabi"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Crystalline Flask",
+    "Mana Potion",
+    "Vision Ward",
+    "Stealth Ward"
+  ],
+  "Elixirs": [
+    "Elixir of Wrath"
+  ],
+  "Endgame": [
+    "Ravenous Hydra (Melee Only)",
+    "Trinity Force",
+    "The Black Cleaver",
+    "The Bloodthirster",
+    "Last Whisper",
+    "Infinity Edge",
+    "Blade of the Ruined King"
+  ],
+  "Jungle": [
+    "Ranger's Trailblazer"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Hextech Sweeper",
+    "Greater Stealth Totem (Trinket)",
+    "Greater Vision Totem (Trinket)"
+  ]
+}

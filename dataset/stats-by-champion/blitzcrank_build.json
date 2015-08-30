@@ -1,0 +1,137 @@
+{
+  "blocks": [
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3341"
+        },
+        {
+          "count": 1,
+          "id": "3340"
+        },
+        {
+          "count": 1,
+          "id": "3364"
+        },
+        {
+          "count": 1,
+          "id": "3361"
+        }
+      ],
+      "recMath": true,
+      "type": "Trinkets"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2138"
+        },
+        {
+          "count": 1,
+          "id": "2140"
+        }
+      ],
+      "recMath": true,
+      "type": "Elixirs"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2043"
+        },
+        {
+          "count": 1,
+          "id": "2004"
+        },
+        {
+          "count": 1,
+          "id": "2003"
+        },
+        {
+          "count": 1,
+          "id": "2041"
+        },
+        {
+          "count": 1,
+          "id": "2044"
+        },
+        {
+          "count": 1,
+          "id": "2047"
+        }
+      ],
+      "recMath": true,
+      "type": "Consumables"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "1001"
+        },
+        {
+          "count": 1,
+          "id": "3117"
+        },
+        {
+          "count": 1,
+          "id": "3158"
+        }
+      ],
+      "recMath": true,
+      "type": "Boots"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3713"
+        }
+      ],
+      "recMath": true,
+      "type": "Jungle"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3069"
+        },
+        {
+          "count": 1,
+          "id": "3110"
+        },
+        {
+          "count": 1,
+          "id": "3800"
+        },
+        {
+          "count": 1,
+          "id": "3025"
+        },
+        {
+          "count": 1,
+          "id": "3190"
+        },
+        {
+          "count": 1,
+          "id": "3143"
+        },
+        {
+          "count": 1,
+          "id": "2045"
+        }
+      ],
+      "recMath": true,
+      "type": "Endgame"
+    }
+  ],
+  "map": "any",
+  "mode": "any",
+  "priority": true,
+  "title": "Blitzcrank",
+  "type": "custom"
+}

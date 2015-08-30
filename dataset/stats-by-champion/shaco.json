@@ -1,0 +1,38 @@
+{
+  "Boots": [
+    "Boots of Mobility",
+    "Berserker's Greaves",
+    "Sorcerer's Shoes"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Vision Ward",
+    "Mana Potion",
+    "Stealth Ward",
+    "Crystalline Flask"
+  ],
+  "Elixirs": [
+    "Elixir of Ruin",
+    "Elixir of Iron"
+  ],
+  "Endgame": [
+    "Ravenous Hydra (Melee Only)",
+    "Statikk Shiv",
+    "Infinity Edge",
+    "Luden's Echo",
+    "Rabadon's Deathcap",
+    "Trinity Force",
+    "Morellonomicon"
+  ],
+  "Jungle": [
+    "Ranger's Trailblazer",
+    "Stalker's Blade",
+    "Skirmisher's Sabre"
+  ],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Sweeping Lens (Trinket)",
+    "Greater Stealth Totem (Trinket)",
+    "Oracle's Lens (Trinket)"
+  ]
+}

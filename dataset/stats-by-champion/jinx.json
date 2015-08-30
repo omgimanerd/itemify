@@ -1,0 +1,34 @@
+{
+  "Boots": [
+    "Boots of Speed",
+    "Berserker's Greaves",
+    "Mercury's Treads"
+  ],
+  "Consumables": [
+    "Health Potion",
+    "Mana Potion",
+    "Vision Ward",
+    "Stealth Ward",
+    "Oracle's Extract",
+    "Crystalline Flask"
+  ],
+  "Elixirs": [
+    "Elixir of Wrath"
+  ],
+  "Endgame": [
+    "Infinity Edge",
+    "Phantom Dancer",
+    "Statikk Shiv",
+    "Last Whisper",
+    "The Bloodthirster",
+    "Blade of the Ruined King",
+    "Guardian Angel"
+  ],
+  "Jungle": [],
+  "Trinkets": [
+    "Warding Totem (Trinket)",
+    "Scrying Orb (Trinket)",
+    "Farsight Orb (Trinket)",
+    "Greater Stealth Totem (Trinket)"
+  ]
+}
