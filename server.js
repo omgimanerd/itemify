@@ -37,17 +37,19 @@ app.get('/', function(request, response) {
 
 app.get('/champion', function(request, response) {
   var champion = Util.getNormalizedChampionName(request.query.champion);
-  fs.readFile('dataset/builds/' + champion + '_build.json',
+  fs.readFile('dataset/builds/' + champion + '.json',
               function(err, data) {
     if (err) {
-      console.log(champion);
       response.render('index.html', {
         error: 'Champion not found. Try a different query.'
       });
       return;
     }
     response.render('champion.html', {
-      champion: champion
+      champion: champion,
+      data: JSON.parse(data),
+      displayOrder: ['Starting Items', 'Boots', 'Jungle Items', 'Endgame Items',
+                     'Elixirs']
     });
   });
 });

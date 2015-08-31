@@ -2,7 +2,17 @@
 
 {% block content %}
   <div class='content'>
-    <a href='/builds/{{ champion }}_builds.json' download>Build</a>
-    <img src='/build_images/{{ champion }}_build.png' />
+    <div class='build'>
+      <div class='build-block'>
+        {% for category in displayOrder %}
+          {% for item in data[category] %}
+            <img src='/static/images/items/{{ item }}.png' />
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    <br />
+    <br />
+    <a href='/builds/{{ champion }}_build.json' download>Build</a>
   </div>
 {% endblock %}
