@@ -1,9 +1,23 @@
 {% extends 'layout.html' %}
 
-{% block body %}
-<div id="content">
-<h1>Itemify.gg</h1>
-<h2>Search your champion!</h2>
-<input type="search" placeholder="Enter your champion..."/>
-</div>
+{% block content %}
+  <div class='content'>
+    <h1>
+      How do I build...
+    </h1>
+    <h2>
+      Search your champion
+    </h2>
+    <div class='search-bar'>
+      <form action='/champion' method='GET'>
+        <div class='search-text'>
+          <input type='text' name='champion'
+                 placeholder='Enter your champion...'/>
+        </div>
+        <div class='search-button'>
+          <input type='submit' name='submit' />
+        </div>
+      </form>
+    </div>
+  </div>
 {% endblock %}
