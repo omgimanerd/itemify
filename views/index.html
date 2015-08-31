@@ -1,13 +1,15 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-  <div class='content'>
+
+  <div id='content'>
     <h1>
       How do I build...
     </h1>
     <h2>
       Search your champion
     </h2>
+    
     <div class='search-bar'>
 
       {{ error || '' }}
@@ -22,5 +24,6 @@
         </div>
       </form>
     </div>
+
   </div>
 {% endblock %}

@@ -936,11 +936,34 @@ header ul li a:hover {
   text-align: center;
 }
 
-input[type=search] {
+.search-bar {
   padding: 8px 30px;
   text-align: center;
   display: block;
   margin: 0 auto;
+}
+
+.search-bar .search-button,.search-bar .search-text { 
+  display:inline-block;
+  height:50px;
+  background-color:transparent;
+  color:#fff;
+  font-size:20px;
+  border:0
+}
+
+.search-bar .search-text {
+  width:394px;
+  padding-left:20px
+}
+
+.search-bar .search-text:focus {
+  outline:0
+}
+
+.search-bar .search-button {
+    width:50px;
+    padding:0
 }
 
 /* 5.0 - Footer */
