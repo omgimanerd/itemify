@@ -1,25 +1,657 @@
 {
   "Boots": [
-    3117,
-    3158,
-    3020
+    {
+      "depth": 2,
+      "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds.<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "effect": {
+        "Effect1Amount": "0",
+        "Effect2Amount": "0",
+        "Effect3Amount": "0",
+        "Effect4Amount": "0",
+        "Effect5Amount": "0",
+        "Effect6Amount": "0",
+        "Effect7Amount": "0",
+        "Effect8Amount": "25"
+      },
+      "from": [
+        "1001"
+      ],
+      "gold": {
+        "base": 475,
+        "purchasable": true,
+        "sell": 560,
+        "total": 800
+      },
+      "id": 3117,
+      "image": {
+        "full": "3117.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item1.png",
+        "w": 48,
+        "x": 0,
+        "y": 96
+      },
+      "into": [
+        "1326",
+        "1328",
+        "1325",
+        "1327",
+        "1329",
+        "1340"
+      ],
+      "name": "Boots of Mobility",
+      "plaintext": "Greatly enhances Movement Speed when out of combat",
+      "sanitizedDescription": "UNIQUE Passive - Enhanced Movement: +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds. (Unique Passives with the same name don't stack.)",
+      "stats": {
+        "FlatMovementSpeedMod": 105.0
+      },
+      "tags": [
+        "Boots"
+      ]
+    },
+    {
+      "depth": 2,
+      "description": "<unique>UNIQUE Passive:</unique> +15% Cooldown Reduction<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Unique Passives with the same name don't stack.)</i><br><br><i><font color='#FDD017'>''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''</font></i>",
+      "effect": {
+        "Effect1Amount": "-0.15"
+      },
+      "from": [
+        "1001"
+      ],
+      "gold": {
+        "base": 675,
+        "purchasable": true,
+        "sell": 700,
+        "total": 1000
+      },
+      "id": 3158,
+      "image": {
+        "full": "3158.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item1.png",
+        "w": 48,
+        "x": 96,
+        "y": 192
+      },
+      "into": [
+        "1331",
+        "1333",
+        "1330",
+        "1332",
+        "1334",
+        "1341"
+      ],
+      "name": "Ionian Boots of Lucidity",
+      "plaintext": "Increases Movement Speed and Cooldown Reduction",
+      "sanitizedDescription": "UNIQUE Passive: +15% Cooldown Reduction UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Unique Passives with the same name don't stack.) ''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''",
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+        "Boots",
+        "CooldownReduction"
+      ]
+    },
+    {
+      "depth": 2,
+      "description": "<stats>+15 Magic Penetration</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)</i><br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "effect": {
+        "Effect1Amount": "15"
+      },
+      "from": [
+        "1001"
+      ],
+      "gold": {
+        "base": 775,
+        "purchasable": true,
+        "sell": 770,
+        "total": 1100
+      },
+      "id": 3020,
+      "image": {
+        "full": "3020.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 336,
+        "y": 240
+      },
+      "into": [
+        "1311",
+        "1313",
+        "1310",
+        "1312",
+        "1314",
+        "1337"
+      ],
+      "name": "Sorcerer's Shoes",
+      "plaintext": "Enhances Movement Speed and magic damage",
+      "sanitizedDescription": "+15 Magic Penetration UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.) (Unique Passives with the same name don't stack.)",
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+        "Boots",
+        "MagicPenetration"
+      ]
+    }
   ],
   "Elixirs": [],
   "Endgame Items": [
-    3050,
-    3190,
-    3110,
-    3069,
-    2045,
-    3143,
-    3060
+    {
+      "colloq": "haroldandkumar",
+      "depth": 3,
+      "description": "<stats><mana>+250 Mana</mana><br>+35 Armor<br>+50 Ability Power<br>+10% Cooldown Reduction</stats><br><br><active>UNIQUE Active - Conduit:</active> Bind to target ally (60 second cooldown).<br><unique>UNIQUE Passive:</unique> When within 1000 units of each other, you and your ally generate Charges. Attacking or casting spells generates extra Charges. At 100 Charges, causing damage consumes them, increasing your and your ally's Ability Power by 20% and Critical Strike Chance by 50% for 8 seconds. ",
+      "effect": {
+        "Effect1Amount": "-0.1",
+        "Effect2Amount": "1",
+        "Effect3Amount": "0.5",
+        "Effect4Amount": "0.2",
+        "Effect5Amount": "1000",
+        "Effect6Amount": "100",
+        "Effect7Amount": "8",
+        "Effect8Amount": "10"
+      },
+      "from": [
+        "1052",
+        "3024",
+        "1052"
+      ],
+      "gold": {
+        "base": 480,
+        "purchasable": true,
+        "sell": 1575,
+        "total": 2250
+      },
+      "id": 3050,
+      "image": {
+        "full": "3050.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 288,
+        "y": 336
+      },
+      "name": "Zeke's Harbinger",
+      "plaintext": "Empowers an ally with Critical Strike Chance and Ability Power",
+      "sanitizedDescription": "+250 Mana +35 Armor +50 Ability Power +10% Cooldown Reduction UNIQUE Active - Conduit: Bind to target ally (60 second cooldown). UNIQUE Passive: When within 1000 units of each other, you and your ally generate Charges. Attacking or casting spells generates extra Charges. At 100 Charges, causing damage consumes them, increasing your and your ally's Ability Power by 20% and Critical Strike Chance by 50% for 8 seconds.",
+      "stats": {
+        "FlatArmorMod": 35.0,
+        "FlatHPPoolMod": 250.0,
+        "FlatMPPoolMod": 250.0,
+        "FlatMagicDamageMod": 50.0
+      },
+      "tags": [
+        "Armor",
+        "Aura",
+        "CooldownReduction",
+        "Mana",
+        "SpellDamage"
+      ]
+    },
+    {
+      "depth": 4,
+      "description": "<stats>+400 Health<br>+100% Base Health Regen <br>+20 Magic Resist<br>+10% Cooldown Reduction</stats><br><br><active>UNIQUE Active:</active> Grants a shield to nearby allies for 2 seconds that absorbs up to 75 (+15 per level) damage (60 second cooldown).<br><aura>UNIQUE Aura - Legion:</aura> Grants nearby allies +15 Magic Resist.<br><br><i>(Unique Auras with the same name don't stack.)</i>",
+      "effect": {
+        "Effect1Amount": "15",
+        "Effect2Amount": "0.75",
+        "Effect3Amount": "2",
+        "Effect4Amount": "75",
+        "Effect5Amount": "15",
+        "Effect6Amount": "60"
+      },
+      "from": [
+        "3105",
+        "3067"
+      ],
+      "gold": {
+        "base": 300,
+        "purchasable": true,
+        "sell": 1925,
+        "total": 2750
+      },
+      "id": 3190,
+      "image": {
+        "full": "3190.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item1.png",
+        "w": 48,
+        "x": 432,
+        "y": 240
+      },
+      "name": "Locket of the Iron Solari",
+      "plaintext": "Activate to shield nearby allies from damage",
+      "sanitizedDescription": "+400 Health +100% Base Health Regen +20 Magic Resist +10% Cooldown Reduction UNIQUE Active: Grants a shield to nearby allies for 2 seconds that absorbs up to 75 (+15 per level) damage (60 second cooldown). UNIQUE Aura - Legion: Grants nearby allies +15 Magic Resist. (Unique Auras with the same name don't stack.)",
+      "stats": {
+        "FlatHPPoolMod": 400.0,
+        "FlatSpellBlockMod": 20.0
+      },
+      "tags": [
+        "Active",
+        "Aura",
+        "CooldownReduction",
+        "Health",
+        "HealthRegen",
+        "SpellBlock"
+      ]
+    },
+    {
+      "colloq": "fh",
+      "depth": 3,
+      "description": "<stats>+90 Armor<br>+20% Cooldown Reduction<br><mana>+400 Mana</mana></stats><br><br><aura>UNIQUE Aura:</aura> Reduces the Attack Speed of nearby enemies by 15%.",
+      "effect": {
+        "Effect1Amount": "-0.2",
+        "Effect2Amount": "-0.15"
+      },
+      "from": [
+        "3082",
+        "3024"
+      ],
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "sell": 1820,
+        "total": 2600
+      },
+      "id": 3110,
+      "image": {
+        "full": "3110.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item1.png",
+        "w": 48,
+        "x": 144,
+        "y": 48
+      },
+      "name": "Frozen Heart",
+      "plaintext": "Massively increases Armor and slows enemy basic attacks",
+      "sanitizedDescription": "+90 Armor +20% Cooldown Reduction +400 Mana UNIQUE Aura: Reduces the Attack Speed of nearby enemies by 15%.",
+      "stats": {
+        "FlatArmorMod": 90.0,
+        "FlatMPPoolMod": 400.0
+      },
+      "tags": [
+        "Armor",
+        "Aura",
+        "CooldownReduction",
+        "Mana"
+      ]
+    },
+    {
+      "colloq": "shurelya;reverie",
+      "depth": 3,
+      "description": "<stats>+100% Base Health Regen <br><mana>+100% Base Mana Regen <br></mana>+20 Movement Speed<br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds</stats><br><br><unique>UNIQUE Passive - Favor:</unique> Being near a minion death without dealing the killing blow grants 4 Gold and 10 Health.<br><active>UNIQUE Active:</active> Grants nearby allies +40% Movement Speed for 3 seconds (40 second cooldown).<br><br><groupLimit>Limited to 1 Gold Income item</groupLimit><br><br><i><font color='#447777'>''Praise the sun.'' - Historian Shurelya, 22 September, 25 CLE</font></i><br><br>",
+      "effect": {
+        "Effect1Amount": "-0.1",
+        "Effect2Amount": "2",
+        "Effect3Amount": "4",
+        "Effect4Amount": "10",
+        "Effect5Amount": "0.4",
+        "Effect6Amount": "3",
+        "Effect7Amount": "40",
+        "Effect8Amount": "20"
+      },
+      "from": [
+        "3096",
+        "3114"
+      ],
+      "gold": {
+        "base": 635,
+        "purchasable": true,
+        "sell": 840,
+        "total": 2100
+      },
+      "group": "GoldBase",
+      "id": 3069,
+      "image": {
+        "full": "3069.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 144,
+        "y": 384
+      },
+      "name": "Talisman of Ascension",
+      "plaintext": "Increases Health / Mana Regeneration and Cooldown Reduction. Activate to speed up nearby allies.",
+      "sanitizedDescription": "+100% Base Health Regen +100% Base Mana Regen +20 Movement Speed +10% Cooldown Reduction +2 Gold per 10 seconds UNIQUE Passive - Favor: Being near a minion death without dealing the killing blow grants 4 Gold and 10 Health. UNIQUE Active: Grants nearby allies +40% Movement Speed for 3 seconds (40 second cooldown). Limited to 1 Gold Income item ''Praise the sun.'' - Historian Shurelya, 22 September, 25 CLE",
+      "stats": {},
+      "tags": [
+        "Active",
+        "CooldownReduction",
+        "GoldPer",
+        "HealthRegen",
+        "ManaRegen",
+        "NonbootsMovement"
+      ]
+    },
+    {
+      "depth": 3,
+      "description": "<stats>+400 Health</stats><br><br><unique>UNIQUE Passive - Ward Refresh:</unique> Holds 5 charges and refills upon visiting the shop.<br><active>UNIQUE Active - Ghost Ward:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 3 minutes. A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time.<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "from": [
+        "2049",
+        "1028"
+      ],
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "sell": 640,
+        "total": 1600
+      },
+      "id": 2045,
+      "image": {
+        "full": "2045.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 336,
+        "y": 144
+      },
+      "name": "Ruby Sightstone",
+      "plaintext": "Greatly increases Health and provides Stealth Wards over time",
+      "sanitizedDescription": "+400 Health UNIQUE Passive - Ward Refresh: Holds 5 charges and refills upon visiting the shop. UNIQUE Active - Ghost Ward: Consumes a charge to place a Stealth Ward that reveals the surrounding area for 3 minutes. A player may only have 3 Stealth Wards on the map at one time. (Unique Passives with the same name don't stack.)",
+      "stats": {
+        "FlatHPPoolMod": 400.0
+      },
+      "tags": [
+        "Active",
+        "Health",
+        "Vision"
+      ]
+    },
+    {
+      "depth": 3,
+      "description": "<stats>+400 Health<br>+60 Armor<br>-10% Damage taken from Critical Strikes</stats><br><br><unique>UNIQUE Passive - Cold Steel:</unique> When hit by basic attacks, reduces the attacker's Attack Speed by 15%.<br><active>UNIQUE Active:</active> Slows the Movement Speed of nearby enemy units by 35% for 4 seconds (60 second cooldown).<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "effect": {
+        "Effect1Amount": "4",
+        "Effect2Amount": "0.1",
+        "Effect3Amount": "-0.35"
+      },
+      "from": [
+        "3082",
+        "1011"
+      ],
+      "gold": {
+        "base": 600,
+        "purchasable": true,
+        "sell": 1890,
+        "total": 2700
+      },
+      "id": 3143,
+      "image": {
+        "full": "3143.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item1.png",
+        "w": 48,
+        "x": 48,
+        "y": 144
+      },
+      "name": "Randuin's Omen",
+      "plaintext": "Greatly increases defenses, activate to slow nearby enemies",
+      "sanitizedDescription": "+400 Health +60 Armor -10% Damage taken from Critical Strikes UNIQUE Passive - Cold Steel: When hit by basic attacks, reduces the attacker's Attack Speed by 15%. UNIQUE Active: Slows the Movement Speed of nearby enemy units by 35% for 4 seconds (60 second cooldown). (Unique Passives with the same name don't stack.)",
+      "stats": {
+        "FlatArmorMod": 60.0,
+        "FlatHPPoolMod": 400.0
+      },
+      "tags": [
+        "Active",
+        "Armor",
+        "Health",
+        "Slow"
+      ]
+    },
+    {
+      "colloq": "flag",
+      "depth": 4,
+      "description": "<stats>+200 Health<br>+100% Base Health Regen <br>+60 Ability Power<br>+20 Magic Resist<br>+10% Cooldown Reduction</stats><br><br><aura>UNIQUE Aura - Legion:</aura> Grants nearby allies +15 Magic Resist.<br><active>UNIQUE Active - Promote:</active> Greatly increases the power of a lane minion and grants it immunity to magic damage (120 second cooldown).<br><br><i>(Unique Auras with the same name do not stack.)</i>",
+      "effect": {
+        "Effect1Amount": "0.5",
+        "Effect2Amount": "15",
+        "Effect3Amount": "0.75"
+      },
+      "from": [
+        "3105",
+        "3108"
+      ],
+      "gold": {
+        "base": 330,
+        "purchasable": true,
+        "sell": 1925,
+        "total": 2750
+      },
+      "id": 3060,
+      "image": {
+        "full": "3060.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 432,
+        "y": 336
+      },
+      "name": "Banner of Command",
+      "plaintext": "Promotes a siege minion to a more powerful unit",
+      "sanitizedDescription": "+200 Health +100% Base Health Regen +60 Ability Power +20 Magic Resist +10% Cooldown Reduction UNIQUE Aura - Legion: Grants nearby allies +15 Magic Resist. UNIQUE Active - Promote: Greatly increases the power of a lane minion and grants it immunity to magic damage (120 second cooldown). (Unique Auras with the same name do not stack.)",
+      "stats": {
+        "FlatHPPoolMod": 200.0,
+        "FlatMagicDamageMod": 60.0,
+        "FlatSpellBlockMod": 20.0
+      },
+      "tags": [
+        "Active",
+        "Aura",
+        "CooldownReduction",
+        "Health",
+        "HealthRegen",
+        "SpellBlock",
+        "SpellDamage"
+      ]
+    }
   ],
   "Jungle Items": [],
   "Starting Items": [
-    3340,
-    3303,
-    2043,
-    3301,
-    2004
+    {
+      "colloq": "yellow;",
+      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><unique>Active:</unique> Places a <font color='#BBFFFF'>Stealth Ward</font> that lasts 60 seconds (120 second cooldown).<br><br>At level 9, this ward's duration increases to 120 seconds.<br><br>Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.<br><br><i>(Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).</i>",
+      "effect": {
+        "Effect1Amount": "60",
+        "Effect2Amount": "120",
+        "Effect3Amount": "120",
+        "Effect4Amount": "0",
+        "Effect5Amount": "0",
+        "Effect6Amount": "9",
+        "Effect7Amount": "30",
+        "Effect8Amount": "120"
+      },
+      "gold": {
+        "base": 0,
+        "purchasable": true,
+        "sell": 0,
+        "total": 0
+      },
+      "group": "RelicBase",
+      "id": 3340,
+      "image": {
+        "full": "3340.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item2.png",
+        "w": 48,
+        "x": 288,
+        "y": 0
+      },
+      "into": [
+        "3361",
+        "3362"
+      ],
+      "name": "Warding Totem (Trinket)",
+      "plaintext": "Periodically place a Stealth Ward",
+      "sanitizedDescription": "Limited to 1 Trinket. Active: Places a Stealth Ward that lasts 60 seconds (120 second cooldown). At level 9, this ward's duration increases to 120 seconds. Limit 3 Stealth Wards on the map per player. (Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).",
+      "stats": {},
+      "tags": [
+        "Active",
+        "Jungle",
+        "Lane",
+        "Trinket",
+        "Vision"
+      ]
+    },
+    {
+      "description": "<stats>+5 Ability Power<br>+2 Gold per 10 seconds<br><mana>+25% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive - Tribute:</unique> Spells and basic attacks against champions or buildings deal 10 additional damage and grant 5 Gold. This can occur up to 3 times every 30 seconds. Killing a minion disables this passive for 12 seconds.<br><br><groupLimit>Limited to 1 Gold Income item</groupLimit>",
+      "effect": {
+        "Effect1Amount": "10",
+        "Effect2Amount": "5",
+        "Effect3Amount": "12",
+        "Effect4Amount": "3",
+        "Effect5Amount": "30",
+        "Effect6Amount": "2"
+      },
+      "gold": {
+        "base": 365,
+        "purchasable": true,
+        "sell": 146,
+        "total": 365
+      },
+      "group": "GoldBase",
+      "id": 3303,
+      "image": {
+        "full": "3303.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item2.png",
+        "w": 48,
+        "x": 240,
+        "y": 0
+      },
+      "into": [
+        "3098"
+      ],
+      "name": "Spellthief's Edge",
+      "plaintext": "Grants gold when you attack enemies",
+      "sanitizedDescription": "+5 Ability Power +2 Gold per 10 seconds +25% Base Mana Regen UNIQUE Passive - Tribute: Spells and basic attacks against champions or buildings deal 10 additional damage and grant 5 Gold. This can occur up to 3 times every 30 seconds. Killing a minion disables this passive for 12 seconds. Limited to 1 Gold Income item",
+      "stats": {
+        "FlatMagicDamageMod": 5.0
+      },
+      "tags": [
+        "GoldPer",
+        "Lane",
+        "ManaRegen",
+        "SpellDamage"
+      ]
+    },
+    {
+      "colloq": "pink;",
+      "consumed": true,
+      "description": "<groupLimit>Can only carry 2 Vision Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places a visible ward that reveals the surrounding area and invisible units in the area until killed. Limit 1 <font color='#BBFFFF'>Vision Ward</font> on the map per player.<br><br><i>(Revealing a ward in this manner grants a portion of the gold reward when that unit is killed.)</i>",
+      "effect": {
+        "Effect1Amount": "1",
+        "Effect2Amount": "2"
+      },
+      "gold": {
+        "base": 100,
+        "purchasable": true,
+        "sell": 40,
+        "total": 100
+      },
+      "group": "PinkWards",
+      "id": 2043,
+      "image": {
+        "full": "2043.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 240,
+        "y": 144
+      },
+      "name": "Vision Ward",
+      "plaintext": "Use to temporarily provide vision and stealth detection in an area",
+      "sanitizedDescription": "Can only carry 2 Vision Wards in inventory. Click to Consume: Places a visible ward that reveals the surrounding area and invisible units in the area until killed. Limit 1 Vision Ward on the map per player. (Revealing a ward in this manner grants a portion of the gold reward when that unit is killed.)",
+      "stacks": 2,
+      "stats": {},
+      "tags": [
+        "Consumable",
+        "Lane",
+        "Stealth",
+        "Vision"
+      ]
+    },
+    {
+      "description": "<stats><mana>+25% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive - Favor:</unique> Being near a minion death without dealing the killing blow grants 3 Gold and 5 Health.<br><br><groupLimit>Limited to 1 Gold Income item</groupLimit><br><br><i><font color='#447777'>''Gold dust rises from the desert and clings to the coin.'' - Historian Shurelya, 11 November, 23 CLE</font></i><br><br>",
+      "effect": {
+        "Effect1Amount": "3",
+        "Effect2Amount": "5"
+      },
+      "gold": {
+        "base": 365,
+        "purchasable": true,
+        "sell": 146,
+        "total": 365
+      },
+      "group": "GoldBase",
+      "id": 3301,
+      "image": {
+        "full": "3301.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item2.png",
+        "w": 48,
+        "x": 144,
+        "y": 0
+      },
+      "into": [
+        "3096"
+      ],
+      "name": "Ancient Coin",
+      "plaintext": "Grants gold when nearby minions die that you didn't kill",
+      "sanitizedDescription": "+25% Base Mana Regen UNIQUE Passive - Favor: Being near a minion death without dealing the killing blow grants 3 Gold and 5 Health. Limited to 1 Gold Income item ''Gold dust rises from the desert and clings to the coin.'' - Historian Shurelya, 11 November, 23 CLE",
+      "stats": {},
+      "tags": [
+        "GoldPer",
+        "Lane",
+        "ManaRegen"
+      ]
+    },
+    {
+      "consumed": true,
+      "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> <mana>Restores 100 Mana over 15 seconds.</mana>",
+      "effect": {
+        "Effect1Amount": "100",
+        "Effect2Amount": "15"
+      },
+      "gold": {
+        "base": 35,
+        "purchasable": true,
+        "sell": 14,
+        "total": 35
+      },
+      "group": "ManaPotion",
+      "id": 2004,
+      "image": {
+        "full": "2004.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 48,
+        "y": 144
+      },
+      "name": "Mana Potion",
+      "plaintext": "Consume to restore Mana over time",
+      "sanitizedDescription": "Limited to 5 at one time. Click to Consume: Restores 100 Mana over 15 seconds.",
+      "stacks": 5,
+      "stats": {},
+      "tags": [
+        "Consumable",
+        "Lane"
+      ]
+    }
   ]
 }

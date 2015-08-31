@@ -126,6 +126,8 @@ def main():
         items.add_item(item, 1)
       generator.add_block('Recommended %s' % category, False, items.get_items(),
                           category == 'Jungle Items')
+      build_output[category] = map(analyzer.get_item_data_by_id,
+                                  build_output[category])
     item_set = generator.get_item_set()
 
     # We will write the build JSON file to one file and the parsed data to
