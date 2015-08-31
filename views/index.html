@@ -9,6 +9,9 @@
       Search your champion
     </h2>
     <div class='search-bar'>
+
+      {{ error || '' }}
+
       <form action='/champion' method='GET'>
         <div class='search-text'>
           <input type='text' name='champion'

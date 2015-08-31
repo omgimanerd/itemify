@@ -9,6 +9,8 @@ var morgan = require('morgan');
 var swig = require('swig');
 var https = require('https');
 
+var Util = require('./server/Util');
+
 var app = express();
 
 // CONFIGURATION
@@ -34,25 +36,19 @@ app.get('/', function(request, response) {
 });
 
 app.get('/champion', function(request, response) {
-  champJSON = null;
-
-  response.render('champion.html', {
-    champion: request.query.champion
+  var champion = Util.getNormalizedChampionName(request.query.champion);
+  fs.readFile('dataset/builds/' + champion + '_build.json',
+              function(err, data) {
+    if (err) {
+      response.render('index.html', {
+        error: 'Champion not found. Try a different query.'
+      });
+      return;
+    }
+    response.render('champion.html', {
+      champion: champion
+    });
   });
-//  async.parallel([
-//    function(callback) {
-//      fs.readFile('dataset/builds/' + request.query.champion + '.json',
-//                  function(err, data) {
-//        if (err) {
-//          console.log(err);
-//          return;
-//        }
-//        champJSON = data;
-//        response.send(champJSON);
-//      });
-//    }
-//  ], function(error) {
-//  });
 });
 
 // SERVER SETUP
