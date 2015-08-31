@@ -1,33 +1,27 @@
 {
   "Boots": [
-    "Mercury's Treads",
-    "Boots of Mobility",
-    "Ninja Tabi"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Stealth Ward",
-    "Mana Potion",
-    "Vision Ward",
-    "Crystalline Flask"
+    3111,
+    3117,
+    3047
   ],
   "Elixirs": [
-    "Elixir of Iron"
+    2138
   ],
-  "Endgame": [
-    "Spirit Visage",
-    "Warmog's Armor",
-    "Dead Man's Plate",
-    "Randuin's Omen",
-    "Titanic Hydra (Melee Only)",
-    "Thornmail",
-    "Righteous Glory"
+  "Endgame Items": [
+    3065,
+    3083,
+    3742,
+    3143,
+    3748,
+    3075,
+    3800
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Oracle's Lens (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    2003,
+    1036,
+    2044,
+    2004
   ]
 }

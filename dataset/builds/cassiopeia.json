@@ -1,33 +1,27 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Sorcerer's Shoes",
-    "Ninja Tabi"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Mana Potion",
-    "Stealth Ward",
-    "Crystalline Flask",
-    "Vision Ward"
+    3020,
+    3047,
+    3158
   ],
   "Elixirs": [
-    "Elixir of Sorcery"
+    2139
   ],
-  "Endgame": [
-    "Seraph's Embrace",
-    "Rabadon's Deathcap",
-    "Rylai's Crystal Scepter",
-    "Luden's Echo",
-    "Zhonya's Hourglass",
-    "Void Staff",
-    "Liandry's Torment"
+  "Endgame Items": [
+    3040,
+    3089,
+    3116,
+    3285,
+    3157,
+    3135,
+    3151
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Hextech Sweeper",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    1056,
+    2003,
+    2004,
+    2044
   ]
 }

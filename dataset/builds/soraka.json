@@ -1,33 +1,27 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Ionian Boots of Lucidity",
-    "Boots of Mobility"
-  ],
-  "Consumables": [
-    "Vision Ward",
-    "Mana Potion",
-    "Crystalline Flask",
-    "Health Potion",
-    "Stealth Ward"
+    3158,
+    3117,
+    3020
   ],
   "Elixirs": [],
-  "Endgame": [
-    "Talisman of Ascension",
-    "Zeke's Harbinger",
-    "Ardent Censer",
-    "Warmog's Armor",
-    "Locket of the Iron Solari",
-    "Athene's Unholy Grail",
-    "Rabadon's Deathcap"
+  "Endgame Items": [
+    3069,
+    3050,
+    3504,
+    3083,
+    3190,
+    3174,
+    3089
   ],
-  "Jungle": [
-    "Stalker's Blade"
+  "Jungle Items": [
+    3706
   ],
-  "Trinkets": [
-    "Sweeping Lens (Trinket)",
-    "Warding Totem (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+  "Starting Items": [
+    3340,
+    2043,
+    2004,
+    3301,
+    1056
   ]
 }

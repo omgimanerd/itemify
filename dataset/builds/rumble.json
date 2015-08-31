@@ -1,34 +1,29 @@
 {
   "Boots": [
-    "Sorcerer's Shoes",
-    "Ionian Boots of Lucidity",
-    "Mercury's Treads"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Crystalline Flask",
-    "Vision Ward",
-    "Stealth Ward"
+    3020,
+    3158,
+    3111
   ],
   "Elixirs": [
-    "Elixir of Sorcery"
+    2139
   ],
-  "Endgame": [
-    "Liandry's Torment",
-    "Zhonya's Hourglass",
-    "Rylai's Crystal Scepter",
-    "Void Staff",
-    "Abyssal Scepter",
-    "Rabadon's Deathcap",
-    "Will of the Ancients"
+  "Endgame Items": [
+    3151,
+    3157,
+    3116,
+    3135,
+    3001,
+    3089,
+    3152
   ],
-  "Jungle": [
-    "Ranger's Trailblazer"
+  "Jungle Items": [
+    3713
   ],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Starting Items": [
+    3340,
+    1054,
+    2003,
+    2041,
+    2043
   ]
 }

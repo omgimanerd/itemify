@@ -1,30 +1,25 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Mercury's Treads",
-    "Ninja Tabi"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Mana Potion",
-    "Crystalline Flask",
-    "Stealth Ward"
+    3111,
+    3047,
+    3158
   ],
   "Elixirs": [],
-  "Endgame": [
-    "The Black Cleaver",
-    "Muramana",
-    "Frozen Heart",
-    "Last Whisper",
-    "Iceborn Gauntlet",
-    "Maw of Malmortius",
-    "Youmuu's Ghostblade"
+  "Endgame Items": [
+    3071,
+    3042,
+    3110,
+    3035,
+    3025,
+    3156,
+    3142
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)",
-    "Farsight Orb (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    1036,
+    2003,
+    1055,
+    2004
   ]
 }

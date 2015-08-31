@@ -1,32 +1,27 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Mercury's Treads",
-    "Ninja Tabi"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Vision Ward",
-    "Stealth Ward",
-    "Crystalline Flask"
+    3111,
+    3047,
+    3006
   ],
   "Elixirs": [
-    "Elixir of Iron"
+    2138
   ],
-  "Endgame": [
-    "The Black Cleaver",
-    "Randuin's Omen",
-    "Spirit Visage",
-    "Sunfire Cape",
-    "Blade of the Ruined King",
-    "Thornmail",
-    "Banshee's Veil"
+  "Endgame Items": [
+    3071,
+    3143,
+    3065,
+    3068,
+    3153,
+    3075,
+    3102
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Hextech Sweeper",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    1055,
+    2003,
+    1036,
+    2043
   ]
 }

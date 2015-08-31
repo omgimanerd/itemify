@@ -1,33 +1,27 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Mercury's Treads",
-    "Ninja Tabi"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Vision Ward",
-    "Mana Potion",
-    "Stealth Ward",
-    "Crystalline Flask"
+    3111,
+    3047,
+    3117
   ],
   "Elixirs": [],
-  "Endgame": [
-    "Blade of the Ruined King",
-    "Spirit Visage",
-    "Titanic Hydra (Melee Only)",
-    "Randuin's Omen",
-    "Dead Man's Plate",
-    "Sterak's Gage",
-    "Sunfire Cape"
+  "Endgame Items": [
+    3153,
+    3065,
+    3748,
+    3143,
+    3742,
+    3053,
+    3068
   ],
-  "Jungle": [
-    "Stalker's Blade"
+  "Jungle Items": [
+    3706
   ],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Starting Items": [
+    3340,
+    1055,
+    1036,
+    1054,
+    2003
   ]
 }

@@ -1,31 +1,25 @@
 {
   "Boots": [
-    "Boots of Mobility",
-    "Ionian Boots of Lucidity",
-    "Sorcerer's Shoes"
-  ],
-  "Consumables": [
-    "Vision Ward",
-    "Mana Potion",
-    "Health Potion",
-    "Crystalline Flask",
-    "Stealth Ward"
+    3117,
+    3158,
+    3020
   ],
   "Elixirs": [],
-  "Endgame": [
-    "Zeke's Harbinger",
-    "Locket of the Iron Solari",
-    "Frozen Heart",
-    "Talisman of Ascension",
-    "Ruby Sightstone",
-    "Randuin's Omen",
-    "Banner of Command"
+  "Endgame Items": [
+    3050,
+    3190,
+    3110,
+    3069,
+    2045,
+    3143,
+    3060
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Sweeping Lens (Trinket)",
-    "Warding Totem (Trinket)",
-    "Soul Anchor (Trinket)",
-    "Oracle's Lens (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    3303,
+    2043,
+    3301,
+    2004
   ]
 }

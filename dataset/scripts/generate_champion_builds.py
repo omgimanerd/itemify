@@ -4,42 +4,40 @@
 # ~150000 games and generates an optimal build for every champion.
 # Author: Alvin Lin (alvin.lin@stuypulse.com)
 
-from operator import itemgetter
 import json
 
+from data_analyzer import DataAnalyzer
 from item_set_generator import ItemSetBlockItems
 from item_set_generator import ItemSetGenerator
 from util import Util
-from stat_analyzer import StatAnalyzer
 
 # For each category of items, we will impose a limit on the max number of
 # items we show, we will also specify here whether or not we will sort the
 # category by item tier.
 CATEGORIES = [
-  'Trinkets', 'Consumables', 'Boots', 'Jungle', 'Endgame', 'Elixirs'
+  'Starting Items', 'Boots', 'Jungle Items', 'Endgame Items', 'Elixirs'
 ]
 ITEM_LIMIT = {
-  'Trinkets': 4,
+  'Starting Items': 5,
   'Boots': 3,
-  'Jungle': 3,
-  'Elixirs': 2,
-  'Consumables': 10,
-  'Endgame': 7
+  'Jungle Items': 3,
+  'Endgame Items': 7,
+  'Elixirs': 2
 }
 SORT_TIER = {
-  'Trinkets': True,
+  'Starting Items': False,
   'Boots': True,
-  'Jungle': True,
-  'Elixirs': False,
-  'Consumables': False,
-  'Endgame': False
+  'Jungle Items': True,
+  'Endgame Items': False,
+  'Elixirs': False
 }
 
 def main():
-  analyzer = StatAnalyzer.create()
+  analyzer = DataAnalyzer.create()
 
   with open('../stats.json') as stats_input:
     stats = map(json.loads, stats_input.readlines())
+  print 'Read stats.json: %s entries found' % len(stats)
 
   # by_champion is a object with 126 keys, one for each champion id.
   # The value assigned to each key is a list of their game data generated
@@ -100,18 +98,17 @@ def main():
     for item in effectiveness_sorted_items:
       if analyzer.is_irrelevant(item) or not analyzer.get_item_name_by_id(item):
         continue
-      elif analyzer.is_trinket(item):
-        build_output['Trinkets'].append(item)
-      elif analyzer.is_boot(item):
+      elif analyzer.is_starter(item):
+        build_output['Starting Items'].append(item)
+      elif analyzer.is_boot(item) and analyzer.get_item_depth(item) >= 2:
         build_output['Boots'].append(item)
-      elif analyzer.is_jungle(item):
-        build_output['Jungle'].append(item)
+      elif analyzer.is_jungle(item) and analyzer.get_item_depth(item) >= 2:
+        build_output['Jungle Items'].append(item)
       elif analyzer.is_elixir(item):
         build_output['Elixirs'].append(item)
-      elif analyzer.is_consumable(item):
-        build_output['Consumables'].append(item)
-      elif not analyzer.get_items_built_from(item):
-        build_output['Endgame'].append(item)
+      elif not analyzer.get_items_built_from(item) and (
+          not analyzer.is_trinket(item)):
+        build_output['Endgame Items'].append(item)
 
     # For each category of item, we will only show a certain number of items and
     # will will generate the item set for each category. We will also sort
@@ -127,10 +124,8 @@ def main():
       items = ItemSetBlockItems()
       for item in build_output[category]:
         items.add_item(item, 1)
-      generator.add_block('Recommended %s' % category, False, items.get_items())
-
-      build_output[category] = map(
-          analyzer.get_item_name_by_id, build_output[category])
+      generator.add_block('Recommended %s' % category, False, items.get_items(),
+                          category == 'Jungle Items')
 
     item_set = generator.get_item_set()
 

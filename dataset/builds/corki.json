@@ -1,33 +1,27 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Sorcerer's Shoes",
-    "Berserker's Greaves"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Mana Potion",
-    "Vision Ward",
-    "Crystalline Flask",
-    "Stealth Ward"
+    3020,
+    3006,
+    3158
   ],
   "Elixirs": [
-    "Elixir of Wrath"
+    2140
   ],
-  "Endgame": [
-    "Trinity Force",
-    "Blade of the Ruined King",
-    "Last Whisper",
-    "Infinity Edge",
-    "The Bloodthirster",
-    "Luden's Echo",
-    "Banshee's Veil"
+  "Endgame Items": [
+    3078,
+    3153,
+    3035,
+    3031,
+    3072,
+    3285,
+    3102
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Scrying Orb (Trinket)",
-    "Farsight Orb (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    1055,
+    3340,
+    1036,
+    2003,
+    2004
   ]
 }

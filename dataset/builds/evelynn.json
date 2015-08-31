@@ -1,33 +1,27 @@
 {
   "Boots": [
-    "Boots of Mobility",
-    "Mercury's Treads",
-    "Sorcerer's Shoes"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Vision Ward",
-    "Stealth Ward",
-    "Mana Potion",
-    "Crystalline Flask"
+    3117,
+    3111,
+    3020
   ],
   "Elixirs": [
-    "Elixir of Sorcery"
+    2139
   ],
-  "Endgame": [
-    "Rylai's Crystal Scepter",
-    "Randuin's Omen",
-    "Abyssal Scepter",
-    "Luden's Echo",
-    "Liandry's Torment",
-    "Banshee's Veil",
-    "Frozen Heart"
+  "Endgame Items": [
+    3116,
+    3143,
+    3001,
+    3285,
+    3151,
+    3102,
+    3110
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Oracle's Lens (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    2003,
+    2043,
+    1036,
+    2044
   ]
 }

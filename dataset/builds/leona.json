@@ -1,33 +1,27 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Mercury's Treads",
-    "Boots of Mobility"
-  ],
-  "Consumables": [
-    "Vision Ward",
-    "Health Potion",
-    "Mana Potion",
-    "Stealth Ward",
-    "Crystalline Flask"
+    3111,
+    3117,
+    3047
   ],
   "Elixirs": [
-    "Elixir of Iron"
+    2138
   ],
-  "Endgame": [
-    "Face of the Mountain",
-    "Locket of the Iron Solari",
-    "Sunfire Cape",
-    "Randuin's Omen",
-    "Frozen Heart",
-    "Righteous Glory",
-    "Ruby Sightstone"
+  "Endgame Items": [
+    3401,
+    3190,
+    3068,
+    3143,
+    3110,
+    3800,
+    2045
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Sweeping Lens (Trinket)",
-    "Warding Totem (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    2043,
+    3302,
+    2003,
+    2004
   ]
 }

@@ -38,10 +38,12 @@ class ItemSetGenerator():
   def get_item_set(self):
     return self.json
 
-  def add_block(self, name, recMath, items):
+  def add_block(self, name, recMath, items, jungle=False):
     block = {
       'type': name,
       'recMath': recMath,
       'items': items
     }
+    if jungle:
+      block['showIfSummonerSpell'] = 'SummonerSmite'
     self.json['blocks'].append(block)

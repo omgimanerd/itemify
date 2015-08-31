@@ -1,32 +1,27 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Sorcerer's Shoes",
-    "Boots of Mobility"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Stealth Ward",
-    "Vision Ward",
-    "Crystalline Flask"
+    3020,
+    3117,
+    3158
   ],
   "Elixirs": [
-    "Elixir of Sorcery"
+    2139
   ],
-  "Endgame": [
-    "Luden's Echo",
-    "Rabadon's Deathcap",
-    "Zhonya's Hourglass",
-    "Abyssal Scepter",
-    "Void Staff",
-    "Rylai's Crystal Scepter",
-    "Mejai's Soulstealer"
+  "Endgame Items": [
+    3285,
+    3089,
+    3157,
+    3001,
+    3135,
+    3116,
+    3041
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Hextech Sweeper",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    2003,
+    2044,
+    2043,
+    1054
   ]
 }

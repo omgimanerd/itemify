@@ -1,31 +1,27 @@
 {
   "Boots": [
-    "Ninja Tabi",
-    "Mercury's Treads",
-    "Berserker's Greaves"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Vision Ward",
-    "Stealth Ward"
+    3047,
+    3111,
+    3006
   ],
   "Elixirs": [],
-  "Endgame": [
-    "Blade of the Ruined King",
-    "Spirit Visage",
-    "Ravenous Hydra (Melee Only)",
-    "Randuin's Omen",
-    "Sterak's Gage",
-    "The Bloodthirster",
-    "Last Whisper"
+  "Endgame Items": [
+    3153,
+    3065,
+    3074,
+    3143,
+    3053,
+    3072,
+    3035
   ],
-  "Jungle": [
-    "Ranger's Trailblazer"
+  "Jungle Items": [
+    3713
   ],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Starting Items": [
+    3340,
+    1036,
+    1055,
+    2003,
+    2043
   ]
 }

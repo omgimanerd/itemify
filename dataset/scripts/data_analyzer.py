@@ -6,13 +6,12 @@
 
 import json
 
-IRRELEVANT_IDS = [2052, 3187, 1054, 1055, 1056]
+IRRELEVANT_IDS = [2052, 3187]
 
-class StatAnalyzer():
-  def __init__(self, champions, items, stats):
+class DataAnalyzer():
+  def __init__(self, champions, items):
     self.champions = champions
     self.items = items
-    self.stats = stats
 
   @staticmethod
   def create():
@@ -20,10 +19,7 @@ class StatAnalyzer():
       champions = json.loads(champions_input.read())
     with open('../items.json') as items_input:
       items = json.loads(items_input.read())
-    with open('../stats.json') as stats_input:
-      stats = map(json.loads, stats_input.readlines())
-    print "Read stats, total entries %s" % len(stats)
-    return StatAnalyzer(champions, items, stats)
+    return DataAnalyzer(champions, items)
 
   def get_champion_name_by_id(self, id):
     for champion in self.champions:
@@ -67,6 +63,12 @@ class StatAnalyzer():
       return item.get('from', None)
     return None
 
+  def get_item_depth(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('depth', 0)
+    return 0
+
   def is_irrelevant(self, id):
     item = self.get_item_data_by_id(id)
     if item:
@@ -79,26 +81,24 @@ class StatAnalyzer():
       return item.get('tags', []).count('Trinket') != 0
     return False
 
+  def is_starter(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('tags', []).count('Lane') != 0
+    return False
+
+  def is_jungle(self, id):
+    item = self.get_item_data_by_id(id)
+    if item:
+      return item.get('tags', []).count('Jungle') != 0
+    return False
+
   def is_boot(self, id):
     item = self.get_item_data_by_id(id)
     if item:
       return item.get('tags', []).count('Boots') != 0
     return False
 
-  def is_jungle(self, id):
-    item = self.get_item_data_by_id(id)
-    if item:
-      return item.get('tags', []).count('Jungle') != 0 and (
-          item.get('tags', []).count('Consumable') == 0)
-    return False
-
-  def is_consumable(self, id):
-    item = self.get_item_data_by_id(id)
-    if item:
-      return item.get('tags', []).count('Consumable') != 0
-    return False
-
-  # This check should happen before is_consumable!
   def is_elixir(self, id):
     item = self.get_item_data_by_id(id)
     if item:
@@ -109,7 +109,7 @@ class StatAnalyzer():
 This main() method is for testing purposes only.
 """
 def main():
-  analyzer = StatAnalyzer.create()
+  analyzer = DataAnalyzer.create()
   print analyzer.get_champion_name_by_id(266)
   print analyzer.get_champion_data_by_name('Annie')
   print analyzer.get_champion_data_by_id(266)

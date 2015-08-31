@@ -8,24 +8,6 @@
         },
         {
           "count": 1,
-          "id": "3341"
-        },
-        {
-          "count": 1,
-          "id": "3348"
-        },
-        {
-          "count": 1,
-          "id": "3361"
-        }
-      ],
-      "recMath": false,
-      "type": "Recommended Trinkets"
-    },
-    {
-      "items": [
-        {
-          "count": 1,
           "id": "2003"
         },
         {
@@ -34,18 +16,18 @@
         },
         {
           "count": 1,
+          "id": "1054"
+        },
+        {
+          "count": 1,
           "id": "2043"
         }
       ],
       "recMath": false,
-      "type": "Recommended Consumables"
+      "type": "Recommended Starting Items"
     },
     {
       "items": [
-        {
-          "count": 1,
-          "id": "1001"
-        },
         {
           "count": 1,
           "id": "3020"
@@ -53,6 +35,10 @@
         {
           "count": 1,
           "id": "3111"
+        },
+        {
+          "count": 1,
+          "id": "3117"
         }
       ],
       "recMath": false,
@@ -66,7 +52,8 @@
         }
       ],
       "recMath": false,
-      "type": "Recommended Jungle"
+      "showIfSummonerSpell": "SummonerSmite",
+      "type": "Recommended Jungle Items"
     },
     {
       "items": [
@@ -100,7 +87,7 @@
         }
       ],
       "recMath": false,
-      "type": "Recommended Endgame"
+      "type": "Recommended Endgame Items"
     },
     {
       "items": [

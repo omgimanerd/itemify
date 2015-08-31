@@ -1,33 +1,27 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Ionian Boots of Lucidity",
-    "Mercury's Treads"
-  ],
-  "Consumables": [
-    "Crystalline Flask",
-    "Health Potion",
-    "Mana Potion",
-    "Vision Ward",
-    "Stealth Ward"
+    3158,
+    3111,
+    3047
   ],
   "Elixirs": [
-    "Elixir of Wrath"
+    2140
   ],
-  "Endgame": [
-    "Trinity Force",
-    "Infinity Edge",
-    "Statikk Shiv",
-    "The Bloodthirster",
-    "Spirit Visage",
-    "Last Whisper",
-    "Youmuu's Ghostblade"
+  "Endgame Items": [
+    3078,
+    3031,
+    3087,
+    3072,
+    3065,
+    3035,
+    3142
   ],
-  "Jungle": [],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Hextech Sweeper",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    2041,
+    1036,
+    2003,
+    1055
   ]
 }

@@ -1,36 +1,31 @@
 {
   "Boots": [
-    "Boots of Speed",
-    "Ionian Boots of Lucidity",
-    "Mercury's Treads"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Vision Ward",
-    "Stealth Ward",
-    "Mana Potion"
+    3158,
+    3111,
+    3047
   ],
   "Elixirs": [
-    "Elixir of Wrath",
-    "Elixir of Iron"
+    2140,
+    2138
   ],
-  "Endgame": [
-    "Ravenous Hydra (Melee Only)",
-    "Last Whisper",
-    "The Black Cleaver",
-    "The Bloodthirster",
-    "Youmuu's Ghostblade",
-    "Sword of the Occult",
-    "Maw of Malmortius"
+  "Endgame Items": [
+    3074,
+    3035,
+    3071,
+    3072,
+    3142,
+    3141,
+    3156
   ],
-  "Jungle": [
-    "Stalker's Blade",
-    "Skirmisher's Sabre"
+  "Jungle Items": [
+    3706,
+    3715
   ],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Starting Items": [
+    3340,
+    1036,
+    1055,
+    2003,
+    2043
   ]
 }

@@ -1,35 +1,28 @@
 {
   "Boots": [
-    "Boots of Swiftness",
-    "Mercury's Treads",
-    "Ninja Tabi"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Stealth Ward",
-    "Vision Ward",
-    "Mana Potion"
+    3009,
+    3111,
+    3047
   ],
   "Elixirs": [
-    "Elixir of Iron",
-    "Elixir of Wrath"
+    2138,
+    2140
   ],
-  "Endgame": [
-    "The Black Cleaver",
-    "Dead Man's Plate",
-    "Spirit Visage",
-    "Sterak's Gage",
-    "Warmog's Armor",
-    "Sunfire Cape",
-    "Randuin's Omen"
+  "Endgame Items": [
+    3071,
+    3742,
+    3065,
+    3053,
+    3083,
+    3068,
+    3143
   ],
-  "Jungle": [
-    "Hunter's Machete"
-  ],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Hextech Sweeper",
-    "Greater Stealth Totem (Trinket)",
-    "Greater Vision Totem (Trinket)"
+  "Jungle Items": [],
+  "Starting Items": [
+    3340,
+    1054,
+    1036,
+    2003,
+    1055
   ]
 }

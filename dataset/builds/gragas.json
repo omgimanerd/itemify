@@ -1,36 +1,30 @@
 {
   "Boots": [
-    "Mercury's Treads",
-    "Sorcerer's Shoes",
-    "Ninja Tabi"
-  ],
-  "Consumables": [
-    "Health Potion",
-    "Vision Ward",
-    "Stealth Ward",
-    "Mana Potion",
-    "Crystalline Flask"
+    3111,
+    3020,
+    3047
   ],
   "Elixirs": [
-    "Elixir of Sorcery"
+    2139
   ],
-  "Endgame": [
-    "Frozen Heart",
-    "Spirit Visage",
-    "Randuin's Omen",
-    "Locket of the Iron Solari",
-    "Righteous Glory",
-    "Rod of Ages",
-    "Lich Bane"
+  "Endgame Items": [
+    3110,
+    3065,
+    3143,
+    3190,
+    3800,
+    3027,
+    3100
   ],
-  "Jungle": [
-    "Ranger's Trailblazer",
-    "Stalker's Blade"
+  "Jungle Items": [
+    3713,
+    3706
   ],
-  "Trinkets": [
-    "Warding Totem (Trinket)",
-    "Sweeping Lens (Trinket)",
-    "Oracle's Lens (Trinket)",
-    "Greater Stealth Totem (Trinket)"
+  "Starting Items": [
+    3340,
+    2003,
+    2043,
+    2044,
+    1056
   ]
 }
