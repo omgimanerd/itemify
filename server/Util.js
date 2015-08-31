@@ -4,7 +4,7 @@
  */
 
 function getNormalizedChampionName(champion) {
-  return champion.replace('/[^a-zA-Z]', '').toLowerCase();
+  return champion.replace(/[^a-zA-Z]/, '').toLowerCase();
 };
 
 module.exports.getNormalizedChampionName = getNormalizedChampionName;

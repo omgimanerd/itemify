@@ -40,6 +40,7 @@ app.get('/champion', function(request, response) {
   fs.readFile('dataset/builds/' + champion + '_build.json',
               function(err, data) {
     if (err) {
+      console.log(champion);
       response.render('index.html', {
         error: 'Champion not found. Try a different query.'
       });
