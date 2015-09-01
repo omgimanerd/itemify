@@ -4,13 +4,13 @@
 
   <div class='content'>
     <div class='build'>
-        {% for category in displayOrder %}
-          <div class='build-block'>
-            {% for item in data[category] %}
-              <img src='/static/images/items/{{ item["id"] }}.png' />
-            {% endfor %}
-          </div>
-        {% endfor %}
+      {% for category in displayOrder %}
+        <div class='build-block'>
+          {% for item in data[category] %}
+            <img src='/static/images/items/{{ item["id"] }}.png' />
+          {% endfor %}
+        </div>
+      {% endfor %}
     </div>
     <br />
     <br />

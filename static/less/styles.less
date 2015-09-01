@@ -26,6 +26,7 @@ html, body {
 }
 
 .container {
+  position: relative;
   height: 100%;
   width: 100%
 }
@@ -65,10 +66,10 @@ html, body {
   text-decoration: none;
   color: black;
   transition: 0.5s;
-}
 
-.header ul li a:hover {
-  color: white;
+  &:hover {
+    color: white;
+  }
 }
 
 .content {
@@ -78,50 +79,52 @@ html, body {
   background: #888888;
   float: left;
   clear: none;
-}
 
-.content h1 {
-  font-size: 3em;
-  padding-top: 3em;
-  text-align: center;
-  margin: 0;
-}
+  h1 {
+    font-size: 3em;
+    padding-top: 3em;
+    text-align: center;
+    margin: 0;
+  }
 
-.content h2 {
-  font-size: 1em;
-  text-align: center;
+  h2 {
+    font-size: 1em;
+    text-align: center;
+  }
 }
 
 .search-bar {
-  padding: 8px 30px;
-  text-align: center;
-  display: block;
+  width: 500px;
+  height: 200px;
   margin: 0 auto;
-}
+  padding: 0;
+  border: 0;
+  text-align: center;
 
-.search-bar .search-button,.search-bar .search-text {
-  display:inline-block;
-  height:50px;
-  background-color:transparent;
-  color:#fff;
-  font-size:20px;
-  border:0
-}
+  .search-text {
+    display: inline-block;
+    height: 50px;
+    margin: 0;
+  }
 
-.search-bar .search-text {
-  width:394px;
-  padding-left:20px
-}
+  .search-button {
+    display: inline-block;
+    height: 50px;
+    background: transparent;
+    margin: 0;
+  }
 
-.search-bar .search-text:focus {
-  outline:0
-}
+  input {
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
 
-.search-bar .search-button {
-    width:50px;
-    padding:0
+    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+  }
 }
 
 .build {
-
+  position: absolute;
 }
