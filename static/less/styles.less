@@ -23,7 +23,7 @@ html, body {
   min-width: 1080px;
   margin: 0;
   border: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 #background {
@@ -34,13 +34,13 @@ html, body {
   min-width: 1080px;
   background-size: 100% 100%;
   opacity: 0.75;
+  z-index: -1;
 }
 
 .container {
   position: relative;
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 .header {
@@ -112,6 +112,7 @@ html, body {
   border: 0;
   text-align: center;
 
+
   .search-text {
     display: inline-block;
     height: 50px;
@@ -140,6 +141,7 @@ html, body {
   width: 85%;
   display: block;
   margin: 3em auto;
+  padding: 20px;
   background: rgba(0, 0, 0, 0.5);
   color: white;
 
@@ -180,30 +182,39 @@ html, body {
 .build p {
   color: white;
   padding: 15px;
-  margin: 0;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Roboto;
 }
 .build hr {
   margin: 0 15px;
 }
 .build-block {
-  padding: 15px;
+  padding: 0 15px;
+  text-align: center;
 }
 .build-block-hover {
   position: relative;
   display: inline;
+  width: 50px;
   height: 50px;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
 }
 .build-block-hover-tooltip {
   position: absolute;
-  top: 10px;
-  left: 0px;
+  top: -80px;
+  left: 60px;
   width: auto;
-  min-width: 400px;
+  min-width: 450px;
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
   opacity: 0;
-  z-index: 0;
+  z-index: -10;
 
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
