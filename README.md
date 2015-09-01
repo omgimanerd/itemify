@@ -1,10 +1,8 @@
 # Itemify
-========
 A repository for Alvin Lin's and Justin He's program/web application for the
 Riot Games API Challenge 2.0 of 2015.
 
 # Overview
-========
 All data analysis is done on the backend with Python even though the server
 is NodeJS. Scripts of interest are all located in ```/dataset/scripts```.
 These scripts help us fetch all necessary data as well as parse it. Each
@@ -20,7 +18,6 @@ to update the data. Due to rate limiting on Riot's API key, get_stats.py will
 usually take about 18~ hours since we aggregate data on 150k games.
 
 # Data Aggregation
-========
 Our algorithm to aggregate game data starts with a few summoners known as
 "seed" summoners. We query their past games and the past games of the teammates
 they have had in the past games. Then we recursively query those teammate's
@@ -29,7 +26,6 @@ teammates until we have enough data. We use Bjergsen and WildTurtle as the
 JK Bjergsen is life ```<3```.
 
 # Data Analysis
-========
 When analyzing games, wins as well as KDA factor into the effectiveness of the
 build. For every champion, each item that is built on that champion by any
 player receives an effectiveness score that is based on whether or not the
