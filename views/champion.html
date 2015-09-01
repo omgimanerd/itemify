@@ -4,7 +4,9 @@
 
   <div class='content'>
     <div class='build'>
+    <h1>{{ champion }} Suggested Build</h1>
       {% for category in displayOrder %}
+        <p>{{ category }}</p>
         <div class='build-block'>
           {% for item in data[category] %}
             <img src='/static/images/items/{{ item["id"] }}.png' />
