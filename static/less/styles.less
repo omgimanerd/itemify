@@ -6,8 +6,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100;
-  src: local('Roboto Thin'), local('Roboto-Thin'), url(http://fonts.gstatic.com/s/roboto/v15/ty9dfvLAziwdqQ2dHoyjphkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+  src: url('/static/fonts/Roboto.woff2');
 }
 
 * {
@@ -28,96 +27,6 @@ html, body {
 .container {
   height: 100%;
   width: 100%
-}
-
-a:focus {
-  outline: thin dotted;
-}
-
-a:active, a:hover, a:visited, a:link {
-  outline: 0;
-  outline: none;
-}
-
-hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
-}
-
-ol, ul {
-    margin: 1em 0;
-}
-
-menu,
-ol,
-ul {
-    padding: 0 0 0 40px;
-}
-
-nav ul, nav ol {
-    list-style: none;
-    list-style-image: none;
-}
-
-img {
-    border: 0;
-    -ms-interpolation-mode: bicubic;
-}
-
-form {
-    margin: 0;
-}
-
-button, input, select, textarea {
-  font-size: 100%;
-  margin: 0;
-  vertical-align: baseline;
-  *vertical-align: middle;
-}
-
-input[type="checkbox"], input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-  *height: 13px;
-  *width: 13px;
-}
-
-input[type="search"] {
-    -webkit-appearance: textfield;
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-
-button::-moz-focus-inner, input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-
-textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
-}
-
-/* Tables */
-/* Remove most spacing between table cells. */
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-h1, h2 {
-  font-family: 'Roboto';
-}
-
-h3, h4 {
-  font-family: 'Roboto';
 }
 
 .header {
@@ -142,7 +51,7 @@ h3, h4 {
   float: right;
 }
 
-#icon {
+.icon {
   padding-right: 0em;
   float: left;
   position: absolute;
@@ -159,15 +68,6 @@ h3, h4 {
 
 .header ul li a:hover {
   color: white;
-}
-
-#banner {
-  font-color: blue;
-  width: 100%;
-  top: 3em;
-  position: relative;
-  float: left;
-  clear: none;
 }
 
 .content {
