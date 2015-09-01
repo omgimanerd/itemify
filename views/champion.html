@@ -23,7 +23,7 @@
               <div class='build-block-hover'>
                 <img src='/static/images/items/{{ item["id"] }}.png' />
                 <div class='build-block-hover-tooltip'>
-                  {{ item.description }}
+                  {{ item.sanitizedDescription }}
                 </div>
               </div>
             {% endfor %}
