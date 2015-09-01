@@ -12,6 +12,7 @@
     {% endblock %}
   </head>
   <body>
+    <div id='background'></div>
     <div class='container'>
       <div class='header'>
         <ul>
@@ -29,6 +30,7 @@
       {% block content %}
       {% endblock %}
     </div>
+    <script src='/static/js/background.js'></script>
     {% block scripts %}
     {% endblock %}
   </body>
