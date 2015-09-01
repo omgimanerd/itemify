@@ -20,6 +20,7 @@
   "dependencies": {
     "async": "^1.4.2",
     "body-parser": "^1.13.3",
+    "bower": "^1.5.2",
     "express": "^4.13.3",
     "morgan": "^1.6.1",
     "swig": "^1.4.2"
