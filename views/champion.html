@@ -12,6 +12,19 @@
           Download Suggested Build JSON!
         </a>
       </button>
+      <button>
+        <a href='/builds/all_builds.zip' download>
+          Download all champion builds!
+        </a>
+      </button>
+      <p>
+        Place the build JSON file in
+        <b>
+        C:\Riot Games\League of Legends\Config\Global\Recommended
+        </b>
+        to use it in game!
+      </p>
+
       {% for category in displayOrder %}
         {% if data[category].length != 0 %}
           <p>
