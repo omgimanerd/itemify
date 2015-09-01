@@ -1,8 +1,4 @@
 /node_modules
 /bower_components
-API_KEY.js
-bower.json
-package.json
 .api_key
-connect_to_database
 *.pyc
