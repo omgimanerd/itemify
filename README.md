@@ -1,6 +1,20 @@
 # Itemify
-A repository for Alvin Lin's and Justin He's program/web application for the
+A repository for Alvin Lin's and Justin He's web application for the
 Riot Games API Challenge 2.0 of 2015.
+This web app analyzes tens of thousands of high ranking games to determine
+the best build for a champion. It constructs an item build JSON from that
+build which you can download and load into League of Legends. You can also
+download builds for all champions and load them into your game so that you
+can be prepared no matter what champion you are playing.
+
+#Attribution
+Itemify isn't endorsed by Riot Games and doesn't reflect the views or opinions
+of Riot Games or anyone officially involved in producing or managing League of
+Legends. League of Legends and Riot Games are trademarks or registered
+trademarks of Riot Games, Inc. League of Legends &copy; Riot Games, Inc.
+We do not own any of the image assets used in this website.
+All code is our intellectual property and you may use it freely given that
+you credit us as its source.
 
 # Overview
 All data analysis is done on the backend with Python even though the server
