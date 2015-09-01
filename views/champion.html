@@ -4,15 +4,31 @@
 
   <div class='content'>
     <div class='build'>
-    <h1>{{ champion }} Suggested Build</h1>
-    <button><a href='/builds/{{ champion }}_build.json' download>Download Suggested Build JSON!</a></button>
+      <h1>
+        {{ champion }} Suggested Build
+      </h1>
+      <button>
+        <a href='/builds/{{ champion }}_build.json' download>
+          Download Suggested Build JSON!
+        </a>
+      </button>
       {% for category in displayOrder %}
-        <p>{{ category }}</p>
-        <div class='build-block'>
-          {% for item in data[category] %}
-            <img src='/static/images/items/{{ item["id"] }}.png' />
-          {% endfor %}
-        </div>
+        {% if data[category].length != 0 %}
+          <p>
+            {{ category }}
+          </p>
+          <hr />
+          <div class='build-block'>
+            {% for item in data[category] %}
+              <div class='build-block-hover'>
+                <img src='/static/images/items/{{ item["id"] }}.png' />
+                <div class='build-block-hover-tooltip'>
+                  {{ item.description }}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

@@ -138,11 +138,13 @@ html, body {
   position: relative;
   width: 85%;
   display: block;
-  margin: 0 auto;
-  margin-top: 3em;
+  margin: 3em auto;
   background: rgba(0, 0, 0, 0.5);
-  border-radius: 25px;
   color: white;
+
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
 }
 .build h1 {
   font-size: 3em;
@@ -176,12 +178,35 @@ html, body {
 }
 .build p {
   color: white;
-  padding: 0em;
-  margin: 0em;
+  padding: 15px;
+  margin: 0;
+}
+.build hr {
+  margin: 0 15px;
 }
 .build-block {
-  padding: 5px;
+  padding: 15px;
 }
-.build-block img {
-  height: 3em;
+.build-block-hover {
+  position: relative;
+  display: inline;
+  height: 50px;
+}
+.build-block-hover-tooltip {
+  position:absolute;
+  top:0px;
+  left: 100px;
+  z-index: 100;
+  background-color:black;
+  color:white;
+  opacity:0;
+
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+.build-block-hover:hover .build-block-hover-tooltip {
+  opacity: 1;
 }
