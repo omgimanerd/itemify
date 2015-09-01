@@ -2,4 +2,3 @@
 /bower_components
 .api_key
 *.pyc
-styles.css
