@@ -54,6 +54,10 @@ app.get('/champion', function(request, response) {
   });
 });
 
+app.get('how-to-use', function(request, response) {
+  response.render('how-to-use');
+});
+
 // SERVER SETUP
 var server = require('http').Server(app);
 server.listen(PORT_NUMBER, function() {
