@@ -228,7 +228,8 @@ Background.BGS = ['aatrox_0.jpg', 'aatrox_1.jpg', 'aatrox_2.jpg',
                   'zyra_3.jpg'];
 
 Background.displayRandomBackground = function() {
-  var bg = valid_bgs[Math.floor(Math.random() * valid_bgs.length)];
+  var bg = Background.BGS[
+      Math.floor(Math.random() * Background.BGS.length)];
   $('#background').css(
       'background-image',
       'url("/static/images/splash/' + bg + '")');
