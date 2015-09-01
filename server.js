@@ -35,6 +35,10 @@ app.get('/', function(request, response) {
   response.render('index.html');
 });
 
+app.get('/about', function(request, response) {
+  response.render('about.html');
+});
+
 app.get('/champion', function(request, response) {
   var champion = Util.getNormalizedChampionName(request.query.champion);
   fs.readFile('dataset/builds/' + champion + '.json',
@@ -54,8 +58,8 @@ app.get('/champion', function(request, response) {
   });
 });
 
-app.get('how-to-use', function(request, response) {
-  response.render('how-to-use');
+app.get('/how-to-use', function(request, response) {
+  response.render('how-to-use.html');
 });
 
 // SERVER SETUP
