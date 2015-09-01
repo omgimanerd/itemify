@@ -5,6 +5,7 @@
   <div class='content'>
     <div class='build'>
     <h1>{{ champion }} Suggested Build</h1>
+    <button><a href='/builds/{{ champion }}_build.json' download>Download Suggested Build JSON!</a></button>
       {% for category in displayOrder %}
         <p>{{ category }}</p>
         <div class='build-block'>
@@ -14,9 +15,6 @@
         </div>
       {% endfor %}
     </div>
-    <br />
-    <br />
-    <a href='/builds/{{ champion }}_build.json' download>Build</a>
   </div>
 
 {% endblock %}
