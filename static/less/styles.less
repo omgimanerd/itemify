@@ -115,25 +115,28 @@ html, body {
 
   .search-text {
     display: inline-block;
-    height: 50px;
-    margin: 0;
+    padding: 8px 15px;
+    background: rgba(50, 50, 50, 0.75);
+    border: 0px solid #dbdbdb;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   .search-button {
     display: inline-block;
-    height: 50px;
-    background: transparent;
-    margin: 0;
-  }
+    padding: 6px 15px;
+    margin-left: -8px;
+    border: 2px solid #207cca;
+    background-color: #207cca;
+    color: #fafafa;
 
-  input {
-    padding: 15px;
-    background: rgba(255,255,255,0.5);
-    margin: 0 0 10px 0;
-
-    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
-    -moz-box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
-    box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    &:hover {
+      border:2px solid #fafafa;
+      background-color: #fafafa;
+      color: #207cca;
+    }
   }
 }
 .build {
