@@ -6,7 +6,8 @@ the best build for a champion. It constructs an item build JSON from that
 build which you can download and load into League of Legends. You can also
 download builds for all champions and load them into your game so that you
 can be prepared no matter what champion you are playing.
-Hosted at [itemify.herokuapp.com](http://itemify.herokuapp.com)
+<br />
+Hosted at [itemify.herokuapp.com](http://itemify.herokuapp.com).
 
 #Attribution
 Itemify isn't endorsed by Riot Games and doesn't reflect the views or opinions
