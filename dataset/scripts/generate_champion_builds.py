@@ -67,7 +67,6 @@ def main():
         kda += game['assists'] / 2
       if game['deaths']:
         kda /= float(game['deaths'])
-      kda -= 1
       effectivenessScore = kda
       if game.get('win', False):
         effectivenessScore += 2

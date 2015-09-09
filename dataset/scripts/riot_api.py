@@ -29,6 +29,7 @@ class RiotApi():
   def get(path, params):
     response = requests.get("%s%s" % (BASE_URL, path), params=params)
     while response.status_code == RATE_LIMIT_EXCEEDED_RESPONSE:
+      print "Rate limit exceeded during query, waiting 10 seconds.!"
       time.sleep(10)
       response = requests.get("%s%s" % (BASE_URL, path), params=params)
 

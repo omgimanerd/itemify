@@ -16,14 +16,11 @@ QUERY_DELAY = 2;
 def main():
   data = DataAggregator.create()
 
-  with open('../queried_summoners', 'r') as queried_summoners_input:
+  with open('../QUERIED_SUMMONERS', 'r') as queried_summoners_input:
     queried_summoners = queried_summoners_input.readlines()
 
-  with open('../unqueried_summoners', 'r') as unqueried_summoners_input:
+  with open('../UNQUERIED_SUMMONERS', 'r') as unqueried_summoners_input:
     unqueried_summoners = unqueried_summoners_input.readlines()
-
-  print 'Queried: %s' % ', '.join(queried_summoners)
-  print 'Unqueried: %s' % ', '.join(unqueried_summoners)
 
   new_aggregated_summoners = []
 
@@ -38,7 +35,7 @@ def main():
       for stat in stats:
         stats_output.write('%s\n' % json.dumps(stat))
 
-    with open('../queried_summoners', 'a') as queried_summoners_output:
+    with open('../QUERIED_SUMMONERS', 'a') as queried_summoners_output:
       queried_summoners_output.write('%s\n' % id)
     queried_summoners.append(id)
 
@@ -51,7 +48,7 @@ def main():
     if summoner not in queried_summoners:
       new_unqueried_summoners.append(summoner)
 
-  with open('../unqueried_summoners', 'w') as unqueried_summoners_output:
+  with open('../UNQUERIED_SUMMONERS', 'w') as unqueried_summoners_output:
     for id in new_unqueried_summoners:
       unqueried_summoners_output.write('%s\n' % id)
 
