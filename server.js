@@ -20,7 +20,7 @@ app.set('port', PORT_NUMBER);
 app.set('view engine', 'html');
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(morgan('combined'));
+app.use(morgan(':date[web] :method :url :req[header] :remote-addr :status'));
 app.use('/bower_components',
         express.static(__dirname + '/bower_components'));
 app.use('/builds',
