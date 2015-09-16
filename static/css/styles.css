@@ -1,1 +1,217 @@
-#background,body,html{height:100%;min-height:750px;min-width:1080px}.content,.header{width:100%;clear:none}@font-face{font-family:Roboto;font-style:normal;font-weight:100;src:url(/static/fonts/Roboto.woff2)}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body,html{width:100%;margin:0;border:0;font-family:Roboto,sans-serif}#background{position:absolute;width:100%;background-size:100% 100%;opacity:.75;z-index:-1}.container{position:relative;height:100%;width:100%}.header,.icon{position:absolute}.header{height:3em;background:0 0;top:0;margin:0;float:left;z-index:2}.header ul li{padding-right:1em;text-align:left;font-style:normal;font-size:30px;font-weight:1100;text-transform:uppercase;list-style:none;float:right}.build p,.build-block,.content h1,.content h2,.footer,.search-bar{text-align:center}.icon{padding-right:0;float:left;left:.5em}.header ul li a{list-style:none;font-style:inherit;text-decoration:none;color:#000;transition:.5s}.header ul li a:hover{color:#fff}.content{display:block;margin:0 auto;float:left}.content h1{font-size:3em;padding-top:3em;margin:0}.content h2{font-size:1em}.search-bar{width:500px;height:200px;margin:0 auto;padding:0;border:0}.search-bar .search-text{display:inline-block;width:300px;padding:8px 15px;background:rgba(50,50,50,.75);border:0 solid #dbdbdb}.search-bar .search-text:focus{outline:0}.search-bar .search-button{display:inline-block;padding:6px 15px;margin-left:-8px;border:2px solid #207cca;background-color:#207cca;color:#fafafa}.search-bar .search-button:hover{border:2px solid #fafafa;background-color:#fafafa;color:#207cca}.build{position:relative;width:85%;display:block;margin:3em auto;padding:20px;background:rgba(0,0,0,.5);color:#fff;-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px}.build-block-hover,.build-block-hover img{width:50px;height:50px}.build h1{font-size:3em;font-weight:200;padding:.25em;margin:0;color:#fff}.build button{border-radius:4px;border:none;background:#1cb841;font-size:175%;display:block;margin:5px auto;transition:.1s}.build button:hover{background:#1cb8a5}.build button a{color:#fff;text-decoration:none}.build h1:first-letter,.build p:first-letter{text-transform:capitalize}.build p{color:#fff;padding:15px;margin:0 auto;font-family:Roboto}.build hr{margin:0 15px}.build-block{padding:0 15px}.build-block-hover{position:relative;display:inline}.build-block-hover-tooltip{position:absolute;top:-80px;left:60px;width:auto;min-width:450px;padding:15px;background-color:rgba(0,0,0,.75);color:#fff;opacity:0;z-index:-10;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s}.build-block-hover:hover .build-block-hover-tooltip{opacity:1;z-index:100}.footer{width:80%;font-size:11px;margin:0 auto}
+/*
+ * Main stylesheet.
+ * Author: Justin He
+ */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/static/fonts/Roboto.woff2');
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  min-height: 750px;
+  width: 100%;
+  min-width: 1080px;
+  margin: 0;
+  border: 0;
+  font-family: Roboto, sans-serif;
+}
+#background {
+  position: absolute;
+  height: 100%;
+  min-height: 750px;
+  width: 100%;
+  min-width: 1080px;
+  background-size: 100% 100%;
+  opacity: 0.75;
+  z-index: -1;
+}
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  height: 3em;
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  float: left;
+  clear: none;
+  z-index: 2;
+}
+.header ul li {
+  padding-right: 1em;
+  text-align: left;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 1100;
+  text-transform: uppercase;
+  list-style: none;
+  float: right;
+}
+.icon {
+  padding-right: 0em;
+  float: left;
+  position: absolute;
+  left: 0.5em;
+}
+.header ul li a {
+  list-style: none;
+  font-style: inherit;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.header ul li a:hover {
+  color: white;
+}
+.content {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  float: left;
+  clear: none;
+}
+.content h1 {
+  font-size: 3em;
+  padding-top: 3em;
+  text-align: center;
+  margin: 0;
+}
+.content h2 {
+  font-size: 1em;
+  text-align: center;
+}
+.search-bar {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+.search-bar .search-text {
+  display: inline-block;
+  width: 300px;
+  padding: 8px 15px;
+  background: rgba(50, 50, 50, 0.75);
+  border: 0px solid #dbdbdb;
+}
+.search-bar .search-text:focus {
+  outline: none;
+}
+.search-bar .search-button {
+  display: inline-block;
+  padding: 6px 15px;
+  margin-left: -8px;
+  border: 2px solid #207cca;
+  background-color: #207cca;
+  color: #fafafa;
+}
+.search-bar .search-button:hover {
+  border: 2px solid #fafafa;
+  background-color: #fafafa;
+  color: #207cca;
+}
+.build {
+  position: relative;
+  width: 85%;
+  display: block;
+  margin: 3em auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+.build h1 {
+  font-size: 3em;
+  font-weight: 200;
+  padding: 0.25em;
+  margin: 0em;
+  color: white;
+}
+.build button {
+  border-radius: 4px;
+  border: none;
+  background: #1cb841;
+  font-size: 175%;
+  display: block;
+  margin: 5px auto;
+  transition: 0.1s;
+}
+.build button:hover {
+  background: #1cb8a5;
+}
+.build button a {
+  color: white;
+  text-decoration: none;
+}
+.build h1:first-letter {
+  text-transform: capitalize;
+}
+.build p:first-letter {
+  text-transform: capitalize;
+}
+.build p {
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Roboto;
+}
+.build hr {
+  margin: 0 15px;
+}
+.build-block {
+  padding: 0 15px;
+  text-align: center;
+}
+.build-block-hover {
+  position: relative;
+  display: inline;
+  width: 50px;
+  height: 50px;
+}
+.build-block-hover img {
+  width: 50px;
+  height: 50px;
+}
+.build-block-hover-tooltip {
+  position: absolute;
+  top: -80px;
+  left: 60px;
+  width: auto;
+  min-width: 450px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  opacity: 0;
+  z-index: -10;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.build-block-hover:hover .build-block-hover-tooltip {
+  opacity: 1;
+  z-index: 100;
+}
+.footer {
+  width: 80%;
+  font-size: 11px;
+  margin: 0 auto;
+  text-align: center;
+}
