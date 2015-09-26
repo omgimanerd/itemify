@@ -27,8 +27,10 @@ app.use('/builds',
         express.static(__dirname + '/dataset/builds'));
 app.use('/build_images',
         express.static(__dirname + '/dataset/build_images'));
-app.use('/static',
-        express.static(__dirname + '/static'));
+app.use('/static/dist',
+        express.static(__dirname + '/static/dist'));
+app.use('/static/images',
+        express.static(__dirname + '/static/images'));
 
 // ROUTING
 app.get('/', function(request, response) {
