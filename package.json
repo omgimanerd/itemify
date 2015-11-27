@@ -1,22 +1,22 @@
 {
-  "name": "riot-games-api-challenge",
+  "name": "Itemify",
   "version": "1.0.0",
   "description": "Riot Games API Challenge 2.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node server.js",
     "postinstall": "./node_modules/bower/bin/bower install"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinhe16/ALJHRiotGamesAPIChallenge2015.git"
+    "url": "https://github.com/omgimanerd/itemify"
   },
   "author": "Justin He, Alvin Lin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/justinhe16/ALJHRiotGamesAPIChallenge2015/issues"
+    "url": "https://github.com/omgimanerd/itemify/issues"
   },
-  "homepage": "https://github.com/justinhe16/ALJHRiotGamesAPIChallenge2015",
+  "homepage": "http://itemify.herokuapp.com",
   "dependencies": {
     "async": "^1.4.2",
     "body-parser": "^1.13.3",
@@ -24,9 +24,7 @@
     "express": "^4.13.3",
     "less": "2.5.1",
     "morgan": "^1.6.1",
-    "swig": "^1.4.2"
-  },
-  "devDependencies": {
+    "swig": "^1.4.2",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
     "gulp-closure-compiler": "^0.3.0",

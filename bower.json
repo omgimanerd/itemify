@@ -1,7 +1,7 @@
 {
-  "name": "riot-games-api-challenge",
+  "name": "itemify",
   "version": "1.0.0",
-  "homepage": "https://github.com/justinhe16/ALJHRiotGamesAPIChallenge2015",
+  "homepage": "http://itemify.herokuapp.com",
   "authors": [
     "Alvin Lin",
     "Justin He"

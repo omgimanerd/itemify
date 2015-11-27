@@ -1,4 +1,5 @@
 /node_modules
 /bower_components
+/static/dist
 .api_key
 *.pyc
