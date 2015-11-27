@@ -2,16 +2,16 @@
   "Boots": [
     {
       "depth": 2,
-      "description": "<stats>+25 Magic Resist</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><unique>UNIQUE Passive - Tenacity:</unique> Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 35%.<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+25 Magic Resist</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><unique>UNIQUE Passive - Tenacity:</unique> Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 20%.",
       "from": [
         "1001",
         "1033"
       ],
       "gold": {
-        "base": 425,
+        "base": 350,
         "purchasable": true,
-        "sell": 840,
-        "total": 1200
+        "sell": 770,
+        "total": 1100
       },
       "id": 3111,
       "image": {
@@ -27,13 +27,19 @@
         "1321",
         "1323",
         "1320",
-        "1322",
-        "1324",
-        "1339"
+        "1322"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Mercury's Treads",
       "plaintext": "Increases Movement Speed and reduces duration of disabling effects",
-      "sanitizedDescription": "+25 Magic Resist UNIQUE Passive - Enhanced Movement: +45 Movement Speed UNIQUE Passive - Tenacity: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 35%. (Unique Passives with the same name don't stack.)",
+      "sanitizedDescription": "+25 Magic Resist UNIQUE Passive - Enhanced Movement: +45 Movement Speed UNIQUE Passive - Tenacity: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 20%.",
       "stats": {
         "FlatMovementSpeedMod": 45.0,
         "FlatSpellBlockMod": 25.0
@@ -46,16 +52,16 @@
     },
     {
       "depth": 2,
-      "description": "<stats>+25 Armor</stats><br><br><unique>UNIQUE Passive:</unique> Blocks 10% of the damage from basic attacks.<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+30 Armor</stats><br><br><unique>UNIQUE Passive:</unique> Blocks 10% of the damage from basic attacks.<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
       "from": [
         "1001",
         "1029"
       ],
       "gold": {
-        "base": 375,
+        "base": 500,
         "purchasable": true,
-        "sell": 700,
-        "total": 1000
+        "sell": 770,
+        "total": 1100
       },
       "id": 3047,
       "image": {
@@ -71,15 +77,21 @@
         "1316",
         "1318",
         "1315",
-        "1317",
-        "1319",
-        "1338"
+        "1317"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Ninja Tabi",
       "plaintext": "Enhances Movement Speed and reduces incoming basic attack damage",
-      "sanitizedDescription": "+25 Armor UNIQUE Passive: Blocks 10% of the damage from basic attacks. UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Unique Passives with the same name don't stack.)",
+      "sanitizedDescription": "+30 Armor UNIQUE Passive: Blocks 10% of the damage from basic attacks. UNIQUE Passive - Enhanced Movement: +45 Movement Speed",
       "stats": {
-        "FlatArmorMod": 25.0,
+        "FlatArmorMod": 30.0,
         "FlatMovementSpeedMod": 45.0
       },
       "tags": [
@@ -89,7 +101,7 @@
     },
     {
       "depth": 2,
-      "description": "<stats>+15 Magic Penetration</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)</i><br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+15 <a href='FlatMagicPen'>Magic Penetration</a></stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><rules>(Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)</rules>",
       "effect": {
         "Effect1Amount": "15"
       },
@@ -97,7 +109,7 @@
         "1001"
       ],
       "gold": {
-        "base": 775,
+        "base": 800,
         "purchasable": true,
         "sell": 770,
         "total": 1100
@@ -116,13 +128,19 @@
         "1311",
         "1313",
         "1310",
-        "1312",
-        "1314",
-        "1337"
+        "1312"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Sorcerer's Shoes",
       "plaintext": "Enhances Movement Speed and magic damage",
-      "sanitizedDescription": "+15 Magic Penetration UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.) (Unique Passives with the same name don't stack.)",
+      "sanitizedDescription": "+15 Magic Penetration UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)",
       "stats": {
         "FlatMovementSpeedMod": 45.0
       },
@@ -132,49 +150,7 @@
       ]
     }
   ],
-  "Elixirs": [
-    {
-      "consumeOnFull": true,
-      "consumed": true,
-      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants 25% increased Size, Slow Resistance, Tenacity and <font color='#FF8811'><u>Path of Iron</u></font> for 3 minutes.<br><br><font color='#FF8811'><u>Path of Iron:</u></font> Moving leaves a path behind that boosts allied champion's Movement Speed by 15%.<br><br><i>(Only one Flask effect may be active at a time.)</i>",
-      "effect": {
-        "Effect1Amount": "0.25",
-        "Effect2Amount": "0.15",
-        "Effect3Amount": "3",
-        "Effect4Amount": "0",
-        "Effect5Amount": "0",
-        "Effect6Amount": "0",
-        "Effect7Amount": "0",
-        "Effect8Amount": "9"
-      },
-      "gold": {
-        "base": 400,
-        "purchasable": true,
-        "sell": 160,
-        "total": 400
-      },
-      "group": "Flasks",
-      "id": 2138,
-      "image": {
-        "full": "2138.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item0.png",
-        "w": 48,
-        "x": 288,
-        "y": 192
-      },
-      "name": "Elixir of Iron",
-      "plaintext": "Temporarily reduces the power of enemy crowd control effects. Leaves a trail for allies to follow.",
-      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants 25% increased Size, Slow Resistance, Tenacity and Path of Iron for 3 minutes. Path of Iron: Moving leaves a path behind that boosts allied champion's Movement Speed by 15%. (Only one Flask effect may be active at a time.)",
-      "stats": {},
-      "tags": [
-        "Consumable",
-        "NonbootsMovement",
-        "Tenacity"
-      ]
-    }
-  ],
+  "Elixirs": [],
   "Endgame Items": [
     {
       "colloq": "fh",
@@ -189,10 +165,10 @@
         "3024"
       ],
       "gold": {
-        "base": 600,
+        "base": 700,
         "purchasable": true,
-        "sell": 1820,
-        "total": 2600
+        "sell": 1960,
+        "total": 2800
       },
       "id": 3110,
       "image": {
@@ -203,6 +179,14 @@
         "w": 48,
         "x": 144,
         "y": 48
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
       },
       "name": "Frozen Heart",
       "plaintext": "Massively increases Armor and slows enemy basic attacks",
@@ -219,47 +203,55 @@
       ]
     },
     {
-      "colloq": "mask",
       "depth": 3,
-      "description": "<stats>+80 Ability Power<br>+300 Health</stats><br><br><unique>UNIQUE Passive - Eyes of Pain:</unique> +15 Magic Penetration<br><unique>UNIQUE Passive:</unique> Dealing spell damage applies a damage-over-time effect for 3 seconds that deals bonus magic damage equal to 2% of the target's current Health per second. This bonus damage is doubled against movement-impaired units and capped at 100 damage per second vs. monsters.<br><br><i>(A unit is movement-impaired if it is slowed, stunned, taunted, feared, or immobilized.)</i><br><br><i>(Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)</i><br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+400 Health<br>+100 Ability Power</stats><br><br><unique>UNIQUE Passive:</unique> Damaging spells and abilities apply a Movement Speed reduction to enemies based on the spell type:<br><br><passive>Single Target:</passive> 40% reduction for 1.5 seconds. <br><passive>Area of Effect:</passive> 40% reduction for 1 seconds.<br><passive>Damage over Time or Multi-hit:</passive> 20% reduction for 1 seconds.<br><passive>Summoned Minions:</passive> 20% reduction for 1 seconds.<br><br><rules>(If a spell fits in more than one category, it uses the weakest slow value.)</rules>",
       "effect": {
-        "Effect1Amount": "15",
-        "Effect2Amount": "0.02",
-        "Effect3Amount": "3",
-        "Effect4Amount": "100",
-        "Effect5Amount": "2"
+        "Effect1Amount": "-0.4",
+        "Effect2Amount": "-0.2",
+        "Effect3Amount": "1.5",
+        "Effect4Amount": "1",
+        "Effect5Amount": "1",
+        "Effect6Amount": "-0.4"
       },
       "from": [
-        "3136",
-        "1026"
+        "1058",
+        "1052",
+        "1011"
       ],
       "gold": {
-        "base": 650,
+        "base": 515,
         "purchasable": true,
-        "sell": 2100,
-        "total": 3000
+        "sell": 2240,
+        "total": 3200
       },
-      "id": 3151,
+      "id": 3116,
       "image": {
-        "full": "3151.png",
+        "full": "3116.png",
         "group": "item",
         "h": 48,
         "sprite": "item1.png",
         "w": 48,
-        "x": 240,
-        "y": 144
+        "x": 432,
+        "y": 48
       },
-      "name": "Liandry's Torment",
-      "plaintext": "Spell damage burns enemies for a portion of their Health",
-      "sanitizedDescription": "+80 Ability Power +300 Health UNIQUE Passive - Eyes of Pain: +15 Magic Penetration UNIQUE Passive: Dealing spell damage applies a damage-over-time effect for 3 seconds that deals bonus magic damage equal to 2% of the target's current Health per second. This bonus damage is doubled against movement-impaired units and capped at 100 damage per second vs. monsters. (A unit is movement-impaired if it is slowed, stunned, taunted, feared, or immobilized.) (Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.) (Unique Passives with the same name don't stack.)",
-      "stacks": 0,
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Rylai's Crystal Scepter",
+      "plaintext": "Abilities slow enemies",
+      "sanitizedDescription": "+400 Health +100 Ability Power UNIQUE Passive: Damaging spells and abilities apply a Movement Speed reduction to enemies based on the spell type: Single Target: 40% reduction for 1.5 seconds. Area of Effect: 40% reduction for 1 seconds. Damage over Time or Multi-hit: 20% reduction for 1 seconds. Summoned Minions: 20% reduction for 1 seconds. (If a spell fits in more than one category, it uses the weakest slow value.)",
       "stats": {
-        "FlatHPPoolMod": 300.0,
-        "FlatMagicDamageMod": 80.0
+        "FlatHPPoolMod": 400.0,
+        "FlatMagicDamageMod": 100.0
       },
       "tags": [
         "Health",
-        "MagicPenetration",
+        "Slow",
         "SpellDamage"
       ]
     },
@@ -276,8 +268,8 @@
       "gold": {
         "base": 780,
         "purchasable": true,
-        "sell": 1701,
-        "total": 2430
+        "sell": 1645,
+        "total": 2350
       },
       "id": 3001,
       "image": {
@@ -289,6 +281,14 @@
         "x": 432,
         "y": 192
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Abyssal Scepter",
       "plaintext": "Reduces Magic Resist of nearby enemies",
       "sanitizedDescription": "+70 Ability Power +50 Magic Resist UNIQUE Aura: Reduces the Magic Resist of nearby enemies by 20.",
@@ -298,188 +298,206 @@
       },
       "tags": [
         "Aura",
+        "MagicPenetration",
         "SpellBlock",
         "SpellDamage"
       ]
     },
     {
+      "colloq": "mask",
       "depth": 3,
-      "description": "<stats>+400 Health<br>+100 Ability Power</stats><br><br><unique>UNIQUE Passive:</unique> Damaging spells and abilities apply a Movement Speed reduction to enemies based on the spell type:<br><br><active>Single Target:</active> 40% reduction for 1.5 seconds. <br><active>Area of Effect:</active> 40% reduction for 1 seconds<br><active>Damage over Time or Multi-hit:</active> 20% reduction for 1 seconds.<br><active>Summoned Minions:</active> 20% reduction for 1 seconds.<br><br><i>(If a spell fits in more than one category, it uses the weakest slow value.)</i>",
+      "description": "<stats>+80 Ability Power<br>+300 Health</stats><br><br><unique>UNIQUE Passive - Eyes of Pain:</unique> +15 <a href='FlatMagicPen'>Magic Penetration</a><br><unique>UNIQUE Passive:</unique> Spells burn enemies for 3 seconds, dealing bonus magic damage equal to 2% of their current Health per second. Burn damage is doubled against <a href='MovementImpaired'>movement-impaired</a> units.",
       "effect": {
-        "Effect1Amount": "-0.4",
-        "Effect2Amount": "-0.2",
-        "Effect3Amount": "1.5",
-        "Effect4Amount": "1",
-        "Effect5Amount": "1",
-        "Effect6Amount": "-0.4"
+        "Effect1Amount": "15",
+        "Effect2Amount": "0.02",
+        "Effect3Amount": "3",
+        "Effect4Amount": "100",
+        "Effect5Amount": "2"
       },
       "from": [
-        "1058",
-        "1052",
-        "1011"
+        "3136",
+        "1026"
       ],
       "gold": {
-        "base": 315,
+        "base": 750,
         "purchasable": true,
-        "sell": 2100,
-        "total": 3000
+        "sell": 2240,
+        "total": 3200
       },
-      "id": 3116,
+      "id": 3151,
       "image": {
-        "full": "3116.png",
+        "full": "3151.png",
         "group": "item",
         "h": 48,
         "sprite": "item1.png",
         "w": 48,
-        "x": 432,
-        "y": 48
+        "x": 240,
+        "y": 144
       },
-      "name": "Rylai's Crystal Scepter",
-      "plaintext": "Abilities slow enemies",
-      "sanitizedDescription": "+400 Health +100 Ability Power UNIQUE Passive: Damaging spells and abilities apply a Movement Speed reduction to enemies based on the spell type: Single Target: 40% reduction for 1.5 seconds. Area of Effect: 40% reduction for 1 seconds Damage over Time or Multi-hit: 20% reduction for 1 seconds. Summoned Minions: 20% reduction for 1 seconds. (If a spell fits in more than one category, it uses the weakest slow value.)",
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Liandry's Torment",
+      "plaintext": "Spell damage burns enemies for a portion of their Health",
+      "sanitizedDescription": "+80 Ability Power +300 Health UNIQUE Passive - Eyes of Pain: +15 Magic Penetration UNIQUE Passive: Spells burn enemies for 3 seconds, dealing bonus magic damage equal to 2% of their current Health per second. Burn damage is doubled against movement-impaired units.",
+      "stacks": 0,
       "stats": {
-        "FlatHPPoolMod": 400.0,
-        "FlatMagicDamageMod": 100.0
+        "FlatHPPoolMod": 300.0,
+        "FlatMagicDamageMod": 80.0
       },
       "tags": [
         "Health",
-        "Slow",
+        "MagicPenetration",
         "SpellDamage"
       ]
     },
     {
       "depth": 3,
-      "description": "<stats>+400 Health<br>+60 Armor<br>-10% Damage taken from Critical Strikes</stats><br><br><unique>UNIQUE Passive - Cold Steel:</unique> When hit by basic attacks, reduces the attacker's Attack Speed by 15%.<br><active>UNIQUE Active:</active> Slows the Movement Speed of nearby enemy units by 35% for 4 seconds (60 second cooldown).<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+500 Health<br>+45 Armor  </stats><br><br><unique>UNIQUE Passive - Immolate:</unique> Deals 25 (+1 per champion level) magic damage per second to nearby enemies.",
       "effect": {
-        "Effect1Amount": "4",
-        "Effect2Amount": "0.1",
-        "Effect3Amount": "-0.35"
+        "Effect1Amount": "25",
+        "Effect2Amount": "1"
       },
       "from": [
-        "3082",
-        "1011"
+        "1031",
+        "3751"
       ],
       "gold": {
-        "base": 600,
+        "base": 800,
         "purchasable": true,
         "sell": 1890,
         "total": 2700
       },
-      "id": 3143,
+      "id": 3068,
       "image": {
-        "full": "3143.png",
+        "full": "3068.png",
         "group": "item",
         "h": 48,
-        "sprite": "item1.png",
+        "sprite": "item0.png",
         "w": 48,
-        "x": 48,
-        "y": 144
+        "x": 96,
+        "y": 384
       },
-      "name": "Randuin's Omen",
-      "plaintext": "Greatly increases defenses, activate to slow nearby enemies",
-      "sanitizedDescription": "+400 Health +60 Armor -10% Damage taken from Critical Strikes UNIQUE Passive - Cold Steel: When hit by basic attacks, reduces the attacker's Attack Speed by 15%. UNIQUE Active: Slows the Movement Speed of nearby enemy units by 35% for 4 seconds (60 second cooldown). (Unique Passives with the same name don't stack.)",
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Sunfire Cape",
+      "plaintext": "Constantly deals damage to nearby enemies",
+      "sanitizedDescription": "+500 Health +45 Armor UNIQUE Passive - Immolate: Deals 25 (+1 per champion level) magic damage per second to nearby enemies.",
       "stats": {
-        "FlatArmorMod": 60.0,
-        "FlatHPPoolMod": 400.0
+        "FlatArmorMod": 45.0,
+        "FlatHPPoolMod": 500.0
       },
       "tags": [
-        "Active",
         "Armor",
-        "Health",
-        "Slow"
-      ]
-    },
-    {
-      "depth": 4,
-      "description": "<stats>+400 Health<br>+100% Base Health Regen <br>+20 Magic Resist<br>+10% Cooldown Reduction</stats><br><br><active>UNIQUE Active:</active> Grants a shield to nearby allies for 2 seconds that absorbs up to 75 (+15 per level) damage (60 second cooldown).<br><aura>UNIQUE Aura - Legion:</aura> Grants nearby allies +15 Magic Resist.<br><br><i>(Unique Auras with the same name don't stack.)</i>",
-      "effect": {
-        "Effect1Amount": "15",
-        "Effect2Amount": "0.75",
-        "Effect3Amount": "2",
-        "Effect4Amount": "75",
-        "Effect5Amount": "15",
-        "Effect6Amount": "60"
-      },
-      "from": [
-        "3105",
-        "3067"
-      ],
-      "gold": {
-        "base": 300,
-        "purchasable": true,
-        "sell": 1925,
-        "total": 2750
-      },
-      "id": 3190,
-      "image": {
-        "full": "3190.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item1.png",
-        "w": 48,
-        "x": 432,
-        "y": 240
-      },
-      "name": "Locket of the Iron Solari",
-      "plaintext": "Activate to shield nearby allies from damage",
-      "sanitizedDescription": "+400 Health +100% Base Health Regen +20 Magic Resist +10% Cooldown Reduction UNIQUE Active: Grants a shield to nearby allies for 2 seconds that absorbs up to 75 (+15 per level) damage (60 second cooldown). UNIQUE Aura - Legion: Grants nearby allies +15 Magic Resist. (Unique Auras with the same name don't stack.)",
-      "stats": {
-        "FlatHPPoolMod": 400.0,
-        "FlatSpellBlockMod": 20.0
-      },
-      "tags": [
-        "Active",
-        "Aura",
-        "CooldownReduction",
-        "Health",
-        "HealthRegen",
-        "SpellBlock"
+        "Health"
       ]
     },
     {
       "depth": 3,
-      "description": "<stats>+500 Health<br><mana>+300 Mana</mana><br>+100% Base Health Regen </stats><br><br><unique>UNIQUE Active:</unique> Grants +60% Movement Speed to nearby allies when moving towards enemies or enemy turrets for 3 seconds. After 3 seconds, a shockwave is emitted, slowing nearby enemy champion Movement Speed by 80% for 1 second(s) (90 second cooldown).<br><br>This effect may be reactivated early to instantly release the shockwave.",
+      "description": "<stats>+100 Armor  </stats><br><br><unique>UNIQUE Passive:</unique> Upon being hit by a basic attack, reflects magic damage back to the attacker equal to 25% of your bonus Armor plus 15% of the incoming damage.<br><br><rules>(Bonus Armor is Armor from Items, Buffs, Runes and Masteries.)</rules><br><rules>(Reflect damage is calculated based on damage taken before being reduced by Armor.)</rules>",
       "effect": {
-        "Effect1Amount": "0.6",
-        "Effect2Amount": "3",
-        "Effect3Amount": "-0.8",
-        "Effect4Amount": "1",
-        "Effect5Amount": "90"
+        "Effect1Amount": "0.15",
+        "Effect2Amount": "0.25"
       },
       "from": [
-        "3010",
-        "3801"
+        "1029",
+        "1031"
       ],
       "gold": {
-        "base": 600,
+        "base": 1250,
         "purchasable": true,
-        "sell": 1680,
-        "total": 2400
+        "sell": 1645,
+        "total": 2350
       },
-      "id": 3800,
+      "id": 3075,
       "image": {
-        "full": "3800.png",
+        "full": "3075.png",
         "group": "item",
         "h": 48,
-        "sprite": "item2.png",
+        "sprite": "item0.png",
         "w": 48,
-        "x": 192,
-        "y": 288
+        "x": 432,
+        "y": 384
       },
-      "name": "Righteous Glory",
-      "plaintext": "Grants Health, Mana. Activate to speed towards enemies and slow them.",
-      "sanitizedDescription": "+500 Health +300 Mana +100% Base Health Regen UNIQUE Active: Grants +60% Movement Speed to nearby allies when moving towards enemies or enemy turrets for 3 seconds. After 3 seconds, a shockwave is emitted, slowing nearby enemy champion Movement Speed by 80% for 1 second(s) (90 second cooldown). This effect may be reactivated early to instantly release the shockwave.",
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Thornmail",
+      "plaintext": "Returns damage taken from basic attacks as magic damage",
+      "sanitizedDescription": "+100 Armor UNIQUE Passive: Upon being hit by a basic attack, reflects magic damage back to the attacker equal to 25% of your bonus Armor plus 15% of the incoming damage. (Bonus Armor is Armor from Items, Buffs, Runes and Masteries.) (Reflect damage is calculated based on damage taken before being reduced by Armor.)",
       "stats": {
-        "FlatHPPoolMod": 500.0,
-        "FlatMPPoolMod": 300.0
+        "FlatArmorMod": 100.0
       },
       "tags": [
-        "Active",
+        "Armor"
+      ]
+    },
+    {
+      "colloq": "sv",
+      "depth": 3,
+      "description": "<stats>+500 Health<br>+70 Magic Resist<br>+150% Base Health Regen <br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> Increases all healing received by 20%.",
+      "effect": {
+        "Effect1Amount": "-0.1",
+        "Effect2Amount": "0.2",
+        "Effect3Amount": "0.5",
+        "Effect4Amount": "0.015"
+      },
+      "from": [
+        "3211",
+        "3067"
+      ],
+      "gold": {
+        "base": 900,
+        "purchasable": true,
+        "sell": 1960,
+        "total": 2800
+      },
+      "id": 3065,
+      "image": {
+        "full": "3065.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 0,
+        "y": 384
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Spirit Visage",
+      "plaintext": "Increases Health and healing effects",
+      "sanitizedDescription": "+500 Health +70 Magic Resist +150% Base Health Regen +10% Cooldown Reduction UNIQUE Passive: Increases all healing received by 20%.",
+      "stats": {
+        "FlatHPPoolMod": 500.0,
+        "FlatSpellBlockMod": 70.0
+      },
+      "tags": [
+        "CooldownReduction",
         "Health",
         "HealthRegen",
-        "Mana",
-        "NonbootsMovement",
-        "Slow"
+        "SpellBlock"
       ]
     }
   ],
@@ -487,25 +505,26 @@
     {
       "colloq": "jungle;Jungle;jangle",
       "depth": 2,
-      "description": "<stats>+30 Bonus Gold per Large Monster Kill</stats><br><passive>Passive - Chilling Smite:</passive> Smite can be cast on enemy champions, dealing reduced true damage and stealing 20% movement speed for 2 seconds. <br><br><passive>Passive - Jungler:</passive> Deal 45 additional magic damage to monsters over 2 seconds and gain 10 Health Regen and 5 Mana Regen per second while under attack from neutral monsters.<br><br><groupLimit>Limited to 1 Jungle item</groupLimit>",
+      "description": "<groupLimit>Limited to 1 Jungle item</groupLimit><br><br><stats>+10% Life Steal vs. Monsters<br><mana>+150% Base Mana Regen while in Jungle</mana></stats><br><br><unique>UNIQUE Passive - Chilling Smite:</unique> Smite can be cast on enemy champions, dealing reduced true damage and stealing 20% movement speed for 2 seconds. <br><unique>UNIQUE Passive - Tooth / Nail:</unique> Basic attacks deal 20 bonus damage vs. monsters. Damaging a monster steals 30 Health over 5 seconds. Killing a Large Monster grants +30 bonus experience.",
       "effect": {
-        "Effect1Amount": "45",
-        "Effect2Amount": "10",
-        "Effect3Amount": "5",
-        "Effect4Amount": "2",
+        "Effect1Amount": "30",
+        "Effect2Amount": "20",
+        "Effect3Amount": "1.5",
+        "Effect4Amount": "5",
         "Effect5Amount": "30",
         "Effect6Amount": "-0.2",
         "Effect7Amount": "2",
         "Effect8Amount": "3"
       },
       "from": [
-        "1039"
+        "1039",
+        "1041"
       ],
       "gold": {
-        "base": 450,
+        "base": 350,
         "purchasable": true,
-        "sell": 595,
-        "total": 850
+        "sell": 735,
+        "total": 1050
       },
       "group": "JungleItems",
       "id": 3706,
@@ -519,70 +538,88 @@
         "y": 192
       },
       "into": [
-        "3707",
-        "3708",
-        "3709",
-        "3710"
+        "1400",
+        "1401",
+        "1402",
+        "1403"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": false,
+        "14": false,
+        "8": false
+      },
       "name": "Stalker's Blade",
       "plaintext": "Lets your Smite slow Champions",
-      "sanitizedDescription": "+30 Bonus Gold per Large Monster Kill Passive - Chilling Smite: Smite can be cast on enemy champions, dealing reduced true damage and stealing 20% movement speed for 2 seconds. Passive - Jungler: Deal 45 additional magic damage to monsters over 2 seconds and gain 10 Health Regen and 5 Mana Regen per second while under attack from neutral monsters. Limited to 1 Jungle item",
+      "sanitizedDescription": "Limited to 1 Jungle item +10% Life Steal vs. Monsters +150% Base Mana Regen while in Jungle UNIQUE Passive - Chilling Smite: Smite can be cast on enemy champions, dealing reduced true damage and stealing 20% movement speed for 2 seconds. UNIQUE Passive - Tooth / Nail: Basic attacks deal 20 bonus damage vs. monsters. Damaging a monster steals 30 Health over 5 seconds. Killing a Large Monster grants +30 bonus experience.",
       "stats": {},
       "tags": [
-        "Damage",
-        "HealthRegen",
         "Jungle",
+        "LifeSteal",
         "ManaRegen",
-        "OnHit"
+        "NonbootsMovement",
+        "OnHit",
+        "Slow"
       ]
     },
     {
       "colloq": "jungle;Jungle",
       "depth": 2,
-      "description": "<stats>+30 Bonus Gold per Large Monster Kill</stats><br><passive>Passive - Blasting Smite:</passive> Smite deals damage in an area, dealing half damage to all monsters and enemy minions near the target and stuns them for 1.5 seconds. Casting Smite on a monster restores 15% of missing Health and Mana. <br><br><passive>Passive - Jungler:</passive> Deal 45 additional magic damage to monsters over 2 seconds and gain 10 Health Regen and 5 Mana Regen per second while under attack from neutral monsters.<br><br><groupLimit>Limited to 1 Jungle item</groupLimit>",
+      "description": "<groupLimit>Limited to 1 Jungle item</groupLimit><br><br><stats>+10% Life Steal vs. Monsters<br><mana>+150% Base Mana Regen while in Jungle</mana></stats><br><br><passive>Passive - Challenging Smite:</passive> Smite can be cast on enemy champions, marking them for 4 seconds. While marked, basic attacks deal true damage over 3 seconds, you have vision of them, and their damage to you is reduced by 20%.<br><unique>UNIQUE Passive - Tooth / Nail:</unique> Basic attacks deal 20 bonus damage vs. monsters. Damaging a monster steals 30 Health over 5 seconds. Killing a Large Monster grants +30 bonus experience.",
       "effect": {
-        "Effect1Amount": "45",
-        "Effect2Amount": "10",
-        "Effect3Amount": "5",
-        "Effect4Amount": "2",
+        "Effect1Amount": "30",
+        "Effect2Amount": "20",
+        "Effect3Amount": "1.5",
+        "Effect4Amount": "5",
         "Effect5Amount": "30",
-        "Effect6Amount": "0.5",
-        "Effect7Amount": "1.5"
+        "Effect6Amount": "3",
+        "Effect7Amount": "20",
+        "Effect8Amount": "18"
       },
       "from": [
-        "1039"
+        "1039",
+        "1041"
       ],
       "gold": {
-        "base": 450,
+        "base": 350,
         "purchasable": true,
-        "sell": 595,
-        "total": 850
+        "sell": 735,
+        "total": 1050
       },
       "group": "JungleItems",
-      "id": 3713,
+      "id": 3715,
       "image": {
-        "full": "3713.png",
+        "full": "3715.png",
         "group": "item",
         "h": 48,
         "sprite": "item2.png",
         "w": 48,
-        "x": 0,
+        "x": 96,
         "y": 240
       },
       "into": [
-        "3723",
-        "3724",
-        "3725",
-        "3726"
+        "1412",
+        "1413",
+        "1414",
+        "1415"
       ],
-      "name": "Ranger's Trailblazer",
-      "plaintext": "Makes your Smite hit all monsters in an area, stunning them.",
-      "sanitizedDescription": "+30 Bonus Gold per Large Monster Kill Passive - Blasting Smite: Smite deals damage in an area, dealing half damage to all monsters and enemy minions near the target and stuns them for 1.5 seconds. Casting Smite on a monster restores 15% of missing Health and Mana. Passive - Jungler: Deal 45 additional magic damage to monsters over 2 seconds and gain 10 Health Regen and 5 Mana Regen per second while under attack from neutral monsters. Limited to 1 Jungle item",
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": false,
+        "14": false,
+        "8": false
+      },
+      "name": "Skirmisher's Sabre",
+      "plaintext": "Lets your Smite mark Champions, giving you combat power against them.",
+      "sanitizedDescription": "Limited to 1 Jungle item +10% Life Steal vs. Monsters +150% Base Mana Regen while in Jungle Passive - Challenging Smite: Smite can be cast on enemy champions, marking them for 4 seconds. While marked, basic attacks deal true damage over 3 seconds, you have vision of them, and their damage to you is reduced by 20%. UNIQUE Passive - Tooth / Nail: Basic attacks deal 20 bonus damage vs. monsters. Damaging a monster steals 30 Health over 5 seconds. Killing a Large Monster grants +30 bonus experience.",
       "stats": {},
       "tags": [
-        "Damage",
-        "HealthRegen",
         "Jungle",
+        "LifeSteal",
         "ManaRegen",
         "OnHit"
       ]
@@ -591,13 +628,13 @@
   "Starting Items": [
     {
       "colloq": "yellow;",
-      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><unique>Active:</unique> Places a <font color='#BBFFFF'>Stealth Ward</font> that lasts 60 seconds (120 second cooldown).<br><br>At level 9, this ward's duration increases to 120 seconds.<br><br>Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.<br><br><i>(Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).</i>",
+      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Consume a charge to place an invisible <font color='#BBFFFF'>Stealth Ward</font> which reveals the surrounding area for <levelScale>60 - 120</levelScale> seconds. <br><br>Stores one charge every <levelScale>180 - 120</levelScale> seconds, up to 2 maximum charges.<br><br>Ward duration and recharge time gradually improve with level.<br><br><rules>(Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player. Switching to a <font color='#BBFFFF'>Lens</font> type trinket will disable <font color='#BBFFFF'>Trinket</font> use for 120 seconds.)</rules><br><br>",
       "effect": {
         "Effect1Amount": "60",
-        "Effect2Amount": "120",
+        "Effect2Amount": "180",
         "Effect3Amount": "120",
-        "Effect4Amount": "0",
-        "Effect5Amount": "0",
+        "Effect4Amount": "120",
+        "Effect5Amount": "2",
         "Effect6Amount": "9",
         "Effect7Amount": "30",
         "Effect8Amount": "120"
@@ -619,13 +656,17 @@
         "x": 288,
         "y": 0
       },
-      "into": [
-        "3361",
-        "3362"
-      ],
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Warding Totem (Trinket)",
       "plaintext": "Periodically place a Stealth Ward",
-      "sanitizedDescription": "Limited to 1 Trinket. Active: Places a Stealth Ward that lasts 60 seconds (120 second cooldown). At level 9, this ward's duration increases to 120 seconds. Limit 3 Stealth Wards on the map per player. (Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).",
+      "sanitizedDescription": "Limited to 1 Trinket. Active: Consume a charge to place an invisible Stealth Ward which reveals the surrounding area for 60 - 120 seconds. Stores one charge every 180 - 120 seconds, up to 2 maximum charges. Ward duration and recharge time gradually improve with level. (Limit 3 Stealth Wards on the map per player. Switching to a Lens type trinket will disable Trinket use for 120 seconds.)",
       "stats": {},
       "tags": [
         "Active",
@@ -636,87 +677,117 @@
       ]
     },
     {
-      "consumed": true,
-      "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> Restores 150 Health over 15 seconds.",
+      "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 125 Health over 12 seconds. Holds up to 2 charges and refills upon visiting the shop.",
       "effect": {
-        "Effect1Amount": "150",
-        "Effect2Amount": "15"
+        "Effect1Amount": "125",
+        "Effect2Amount": "0",
+        "Effect3Amount": "12",
+        "Effect4Amount": "2"
       },
       "gold": {
-        "base": 35,
+        "base": 150,
         "purchasable": true,
-        "sell": 14,
-        "total": 35
+        "sell": 60,
+        "total": 150
       },
-      "group": "HealthPotion",
-      "id": 2003,
+      "group": "FlaskGroup",
+      "id": 2031,
       "image": {
-        "full": "2003.png",
+        "full": "2031.png",
         "group": "item",
         "h": 48,
-        "sprite": "item0.png",
+        "sprite": "item3.png",
         "w": 48,
-        "x": 0,
-        "y": 144
+        "x": 240,
+        "y": 336
       },
-      "name": "Health Potion",
-      "plaintext": "Consume to restore Health over time",
-      "sanitizedDescription": "Limited to 5 at one time. Click to Consume: Restores 150 Health over 15 seconds.",
-      "stacks": 5,
+      "into": [
+        "2032",
+        "2033"
+      ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Refillable Potion",
+      "plaintext": "Restores Health over time. Refills at shop.",
+      "sanitizedDescription": "Limited to 1 type of Healing Potion. UNIQUE Active: Consumes a charge to restore 125 Health over 12 seconds. Holds up to 2 charges and refills upon visiting the shop.",
       "stats": {},
       "tags": [
+        "Active",
         "Consumable",
+        "HealthRegen",
         "Jungle",
-        "Lane"
+        "Lane",
+        "ManaRegen"
       ]
     },
     {
-      "consumed": true,
-      "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> <mana>Restores 100 Mana over 15 seconds.</mana>",
+      "depth": 2,
+      "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 60 Health and 35 Mana over 8 seconds. Holds up to 5 charges and refills upon visiting the shop.<br><br>Killing a Large Monster grants 1 charge.<br><br><rules>(Killing a Large Monster at full charges will automatically consume the newest charge.)</rules>",
       "effect": {
-        "Effect1Amount": "100",
-        "Effect2Amount": "15"
+        "Effect1Amount": "60",
+        "Effect2Amount": "35",
+        "Effect3Amount": "8",
+        "Effect4Amount": "5"
       },
+      "from": [
+        "2031"
+      ],
       "gold": {
-        "base": 35,
+        "base": 250,
         "purchasable": true,
-        "sell": 14,
-        "total": 35
+        "sell": 160,
+        "total": 400
       },
-      "group": "ManaPotion",
-      "id": 2004,
+      "group": "FlaskGroup",
+      "id": 2032,
       "image": {
-        "full": "2004.png",
+        "full": "2032.png",
         "group": "item",
         "h": 48,
-        "sprite": "item0.png",
+        "sprite": "item3.png",
         "w": 48,
-        "x": 48,
-        "y": 144
+        "x": 288,
+        "y": 336
       },
-      "name": "Mana Potion",
-      "plaintext": "Consume to restore Mana over time",
-      "sanitizedDescription": "Limited to 5 at one time. Click to Consume: Restores 100 Mana over 15 seconds.",
-      "stacks": 5,
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
+      "name": "Hunter's Potion",
+      "plaintext": "Restores Health and Mana over time - Refills at shop and has increased capacity",
+      "sanitizedDescription": "Limited to 1 type of Healing Potion. UNIQUE Active: Consumes a charge to restore 60 Health and 35 Mana over 8 seconds. Holds up to 5 charges and refills upon visiting the shop. Killing a Large Monster grants 1 charge. (Killing a Large Monster at full charges will automatically consume the newest charge.)",
       "stats": {},
       "tags": [
+        "Active",
         "Consumable",
-        "Lane"
+        "HealthRegen",
+        "Lane",
+        "ManaRegen"
       ]
     },
     {
       "colloq": "pink;",
       "consumed": true,
-      "description": "<groupLimit>Can only carry 2 Vision Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places a visible ward that reveals the surrounding area and invisible units in the area until killed. Limit 1 <font color='#BBFFFF'>Vision Ward</font> on the map per player.<br><br><i>(Revealing a ward in this manner grants a portion of the gold reward when that unit is killed.)</i>",
+      "description": "<groupLimit>Can only carry 2 Vision Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places a visible ward that reveals the surrounding area and invisible units in the area until killed. Limit 1 <font color='#BBFFFF'>Vision Ward</font> on the map per player.<br><br><rules>(Revealing a ward in this manner grants a portion of the gold reward when that unit is killed.)</rules>",
       "effect": {
         "Effect1Amount": "1",
         "Effect2Amount": "2"
       },
       "gold": {
-        "base": 100,
+        "base": 75,
         "purchasable": true,
-        "sell": 40,
-        "total": 100
+        "sell": 30,
+        "total": 75
       },
       "group": "PinkWards",
       "id": 2043,
@@ -728,6 +799,14 @@
         "w": 48,
         "x": 240,
         "y": 144
+      },
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": false,
+        "14": false,
+        "8": false
       },
       "name": "Vision Ward",
       "plaintext": "Use to temporarily provide vision and stealth detection in an area",
@@ -742,40 +821,56 @@
       ]
     },
     {
-      "colloq": "green;",
-      "consumed": true,
-      "description": "<groupLimit>Can only carry 3 Stealth Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places an invisible ward that reveals the surrounding area for 3 minutes. Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.",
+      "depth": 2,
+      "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 150 Health and 50 Mana over 12 seconds and grants <font color='#FF8811'><u>Touch of Corruption</u></font> during that time. Holds up to 3 charges that refills upon visiting the shop.<br><br><font color='#FF8811'><u>Touch of Corruption:</u></font> Damaging spells and attacks burn enemy champions for <levelScale>15 - 30</levelScale> magic damage over 3 seconds. (Half Damage for Area of Effect or Damage over Time spells. Damage increases with champion level.)<br><br><rules>(Corrupting Potion can be used even at full Health and Mana.)</rules>",
       "effect": {
-        "Effect1Amount": "3",
-        "Effect2Amount": "3",
-        "Effect3Amount": "3"
+        "Effect1Amount": "150",
+        "Effect2Amount": "50",
+        "Effect3Amount": "12",
+        "Effect4Amount": "3",
+        "Effect5Amount": "10",
+        "Effect6Amount": "0.1",
+        "Effect7Amount": "15",
+        "Effect8Amount": "3"
       },
+      "from": [
+        "2031"
+      ],
       "gold": {
-        "base": 75,
+        "base": 350,
         "purchasable": true,
-        "sell": 30,
-        "total": 75
+        "sell": 200,
+        "total": 500
       },
-      "group": "GreenWards",
-      "id": 2044,
+      "group": "FlaskGroup",
+      "id": 2033,
       "image": {
-        "full": "2044.png",
+        "full": "2033.png",
         "group": "item",
         "h": 48,
-        "sprite": "item0.png",
+        "sprite": "item3.png",
         "w": 48,
-        "x": 288,
-        "y": 144
+        "x": 336,
+        "y": 336
       },
-      "name": "Stealth Ward",
-      "plaintext": "Use to temporarily provide vision in an area",
-      "sanitizedDescription": "Can only carry 3 Stealth Wards in inventory. Click to Consume: Places an invisible ward that reveals the surrounding area for 3 minutes. Limit 3 Stealth Wards on the map per player.",
-      "stacks": 3,
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Corrupting Potion",
+      "plaintext": "Restores Health and Mana over time and boosts combat power - Refills at Shop",
+      "sanitizedDescription": "Limited to 1 type of Healing Potion. UNIQUE Active: Consumes a charge to restore 150 Health and 50 Mana over 12 seconds and grants Touch of Corruption during that time. Holds up to 3 charges that refills upon visiting the shop. Touch of Corruption: Damaging spells and attacks burn enemy champions for 15 - 30 magic damage over 3 seconds. (Half Damage for Area of Effect or Damage over Time spells. Damage increases with champion level.) (Corrupting Potion can be used even at full Health and Mana.)",
       "stats": {},
       "tags": [
+        "Active",
         "Consumable",
+        "HealthRegen",
         "Lane",
-        "Vision"
+        "ManaRegen"
       ]
     }
   ]

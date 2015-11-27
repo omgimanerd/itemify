@@ -2,16 +2,16 @@
   "Boots": [
     {
       "depth": 2,
-      "description": "<stats>+25 Magic Resist</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><unique>UNIQUE Passive - Tenacity:</unique> Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 35%.<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+25 Magic Resist</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><unique>UNIQUE Passive - Tenacity:</unique> Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 20%.",
       "from": [
         "1001",
         "1033"
       ],
       "gold": {
-        "base": 425,
+        "base": 350,
         "purchasable": true,
-        "sell": 840,
-        "total": 1200
+        "sell": 770,
+        "total": 1100
       },
       "id": 3111,
       "image": {
@@ -27,13 +27,19 @@
         "1321",
         "1323",
         "1320",
-        "1322",
-        "1324",
-        "1339"
+        "1322"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Mercury's Treads",
       "plaintext": "Increases Movement Speed and reduces duration of disabling effects",
-      "sanitizedDescription": "+25 Magic Resist UNIQUE Passive - Enhanced Movement: +45 Movement Speed UNIQUE Passive - Tenacity: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 35%. (Unique Passives with the same name don't stack.)",
+      "sanitizedDescription": "+25 Magic Resist UNIQUE Passive - Enhanced Movement: +45 Movement Speed UNIQUE Passive - Tenacity: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 20%.",
       "stats": {
         "FlatMovementSpeedMod": 45.0,
         "FlatSpellBlockMod": 25.0
@@ -46,16 +52,16 @@
     },
     {
       "depth": 2,
-      "description": "<stats>+25 Armor</stats><br><br><unique>UNIQUE Passive:</unique> Blocks 10% of the damage from basic attacks.<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+30 Armor</stats><br><br><unique>UNIQUE Passive:</unique> Blocks 10% of the damage from basic attacks.<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
       "from": [
         "1001",
         "1029"
       ],
       "gold": {
-        "base": 375,
+        "base": 500,
         "purchasable": true,
-        "sell": 700,
-        "total": 1000
+        "sell": 770,
+        "total": 1100
       },
       "id": 3047,
       "image": {
@@ -71,15 +77,21 @@
         "1316",
         "1318",
         "1315",
-        "1317",
-        "1319",
-        "1338"
+        "1317"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Ninja Tabi",
       "plaintext": "Enhances Movement Speed and reduces incoming basic attack damage",
-      "sanitizedDescription": "+25 Armor UNIQUE Passive: Blocks 10% of the damage from basic attacks. UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Unique Passives with the same name don't stack.)",
+      "sanitizedDescription": "+30 Armor UNIQUE Passive: Blocks 10% of the damage from basic attacks. UNIQUE Passive - Enhanced Movement: +45 Movement Speed",
       "stats": {
-        "FlatArmorMod": 25.0,
+        "FlatArmorMod": 30.0,
         "FlatMovementSpeedMod": 45.0
       },
       "tags": [
@@ -89,42 +101,55 @@
     },
     {
       "depth": 2,
-      "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +60 Movement Speed<br><unique>UNIQUE Passive - Slow Resist:</unique> Movement slowing effects are reduced by 25%.<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds.",
       "effect": {
-        "Effect1Amount": "0.25"
+        "Effect1Amount": "0",
+        "Effect2Amount": "0",
+        "Effect3Amount": "0",
+        "Effect4Amount": "0",
+        "Effect5Amount": "0",
+        "Effect6Amount": "0",
+        "Effect7Amount": "0",
+        "Effect8Amount": "25"
       },
       "from": [
         "1001"
       ],
       "gold": {
-        "base": 675,
+        "base": 500,
         "purchasable": true,
-        "sell": 700,
-        "total": 1000
+        "sell": 560,
+        "total": 800
       },
-      "id": 3009,
+      "id": 3117,
       "image": {
-        "full": "3009.png",
+        "full": "3117.png",
         "group": "item",
         "h": 48,
-        "sprite": "item0.png",
+        "sprite": "item1.png",
         "w": 48,
-        "x": 240,
-        "y": 240
+        "x": 0,
+        "y": 96
       },
       "into": [
-        "1306",
-        "1308",
-        "1305",
-        "1307",
-        "1309",
-        "1336"
+        "1326",
+        "1328",
+        "1325",
+        "1327"
       ],
-      "name": "Boots of Swiftness",
-      "plaintext": "Enhances Movement Speed and reduces the effect of slows",
-      "sanitizedDescription": "UNIQUE Passive - Enhanced Movement: +60 Movement Speed UNIQUE Passive - Slow Resist: Movement slowing effects are reduced by 25%. (Unique Passives with the same name don't stack.)",
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Boots of Mobility",
+      "plaintext": "Greatly enhances Movement Speed when out of combat",
+      "sanitizedDescription": "UNIQUE Passive - Enhanced Movement: +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds.",
       "stats": {
-        "FlatMovementSpeedMod": 60.0
+        "FlatMovementSpeedMod": 105.0
       },
       "tags": [
         "Boots"
@@ -133,24 +158,25 @@
   ],
   "Elixirs": [
     {
+      "colloq": "white",
       "consumeOnFull": true,
       "consumed": true,
-      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants 25% increased Size, Slow Resistance, Tenacity and <font color='#FF8811'><u>Path of Iron</u></font> for 3 minutes.<br><br><font color='#FF8811'><u>Path of Iron:</u></font> Moving leaves a path behind that boosts allied champion's Movement Speed by 15%.<br><br><i>(Only one Flask effect may be active at a time.)</i>",
+      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +300 Health, 25% Tenacity, increased champion size, and <font color='#FF8811'><u>Path of Iron</u></font> for 3 minutes.<br><br><font color='#FF8811'><u>Path of Iron:</u></font> Moving leaves a path behind that boosts allied champion's Movement Speed by 15%.<br><br><rules>(Only one Elixir effect may be active at a time.)</rules>",
       "effect": {
-        "Effect1Amount": "0.25",
-        "Effect2Amount": "0.15",
+        "Effect1Amount": "300",
+        "Effect2Amount": "0.25",
         "Effect3Amount": "3",
-        "Effect4Amount": "0",
-        "Effect5Amount": "0",
+        "Effect4Amount": "0.15",
+        "Effect5Amount": "0.15",
         "Effect6Amount": "0",
         "Effect7Amount": "0",
         "Effect8Amount": "9"
       },
       "gold": {
-        "base": 400,
+        "base": 500,
         "purchasable": true,
-        "sell": 160,
-        "total": 400
+        "sell": 200,
+        "total": 500
       },
       "group": "Flasks",
       "id": 2138,
@@ -163,106 +189,31 @@
         "x": 288,
         "y": 192
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Elixir of Iron",
-      "plaintext": "Temporarily reduces the power of enemy crowd control effects. Leaves a trail for allies to follow.",
-      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants 25% increased Size, Slow Resistance, Tenacity and Path of Iron for 3 minutes. Path of Iron: Moving leaves a path behind that boosts allied champion's Movement Speed by 15%. (Only one Flask effect may be active at a time.)",
+      "plaintext": "Temporarily increases defenses. Leaves a trail for allies to follow.",
+      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants +300 Health, 25% Tenacity, increased champion size, and Path of Iron for 3 minutes. Path of Iron: Moving leaves a path behind that boosts allied champion's Movement Speed by 15%. (Only one Elixir effect may be active at a time.)",
       "stats": {},
       "tags": [
         "Consumable",
+        "Health",
         "NonbootsMovement",
         "Tenacity"
-      ]
-    },
-    {
-      "colloq": "blue",
-      "consumeOnFull": true,
-      "consumed": true,
-      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +40 Ability Power, 15 bonus Mana Regen per 5 seconds and <font color='#FF8811'><u>Sorcery</u></font> for 3 minutes. <br><br><font color='#FF8811'><u>Sorcery:</u></font> Damaging a champion or turret deals 25 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets.<br><br><i>(Only one Flask effect may be active at a time.)</i><br>",
-      "effect": {
-        "Effect1Amount": "40",
-        "Effect2Amount": "40",
-        "Effect3Amount": "25",
-        "Effect4Amount": "3",
-        "Effect5Amount": "5",
-        "Effect6Amount": "3",
-        "Effect7Amount": "0",
-        "Effect8Amount": "9"
-      },
-      "gold": {
-        "base": 400,
-        "purchasable": true,
-        "sell": 160,
-        "total": 400
-      },
-      "group": "Flasks",
-      "id": 2139,
-      "image": {
-        "full": "2139.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item0.png",
-        "w": 48,
-        "x": 336,
-        "y": 192
-      },
-      "name": "Elixir of Sorcery",
-      "plaintext": "Temporarily grants Ability Power and Bonus Damage to champions and turrets.",
-      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants +40 Ability Power, 15 bonus Mana Regen per 5 seconds and Sorcery for 3 minutes. Sorcery: Damaging a champion or turret deals 25 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets. (Only one Flask effect may be active at a time.)",
-      "stats": {},
-      "tags": [
-        "Consumable",
-        "ManaRegen",
-        "SpellDamage"
       ]
     }
   ],
   "Endgame Items": [
     {
-      "depth": 3,
-      "description": "<stats>+800 Health<br>+200% Base Health Regen </stats><br><br><unique>UNIQUE Passive:</unique> Grants <font color='#FF8811'><u>Warmog's Heart</u></font> if you have at least 3000 maximum Health.<br><br><font color='#FF8811'><u>Warmog's Heart</u>:</font> Restores 15% of maximum Health every 5 seconds if damage hasn't been taken within 8 seconds. ",
-      "effect": {
-        "Effect1Amount": "0.015",
-        "Effect2Amount": "5",
-        "Effect3Amount": "0.15",
-        "Effect4Amount": "3000",
-        "Effect5Amount": "8"
-      },
-      "from": [
-        "3801",
-        "1011",
-        "3801"
-      ],
-      "gold": {
-        "base": 550,
-        "purchasable": true,
-        "sell": 1925,
-        "total": 2750
-      },
-      "id": 3083,
-      "image": {
-        "full": "3083.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item0.png",
-        "w": 48,
-        "x": 144,
-        "y": 432
-      },
-      "name": "Warmog's Armor",
-      "plaintext": "Grants massive Health and Health Regen",
-      "sanitizedDescription": "+800 Health +200% Base Health Regen UNIQUE Passive: Grants Warmog's Heart if you have at least 3000 maximum Health. Warmog's Heart: Restores 15% of maximum Health every 5 seconds if damage hasn't been taken within 8 seconds.",
-      "stats": {
-        "FlatHPPoolMod": 800.0
-      },
-      "tags": [
-        "Health",
-        "HealthRegen"
-      ]
-    },
-    {
       "colloq": "juggernaut;dreadnought",
       "depth": 3,
-      "description": "<stats>+600 Health<br>+50 Armor</stats><br><br><unique>UNIQUE Passive - Dreadnought:</unique> While moving, build stacks of Momentum, increasing movement speed by up to 60 at 100 stacks. Momentum quickly decays while under the effects of a stun, taunt, fear, silence, blind, polymorph, or immobilize effect, and slowly decays while slowed.<br><unique>UNIQUE Passive - Crushing Blow:</unique> Basic attacks discharge all Momentum, dealing 1 physical damage per 2 stacks. If 100 stacks are discharged, damage is doubled and the target is slowed by 75% decaying over 1 second (melee only).<br><br><font color='#FDD017'><i>''There's only one way you'll get this armor from me...''</i> - forgotten namesake</font>",
+      "description": "<stats>+600 Health<br>+50 Armor</stats><br><br><unique>UNIQUE Passive - Dreadnought:</unique> While moving, build stacks of Momentum, increasing movement speed by up to 60 at 100 stacks. Momentum quickly decays while under the effects of a stun, taunt, fear, silence, blind, polymorph, or immobilize effect, and slowly decays while slowed.<br><unique>UNIQUE Passive - Crushing Blow:</unique> Basic attacks discharge all Momentum, dealing 1 physical damage per 2 stacks. If 100 stacks are discharged, damage is doubled and the target is slowed by 75% decaying over 1 second (melee only).<br><br><flavorText>''There's only one way you'll get this armor from me...'' - forgotten namesake</flavorText>",
       "effect": {
         "Effect1Amount": "60",
         "Effect2Amount": "100",
@@ -277,8 +228,8 @@
       "gold": {
         "base": 1000,
         "purchasable": true,
-        "sell": 1925,
-        "total": 2750
+        "sell": 1960,
+        "total": 2800
       },
       "id": 3742,
       "image": {
@@ -289,6 +240,14 @@
         "w": 48,
         "x": 48,
         "y": 192
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
       },
       "name": "Dead Man's Plate",
       "plaintext": "Build momentum as you move around then smash into enemies.",
@@ -306,102 +265,105 @@
       ]
     },
     {
-      "colloq": "bc",
+      "colloq": "sv",
       "depth": 3,
-      "description": "<stats>+400 Health<br>+40 Attack Damage<br>+20% Cooldown Reduction</stats><br><br><passive>UNIQUE Passive:</passive> Dealing physical damage to an enemy champion Cleaves them, reducing their Armor by 5% for 6 seconds (stacks up to 6 times, up to 30%).<br><unique>UNIQUE Passive - Rage:</unique> Dealing physical damage grants 20 movement speed for 2 seconds. Assists on Cleaved enemy champions or kills on any unit grant 60 movement speed for 2 seconds instead. This Movement Speed is halved for ranged champions.<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+500 Health<br>+70 Magic Resist<br>+150% Base Health Regen <br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> Increases all healing received by 20%.",
       "effect": {
-        "Effect1Amount": "-0.2",
-        "Effect2Amount": "0.05",
-        "Effect3Amount": "6",
-        "Effect4Amount": "6",
-        "Effect5Amount": "0.3",
-        "Effect6Amount": "20",
-        "Effect7Amount": "2",
-        "Effect8Amount": "60"
+        "Effect1Amount": "-0.1",
+        "Effect2Amount": "0.2",
+        "Effect3Amount": "0.5",
+        "Effect4Amount": "0.015"
       },
       "from": [
-        "3044",
+        "3211",
         "3067"
       ],
       "gold": {
-        "base": 825,
+        "base": 900,
         "purchasable": true,
-        "sell": 2100,
-        "total": 3000
+        "sell": 1960,
+        "total": 2800
       },
-      "id": 3071,
+      "id": 3065,
       "image": {
-        "full": "3071.png",
+        "full": "3065.png",
         "group": "item",
         "h": 48,
         "sprite": "item0.png",
         "w": 48,
-        "x": 240,
+        "x": 0,
         "y": 384
       },
-      "name": "The Black Cleaver",
-      "plaintext": "Dealing physical damage to enemy champions reduces their Armor",
-      "sanitizedDescription": "+400 Health +40 Attack Damage +20% Cooldown Reduction UNIQUE Passive: Dealing physical damage to an enemy champion Cleaves them, reducing their Armor by 5% for 6 seconds (stacks up to 6 times, up to 30%). UNIQUE Passive - Rage: Dealing physical damage grants 20 movement speed for 2 seconds. Assists on Cleaved enemy champions or kills on any unit grant 60 movement speed for 2 seconds instead. This Movement Speed is halved for ranged champions. (Unique Passives with the same name don't stack.)",
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Spirit Visage",
+      "plaintext": "Increases Health and healing effects",
+      "sanitizedDescription": "+500 Health +70 Magic Resist +150% Base Health Regen +10% Cooldown Reduction UNIQUE Passive: Increases all healing received by 20%.",
       "stats": {
-        "FlatHPPoolMod": 400.0,
-        "FlatPhysicalDamageMod": 40.0
+        "FlatHPPoolMod": 500.0,
+        "FlatSpellBlockMod": 70.0
       },
       "tags": [
-        "ArmorPenetration",
         "CooldownReduction",
-        "Damage",
         "Health",
-        "NonbootsMovement",
-        "OnHit"
+        "HealthRegen",
+        "SpellBlock"
       ]
     },
     {
-      "colloq": "juggernaut",
       "depth": 3,
-      "description": "<stats>+400 Health<br>+50 Attack Damage<br>+100% Base Health Regen </stats><br><br><unique>UNIQUE Passive - Cleave:</unique> Basic attacks deal 5 + 1% of your maximum health as bonus physical damage  to your target and 40 + 2.5% of your maximum health as physical damage  to other enemies in a cone on hit.<br><active>UNIQUE Active - Crescent:</active> Cleave damage to all targets is increased to 40 + 10% of your maximum health as bonus physical damage  in a larger cone for your next basic attack (20 second cooldown).<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+850 Health<br>+200% Base Health Regen </stats><br><br><unique>UNIQUE Passive:</unique> Grants <unlockedPassive>Warmog's Heart</unlockedPassive> if you have at least 3000 maximum Health.<br><br><unlockedPassive>Warmog's Heart:</unlockedPassive> Restores 15% of maximum Health every 5 seconds if damage hasn't been taken within 8 seconds. ",
       "effect": {
-        "Effect1Amount": "0.025",
-        "Effect2Amount": "40",
-        "Effect3Amount": "0",
-        "Effect4Amount": "0",
-        "Effect5Amount": "0.1",
-        "Effect6Amount": "0",
-        "Effect7Amount": "20",
-        "Effect8Amount": "40"
+        "Effect1Amount": "0.015",
+        "Effect2Amount": "5",
+        "Effect3Amount": "0.15",
+        "Effect4Amount": "3000",
+        "Effect5Amount": "8"
       },
       "from": [
-        "3077",
-        "1011"
+        "3801",
+        "1011",
+        "3801"
       ],
       "gold": {
-        "base": 400,
+        "base": 550,
         "purchasable": true,
-        "sell": 2310,
-        "total": 3300
+        "sell": 1995,
+        "total": 2850
       },
-      "id": 3748,
+      "id": 3083,
       "image": {
-        "full": "3748.png",
+        "full": "3083.png",
         "group": "item",
         "h": 48,
-        "sprite": "item3.png",
+        "sprite": "item0.png",
         "w": 48,
-        "x": 192,
-        "y": 240
+        "x": 144,
+        "y": 432
       },
-      "name": "Titanic Hydra (Melee Only)",
-      "plaintext": "Deals area of effect damage based on owner's health",
-      "sanitizedDescription": "+400 Health +50 Attack Damage +100% Base Health Regen UNIQUE Passive - Cleave: Basic attacks deal 5 + 1% of your maximum health as bonus physical damage to your target and 40 + 2.5% of your maximum health as physical damage to other enemies in a cone on hit. UNIQUE Active - Crescent: Cleave damage to all targets is increased to 40 + 10% of your maximum health as bonus physical damage in a larger cone for your next basic attack (20 second cooldown). (Unique Passives with the same name don't stack.)",
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
+      "name": "Warmog's Armor",
+      "plaintext": "Grants massive Health and Health Regen",
+      "sanitizedDescription": "+850 Health +200% Base Health Regen UNIQUE Passive: Grants Warmog's Heart if you have at least 3000 maximum Health. Warmog's Heart: Restores 15% of maximum Health every 5 seconds if damage hasn't been taken within 8 seconds.",
       "stats": {
-        "FlatHPPoolMod": 400.0,
-        "FlatPhysicalDamageMod": 50.0
+        "FlatHPPoolMod": 850.0
       },
       "tags": [
-        "Active",
-        "Damage",
         "Health",
-        "HealthRegen",
-        "OnHit"
+        "HealthRegen"
       ]
     },
     {
@@ -417,10 +379,10 @@
         "3024"
       ],
       "gold": {
-        "base": 600,
+        "base": 700,
         "purchasable": true,
-        "sell": 1820,
-        "total": 2600
+        "sell": 1960,
+        "total": 2800
       },
       "id": 3110,
       "image": {
@@ -431,6 +393,14 @@
         "w": 48,
         "x": 144,
         "y": 48
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
       },
       "name": "Frozen Heart",
       "plaintext": "Massively increases Armor and slows enemy basic attacks",
@@ -448,7 +418,7 @@
     },
     {
       "depth": 3,
-      "description": "<stats>+450 Health<br>+45 Armor  </stats><br><br><unique>UNIQUE Passive - Immolate:</unique> Deals 25 (+1 per champion level) magic damage per second to nearby enemies.",
+      "description": "<stats>+500 Health<br>+45 Armor  </stats><br><br><unique>UNIQUE Passive - Immolate:</unique> Deals 25 (+1 per champion level) magic damage per second to nearby enemies.",
       "effect": {
         "Effect1Amount": "25",
         "Effect2Amount": "1"
@@ -458,10 +428,10 @@
         "3751"
       ],
       "gold": {
-        "base": 850,
+        "base": 800,
         "purchasable": true,
-        "sell": 1820,
-        "total": 2600
+        "sell": 1890,
+        "total": 2700
       },
       "id": 3068,
       "image": {
@@ -473,12 +443,20 @@
         "x": 96,
         "y": 384
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Sunfire Cape",
       "plaintext": "Constantly deals damage to nearby enemies",
-      "sanitizedDescription": "+450 Health +45 Armor UNIQUE Passive - Immolate: Deals 25 (+1 per champion level) magic damage per second to nearby enemies.",
+      "sanitizedDescription": "+500 Health +45 Armor UNIQUE Passive - Immolate: Deals 25 (+1 per champion level) magic damage per second to nearby enemies.",
       "stats": {
         "FlatArmorMod": 45.0,
-        "FlatHPPoolMod": 450.0
+        "FlatHPPoolMod": 500.0
       },
       "tags": [
         "Armor",
@@ -488,7 +466,7 @@
     {
       "colloq": "bv",
       "depth": 3,
-      "description": "<stats>+450 Health<br>+60 Magic Resist<br>+100% Base Health Regeneration </stats><br><br><unique>UNIQUE Passive:</unique> Grants a spell shield that blocks the next enemy ability. This shield refreshes after no damage is taken from enemy champions for 40 seconds.",
+      "description": "<stats>+500 Health<br>+70 Magic Resist<br>+100% Base Health Regeneration </stats><br><br><unique>UNIQUE Passive:</unique> Grants a spell shield that blocks the next enemy ability. This shield refreshes after no damage is taken from enemy champions for 40 seconds.",
       "effect": {
         "Effect1Amount": "40",
         "Effect2Amount": "45",
@@ -499,10 +477,10 @@
         "3801"
       ],
       "gold": {
-        "base": 900,
+        "base": 1150,
         "purchasable": true,
-        "sell": 1890,
-        "total": 2700
+        "sell": 2030,
+        "total": 2900
       },
       "id": 3102,
       "image": {
@@ -514,17 +492,83 @@
         "x": 384,
         "y": 0
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Banshee's Veil",
       "plaintext": "Periodically blocks enemy abilities",
-      "sanitizedDescription": "+450 Health +60 Magic Resist +100% Base Health Regeneration UNIQUE Passive: Grants a spell shield that blocks the next enemy ability. This shield refreshes after no damage is taken from enemy champions for 40 seconds.",
+      "sanitizedDescription": "+500 Health +70 Magic Resist +100% Base Health Regeneration UNIQUE Passive: Grants a spell shield that blocks the next enemy ability. This shield refreshes after no damage is taken from enemy champions for 40 seconds.",
       "stats": {
-        "FlatHPPoolMod": 450.0,
-        "FlatSpellBlockMod": 60.0
+        "FlatHPPoolMod": 500.0,
+        "FlatSpellBlockMod": 70.0
       },
       "tags": [
         "Health",
         "HealthRegen",
         "SpellBlock"
+      ]
+    },
+    {
+      "colloq": "bc",
+      "depth": 3,
+      "description": "<stats>+300 Health<br>+55 Attack Damage<br>+20% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> Dealing physical damage to an enemy champion Cleaves them, reducing their Armor by 5% for 6 seconds (stacks up to 6 times, up to 30%).<br><unique>UNIQUE Passive - Rage:</unique> Dealing physical damage grants 20 movement speed for 2 seconds. Assists on Cleaved enemy champions or kills on any unit grant 60 movement speed for 2 seconds instead. This Movement Speed is halved for ranged champions.",
+      "effect": {
+        "Effect1Amount": "-0.2",
+        "Effect2Amount": "0.05",
+        "Effect3Amount": "6",
+        "Effect4Amount": "6",
+        "Effect5Amount": "0.3",
+        "Effect6Amount": "20",
+        "Effect7Amount": "2",
+        "Effect8Amount": "60"
+      },
+      "from": [
+        "3044",
+        "3133"
+      ],
+      "gold": {
+        "base": 1150,
+        "purchasable": true,
+        "sell": 2450,
+        "total": 3500
+      },
+      "id": 3071,
+      "image": {
+        "full": "3071.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 240,
+        "y": 384
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "The Black Cleaver",
+      "plaintext": "Dealing physical damage to enemy champions reduces their Armor",
+      "sanitizedDescription": "+300 Health +55 Attack Damage +20% Cooldown Reduction UNIQUE Passive: Dealing physical damage to an enemy champion Cleaves them, reducing their Armor by 5% for 6 seconds (stacks up to 6 times, up to 30%). UNIQUE Passive - Rage: Dealing physical damage grants 20 movement speed for 2 seconds. Assists on Cleaved enemy champions or kills on any unit grant 60 movement speed for 2 seconds instead. This Movement Speed is halved for ranged champions.",
+      "stats": {
+        "FlatHPPoolMod": 300.0,
+        "FlatPhysicalDamageMod": 55.0
+      },
+      "tags": [
+        "ArmorPenetration",
+        "CooldownReduction",
+        "Damage",
+        "Health",
+        "NonbootsMovement",
+        "OnHit"
       ]
     }
   ],
@@ -532,13 +576,13 @@
   "Starting Items": [
     {
       "colloq": "yellow;",
-      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><unique>Active:</unique> Places a <font color='#BBFFFF'>Stealth Ward</font> that lasts 60 seconds (120 second cooldown).<br><br>At level 9, this ward's duration increases to 120 seconds.<br><br>Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.<br><br><i>(Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).</i>",
+      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Consume a charge to place an invisible <font color='#BBFFFF'>Stealth Ward</font> which reveals the surrounding area for <levelScale>60 - 120</levelScale> seconds. <br><br>Stores one charge every <levelScale>180 - 120</levelScale> seconds, up to 2 maximum charges.<br><br>Ward duration and recharge time gradually improve with level.<br><br><rules>(Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player. Switching to a <font color='#BBFFFF'>Lens</font> type trinket will disable <font color='#BBFFFF'>Trinket</font> use for 120 seconds.)</rules><br><br>",
       "effect": {
         "Effect1Amount": "60",
-        "Effect2Amount": "120",
+        "Effect2Amount": "180",
         "Effect3Amount": "120",
-        "Effect4Amount": "0",
-        "Effect5Amount": "0",
+        "Effect4Amount": "120",
+        "Effect5Amount": "2",
         "Effect6Amount": "9",
         "Effect7Amount": "30",
         "Effect8Amount": "120"
@@ -560,13 +604,17 @@
         "x": 288,
         "y": 0
       },
-      "into": [
-        "3361",
-        "3362"
-      ],
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Warding Totem (Trinket)",
       "plaintext": "Periodically place a Stealth Ward",
-      "sanitizedDescription": "Limited to 1 Trinket. Active: Places a Stealth Ward that lasts 60 seconds (120 second cooldown). At level 9, this ward's duration increases to 120 seconds. Limit 3 Stealth Wards on the map per player. (Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).",
+      "sanitizedDescription": "Limited to 1 Trinket. Active: Consume a charge to place an invisible Stealth Ward which reveals the surrounding area for 60 - 120 seconds. Stores one charge every 180 - 120 seconds, up to 2 maximum charges. Ward duration and recharge time gradually improve with level. (Limit 3 Stealth Wards on the map per player. Switching to a Lens type trinket will disable Trinket use for 120 seconds.)",
       "stats": {},
       "tags": [
         "Active",
@@ -577,48 +625,12 @@
       ]
     },
     {
-      "description": "<unique>UNIQUE Passive:</unique> Holds 3 charges and refills upon visiting the shop.<br><active>UNIQUE Active:</active> Consumes a charge to restore 120 Health and 60 Mana over 12 seconds.",
-      "effect": {
-        "Effect1Amount": "10",
-        "Effect2Amount": "5",
-        "Effect3Amount": "12",
-        "Effect4Amount": "3"
-      },
-      "gold": {
-        "base": 345,
-        "purchasable": true,
-        "sell": 138,
-        "total": 345
-      },
-      "id": 2041,
-      "image": {
-        "full": "2041.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item0.png",
-        "w": 48,
-        "x": 192,
-        "y": 144
-      },
-      "name": "Crystalline Flask",
-      "plaintext": "Restores Health and Mana over time, refills at shop",
-      "sanitizedDescription": "UNIQUE Passive: Holds 3 charges and refills upon visiting the shop. UNIQUE Active: Consumes a charge to restore 120 Health and 60 Mana over 12 seconds.",
-      "stats": {},
-      "tags": [
-        "Active",
-        "Consumable",
-        "HealthRegen",
-        "Lane",
-        "ManaRegen"
-      ]
-    },
-    {
       "description": "<stats>+10 Attack Damage</stats>",
       "gold": {
-        "base": 360,
+        "base": 350,
         "purchasable": true,
-        "sell": 252,
-        "total": 360
+        "sell": 245,
+        "total": 350
       },
       "id": 1036,
       "image": {
@@ -632,19 +644,28 @@
       },
       "into": [
         "1053",
+        "3133",
+        "3052",
+        "3123",
+        "3034",
         "3044",
-        "3134",
-        "3155",
-        "3077",
-        "3035",
-        "3154",
-        "3141",
-        "3144",
+        "3072",
+        "3074",
         "3122",
-        "3053",
-        "3159",
-        "3924"
+        "3134",
+        "3144",
+        "3154",
+        "3155",
+        "3159"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Long Sword",
       "plaintext": "Slightly increases Attack Damage",
       "sanitizedDescription": "+10 Attack Damage",
@@ -657,17 +678,71 @@
       ]
     },
     {
+      "depth": 2,
+      "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 150 Health and 50 Mana over 12 seconds and grants <font color='#FF8811'><u>Touch of Corruption</u></font> during that time. Holds up to 3 charges that refills upon visiting the shop.<br><br><font color='#FF8811'><u>Touch of Corruption:</u></font> Damaging spells and attacks burn enemy champions for <levelScale>15 - 30</levelScale> magic damage over 3 seconds. (Half Damage for Area of Effect or Damage over Time spells. Damage increases with champion level.)<br><br><rules>(Corrupting Potion can be used even at full Health and Mana.)</rules>",
+      "effect": {
+        "Effect1Amount": "150",
+        "Effect2Amount": "50",
+        "Effect3Amount": "12",
+        "Effect4Amount": "3",
+        "Effect5Amount": "10",
+        "Effect6Amount": "0.1",
+        "Effect7Amount": "15",
+        "Effect8Amount": "3"
+      },
+      "from": [
+        "2031"
+      ],
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "sell": 200,
+        "total": 500
+      },
+      "group": "FlaskGroup",
+      "id": 2033,
+      "image": {
+        "full": "2033.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item3.png",
+        "w": 48,
+        "x": 336,
+        "y": 336
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Corrupting Potion",
+      "plaintext": "Restores Health and Mana over time and boosts combat power - Refills at Shop",
+      "sanitizedDescription": "Limited to 1 type of Healing Potion. UNIQUE Active: Consumes a charge to restore 150 Health and 50 Mana over 12 seconds and grants Touch of Corruption during that time. Holds up to 3 charges that refills upon visiting the shop. Touch of Corruption: Damaging spells and attacks burn enemy champions for 15 - 30 magic damage over 3 seconds. (Half Damage for Area of Effect or Damage over Time spells. Damage increases with champion level.) (Corrupting Potion can be used even at full Health and Mana.)",
+      "stats": {},
+      "tags": [
+        "Active",
+        "Consumable",
+        "HealthRegen",
+        "Lane",
+        "ManaRegen"
+      ]
+    },
+    {
       "colloq": "dshield",
-      "description": "<stats>+80 Health</stats><br><br><unique>Passive: </unique> Restores 6 Health every 5 seconds.<br><unique>UNIQUE Passive:</unique> Blocks 8 damage from single target attacks and spells from champions.",
+      "description": "<stats>+80 Health</stats><br><br><passive>Passive: </passive> Restores 6 Health every 5 seconds.<br><unique>UNIQUE Passive:</unique> Blocks 8 damage from single target attacks and spells from champions.",
       "effect": {
         "Effect1Amount": "8"
       },
       "gold": {
-        "base": 440,
+        "base": 450,
         "purchasable": true,
-        "sell": 176,
-        "total": 440
+        "sell": 180,
+        "total": 450
       },
+      "group": "DoransItems",
       "id": 1054,
       "image": {
         "full": "1054.png",
@@ -677,6 +752,14 @@
         "w": 48,
         "x": 0,
         "y": 96
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
       },
       "name": "Doran's Shield",
       "plaintext": "Good defensive starting item",
@@ -693,16 +776,16 @@
     },
     {
       "consumed": true,
-      "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> Restores 150 Health over 15 seconds.",
+      "description": "<groupLimit>Limited to 5 at one time. Limited to 1 type of Healing Potion.</groupLimit><br><br><consumable>Click to Consume:</consumable> Restores 150 Health over 15 seconds.",
       "effect": {
         "Effect1Amount": "150",
         "Effect2Amount": "15"
       },
       "gold": {
-        "base": 35,
+        "base": 50,
         "purchasable": true,
-        "sell": 14,
-        "total": 35
+        "sell": 20,
+        "total": 50
       },
       "group": "HealthPotion",
       "id": 2003,
@@ -715,9 +798,17 @@
         "x": 0,
         "y": 144
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Health Potion",
       "plaintext": "Consume to restore Health over time",
-      "sanitizedDescription": "Limited to 5 at one time. Click to Consume: Restores 150 Health over 15 seconds.",
+      "sanitizedDescription": "Limited to 5 at one time. Limited to 1 type of Healing Potion. Click to Consume: Restores 150 Health over 15 seconds.",
       "stacks": 5,
       "stats": {},
       "tags": [

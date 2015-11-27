@@ -2,7 +2,7 @@
   "Boots": [
     {
       "depth": 2,
-      "description": "<stats>+15 Magic Penetration</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)</i><br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats>+15 <a href='FlatMagicPen'>Magic Penetration</a></stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><rules>(Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)</rules>",
       "effect": {
         "Effect1Amount": "15"
       },
@@ -10,7 +10,7 @@
         "1001"
       ],
       "gold": {
-        "base": 775,
+        "base": 800,
         "purchasable": true,
         "sell": 770,
         "total": 1100
@@ -29,13 +29,19 @@
         "1311",
         "1313",
         "1310",
-        "1312",
-        "1314",
-        "1337"
+        "1312"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Sorcerer's Shoes",
       "plaintext": "Enhances Movement Speed and magic damage",
-      "sanitizedDescription": "+15 Magic Penetration UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.) (Unique Passives with the same name don't stack.)",
+      "sanitizedDescription": "+15 Magic Penetration UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)",
       "stats": {
         "FlatMovementSpeedMod": 45.0
       },
@@ -46,18 +52,19 @@
     },
     {
       "depth": 2,
-      "description": "<unique>UNIQUE Passive:</unique> +15% Cooldown Reduction<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Unique Passives with the same name don't stack.)</i><br><br><i><font color='#FDD017'>''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''</font></i>",
+      "description": "<unique>UNIQUE Passive:</unique> +10% Cooldown Reduction<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><unique>UNIQUE Passive:</unique> Reduces Summoner Spell cooldowns by 10%<br><br><br><rules><font color='#FDD017'>''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''</font></rules>",
       "effect": {
-        "Effect1Amount": "-0.15"
+        "Effect1Amount": "-0.1",
+        "Effect2Amount": "0.1"
       },
       "from": [
         "1001"
       ],
       "gold": {
-        "base": 675,
+        "base": 500,
         "purchasable": true,
-        "sell": 700,
-        "total": 1000
+        "sell": 560,
+        "total": 800
       },
       "id": 3158,
       "image": {
@@ -73,13 +80,19 @@
         "1331",
         "1333",
         "1330",
-        "1332",
-        "1334",
-        "1341"
+        "1332"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Ionian Boots of Lucidity",
       "plaintext": "Increases Movement Speed and Cooldown Reduction",
-      "sanitizedDescription": "UNIQUE Passive: +15% Cooldown Reduction UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Unique Passives with the same name don't stack.) ''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''",
+      "sanitizedDescription": "UNIQUE Passive: +10% Cooldown Reduction UNIQUE Passive - Enhanced Movement: +45 Movement Speed UNIQUE Passive: Reduces Summoner Spell cooldowns by 10% ''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''",
       "stats": {
         "FlatMovementSpeedMod": 45.0
       },
@@ -90,7 +103,7 @@
     },
     {
       "depth": 2,
-      "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds.<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds.",
       "effect": {
         "Effect1Amount": "0",
         "Effect2Amount": "0",
@@ -105,7 +118,7 @@
         "1001"
       ],
       "gold": {
-        "base": 475,
+        "base": 500,
         "purchasable": true,
         "sell": 560,
         "total": 800
@@ -124,13 +137,19 @@
         "1326",
         "1328",
         "1325",
-        "1327",
-        "1329",
-        "1340"
+        "1327"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Boots of Mobility",
       "plaintext": "Greatly enhances Movement Speed when out of combat",
-      "sanitizedDescription": "UNIQUE Passive - Enhanced Movement: +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds. (Unique Passives with the same name don't stack.)",
+      "sanitizedDescription": "UNIQUE Passive - Enhanced Movement: +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds.",
       "stats": {
         "FlatMovementSpeedMod": 105.0
       },
@@ -144,10 +163,10 @@
       "colloq": "blue",
       "consumeOnFull": true,
       "consumed": true,
-      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +40 Ability Power, 15 bonus Mana Regen per 5 seconds and <font color='#FF8811'><u>Sorcery</u></font> for 3 minutes. <br><br><font color='#FF8811'><u>Sorcery:</u></font> Damaging a champion or turret deals 25 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets.<br><br><i>(Only one Flask effect may be active at a time.)</i><br>",
+      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +50 Ability Power, 15 bonus Mana Regen per 5 seconds and <font color='#FF8811'><u>Sorcery</u></font> for 3 minutes. <br><br><font color='#FF8811'><u>Sorcery:</u></font> Damaging a champion or turret deals 25 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets.<br><br><rules>(Only one Elixir effect may be active at a time.)</rules><br>",
       "effect": {
-        "Effect1Amount": "40",
-        "Effect2Amount": "40",
+        "Effect1Amount": "50",
+        "Effect2Amount": "50",
         "Effect3Amount": "25",
         "Effect4Amount": "3",
         "Effect5Amount": "5",
@@ -156,10 +175,10 @@
         "Effect8Amount": "9"
       },
       "gold": {
-        "base": 400,
+        "base": 500,
         "purchasable": true,
-        "sell": 160,
-        "total": 400
+        "sell": 200,
+        "total": 500
       },
       "group": "Flasks",
       "id": 2139,
@@ -172,63 +191,30 @@
         "x": 336,
         "y": 192
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Elixir of Sorcery",
       "plaintext": "Temporarily grants Ability Power and Bonus Damage to champions and turrets.",
-      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants +40 Ability Power, 15 bonus Mana Regen per 5 seconds and Sorcery for 3 minutes. Sorcery: Damaging a champion or turret deals 25 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets. (Only one Flask effect may be active at a time.)",
+      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants +50 Ability Power, 15 bonus Mana Regen per 5 seconds and Sorcery for 3 minutes. Sorcery: Damaging a champion or turret deals 25 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets. (Only one Elixir effect may be active at a time.)",
       "stats": {},
       "tags": [
         "Consumable",
         "ManaRegen",
         "SpellDamage"
       ]
-    },
-    {
-      "colloq": "red",
-      "consumeOnFull": true,
-      "consumed": true,
-      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +250 Health, 15% Bonus Damage to Towers and <font color='#FF8811'><u>Siege Commander</u></font> for 3 minutes.<br><br><font color='#FF8811'><u>Siege Commander:</u></font> Nearby minions gain 15% Bonus Damage to Towers and gain Movement Speed based on champion's Movement Speed.<br><br><i>(Only one Flask effect may be active at a time.)</i>",
-      "effect": {
-        "Effect1Amount": "250",
-        "Effect2Amount": "250",
-        "Effect3Amount": "3",
-        "Effect4Amount": "3",
-        "Effect5Amount": "0.15",
-        "Effect6Amount": "0",
-        "Effect7Amount": "0",
-        "Effect8Amount": "9"
-      },
-      "gold": {
-        "base": 400,
-        "purchasable": true,
-        "sell": 160,
-        "total": 400
-      },
-      "group": "Flasks",
-      "id": 2137,
-      "image": {
-        "full": "2137.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item0.png",
-        "w": 48,
-        "x": 240,
-        "y": 192
-      },
-      "name": "Elixir of Ruin",
-      "plaintext": "Temporarily grants Health and boosts the speed and power of nearby minions versus Towers.",
-      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants +250 Health, 15% Bonus Damage to Towers and Siege Commander for 3 minutes. Siege Commander: Nearby minions gain 15% Bonus Damage to Towers and gain Movement Speed based on champion's Movement Speed. (Only one Flask effect may be active at a time.)",
-      "stats": {},
-      "tags": [
-        "Consumable",
-        "Health"
-      ]
     }
   ],
   "Endgame Items": [
     {
-      "colloq": "nmst",
+      "colloq": "nmst;grievous",
       "depth": 3,
-      "description": "<stats>+80 Ability Power<br>+20% Cooldown Reduction<br><mana>+100% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> Dealing magic damage to enemy champions below 40% Health inflicts Grievous Wounds for 4 seconds.<br><br><i>(Grievous Wounds reduces incoming healing and regeneration effects by 50%.)</i>",
+      "description": "<stats>+80 Ability Power<br>+20% Cooldown Reduction<br><mana>+100% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> Dealing magic damage to enemy champions below 40% Health inflicts <a href='GrievousWounds'>Grievous Wounds</a> for 4 seconds.",
       "effect": {
         "Effect1Amount": "20",
         "Effect2Amount": "40",
@@ -240,10 +226,10 @@
         "1052"
       ],
       "gold": {
-        "base": 445,
+        "base": 765,
         "purchasable": true,
-        "sell": 1610,
-        "total": 2300
+        "sell": 1785,
+        "total": 2550
       },
       "id": 3165,
       "image": {
@@ -255,15 +241,75 @@
         "x": 192,
         "y": 192
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Morellonomicon",
       "plaintext": "Greatly increases Ability Power and Cooldown Reduction",
-      "sanitizedDescription": "+80 Ability Power +20% Cooldown Reduction +100% Base Mana Regen UNIQUE Passive: Dealing magic damage to enemy champions below 40% Health inflicts Grievous Wounds for 4 seconds. (Grievous Wounds reduces incoming healing and regeneration effects by 50%.)",
+      "sanitizedDescription": "+80 Ability Power +20% Cooldown Reduction +100% Base Mana Regen UNIQUE Passive: Dealing magic damage to enemy champions below 40% Health inflicts Grievous Wounds for 4 seconds.",
       "stats": {
         "FlatMagicDamageMod": 80.0
       },
       "tags": [
         "CooldownReduction",
         "ManaRegen",
+        "SpellDamage"
+      ]
+    },
+    {
+      "depth": 3,
+      "description": "<stats>+100 Ability Power<br>+10% Movement Speed</stats><br><br><unique>UNIQUE Passive:</unique> Gain charges upon moving or casting. At 100 charges, the next spell hit expends all charges to deal 100 (+10% of Ability Power) bonus magic damage to up to 4 targets on hit.",
+      "effect": {
+        "Effect1Amount": "100",
+        "Effect2Amount": "100",
+        "Effect3Amount": "4",
+        "Effect4Amount": "0.1",
+        "Effect5Amount": "35",
+        "Effect6Amount": "10"
+      },
+      "from": [
+        "1058",
+        "3113"
+      ],
+      "gold": {
+        "base": 1100,
+        "purchasable": true,
+        "sell": 2240,
+        "total": 3200
+      },
+      "id": 3285,
+      "image": {
+        "full": "3285.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item2.png",
+        "w": 48,
+        "x": 288,
+        "y": 288
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Luden's Echo",
+      "plaintext": "Movement and casting builds charges that release chain lightning on next spell hit",
+      "sanitizedDescription": "+100 Ability Power +10% Movement Speed UNIQUE Passive: Gain charges upon moving or casting. At 100 charges, the next spell hit expends all charges to deal 100 (+10% of Ability Power) bonus magic damage to up to 4 targets on hit.",
+      "stats": {
+        "FlatMagicDamageMod": 100.0,
+        "PercentMovementSpeedMod": 0.1
+      },
+      "tags": [
+        "NonbootsMovement",
+        "OnHit",
         "SpellDamage"
       ]
     },
@@ -280,10 +326,10 @@
         "1052"
       ],
       "gold": {
-        "base": 965,
+        "base": 1265,
         "purchasable": true,
-        "sell": 2450,
-        "total": 3500
+        "sell": 2660,
+        "total": 3800
       },
       "id": 3089,
       "image": {
@@ -294,6 +340,14 @@
         "w": 48,
         "x": 384,
         "y": 432
+      },
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
       },
       "name": "Rabadon's Deathcap",
       "plaintext": "Massively increases Ability Power",
@@ -306,52 +360,8 @@
       ]
     },
     {
-      "depth": 3,
-      "description": "<stats>+100 Ability Power<br>+10% Movement Speed</stats><br><br><unique>UNIQUE Passive:</unique> Gain charges upon moving or casting. At 100 charges, the next spell hit expends all charges to deal 100 (+10% AP) bonus magic damage to up to 4 targets on hit.",
-      "effect": {
-        "Effect1Amount": "100",
-        "Effect2Amount": "100",
-        "Effect3Amount": "4",
-        "Effect4Amount": "0.1",
-        "Effect5Amount": "35",
-        "Effect6Amount": "10"
-      },
-      "from": [
-        "1058",
-        "3113"
-      ],
-      "gold": {
-        "base": 900,
-        "purchasable": true,
-        "sell": 2100,
-        "total": 3000
-      },
-      "id": 3285,
-      "image": {
-        "full": "3285.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item2.png",
-        "w": 48,
-        "x": 288,
-        "y": 288
-      },
-      "name": "Luden's Echo",
-      "plaintext": "Increases Ability Power and Movement Speed",
-      "sanitizedDescription": "+100 Ability Power +10% Movement Speed UNIQUE Passive: Gain charges upon moving or casting. At 100 charges, the next spell hit expends all charges to deal 100 (+10% AP) bonus magic damage to up to 4 targets on hit.",
-      "stats": {
-        "FlatMagicDamageMod": 100.0,
-        "PercentMovementSpeedMod": 0.1
-      },
-      "tags": [
-        "NonbootsMovement",
-        "OnHit",
-        "SpellDamage"
-      ]
-    },
-    {
       "depth": 2,
-      "description": "<stats>+80 Ability Power</stats><br><br><unique>UNIQUE Passive:</unique> Magic damage ignores 35% of the target's Magic Resist (applies before Magic Penetration).",
+      "description": "<stats>+80 Ability Power</stats><br><br><unique>UNIQUE Passive:</unique> +35% <a href='TotalMagicPen'>Magic Penetration</a>.",
       "effect": {
         "Effect1Amount": "0.35"
       },
@@ -360,10 +370,10 @@
         "1052"
       ],
       "gold": {
-        "base": 1215,
+        "base": 1365,
         "purchasable": true,
-        "sell": 1750,
-        "total": 2500
+        "sell": 1855,
+        "total": 2650
       },
       "id": 3135,
       "image": {
@@ -375,9 +385,17 @@
         "x": 192,
         "y": 96
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Void Staff",
       "plaintext": "Increases magic damage",
-      "sanitizedDescription": "+80 Ability Power UNIQUE Passive: Magic damage ignores 35% of the target's Magic Resist (applies before Magic Penetration).",
+      "sanitizedDescription": "+80 Ability Power UNIQUE Passive: +35% Magic Penetration.",
       "stats": {
         "FlatMagicDamageMod": 80.0
       },
@@ -389,7 +407,7 @@
     {
       "colloq": "zhg;zonyas",
       "depth": 3,
-      "description": "<stats>+100 Ability Power<br>+50 Armor  </stats><br><br><active>UNIQUE Active - Stasis:</active> Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (90 second cooldown).",
+      "description": "<stats>+100 Ability Power<br>+45 Armor  </stats><br><br><active>UNIQUE Active - Stasis:</active> Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (90 second cooldown).",
       "effect": {
         "Effect1Amount": "0",
         "Effect2Amount": "2.5",
@@ -400,10 +418,10 @@
         "1058"
       ],
       "gold": {
-        "base": 550,
+        "base": 1050,
         "purchasable": true,
-        "sell": 2100,
-        "total": 3000
+        "sell": 2450,
+        "total": 3500
       },
       "id": 3157,
       "image": {
@@ -415,11 +433,19 @@
         "x": 48,
         "y": 192
       },
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Zhonya's Hourglass",
       "plaintext": "Activate to become invincible but unable to take actions",
-      "sanitizedDescription": "+100 Ability Power +50 Armor UNIQUE Active - Stasis: Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (90 second cooldown).",
+      "sanitizedDescription": "+100 Ability Power +45 Armor UNIQUE Active - Stasis: Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (90 second cooldown).",
       "stats": {
-        "FlatArmorMod": 50.0,
+        "FlatArmorMod": 45.0,
         "FlatMagicDamageMod": 100.0
       },
       "tags": [
@@ -441,8 +467,8 @@
       "gold": {
         "base": 780,
         "purchasable": true,
-        "sell": 1701,
-        "total": 2430
+        "sell": 1645,
+        "total": 2350
       },
       "id": 3001,
       "image": {
@@ -454,6 +480,14 @@
         "x": 432,
         "y": 192
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Abyssal Scepter",
       "plaintext": "Reduces Magic Resist of nearby enemies",
       "sanitizedDescription": "+70 Ability Power +50 Magic Resist UNIQUE Aura: Reduces the Magic Resist of nearby enemies by 20.",
@@ -463,18 +497,29 @@
       },
       "tags": [
         "Aura",
+        "MagicPenetration",
         "SpellBlock",
         "SpellDamage"
       ]
     },
     {
       "depth": 2,
-      "description": "<stats>+20 Ability Power  </stats><br><br><unique>UNIQUE Passive:</unique> Grants +8 Ability Power per stack and 5 stacks upon first purchase. Grants 2 stacks for a kill or 1 stack for an assist (max 20 stacks). Half of the stacks are lost upon death. At 20 stacks, grants +15% Cooldown Reduction.",
+      "description": "<stats>+20 Ability Power<br><mana>+200 Mana</mana></stats><br><br><unique>UNIQUE Passive - Dread:</unique> Grants +5 Ability Power per Glory.  Grants 10% Movement Speed if you have at least 15 Glory.<br><unique>UNIQUE Passive - Do or Die:</unique> Grants 4 Glory for a champion kill or 2 Glory for an assist, up to 25 Glory total. Lose 10 stacks of Glory upon dying.",
+      "effect": {
+        "Effect1Amount": "5",
+        "Effect2Amount": "4",
+        "Effect3Amount": "2",
+        "Effect4Amount": "25",
+        "Effect5Amount": "0.5",
+        "Effect6Amount": "0.1",
+        "Effect7Amount": "10",
+        "Effect8Amount": "15"
+      },
       "from": [
-        "1052"
+        "1082"
       ],
       "gold": {
-        "base": 965,
+        "base": 1000,
         "purchasable": true,
         "sell": 980,
         "total": 1400
@@ -489,10 +534,19 @@
         "x": 432,
         "y": 288
       },
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Mejai's Soulstealer",
       "plaintext": "Grants Ability Power for kills and assists",
-      "sanitizedDescription": "+20 Ability Power UNIQUE Passive: Grants +8 Ability Power per stack and 5 stacks upon first purchase. Grants 2 stacks for a kill or 1 stack for an assist (max 20 stacks). Half of the stacks are lost upon death. At 20 stacks, grants +15% Cooldown Reduction.",
+      "sanitizedDescription": "+20 Ability Power +200 Mana UNIQUE Passive - Dread: Grants +5 Ability Power per Glory. Grants 10% Movement Speed if you have at least 15 Glory. UNIQUE Passive - Do or Die: Grants 4 Glory for a champion kill or 2 Glory for an assist, up to 25 Glory total. Lose 10 stacks of Glory upon dying.",
       "stats": {
+        "FlatMPPoolMod": 200.0,
         "FlatMagicDamageMod": 20.0
       },
       "tags": [
@@ -500,17 +554,80 @@
       ]
     }
   ],
-  "Jungle Items": [],
+  "Jungle Items": [
+    {
+      "colloq": "jungle;Jungle;jangle",
+      "depth": 2,
+      "description": "<groupLimit>Limited to 1 Jungle item</groupLimit><br><br><stats>+10% Life Steal vs. Monsters<br><mana>+150% Base Mana Regen while in Jungle</mana></stats><br><br><unique>UNIQUE Passive - Chilling Smite:</unique> Smite can be cast on enemy champions, dealing reduced true damage and stealing 20% movement speed for 2 seconds. <br><unique>UNIQUE Passive - Tooth / Nail:</unique> Basic attacks deal 20 bonus damage vs. monsters. Damaging a monster steals 30 Health over 5 seconds. Killing a Large Monster grants +30 bonus experience.",
+      "effect": {
+        "Effect1Amount": "30",
+        "Effect2Amount": "20",
+        "Effect3Amount": "1.5",
+        "Effect4Amount": "5",
+        "Effect5Amount": "30",
+        "Effect6Amount": "-0.2",
+        "Effect7Amount": "2",
+        "Effect8Amount": "3"
+      },
+      "from": [
+        "1039",
+        "1041"
+      ],
+      "gold": {
+        "base": 350,
+        "purchasable": true,
+        "sell": 735,
+        "total": 1050
+      },
+      "group": "JungleItems",
+      "id": 3706,
+      "image": {
+        "full": "3706.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item2.png",
+        "w": 48,
+        "x": 192,
+        "y": 192
+      },
+      "into": [
+        "1400",
+        "1401",
+        "1402",
+        "1403"
+      ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": false,
+        "14": false,
+        "8": false
+      },
+      "name": "Stalker's Blade",
+      "plaintext": "Lets your Smite slow Champions",
+      "sanitizedDescription": "Limited to 1 Jungle item +10% Life Steal vs. Monsters +150% Base Mana Regen while in Jungle UNIQUE Passive - Chilling Smite: Smite can be cast on enemy champions, dealing reduced true damage and stealing 20% movement speed for 2 seconds. UNIQUE Passive - Tooth / Nail: Basic attacks deal 20 bonus damage vs. monsters. Damaging a monster steals 30 Health over 5 seconds. Killing a Large Monster grants +30 bonus experience.",
+      "stats": {},
+      "tags": [
+        "Jungle",
+        "LifeSteal",
+        "ManaRegen",
+        "NonbootsMovement",
+        "OnHit",
+        "Slow"
+      ]
+    }
+  ],
   "Starting Items": [
     {
       "colloq": "yellow;",
-      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><unique>Active:</unique> Places a <font color='#BBFFFF'>Stealth Ward</font> that lasts 60 seconds (120 second cooldown).<br><br>At level 9, this ward's duration increases to 120 seconds.<br><br>Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.<br><br><i>(Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).</i>",
+      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Consume a charge to place an invisible <font color='#BBFFFF'>Stealth Ward</font> which reveals the surrounding area for <levelScale>60 - 120</levelScale> seconds. <br><br>Stores one charge every <levelScale>180 - 120</levelScale> seconds, up to 2 maximum charges.<br><br>Ward duration and recharge time gradually improve with level.<br><br><rules>(Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player. Switching to a <font color='#BBFFFF'>Lens</font> type trinket will disable <font color='#BBFFFF'>Trinket</font> use for 120 seconds.)</rules><br><br>",
       "effect": {
         "Effect1Amount": "60",
-        "Effect2Amount": "120",
+        "Effect2Amount": "180",
         "Effect3Amount": "120",
-        "Effect4Amount": "0",
-        "Effect5Amount": "0",
+        "Effect4Amount": "120",
+        "Effect5Amount": "2",
         "Effect6Amount": "9",
         "Effect7Amount": "30",
         "Effect8Amount": "120"
@@ -532,13 +649,17 @@
         "x": 288,
         "y": 0
       },
-      "into": [
-        "3361",
-        "3362"
-      ],
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Warding Totem (Trinket)",
       "plaintext": "Periodically place a Stealth Ward",
-      "sanitizedDescription": "Limited to 1 Trinket. Active: Places a Stealth Ward that lasts 60 seconds (120 second cooldown). At level 9, this ward's duration increases to 120 seconds. Limit 3 Stealth Wards on the map per player. (Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).",
+      "sanitizedDescription": "Limited to 1 Trinket. Active: Consume a charge to place an invisible Stealth Ward which reveals the surrounding area for 60 - 120 seconds. Stores one charge every 180 - 120 seconds, up to 2 maximum charges. Ward duration and recharge time gradually improve with level. (Limit 3 Stealth Wards on the map per player. Switching to a Lens type trinket will disable Trinket use for 120 seconds.)",
       "stats": {},
       "tags": [
         "Active",
@@ -550,7 +671,7 @@
     },
     {
       "colloq": "dring",
-      "description": "<stats>+60 Health<br>+15 Ability Power</stats><br><br><passive>Passive:</passive> <mana>+3 Mana Regen per 5 seconds.<br><passive>Passive:</passive> Restores 4 Mana upon killing a unit.</mana>",
+      "description": "<stats>+60 Health<br>+15 Ability Power<br><mana>+50% Base Mana Regen  </mana></stats><br><br><mana><passive>Passive:</passive> Restores 4 Mana upon killing a unit.</mana>",
       "effect": {
         "Effect1Amount": "4"
       },
@@ -560,6 +681,7 @@
         "sell": 160,
         "total": 400
       },
+      "group": "DoransItems",
       "id": 1056,
       "image": {
         "full": "1056.png",
@@ -570,12 +692,19 @@
         "x": 96,
         "y": 96
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Doran's Ring",
       "plaintext": "Good starting item for casters",
-      "sanitizedDescription": "+60 Health +15 Ability Power Passive: +3 Mana Regen per 5 seconds. Passive: Restores 4 Mana upon killing a unit.",
+      "sanitizedDescription": "+60 Health +15 Ability Power +50% Base Mana Regen Passive: Restores 4 Mana upon killing a unit.",
       "stats": {
         "FlatHPPoolMod": 60.0,
-        "FlatMPRegenMod": 0.6,
         "FlatMagicDamageMod": 15.0
       },
       "tags": [
@@ -586,17 +715,114 @@
       ]
     },
     {
+      "colloq": "pink;",
       "consumed": true,
-      "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> Restores 150 Health over 15 seconds.",
+      "description": "<groupLimit>Can only carry 2 Vision Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places a visible ward that reveals the surrounding area and invisible units in the area until killed. Limit 1 <font color='#BBFFFF'>Vision Ward</font> on the map per player.<br><br><rules>(Revealing a ward in this manner grants a portion of the gold reward when that unit is killed.)</rules>",
+      "effect": {
+        "Effect1Amount": "1",
+        "Effect2Amount": "2"
+      },
+      "gold": {
+        "base": 75,
+        "purchasable": true,
+        "sell": 30,
+        "total": 75
+      },
+      "group": "PinkWards",
+      "id": 2043,
+      "image": {
+        "full": "2043.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item0.png",
+        "w": 48,
+        "x": 240,
+        "y": 144
+      },
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": false,
+        "14": false,
+        "8": false
+      },
+      "name": "Vision Ward",
+      "plaintext": "Use to temporarily provide vision and stealth detection in an area",
+      "sanitizedDescription": "Can only carry 2 Vision Wards in inventory. Click to Consume: Places a visible ward that reveals the surrounding area and invisible units in the area until killed. Limit 1 Vision Ward on the map per player. (Revealing a ward in this manner grants a portion of the gold reward when that unit is killed.)",
+      "stacks": 2,
+      "stats": {},
+      "tags": [
+        "Consumable",
+        "Lane",
+        "Stealth",
+        "Vision"
+      ]
+    },
+    {
+      "colloq": "Noxian",
+      "description": "<stats>+15 Ability Power<br>+25% Increased Healing from Potions<br><mana>+100 Mana</mana></stats><br><br><unique>UNIQUE Passive - Dread:</unique> Grants +3 Ability Power per Glory.  <br><unique>UNIQUE Passive - Do or Die:</unique> Grants 2 Glory for a champion kill or 1 Glory for an assist, up to 10 Glory total. Lose 4 Glory on death.",
+      "effect": {
+        "Effect1Amount": "0.25",
+        "Effect2Amount": "2",
+        "Effect3Amount": "1",
+        "Effect4Amount": "10",
+        "Effect5Amount": "3",
+        "Effect6Amount": "4"
+      },
+      "gold": {
+        "base": 400,
+        "purchasable": true,
+        "sell": 280,
+        "total": 400
+      },
+      "id": 1082,
+      "image": {
+        "full": "1082.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item3.png",
+        "w": 48,
+        "x": 288,
+        "y": 240
+      },
+      "into": [
+        "3041"
+      ],
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
+      "name": "The Dark Seal",
+      "plaintext": "Provides Ability Power and Mana.  Increases in power as you kill enemies.",
+      "sanitizedDescription": "+15 Ability Power +25% Increased Healing from Potions +100 Mana UNIQUE Passive - Dread: Grants +3 Ability Power per Glory. UNIQUE Passive - Do or Die: Grants 2 Glory for a champion kill or 1 Glory for an assist, up to 10 Glory total. Lose 4 Glory on death.",
+      "stats": {
+        "FlatMPPoolMod": 100.0,
+        "FlatMagicDamageMod": 15.0
+      },
+      "tags": [
+        "HealthRegen",
+        "Lane",
+        "Mana",
+        "SpellDamage"
+      ]
+    },
+    {
+      "consumed": true,
+      "description": "<groupLimit>Limited to 5 at one time. Limited to 1 type of Healing Potion.</groupLimit><br><br><consumable>Click to Consume:</consumable> Restores 150 Health over 15 seconds.",
       "effect": {
         "Effect1Amount": "150",
         "Effect2Amount": "15"
       },
       "gold": {
-        "base": 35,
+        "base": 50,
         "purchasable": true,
-        "sell": 14,
-        "total": 35
+        "sell": 20,
+        "total": 50
       },
       "group": "HealthPotion",
       "id": 2003,
@@ -609,86 +835,23 @@
         "x": 0,
         "y": 144
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Health Potion",
       "plaintext": "Consume to restore Health over time",
-      "sanitizedDescription": "Limited to 5 at one time. Click to Consume: Restores 150 Health over 15 seconds.",
+      "sanitizedDescription": "Limited to 5 at one time. Limited to 1 type of Healing Potion. Click to Consume: Restores 150 Health over 15 seconds.",
       "stacks": 5,
       "stats": {},
       "tags": [
         "Consumable",
         "Jungle",
         "Lane"
-      ]
-    },
-    {
-      "consumed": true,
-      "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> <mana>Restores 100 Mana over 15 seconds.</mana>",
-      "effect": {
-        "Effect1Amount": "100",
-        "Effect2Amount": "15"
-      },
-      "gold": {
-        "base": 35,
-        "purchasable": true,
-        "sell": 14,
-        "total": 35
-      },
-      "group": "ManaPotion",
-      "id": 2004,
-      "image": {
-        "full": "2004.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item0.png",
-        "w": 48,
-        "x": 48,
-        "y": 144
-      },
-      "name": "Mana Potion",
-      "plaintext": "Consume to restore Mana over time",
-      "sanitizedDescription": "Limited to 5 at one time. Click to Consume: Restores 100 Mana over 15 seconds.",
-      "stacks": 5,
-      "stats": {},
-      "tags": [
-        "Consumable",
-        "Lane"
-      ]
-    },
-    {
-      "colloq": "green;",
-      "consumed": true,
-      "description": "<groupLimit>Can only carry 3 Stealth Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places an invisible ward that reveals the surrounding area for 3 minutes. Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.",
-      "effect": {
-        "Effect1Amount": "3",
-        "Effect2Amount": "3",
-        "Effect3Amount": "3"
-      },
-      "gold": {
-        "base": 75,
-        "purchasable": true,
-        "sell": 30,
-        "total": 75
-      },
-      "group": "GreenWards",
-      "id": 2044,
-      "image": {
-        "full": "2044.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item0.png",
-        "w": 48,
-        "x": 288,
-        "y": 144
-      },
-      "name": "Stealth Ward",
-      "plaintext": "Use to temporarily provide vision in an area",
-      "sanitizedDescription": "Can only carry 3 Stealth Wards in inventory. Click to Consume: Places an invisible ward that reveals the surrounding area for 3 minutes. Limit 3 Stealth Wards on the map per player.",
-      "stacks": 3,
-      "stats": {},
-      "tags": [
-        "Consumable",
-        "Lane",
-        "Vision"
       ]
     }
   ]

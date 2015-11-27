@@ -22,6 +22,8 @@ def main():
   with open('../UNQUERIED_SUMMONERS', 'r') as unqueried_summoners_input:
     unqueried_summoners = unqueried_summoners_input.readlines()
 
+  queried_summoners = map(lambda x: x.strip(), queried_summoners)
+  unqueried_summoners = map(lambda x: x.strip(), unqueried_summoners)
   new_aggregated_summoners = []
 
   for id in unqueried_summoners:

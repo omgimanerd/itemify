@@ -8,7 +8,7 @@
         },
         {
           "count": 1,
-          "id": "2003"
+          "id": "2031"
         },
         {
           "count": 1,
@@ -16,11 +16,11 @@
         },
         {
           "count": 1,
-          "id": "2004"
+          "id": "2033"
         },
         {
           "count": 1,
-          "id": "1056"
+          "id": "2032"
         }
       ],
       "recMath": false,
@@ -30,11 +30,11 @@
       "items": [
         {
           "count": 1,
-          "id": "3111"
+          "id": "3009"
         },
         {
           "count": 1,
-          "id": "3009"
+          "id": "3111"
         },
         {
           "count": 1,
@@ -45,12 +45,7 @@
       "type": "Recommended Boots"
     },
     {
-      "items": [
-        {
-          "count": 1,
-          "id": "3706"
-        }
-      ],
+      "items": [],
       "recMath": false,
       "showIfSummonerSpell": "SummonerSmite",
       "type": "Recommended Jungle Items"
@@ -59,19 +54,15 @@
       "items": [
         {
           "count": 1,
-          "id": "3065"
-        },
-        {
-          "count": 1,
           "id": "3742"
         },
         {
           "count": 1,
-          "id": "3068"
+          "id": "3065"
         },
         {
           "count": 1,
-          "id": "3401"
+          "id": "3190"
         },
         {
           "count": 1,
@@ -79,18 +70,27 @@
         },
         {
           "count": 1,
-          "id": "3143"
+          "id": "3401"
         },
         {
           "count": 1,
-          "id": "3190"
+          "id": "3068"
+        },
+        {
+          "count": 1,
+          "id": "2303"
         }
       ],
       "recMath": false,
       "type": "Recommended Endgame Items"
     },
     {
-      "items": [],
+      "items": [
+        {
+          "count": 1,
+          "id": "2138"
+        }
+      ],
       "recMath": false,
       "type": "Recommended Elixirs"
     }

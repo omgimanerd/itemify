@@ -1,0 +1,108 @@
+{
+  "blocks": [
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3340"
+        },
+        {
+          "count": 1,
+          "id": "1055"
+        },
+        {
+          "count": 1,
+          "id": "1036"
+        },
+        {
+          "count": 1,
+          "id": "2033"
+        },
+        {
+          "count": 1,
+          "id": "2003"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Starting Items"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3111"
+        },
+        {
+          "count": 1,
+          "id": "3047"
+        },
+        {
+          "count": 1,
+          "id": "3158"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Boots"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3715"
+        }
+      ],
+      "recMath": false,
+      "showIfSummonerSpell": "SummonerSmite",
+      "type": "Recommended Jungle Items"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "3071"
+        },
+        {
+          "count": 1,
+          "id": "3053"
+        },
+        {
+          "count": 1,
+          "id": "3742"
+        },
+        {
+          "count": 1,
+          "id": "3748"
+        },
+        {
+          "count": 1,
+          "id": "3065"
+        },
+        {
+          "count": 1,
+          "id": "3078"
+        },
+        {
+          "count": 1,
+          "id": "3025"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Endgame Items"
+    },
+    {
+      "items": [
+        {
+          "count": 1,
+          "id": "2138"
+        }
+      ],
+      "recMath": false,
+      "type": "Recommended Elixirs"
+    }
+  ],
+  "map": "any",
+  "mode": "any",
+  "priority": true,
+  "title": "Illaoi",
+  "type": "custom"
+}

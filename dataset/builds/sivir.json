@@ -2,16 +2,16 @@
   "Boots": [
     {
       "depth": 2,
-      "description": "<stats> +25% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<stats> +30% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
       "from": [
         "1001",
         "1042"
       ],
       "gold": {
-        "base": 225,
+        "base": 500,
         "purchasable": true,
-        "sell": 700,
-        "total": 1000
+        "sell": 770,
+        "total": 1100
       },
       "id": 3006,
       "image": {
@@ -27,16 +27,22 @@
         "1301",
         "1303",
         "1300",
-        "1302",
-        "1304",
-        "1335"
+        "1302"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Berserker's Greaves",
       "plaintext": "Enhances Movement Speed and Attack Speed",
-      "sanitizedDescription": "+25% Attack Speed UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Unique Passives with the same name don't stack.)",
+      "sanitizedDescription": "+30% Attack Speed UNIQUE Passive - Enhanced Movement: +45 Movement Speed",
       "stats": {
         "FlatMovementSpeedMod": 45.0,
-        "PercentAttackSpeedMod": 0.25
+        "PercentAttackSpeedMod": 0.3
       },
       "tags": [
         "AttackSpeed",
@@ -45,18 +51,19 @@
     },
     {
       "depth": 2,
-      "description": "<unique>UNIQUE Passive:</unique> +15% Cooldown Reduction<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><i>(Unique Passives with the same name don't stack.)</i><br><br><i><font color='#FDD017'>''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''</font></i>",
+      "description": "<unique>UNIQUE Passive:</unique> +10% Cooldown Reduction<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><unique>UNIQUE Passive:</unique> Reduces Summoner Spell cooldowns by 10%<br><br><br><rules><font color='#FDD017'>''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''</font></rules>",
       "effect": {
-        "Effect1Amount": "-0.15"
+        "Effect1Amount": "-0.1",
+        "Effect2Amount": "0.1"
       },
       "from": [
         "1001"
       ],
       "gold": {
-        "base": 675,
+        "base": 500,
         "purchasable": true,
-        "sell": 700,
-        "total": 1000
+        "sell": 560,
+        "total": 800
       },
       "id": 3158,
       "image": {
@@ -72,13 +79,19 @@
         "1331",
         "1333",
         "1330",
-        "1332",
-        "1334",
-        "1341"
+        "1332"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Ionian Boots of Lucidity",
       "plaintext": "Increases Movement Speed and Cooldown Reduction",
-      "sanitizedDescription": "UNIQUE Passive: +15% Cooldown Reduction UNIQUE Passive - Enhanced Movement: +45 Movement Speed (Unique Passives with the same name don't stack.) ''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''",
+      "sanitizedDescription": "UNIQUE Passive: +10% Cooldown Reduction UNIQUE Passive - Enhanced Movement: +45 Movement Speed UNIQUE Passive: Reduces Summoner Spell cooldowns by 10% ''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''",
       "stats": {
         "FlatMovementSpeedMod": 45.0
       },
@@ -89,46 +102,58 @@
     },
     {
       "depth": 2,
-      "description": "<stats>+25 Magic Resist</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><unique>UNIQUE Passive - Tenacity:</unique> Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 35%.<br><br><i>(Unique Passives with the same name don't stack.)</i>",
+      "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds.",
+      "effect": {
+        "Effect1Amount": "0",
+        "Effect2Amount": "0",
+        "Effect3Amount": "0",
+        "Effect4Amount": "0",
+        "Effect5Amount": "0",
+        "Effect6Amount": "0",
+        "Effect7Amount": "0",
+        "Effect8Amount": "25"
+      },
       "from": [
-        "1001",
-        "1033"
+        "1001"
       ],
       "gold": {
-        "base": 425,
+        "base": 500,
         "purchasable": true,
-        "sell": 840,
-        "total": 1200
+        "sell": 560,
+        "total": 800
       },
-      "id": 3111,
+      "id": 3117,
       "image": {
-        "full": "3111.png",
+        "full": "3117.png",
         "group": "item",
         "h": 48,
         "sprite": "item1.png",
         "w": 48,
-        "x": 192,
-        "y": 48
+        "x": 0,
+        "y": 96
       },
       "into": [
-        "1321",
-        "1323",
-        "1320",
-        "1322",
-        "1324",
-        "1339"
+        "1326",
+        "1328",
+        "1325",
+        "1327"
       ],
-      "name": "Mercury's Treads",
-      "plaintext": "Increases Movement Speed and reduces duration of disabling effects",
-      "sanitizedDescription": "+25 Magic Resist UNIQUE Passive - Enhanced Movement: +45 Movement Speed UNIQUE Passive - Tenacity: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 35%. (Unique Passives with the same name don't stack.)",
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Boots of Mobility",
+      "plaintext": "Greatly enhances Movement Speed when out of combat",
+      "sanitizedDescription": "UNIQUE Passive - Enhanced Movement: +25 Movement Speed. Increases to +105 Movement Speed when out of combat for 5 seconds.",
       "stats": {
-        "FlatMovementSpeedMod": 45.0,
-        "FlatSpellBlockMod": 25.0
+        "FlatMovementSpeedMod": 105.0
       },
       "tags": [
-        "Boots",
-        "SpellBlock",
-        "Tenacity"
+        "Boots"
       ]
     }
   ],
@@ -137,22 +162,22 @@
       "colloq": "red",
       "consumeOnFull": true,
       "consumed": true,
-      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +25 Attack Damage and <font color='#FF8811'><u>Bloodlust</u></font> for 3 minutes.<br><br><font color='#FF8811'><u>Bloodlust:</u></font> Dealing physical damage to champions heals for 10% of the damage dealt. Scoring a Kill or Assist extends the duration of this Flask by 30 seconds.<br><br><i>(Only one Flask effect may be active at a time.)</i>",
+      "description": "<stats><levelLimit>Level 9 required to purchase.</levelLimit></stats><br><br><consumable>Click to Consume:</consumable> Grants +30 Attack Damage and <font color='#FF8811'><u>Bloodlust</u></font> for 3 minutes.<br><br><font color='#FF8811'><u>Bloodlust:</u></font> Dealing physical damage to champions heals for 15% of the damage dealt.<br><br><rules>(Only one Elixir effect may be active at a time.)</rules>",
       "effect": {
-        "Effect1Amount": "25",
-        "Effect2Amount": "25",
-        "Effect3Amount": "0.1",
+        "Effect1Amount": "30",
+        "Effect2Amount": "30",
+        "Effect3Amount": "0.15",
         "Effect4Amount": "3",
-        "Effect5Amount": "30",
+        "Effect5Amount": "0",
         "Effect6Amount": "0",
         "Effect7Amount": "0",
         "Effect8Amount": "9"
       },
       "gold": {
-        "base": 400,
+        "base": 500,
         "purchasable": true,
-        "sell": 160,
-        "total": 400
+        "sell": 200,
+        "total": 500
       },
       "group": "Flasks",
       "id": 2140,
@@ -165,9 +190,17 @@
         "x": 384,
         "y": 192
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Elixir of Wrath",
-      "plaintext": "Temporarily grants Attack Damage and heals you when dealing physical damage.",
-      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants +25 Attack Damage and Bloodlust for 3 minutes. Bloodlust: Dealing physical damage to champions heals for 10% of the damage dealt. Scoring a Kill or Assist extends the duration of this Flask by 30 seconds. (Only one Flask effect may be active at a time.)",
+      "plaintext": "Temporarily grants Attack Damage and heals you when dealing physical damage to champions.",
+      "sanitizedDescription": "Level 9 required to purchase. Click to Consume: Grants +30 Attack Damage and Bloodlust for 3 minutes. Bloodlust: Dealing physical damage to champions heals for 15% of the damage dealt. (Only one Elixir effect may be active at a time.)",
       "stats": {},
       "tags": [
         "Consumable",
@@ -181,10 +214,9 @@
     {
       "colloq": "ie",
       "depth": 2,
-      "description": "<stats>+80 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> Critical strikes deal 250% damage instead of 200%.",
+      "description": "<stats>+65 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> Critical strike bonus damage is increased by 50%.",
       "effect": {
-        "Effect1Amount": "2.5",
-        "Effect2Amount": "0.5"
+        "Effect1Amount": "0.5"
       },
       "from": [
         "1038",
@@ -192,10 +224,10 @@
         "1018"
       ],
       "gold": {
-        "base": 645,
+        "base": 625,
         "purchasable": true,
-        "sell": 2660,
-        "total": 3800
+        "sell": 2520,
+        "total": 3600
       },
       "id": 3031,
       "image": {
@@ -207,12 +239,20 @@
         "x": 288,
         "y": 288
       },
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Infinity Edge",
       "plaintext": "Massively enhances critical strikes",
-      "sanitizedDescription": "+80 Attack Damage +20% Critical Strike Chance UNIQUE Passive: Critical strikes deal 250% damage instead of 200%.",
+      "sanitizedDescription": "+65 Attack Damage +20% Critical Strike Chance UNIQUE Passive: Critical strike bonus damage is increased by 50%.",
       "stats": {
         "FlatCritChanceMod": 0.2,
-        "FlatPhysicalDamageMod": 80.0
+        "FlatPhysicalDamageMod": 65.0
       },
       "tags": [
         "CriticalStrike",
@@ -221,18 +261,23 @@
     },
     {
       "depth": 3,
-      "description": "<stats>+40% Attack Speed<br>+20% Critical Strike Chance<br>+6% Movement Speed</stats><br><br><unique>UNIQUE Passive:</unique> Grants Static Charges upon moving or attacking. At 100 Charges, basic attacking expends all Charges to deal 100 bonus magic damage to up to 4 targets on hit (this damage can critically strike).",
+      "description": "<stats>+35% Attack Speed<br>+30% Critical Strike Chance<br>+5% Movement Speed</stats><br><br><passive>Passive:</passive> Moving and attacking will make an attack <a href='Energized'>Energized</a>.<br><br><unique>UNIQUE Passive - Shiv Lightning:</unique> Your Energized attacks deal 30~100 bonus magic damage (based on level) to up to 5 targets on hit (deals +75% bonus damage to minions and can critically strike).",
       "effect": {
         "Effect1Amount": "100",
-        "Effect2Amount": "100",
-        "Effect3Amount": "4"
+        "Effect2Amount": "80",
+        "Effect3Amount": "5",
+        "Effect4Amount": "750",
+        "Effect5Amount": "30",
+        "Effect6Amount": "100",
+        "Effect7Amount": "5",
+        "Effect8Amount": "0.75"
       },
       "from": [
         "3086",
-        "3093"
+        "2015"
       ],
       "gold": {
-        "base": 600,
+        "base": 550,
         "purchasable": true,
         "sell": 1750,
         "total": 2500
@@ -247,13 +292,21 @@
         "x": 336,
         "y": 432
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Statikk Shiv",
       "plaintext": "Movement builds charges that release chain lightning on basic attack",
-      "sanitizedDescription": "+40% Attack Speed +20% Critical Strike Chance +6% Movement Speed UNIQUE Passive: Grants Static Charges upon moving or attacking. At 100 Charges, basic attacking expends all Charges to deal 100 bonus magic damage to up to 4 targets on hit (this damage can critically strike).",
+      "sanitizedDescription": "+35% Attack Speed +30% Critical Strike Chance +5% Movement Speed Passive: Moving and attacking will make an attack Energized. UNIQUE Passive - Shiv Lightning: Your Energized attacks deal 30~100 bonus magic damage (based on level) to up to 5 targets on hit (deals +75% bonus damage to minions and can critically strike).",
       "stats": {
-        "FlatCritChanceMod": 0.2,
-        "PercentAttackSpeedMod": 0.4,
-        "PercentMovementSpeedMod": 0.06
+        "FlatCritChanceMod": 0.3,
+        "PercentAttackSpeedMod": 0.35,
+        "PercentMovementSpeedMod": 0.05
       },
       "tags": [
         "AttackSpeed",
@@ -263,77 +316,154 @@
       ]
     },
     {
-      "colloq": "bt",
       "depth": 3,
-      "description": "<stats>+80 Attack Damage</stats><br><br><passive>UNIQUE Passive:</passive> +20% Life Steal<br><passive>UNIQUE Passive:</passive> Your basic attacks can now overheal you. Excess life is stored as a shield that can block 50-350 damage, based on champion level.<br><br>This shield decays slowly if you haven't dealt or taken damage in the last 25 seconds.",
+      "description": "<stats>+65 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction.<br><unique>UNIQUE Passive:</unique> Gain up to +20% additional Cooldown Reduction equal to your Critical Strike Chance from other sources.<br><unique>UNIQUE Passive:</unique> Critical strikes restore 3% of your maximum Mana pool.",
       "effect": {
-        "Effect1Amount": "50",
-        "Effect2Amount": "350",
-        "Effect3Amount": "25",
-        "Effect4Amount": "0.1",
-        "Effect5Amount": "0.2"
+        "Effect1Amount": "0.1",
+        "Effect2Amount": "0.03",
+        "Effect3Amount": "0.2",
+        "Effect4Amount": "1"
       },
       "from": [
-        "1053",
-        "1038"
+        "1038",
+        "3133",
+        "1018"
       ],
       "gold": {
-        "base": 1150,
+        "base": 400,
         "purchasable": true,
-        "sell": 2450,
-        "total": 3500
+        "sell": 2520,
+        "total": 3600
       },
-      "id": 3072,
+      "id": 3508,
       "image": {
-        "full": "3072.png",
+        "full": "3508.png",
         "group": "item",
         "h": 48,
-        "sprite": "item0.png",
+        "sprite": "item2.png",
         "w": 48,
-        "x": 288,
-        "y": 384
+        "x": 48,
+        "y": 192
       },
-      "name": "The Bloodthirster",
-      "plaintext": "Grants Attack Damage, Life Steal and Life Steal now overheals",
-      "sanitizedDescription": "+80 Attack Damage UNIQUE Passive: +20% Life Steal UNIQUE Passive: Your basic attacks can now overheal you. Excess life is stored as a shield that can block 50-350 damage, based on champion level. This shield decays slowly if you haven't dealt or taken damage in the last 25 seconds.",
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
+      "name": "Essence Reaver",
+      "plaintext": "Critical Strike provides Cooldown Reduction and Mana",
+      "sanitizedDescription": "+65 Attack Damage +20% Critical Strike Chance UNIQUE Passive: +10% Cooldown Reduction. UNIQUE Passive: Gain up to +20% additional Cooldown Reduction equal to your Critical Strike Chance from other sources. UNIQUE Passive: Critical strikes restore 3% of your maximum Mana pool.",
       "stats": {
-        "FlatPhysicalDamageMod": 80.0
+        "FlatCritChanceMod": 0.2,
+        "FlatPhysicalDamageMod": 65.0
       },
       "tags": [
+        "CooldownReduction",
+        "CriticalStrike",
         "Damage",
-        "LifeSteal"
+        "ManaRegen"
+      ]
+    },
+    {
+      "colloq": "canon;rapidfire",
+      "depth": 3,
+      "description": "<stats>+30% Attack Speed<br>+30% Critical Strike Chance<br>+8% Movement Speed</stats><br><br><passive>Passive:</passive> Moving and attacking will make an attack <a href='Energized'>Energized</a>.<br><br><unique>UNIQUE Passive - Firecannon:</unique> Your Energized attacks gain 35% bonus range (+150 range maximum) and deal 50~200 bonus magic damage (based on level) on hit.<br><br>Energized attacks function on structures.",
+      "effect": {
+        "Effect1Amount": "0.35",
+        "Effect2Amount": "150",
+        "Effect3Amount": "50",
+        "Effect4Amount": "200",
+        "Effect5Amount": "5"
+      },
+      "from": [
+        "3086",
+        "2015"
+      ],
+      "gold": {
+        "base": 550,
+        "purchasable": true,
+        "sell": 1750,
+        "total": 2500
+      },
+      "id": 3094,
+      "image": {
+        "full": "3094.png",
+        "group": "item",
+        "h": 48,
+        "sprite": "item3.png",
+        "w": 48,
+        "x": 240,
+        "y": 384
+      },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Rapid Firecannon",
+      "plaintext": "Movement builds charges that release a sieging fire attack on release",
+      "sanitizedDescription": "+30% Attack Speed +30% Critical Strike Chance +8% Movement Speed Passive: Moving and attacking will make an attack Energized. UNIQUE Passive - Firecannon: Your Energized attacks gain 35% bonus range (+150 range maximum) and deal 50~200 bonus magic damage (based on level) on hit. Energized attacks function on structures.",
+      "stats": {
+        "FlatCritChanceMod": 0.3,
+        "PercentAttackSpeedMod": 0.3,
+        "PercentMovementSpeedMod": 0.08
+      },
+      "tags": [
+        "AttackSpeed",
+        "CriticalStrike",
+        "NonbootsMovement",
+        "OnHit"
       ]
     },
     {
       "colloq": "lw",
-      "depth": 2,
-      "description": "<stats>+40 Attack Damage</stats><br><br><unique>UNIQUE Passive:</unique> Physical damage ignores 35% of the target's Armor (applies before Armor Penetration).",
+      "depth": 3,
+      "description": "<stats>+40 Attack Damage</stats><br><br><unique>UNIQUE Passive - Giant Slayer:</unique> Grants up to +15% physical damage against enemy champions with greater maximum Health than you (+1.5% damage per 50 Health difference, maxing at 500 Health difference).<br><unique>UNIQUE Passive - Last Whisper:</unique> +40% <a href='BonusArmorPen'>Bonus Armor Penetration</a>.",
       "effect": {
-        "Effect1Amount": "0.35"
+        "Effect1Amount": "0.4",
+        "Effect2Amount": "0.15",
+        "Effect3Amount": "0",
+        "Effect4Amount": "50",
+        "Effect5Amount": "0.015",
+        "Effect6Amount": "500"
       },
       "from": [
-        "1037",
-        "1036"
+        "3035",
+        "3034"
       ],
       "gold": {
-        "base": 1065,
+        "base": 400,
         "purchasable": true,
-        "sell": 1610,
-        "total": 2300
+        "sell": 1890,
+        "total": 2700
       },
-      "id": 3035,
+      "id": 3036,
       "image": {
-        "full": "3035.png",
+        "full": "3036.png",
         "group": "item",
         "h": 48,
-        "sprite": "item0.png",
+        "sprite": "item3.png",
         "w": 48,
-        "x": 336,
-        "y": 288
+        "x": 144,
+        "y": 384
       },
-      "name": "Last Whisper",
-      "plaintext": "Increases physical damage",
-      "sanitizedDescription": "+40 Attack Damage UNIQUE Passive: Physical damage ignores 35% of the target's Armor (applies before Armor Penetration).",
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
+      "name": "Lord Dominik's Regards",
+      "plaintext": "Overcomes enemies with high health and armor",
+      "sanitizedDescription": "+40 Attack Damage UNIQUE Passive - Giant Slayer: Grants up to +15% physical damage against enemy champions with greater maximum Health than you (+1.5% damage per 50 Health difference, maxing at 500 Health difference). UNIQUE Passive - Last Whisper: +40% Bonus Armor Penetration.",
       "stats": {
         "FlatPhysicalDamageMod": 40.0
       },
@@ -345,17 +475,23 @@
     {
       "colloq": "pd",
       "depth": 3,
-      "description": "<stats>+50% Attack Speed<br>+35% Critical Strike Chance<br>+5% Movement Speed</stats><br><br><unique>UNIQUE Passive:</unique> Champion can move through units.",
+      "description": "<stats>+40% Attack Speed<br>+30% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive - Spectral Waltz:</unique> While within 500 units of an enemy champion you can see, +12% Movement Speed and you can move through units.<br><unique>UNIQUE Passive - Lament:</unique> The last champion hit deals 12% less damage to you (ends after 10 seconds of not hitting).",
+      "effect": {
+        "Effect1Amount": "0.12",
+        "Effect2Amount": "10",
+        "Effect3Amount": "500",
+        "Effect4Amount": "0.12"
+      },
       "from": [
-        "1018",
+        "1042",
         "3086",
         "1042"
       ],
       "gold": {
-        "base": 520,
+        "base": 900,
         "purchasable": true,
-        "sell": 1960,
-        "total": 2800
+        "sell": 1890,
+        "total": 2700
       },
       "id": 3046,
       "image": {
@@ -367,13 +503,20 @@
         "x": 144,
         "y": 336
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Phantom Dancer",
-      "plaintext": "Champion attacks faster and can move through units",
-      "sanitizedDescription": "+50% Attack Speed +35% Critical Strike Chance +5% Movement Speed UNIQUE Passive: Champion can move through units.",
+      "plaintext": "Move faster near enemies and reduce incoming damage",
+      "sanitizedDescription": "+40% Attack Speed +30% Critical Strike Chance UNIQUE Passive - Spectral Waltz: While within 500 units of an enemy champion you can see, +12% Movement Speed and you can move through units. UNIQUE Passive - Lament: The last champion hit deals 12% less damage to you (ends after 10 seconds of not hitting).",
       "stats": {
-        "FlatCritChanceMod": 0.35,
-        "PercentAttackSpeedMod": 0.5,
-        "PercentMovementSpeedMod": 0.05
+        "FlatCritChanceMod": 0.3,
+        "PercentAttackSpeedMod": 0.4
       },
       "tags": [
         "AttackSpeed",
@@ -382,89 +525,53 @@
       ]
     },
     {
-      "colloq": "brk;bork;bork;bork;botrk",
-      "depth": 4,
-      "description": "<stats>+25 Attack Damage<br>+40% Attack Speed<br>+10% Life Steal</stats><br><br><unique>UNIQUE Passive:</unique> Basic attacks deal 8% of the target's current Health in bonus physical damage (max 60 vs. monsters and minions) on hit.<br><active>UNIQUE Active:</active> Deals 10% of target champion's maximum Health (min. 100) as physical damage, heals for the same amount, and steals 25% of the target's Movement Speed for 3 seconds (90 second cooldown).",
-      "effect": {
-        "Effect1Amount": "0.08"
-      },
-      "from": [
-        "3144",
-        "1043"
-      ],
-      "gold": {
-        "base": 700,
-        "purchasable": true,
-        "sell": 2240,
-        "total": 3200
-      },
-      "id": 3153,
-      "image": {
-        "full": "3153.png",
-        "group": "item",
-        "h": 48,
-        "sprite": "item1.png",
-        "w": 48,
-        "x": 336,
-        "y": 144
-      },
-      "name": "Blade of the Ruined King",
-      "plaintext": "Deals damage based on target's Health, can steal Health and Movement Speed",
-      "sanitizedDescription": "+25 Attack Damage +40% Attack Speed +10% Life Steal UNIQUE Passive: Basic attacks deal 8% of the target's current Health in bonus physical damage (max 60 vs. monsters and minions) on hit. UNIQUE Active: Deals 10% of target champion's maximum Health (min. 100) as physical damage, heals for the same amount, and steals 25% of the target's Movement Speed for 3 seconds (90 second cooldown).",
-      "stats": {
-        "FlatPhysicalDamageMod": 25.0,
-        "PercentAttackSpeedMod": 0.4,
-        "PercentLifeStealMod": 0.1
-      },
-      "tags": [
-        "Active",
-        "AttackSpeed",
-        "Damage",
-        "LifeSteal",
-        "NonbootsMovement",
-        "OnHit"
-      ]
-    },
-    {
-      "colloq": "bv",
+      "colloq": "bt",
       "depth": 3,
-      "description": "<stats>+450 Health<br>+60 Magic Resist<br>+100% Base Health Regeneration </stats><br><br><unique>UNIQUE Passive:</unique> Grants a spell shield that blocks the next enemy ability. This shield refreshes after no damage is taken from enemy champions for 40 seconds.",
+      "description": "<stats>+75 Attack Damage</stats><br><br><unique>UNIQUE Passive:</unique> +20% Life Steal<br><unique>UNIQUE Passive:</unique> Your basic attacks can now overheal you. Excess life is stored as a shield that can block 50-350 damage, based on champion level.<br><br>This shield decays slowly if you haven't dealt or taken damage in the last 25 seconds.",
       "effect": {
-        "Effect1Amount": "40",
-        "Effect2Amount": "45",
-        "Effect3Amount": "10"
+        "Effect1Amount": "50",
+        "Effect2Amount": "350",
+        "Effect3Amount": "25",
+        "Effect4Amount": "0.2"
       },
       "from": [
-        "3211",
-        "3801"
+        "1038",
+        "1036",
+        "1053"
       ],
       "gold": {
-        "base": 900,
+        "base": 1150,
         "purchasable": true,
-        "sell": 1890,
-        "total": 2700
+        "sell": 2590,
+        "total": 3700
       },
-      "id": 3102,
+      "id": 3072,
       "image": {
-        "full": "3102.png",
+        "full": "3072.png",
         "group": "item",
         "h": 48,
-        "sprite": "item1.png",
+        "sprite": "item0.png",
         "w": 48,
-        "x": 384,
-        "y": 0
+        "x": 288,
+        "y": 384
       },
-      "name": "Banshee's Veil",
-      "plaintext": "Periodically blocks enemy abilities",
-      "sanitizedDescription": "+450 Health +60 Magic Resist +100% Base Health Regeneration UNIQUE Passive: Grants a spell shield that blocks the next enemy ability. This shield refreshes after no damage is taken from enemy champions for 40 seconds.",
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
+      "name": "The Bloodthirster",
+      "plaintext": "Grants Attack Damage, Life Steal and Life Steal now overheals",
+      "sanitizedDescription": "+75 Attack Damage UNIQUE Passive: +20% Life Steal UNIQUE Passive: Your basic attacks can now overheal you. Excess life is stored as a shield that can block 50-350 damage, based on champion level. This shield decays slowly if you haven't dealt or taken damage in the last 25 seconds.",
       "stats": {
-        "FlatHPPoolMod": 450.0,
-        "FlatSpellBlockMod": 60.0
+        "FlatPhysicalDamageMod": 75.0
       },
       "tags": [
-        "Health",
-        "HealthRegen",
-        "SpellBlock"
+        "Damage",
+        "LifeSteal"
       ]
     }
   ],
@@ -472,13 +579,13 @@
   "Starting Items": [
     {
       "colloq": "yellow;",
-      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><unique>Active:</unique> Places a <font color='#BBFFFF'>Stealth Ward</font> that lasts 60 seconds (120 second cooldown).<br><br>At level 9, this ward's duration increases to 120 seconds.<br><br>Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.<br><br><i>(Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).</i>",
+      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Consume a charge to place an invisible <font color='#BBFFFF'>Stealth Ward</font> which reveals the surrounding area for <levelScale>60 - 120</levelScale> seconds. <br><br>Stores one charge every <levelScale>180 - 120</levelScale> seconds, up to 2 maximum charges.<br><br>Ward duration and recharge time gradually improve with level.<br><br><rules>(Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player. Switching to a <font color='#BBFFFF'>Lens</font> type trinket will disable <font color='#BBFFFF'>Trinket</font> use for 120 seconds.)</rules><br><br>",
       "effect": {
         "Effect1Amount": "60",
-        "Effect2Amount": "120",
+        "Effect2Amount": "180",
         "Effect3Amount": "120",
-        "Effect4Amount": "0",
-        "Effect5Amount": "0",
+        "Effect4Amount": "120",
+        "Effect5Amount": "2",
         "Effect6Amount": "9",
         "Effect7Amount": "30",
         "Effect8Amount": "120"
@@ -500,13 +607,17 @@
         "x": 288,
         "y": 0
       },
-      "into": [
-        "3361",
-        "3362"
-      ],
+      "maps": {
+        "1": false,
+        "10": false,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Warding Totem (Trinket)",
       "plaintext": "Periodically place a Stealth Ward",
-      "sanitizedDescription": "Limited to 1 Trinket. Active: Places a Stealth Ward that lasts 60 seconds (120 second cooldown). At level 9, this ward's duration increases to 120 seconds. Limit 3 Stealth Wards on the map per player. (Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).",
+      "sanitizedDescription": "Limited to 1 Trinket. Active: Consume a charge to place an invisible Stealth Ward which reveals the surrounding area for 60 - 120 seconds. Stores one charge every 180 - 120 seconds, up to 2 maximum charges. Ward duration and recharge time gradually improve with level. (Limit 3 Stealth Wards on the map per player. Switching to a Lens type trinket will disable Trinket use for 120 seconds.)",
       "stats": {},
       "tags": [
         "Active",
@@ -518,13 +629,17 @@
     },
     {
       "colloq": "dblade",
-      "description": "<stats>+70 Health<br>+7 Attack Damage<br>+3% Life Steal</stats>",
-      "gold": {
-        "base": 440,
-        "purchasable": true,
-        "sell": 176,
-        "total": 440
+      "description": "<stats>+8 Attack Damage<br>+80 Health<br>+3% Life Steal</stats>",
+      "effect": {
+        "Effect1Amount": "10"
       },
+      "gold": {
+        "base": 450,
+        "purchasable": true,
+        "sell": 180,
+        "total": 450
+      },
+      "group": "DoransItems",
       "id": 1055,
       "image": {
         "full": "1055.png",
@@ -535,12 +650,20 @@
         "x": 48,
         "y": 96
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
       "name": "Doran's Blade",
       "plaintext": "Good starting item for attackers",
-      "sanitizedDescription": "+70 Health +7 Attack Damage +3% Life Steal",
+      "sanitizedDescription": "+8 Attack Damage +80 Health +3% Life Steal",
       "stats": {
-        "FlatHPPoolMod": 70.0,
-        "FlatPhysicalDamageMod": 7.0,
+        "FlatHPPoolMod": 80.0,
+        "FlatPhysicalDamageMod": 8.0,
         "PercentLifeStealMod": 0.03
       },
       "tags": [
@@ -553,10 +676,10 @@
     {
       "description": "<stats>+10 Attack Damage</stats>",
       "gold": {
-        "base": 360,
+        "base": 350,
         "purchasable": true,
-        "sell": 252,
-        "total": 360
+        "sell": 245,
+        "total": 350
       },
       "id": 1036,
       "image": {
@@ -570,19 +693,28 @@
       },
       "into": [
         "1053",
+        "3133",
+        "3052",
+        "3123",
+        "3034",
         "3044",
-        "3134",
-        "3155",
-        "3077",
-        "3035",
-        "3154",
-        "3141",
-        "3144",
+        "3072",
+        "3074",
         "3122",
-        "3053",
-        "3159",
-        "3924"
+        "3134",
+        "3144",
+        "3154",
+        "3155",
+        "3159"
       ],
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Long Sword",
       "plaintext": "Slightly increases Attack Damage",
       "sanitizedDescription": "+10 Attack Damage",
@@ -596,16 +728,16 @@
     },
     {
       "consumed": true,
-      "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> Restores 150 Health over 15 seconds.",
+      "description": "<groupLimit>Limited to 5 at one time. Limited to 1 type of Healing Potion.</groupLimit><br><br><consumable>Click to Consume:</consumable> Restores 150 Health over 15 seconds.",
       "effect": {
         "Effect1Amount": "150",
         "Effect2Amount": "15"
       },
       "gold": {
-        "base": 35,
+        "base": 50,
         "purchasable": true,
-        "sell": 14,
-        "total": 35
+        "sell": 20,
+        "total": 50
       },
       "group": "HealthPotion",
       "id": 2003,
@@ -618,9 +750,17 @@
         "x": 0,
         "y": 144
       },
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": true
+      },
       "name": "Health Potion",
       "plaintext": "Consume to restore Health over time",
-      "sanitizedDescription": "Limited to 5 at one time. Click to Consume: Restores 150 Health over 15 seconds.",
+      "sanitizedDescription": "Limited to 5 at one time. Limited to 1 type of Healing Potion. Click to Consume: Restores 150 Health over 15 seconds.",
       "stacks": 5,
       "stats": {},
       "tags": [
@@ -630,37 +770,48 @@
       ]
     },
     {
-      "consumed": true,
-      "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> <mana>Restores 100 Mana over 15 seconds.</mana>",
+      "colloq": "dblade",
+      "description": "<stats>+5 Attack Damage<br>+3 Life on Hit</stats><br><br><unique>UNIQUE Passive:</unique> Killing a minion grants 1 additional Gold. Killing 100 minions grants an additional 300 bonus gold immediately and disables this passive.",
       "effect": {
-        "Effect1Amount": "100",
-        "Effect2Amount": "15"
+        "Effect1Amount": "3",
+        "Effect2Amount": "1",
+        "Effect3Amount": "100",
+        "Effect4Amount": "300"
       },
       "gold": {
-        "base": 35,
+        "base": 450,
         "purchasable": true,
-        "sell": 14,
-        "total": 35
+        "sell": 180,
+        "total": 450
       },
-      "group": "ManaPotion",
-      "id": 2004,
+      "id": 1083,
       "image": {
-        "full": "2004.png",
+        "full": "1083.png",
         "group": "item",
         "h": 48,
-        "sprite": "item0.png",
+        "sprite": "item3.png",
         "w": 48,
-        "x": 48,
-        "y": 144
+        "x": 336,
+        "y": 240
       },
-      "name": "Mana Potion",
-      "plaintext": "Consume to restore Mana over time",
-      "sanitizedDescription": "Limited to 5 at one time. Click to Consume: Restores 100 Mana over 15 seconds.",
-      "stacks": 5,
-      "stats": {},
+      "maps": {
+        "1": false,
+        "10": true,
+        "11": true,
+        "12": true,
+        "14": false,
+        "8": false
+      },
+      "name": "Cull",
+      "plaintext": "Provides damage and Life Steal on hit - Killing minions grant bonus Gold",
+      "sanitizedDescription": "+5 Attack Damage +3 Life on Hit UNIQUE Passive: Killing a minion grants 1 additional Gold. Killing 100 minions grants an additional 300 bonus gold immediately and disables this passive.",
+      "stats": {
+        "FlatPhysicalDamageMod": 5.0
+      },
       "tags": [
-        "Consumable",
-        "Lane"
+        "Damage",
+        "Lane",
+        "LifeSteal"
       ]
     }
   ]

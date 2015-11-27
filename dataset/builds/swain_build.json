@@ -16,11 +16,11 @@
         },
         {
           "count": 1,
-          "id": "2004"
+          "id": "2033"
         },
         {
           "count": 1,
-          "id": "2044"
+          "id": "2032"
         }
       ],
       "recMath": false,
@@ -38,7 +38,7 @@
         },
         {
           "count": 1,
-          "id": "3047"
+          "id": "3158"
         }
       ],
       "recMath": false,
@@ -66,11 +66,11 @@
         },
         {
           "count": 1,
-          "id": "3089"
+          "id": "3065"
         },
         {
           "count": 1,
-          "id": "3065"
+          "id": "3089"
         },
         {
           "count": 1,
@@ -78,19 +78,14 @@
         },
         {
           "count": 1,
-          "id": "3174"
+          "id": "3001"
         }
       ],
       "recMath": false,
       "type": "Recommended Endgame Items"
     },
     {
-      "items": [
-        {
-          "count": 1,
-          "id": "2139"
-        }
-      ],
+      "items": [],
       "recMath": false,
       "type": "Recommended Elixirs"
     }

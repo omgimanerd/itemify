@@ -12,15 +12,15 @@
         },
         {
           "count": 1,
-          "id": "2004"
-        },
-        {
-          "count": 1,
           "id": "2003"
         },
         {
           "count": 1,
-          "id": "2044"
+          "id": "2031"
+        },
+        {
+          "count": 1,
+          "id": "2043"
         }
       ],
       "recMath": false,
@@ -38,7 +38,7 @@
         },
         {
           "count": 1,
-          "id": "3006"
+          "id": "3117"
         }
       ],
       "recMath": false,
@@ -85,7 +85,12 @@
       "type": "Recommended Endgame Items"
     },
     {
-      "items": [],
+      "items": [
+        {
+          "count": 1,
+          "id": "2139"
+        }
+      ],
       "recMath": false,
       "type": "Recommended Elixirs"
     }

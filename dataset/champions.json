@@ -220,7 +220,7 @@
       "Mage",
       "Fighter"
     ],
-    "title": "The Spider Queen"
+    "title": "the Spider Queen"
   },
   "Evelynn": {
     "id": 28,
@@ -349,6 +349,16 @@
       "Support"
     ],
     "title": "the Revered Inventor"
+  },
+  "Illaoi": {
+    "id": 420,
+    "key": "Illaoi",
+    "name": "Illaoi",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ],
+    "title": "the Kraken Priestess"
   },
   "Irelia": {
     "id": 39,
@@ -486,6 +496,15 @@
       "Fighter"
     ],
     "title": "the Voidreaver"
+  },
+  "Kindred": {
+    "id": 203,
+    "key": "Kindred",
+    "name": "Kindred",
+    "tags": [
+      "Marksman"
+    ],
+    "title": "The Eternal Hunters"
   },
   "KogMaw": {
     "id": 96,
@@ -632,7 +651,7 @@
       "Fighter",
       "Mage"
     ],
-    "title": "the Master of Metal"
+    "title": "the Iron Revenant"
   },
   "Morgana": {
     "id": 25,

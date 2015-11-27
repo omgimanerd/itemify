@@ -37,9 +37,7 @@ will usually take about 18~ hours since we aggregate data on 150k games.
 Our algorithm to aggregate game data starts with a few summoners known as
 "seed" summoners. We query their past games and the past games of the teammates
 they have had in the past games. Then we recursively query those teammate's
-teammates until we have enough data. We use Bjergsen and WildTurtle as the
-"seed" summoners but we should probably use the top ranking players in NA.
-JK Bjergsen is life ```<3```.
+teammates until we have enough data.
 To generate champion builds, we assign each item an effectiveness score for each
 champion it has been built on. For each player that has built that item on that
 champion, we add 2.0 if they won the game, plus the player's KDA ((kills +

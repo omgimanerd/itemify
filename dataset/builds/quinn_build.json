@@ -20,7 +20,7 @@
         },
         {
           "count": 1,
-          "id": "2043"
+          "id": "2031"
         }
       ],
       "recMath": false,
@@ -34,7 +34,7 @@
         },
         {
           "count": 1,
-          "id": "3158"
+          "id": "3117"
         },
         {
           "count": 1,
@@ -45,7 +45,12 @@
       "type": "Recommended Boots"
     },
     {
-      "items": [],
+      "items": [
+        {
+          "count": 1,
+          "id": "3706"
+        }
+      ],
       "recMath": false,
       "showIfSummonerSpell": "SummonerSmite",
       "type": "Recommended Jungle Items"
@@ -54,19 +59,19 @@
       "items": [
         {
           "count": 1,
-          "id": "3031"
-        },
-        {
-          "count": 1,
           "id": "3087"
         },
         {
           "count": 1,
-          "id": "3153"
+          "id": "3508"
         },
         {
           "count": 1,
-          "id": "3035"
+          "id": "3031"
+        },
+        {
+          "count": 1,
+          "id": "3094"
         },
         {
           "count": 1,
@@ -74,11 +79,11 @@
         },
         {
           "count": 1,
-          "id": "3142"
+          "id": "3036"
         },
         {
           "count": 1,
-          "id": "3078"
+          "id": "3153"
         }
       ],
       "recMath": false,
@@ -89,6 +94,10 @@
         {
           "count": 1,
           "id": "2140"
+        },
+        {
+          "count": 1,
+          "id": "2138"
         }
       ],
       "recMath": false,

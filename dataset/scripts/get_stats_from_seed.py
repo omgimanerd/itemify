@@ -4,14 +4,14 @@
 # with and use those to seed the next data query. This script must be run first
 # before get_stats.py because this initializes QUERIED_SUMMONERS,
 # UNQUERIED_SUMMONERS, and stats.json.
-# Specifically, the two seeding summoners will be WildTurtle and Bjergsen.
+# Note: The seeding summoners must be hardcoded into this script!
 # Author: Alvin Lin (alvin.lin@stuypulse.com)
 
 import json
 
 from data_aggregator import DataAggregator
 
-SEEDING_SUMMONERS = ['WildTurtle', 'Bjergsen']
+SEEDING_SUMMONERS = ['KEITHMKBRIEF', 'Shiphtur']
 
 def main():
   data = DataAggregator.create()

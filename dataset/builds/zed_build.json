@@ -16,7 +16,7 @@
         },
         {
           "count": 1,
-          "id": "1055"
+          "id": "2031"
         },
         {
           "count": 1,
@@ -45,26 +45,13 @@
       "type": "Recommended Boots"
     },
     {
-      "items": [
-        {
-          "count": 1,
-          "id": "3713"
-        }
-      ],
+      "items": [],
       "recMath": false,
       "showIfSummonerSpell": "SummonerSmite",
       "type": "Recommended Jungle Items"
     },
     {
       "items": [
-        {
-          "count": 1,
-          "id": "3153"
-        },
-        {
-          "count": 1,
-          "id": "3035"
-        },
         {
           "count": 1,
           "id": "3142"
@@ -75,7 +62,15 @@
         },
         {
           "count": 1,
+          "id": "3153"
+        },
+        {
+          "count": 1,
           "id": "3072"
+        },
+        {
+          "count": 1,
+          "id": "3812"
         },
         {
           "count": 1,
